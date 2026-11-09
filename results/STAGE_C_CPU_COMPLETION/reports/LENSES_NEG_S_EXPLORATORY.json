@@ -1,0 +1,18 @@
+{
+  "edge": "1.8.0:1.9.1",
+  "equivalence": {
+    "fold_rows_compared": 22680,
+    "identical_prediction_hashes": true,
+    "max_abs_ba_difference": 0.0,
+    "statement": "policy S predictions are bitwise identical to policy D on this edge; the S lens equals LENSES_NEG_D_EXPLORATORY.json"
+  },
+  "equivalent_report": "LENSES_NEG_D_EXPLORATORY.json",
+  "equivalent_report_sha256": "cf974b8ca756d68dd3f0ed57a230205c5c0a335a21f1a5ccbe1ade08db632b8d",
+  "input": "/home/uraz/versionshift_data/STAGE_C_CPU_COMPLETION/merged/NEG.csv.gz",
+  "input_sha256": "0a31f82f80518c40b953c4da75ef359821c15ccd8d581153911d8e5ebd3d76b9",
+  "policy": "S",
+  "reason": "analysis_v221.validate_plan_coverage counts only default-policy (D) jobs; with policy S on both releases planned_default_jobs = 0 and the coverage check raises ZeroDivisionError. Defect in frozen v2.2.5 analysis code, not a data property.",
+  "recorded_at": "2026-11-08T02:15:11+0300",
+  "role": "exploratory lens; no primary inference affected",
+  "status": "NOT_COMPUTED_ANALYSIS_DEFECT_EQUIVALENT_TO_D"
+}

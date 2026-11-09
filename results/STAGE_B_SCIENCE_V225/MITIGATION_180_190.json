@@ -1,0 +1,78 @@
+{
+ "header": {
+  "blinding": "ORACLE_FROZEN_BEFORE_OUTCOMES",
+  "frame_sha256": "33f04fb6c6da89654f3524cfaef290644b80e37afcd5148dcffa740e9bcfe2f6",
+  "frozen_at": "2026-11-06T17:11:04+0300"
+ },
+ "edge": "1.8.0:1.9.1",
+ "plan_coverage": {
+  "status": "PASS",
+  "planned_datasets": 16,
+  "required_jobs": 288,
+  "planned_default_jobs": 192,
+  "failed_default_jobs": 0,
+  "default_job_failure_share": 0.0,
+  "default_job_success_share": 1.0,
+  "excluded_datasets_failed_default_jobs": [],
+  "failure_ledger": [],
+  "excluded_share": 0.0,
+  "retained_datasets": 16,
+  "rule": "G2 requires >=95%% default-policy job success; any failed default job excludes its dataset from the analysed contrast; dataset retention reported separately"
+ },
+ "failure_to_transfer": {
+  "by_estimator": [
+   {
+    "algo": "GB",
+    "strictly_portable": 16,
+    "non_transferable": 0
+   },
+   {
+    "algo": "HGB",
+    "strictly_portable": 16,
+    "non_transferable": 0
+   },
+   {
+    "algo": "LR",
+    "strictly_portable": 0,
+    "non_transferable": 16
+   },
+   {
+    "algo": "RF",
+    "strictly_portable": 16,
+    "non_transferable": 0
+   },
+   {
+    "algo": "SVC",
+    "strictly_portable": 16,
+    "non_transferable": 0
+   },
+   {
+    "algo": "kNN",
+    "strictly_portable": 16,
+    "non_transferable": 0
+   }
+  ],
+  "totals": {
+   "strictly_portable": 80,
+   "non_transferable": 16
+  },
+  "note": "strictly portable, translation-required and non-transferable configurations are never pooled"
+ },
+ "selection_check": {
+  "M_total_all_units": 0.03837458386354842,
+  "M_total_strictly_portable": 0.045910292514827825
+ },
+ "mitigation_P": {
+  "population": "strictly_portable",
+  "pair_units": 160,
+  "datasets": 16,
+  "M_total_in_population": 0.045910292514827825,
+  "M_pinned": 0.045910292514827825,
+  "reduction_pp": 0.0,
+  "reduction_ci95": [
+   0.0,
+   0.0
+  ],
+  "scope": "valid only for strictly portable configurations"
+ }
+}

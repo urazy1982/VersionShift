@@ -1,0 +1,512 @@
+{
+ "ba": [
+  0.5372807017543859,
+  0.5519005847953217,
+  0.5467836257309941,
+  0.543984962406015,
+  0.5538847117794486,
+  0.5372807017543859,
+  0.5387426900584795,
+  0.5423976608187134,
+  0.5681704260651629,
+  0.5384711779448621,
+  0.560672514619883,
+  0.5789473684210527,
+  0.547514619883041,
+  0.5296992481203008,
+  0.5253132832080201,
+  0.5328947368421052,
+  0.6074561403508771,
+  0.5745614035087719,
+  0.5110275689223057,
+  0.5483709273182957,
+  0.5511695906432749,
+  0.4963450292397661,
+  0.5789473684210527,
+  0.5714285714285714,
+  0.5593984962406015,
+  0.5285087719298246,
+  0.547514619883041,
+  0.5884502923976608,
+  0.5670426065162907,
+  0.5296992481203008
+ ],
+ "constructor": {
+  "C": 1.0,
+  "class_weight": null,
+  "dual": false,
+  "fit_intercept": true,
+  "intercept_scaling": 1,
+  "l1_ratio": null,
+  "max_iter": 100,
+  "multi_class": "ovr",
+  "n_jobs": null,
+  "penalty": "l2",
+  "random_state": null,
+  "solver": "liblinear",
+  "tol": 0.0001,
+  "verbose": 0,
+  "warm_start": false
+ },
+ "convergence_warnings": 0,
+ "fitted_effective": [
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "coef_shape": [
+    1,
+    4
+   ],
+   "n_iter_": [
+    18
+   ]
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "coef_shape": [
+    1,
+    4
+   ],
+   "n_iter_": [
+    16
+   ]
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "coef_shape": [
+    1,
+    4
+   ],
+   "n_iter_": [
+    16
+   ]
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "coef_shape": [
+    1,
+    4
+   ],
+   "n_iter_": [
+    14
+   ]
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "coef_shape": [
+    1,
+    4
+   ],
+   "n_iter_": [
+    17
+   ]
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "coef_shape": [
+    1,
+    4
+   ],
+   "n_iter_": [
+    15
+   ]
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "coef_shape": [
+    1,
+    4
+   ],
+   "n_iter_": [
+    16
+   ]
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "coef_shape": [
+    1,
+    4
+   ],
+   "n_iter_": [
+    17
+   ]
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "coef_shape": [
+    1,
+    4
+   ],
+   "n_iter_": [
+    16
+   ]
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "coef_shape": [
+    1,
+    4
+   ],
+   "n_iter_": [
+    14
+   ]
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "coef_shape": [
+    1,
+    4
+   ],
+   "n_iter_": [
+    16
+   ]
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "coef_shape": [
+    1,
+    4
+   ],
+   "n_iter_": [
+    15
+   ]
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "coef_shape": [
+    1,
+    4
+   ],
+   "n_iter_": [
+    15
+   ]
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "coef_shape": [
+    1,
+    4
+   ],
+   "n_iter_": [
+    19
+   ]
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "coef_shape": [
+    1,
+    4
+   ],
+   "n_iter_": [
+    18
+   ]
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "coef_shape": [
+    1,
+    4
+   ],
+   "n_iter_": [
+    18
+   ]
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "coef_shape": [
+    1,
+    4
+   ],
+   "n_iter_": [
+    22
+   ]
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "coef_shape": [
+    1,
+    4
+   ],
+   "n_iter_": [
+    16
+   ]
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "coef_shape": [
+    1,
+    4
+   ],
+   "n_iter_": [
+    18
+   ]
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "coef_shape": [
+    1,
+    4
+   ],
+   "n_iter_": [
+    15
+   ]
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "coef_shape": [
+    1,
+    4
+   ],
+   "n_iter_": [
+    19
+   ]
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "coef_shape": [
+    1,
+    4
+   ],
+   "n_iter_": [
+    15
+   ]
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "coef_shape": [
+    1,
+    4
+   ],
+   "n_iter_": [
+    16
+   ]
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "coef_shape": [
+    1,
+    4
+   ],
+   "n_iter_": [
+    18
+   ]
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "coef_shape": [
+    1,
+    4
+   ],
+   "n_iter_": [
+    16
+   ]
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "coef_shape": [
+    1,
+    4
+   ],
+   "n_iter_": [
+    16
+   ]
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "coef_shape": [
+    1,
+    4
+   ],
+   "n_iter_": [
+    16
+   ]
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "coef_shape": [
+    1,
+    4
+   ],
+   "n_iter_": [
+    17
+   ]
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "coef_shape": [
+    1,
+    4
+   ],
+   "n_iter_": [
+    19
+   ]
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "coef_shape": [
+    1,
+    4
+   ],
+   "n_iter_": [
+    17
+   ]
+  }
+ ],
+ "fold_keys": [
+  "r0_f0",
+  "r0_f1",
+  "r0_f2",
+  "r0_f3",
+  "r0_f4",
+  "r1_f0",
+  "r1_f1",
+  "r1_f2",
+  "r1_f3",
+  "r1_f4",
+  "r2_f0",
+  "r2_f1",
+  "r2_f2",
+  "r2_f3",
+  "r2_f4",
+  "r3_f0",
+  "r3_f1",
+  "r3_f2",
+  "r3_f3",
+  "r3_f4",
+  "r4_f0",
+  "r4_f1",
+  "r4_f2",
+  "r4_f3",
+  "r4_f4",
+  "r5_f0",
+  "r5_f1",
+  "r5_f2",
+  "r5_f3",
+  "r5_f4"
+ ],
+ "id": "G2RESTORE__openml_10101__LR__R",
+ "job_sha256": "53ee17b9dea2f20835a370943e3433476a5f0604f71ad3d87cb7492c7ca94f25",
+ "npz_sha256": "80a2198e0ef6341b229b1a0a017ab8e1c29fda7cb7bb440dfdb88826a44cec57",
+ "portability": "ok",
+ "portability_report": null,
+ "provenance": {
+  "executable": "/home/uraz/versionshift_envs/sk-0.22.2.post1/bin/python",
+  "machine": "x86_64",
+  "numpy": "1.18.4",
+  "numpy_config_sha256": "c1eac50e0f4378abaa67c8f02f20e4dd176520354c507772214c44e4ff6abca9",
+  "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.2.5",
+  "processor": "x86_64",
+  "python": "3.8.20",
+  "scipy": "1.4.1",
+  "sklearn": "0.22.2.post1",
+  "sklearn_file": "/home/uraz/versionshift_envs/sk-0.22.2.post1/lib/python3.8/site-packages/sklearn/__init__.py",
+  "threadpools": [
+   {
+    "architecture": null,
+    "filepath": "/home/uraz/versionshift_envs/sk-0.22.2.post1/lib/python3.8/site-packages/numpy.libs/libopenblasp-r0-34a18dc3.3.7.so",
+    "internal_api": "openblas",
+    "num_threads": 1,
+    "version": "0.3.7"
+   },
+   {
+    "architecture": null,
+    "filepath": "/home/uraz/versionshift_envs/sk-0.22.2.post1/lib/python3.8/site-packages/sklearn/.libs/libgomp-3300acd3.so.1.0.0",
+    "internal_api": "openmp",
+    "num_threads": 1,
+    "version": null
+   }
+  ]
+ },
+ "status": "ok",
+ "values_imputed": 0,
+ "worker_sha256": "60076384d6bd04288acf32943de1e55924e5d2546d82ebca1fec8ae16717647f"
+}

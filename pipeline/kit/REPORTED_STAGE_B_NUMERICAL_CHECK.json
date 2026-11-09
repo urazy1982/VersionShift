@@ -1,0 +1,13 @@
+{
+  "scope": "Arithmetic check of user-supplied Stage B summary statistics, not a raw-prediction replay",
+  "early_edge_mean_M_pp": 3.8116037394828797,
+  "early_edge_one_sided_p": 0.0007706703029697575,
+  "early_edge_lower95": 2.3077071449204074,
+  "early_edge_Holm_adjusted_p": 0.001541340605939515,
+  "later_edge_mean_M_pp": 0.03837458386354842,
+  "later_edge_lower95": 0.021210494604061547,
+  "later_edge_upper95": 0.05553867312303529,
+  "prevalence_upper_0_of_16": 0.1707497229824809,
+  "explicit_map_early_M_pp": 0.4581004758199994,
+  "descriptive_early_reduction_pct": 87.98142443101523
+}

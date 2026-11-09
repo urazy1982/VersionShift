@@ -1,0 +1,19 @@
+{
+  "amendment": "AMENDMENT_V226_PRE_RUN.md",
+  "amendment_sha256": "1586085a6a89b69fda337ca68eb6d5dd6b1dd155af5d5169ac9f96702829135a",
+  "frozen_at": "2026-11-07T20:31:15+0300",
+  "note": "External timestamp still required: send this SHA-256 off-machine (e-mail/GitHub/OSF) before Phase 1.",
+  "preceded_all_new_outcomes": true,
+  "result_files_at_freeze": {
+    "AA_0_21_3": null,
+    "AA_0_22_2_post1": null,
+    "AA_1_8_0": null,
+    "AA_1_9_1": null,
+    "FIXEDSTACK_142_152_D_E_HOLDOUT47": null,
+    "LONGITUDINAL14_D_E_HOLDOUT47": null,
+    "STAGE_C47_NEG": null,
+    "STAGE_C47_NEG_REVERSE": null,
+    "STAGE_C47_POS": null,
+    "STAGE_C47_POS_REVERSE": null
+  }
+}

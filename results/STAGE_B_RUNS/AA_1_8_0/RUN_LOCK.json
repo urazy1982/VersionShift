@@ -1,0 +1,47 @@
+{
+ "algorithms": [
+  "LR",
+  "SVC",
+  "kNN",
+  "RF",
+  "GB",
+  "HGB"
+ ],
+ "controller_sha256": "ae4124d63141a5fe4c62ae84a13bf971f6842312986248c9ff79fbd1c313ba23",
+ "pin_from": null,
+ "plan_sha256": "523c42a3dabee44e66d43d538b228939b01fd7fe1b68285f542f0980906492f4",
+ "policies": [
+  "D"
+ ],
+ "releases": {
+  "AA1": {
+   "python": "/home/uraz/versionshift_envs/sk-1.8.0/bin/python",
+   "sklearn": "1.8.0"
+  },
+  "AA2": {
+   "python": "/home/uraz/versionshift_envs/sk-1.8.0/bin/python",
+   "sklearn": "1.8.0"
+  }
+ },
+ "selected_datasets": [
+  "openml_10101",
+  "openml_125922",
+  "openml_146824",
+  "openml_14952",
+  "openml_14965",
+  "openml_14969",
+  "openml_16",
+  "openml_2079",
+  "openml_219",
+  "openml_23",
+  "openml_28",
+  "openml_37",
+  "openml_3913",
+  "openml_3917",
+  "openml_3918",
+  "openml_9985"
+ ],
+ "selection_sha256": "55554df012a30d7000d3b5840babd23f8e10b9daca57b10e8cf6099fce92943c",
+ "translations_file": null,
+ "worker_sha256": "568dae949cf3ecdef26315e41ef41f36703260ef2484b9bc4e6cc0aa70345dbf"
+}

@@ -1,0 +1,13 @@
+{
+ "requirements": {
+  "coverage_floor": 48,
+  "prevalence_floor": 29,
+  "negative_precision:1.8.0:1.9.1": 3,
+  "positive_power90:0.21.3:0.22.2.post1": 11,
+  "positive_prevalence:0.21.3:0.22.2.post1": 3
+ },
+ "K_required": 48,
+ "eligible": 63,
+ "stage_b_used": 16,
+ "decision": "re-use Stage-B tasks (flagged) with a sensitivity analysis excluding them"
+}

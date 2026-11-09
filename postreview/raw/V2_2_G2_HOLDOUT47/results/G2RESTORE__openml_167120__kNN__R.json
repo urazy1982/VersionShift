@@ -1,0 +1,355 @@
+{
+ "ba": [
+  0.5167264086028388,
+  0.48388838883888385,
+  0.4677467746774677,
+  0.5055705570557056,
+  0.4848184818481848,
+  0.49178281672560853,
+  0.480998099809981,
+  0.5313031303130313,
+  0.49863986398639865,
+  0.48582858285828584,
+  0.5054967915379814,
+  0.4971197119711971,
+  0.4847784778477848,
+  0.49186918691869186,
+  0.4970997099709971,
+  0.4878062440991503,
+  0.5016901690169017,
+  0.48570857085708574,
+  0.528092809280928,
+  0.5135713571357136,
+  0.5396217055255956,
+  0.4596059605960596,
+  0.48687868786878685,
+  0.5027402740274027,
+  0.4820682068206821,
+  0.49467523323358564,
+  0.4897689768976898,
+  0.5097509750975098,
+  0.5107610761076108,
+  0.523972397239724
+ ],
+ "constructor": {
+  "algorithm": "auto",
+  "leaf_size": 30,
+  "metric": "minkowski",
+  "metric_params": null,
+  "n_jobs": 1,
+  "n_neighbors": 5,
+  "p": 2,
+  "weights": "uniform"
+ },
+ "convergence_warnings": 0,
+ "fitted_effective": [
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1
+   ],
+   "effective_metric_": "euclidean"
+  }
+ ],
+ "fold_keys": [
+  "r0_f0",
+  "r0_f1",
+  "r0_f2",
+  "r0_f3",
+  "r0_f4",
+  "r1_f0",
+  "r1_f1",
+  "r1_f2",
+  "r1_f3",
+  "r1_f4",
+  "r2_f0",
+  "r2_f1",
+  "r2_f2",
+  "r2_f3",
+  "r2_f4",
+  "r3_f0",
+  "r3_f1",
+  "r3_f2",
+  "r3_f3",
+  "r3_f4",
+  "r4_f0",
+  "r4_f1",
+  "r4_f2",
+  "r4_f3",
+  "r4_f4",
+  "r5_f0",
+  "r5_f1",
+  "r5_f2",
+  "r5_f3",
+  "r5_f4"
+ ],
+ "id": "G2RESTORE__openml_167120__kNN__R",
+ "job_sha256": "6136076f96441f53f5a1293fad64b2dc94650ac8408a598c2ebee9f69d03da8c",
+ "npz_sha256": "75fde4cda4cd347f1576a380417d8a9f03119c298fc0515a9bef5b179dc82c9b",
+ "portability": "ok",
+ "portability_report": null,
+ "provenance": {
+  "executable": "/home/uraz/versionshift_envs/sk-0.22.2.post1/bin/python",
+  "machine": "x86_64",
+  "numpy": "1.18.4",
+  "numpy_config_sha256": "c1eac50e0f4378abaa67c8f02f20e4dd176520354c507772214c44e4ff6abca9",
+  "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.2.5",
+  "processor": "x86_64",
+  "python": "3.8.20",
+  "scipy": "1.4.1",
+  "sklearn": "0.22.2.post1",
+  "sklearn_file": "/home/uraz/versionshift_envs/sk-0.22.2.post1/lib/python3.8/site-packages/sklearn/__init__.py",
+  "threadpools": [
+   {
+    "architecture": null,
+    "filepath": "/home/uraz/versionshift_envs/sk-0.22.2.post1/lib/python3.8/site-packages/numpy.libs/libopenblasp-r0-34a18dc3.3.7.so",
+    "internal_api": "openblas",
+    "num_threads": 1,
+    "version": "0.3.7"
+   },
+   {
+    "architecture": null,
+    "filepath": "/home/uraz/versionshift_envs/sk-0.22.2.post1/lib/python3.8/site-packages/sklearn/.libs/libgomp-3300acd3.so.1.0.0",
+    "internal_api": "openmp",
+    "num_threads": 1,
+    "version": null
+   }
+  ]
+ },
+ "status": "ok",
+ "values_imputed": 0,
+ "worker_sha256": "60076384d6bd04288acf32943de1e55924e5d2546d82ebca1fec8ae16717647f"
+}

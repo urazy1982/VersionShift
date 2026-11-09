@@ -1,0 +1,246 @@
+{
+ "ba": [
+  0.8466934641875394,
+  0.86089621554468,
+  0.8564818711579846,
+  0.8797833762087737,
+  0.8520416875124587,
+  0.8500283327132345,
+  0.8835587133836861,
+  0.8662618434379568,
+  0.8468522212461683,
+  0.853609025904622,
+  0.8508183628554915,
+  0.845269402052013,
+  0.8628927588441757,
+  0.8696152145643604,
+  0.8513631479996149,
+  0.8713045354832162,
+  0.8666588221935314,
+  0.8490398293029872,
+  0.855739955133902,
+  0.8667422324490064,
+  0.8502318812800694,
+  0.8747917211405907,
+  0.8625110473288611,
+  0.8662403740684574,
+  0.8665598929287583,
+  0.8598752216679539,
+  0.8755033547383205,
+  0.8309086024673069,
+  0.8708287972137089,
+  0.8687857675983478
+ ],
+ "constructor": {
+  "bootstrap": true,
+  "ccp_alpha": 0.0,
+  "class_weight": null,
+  "criterion": "gini",
+  "max_depth": null,
+  "max_features": "auto",
+  "max_leaf_nodes": null,
+  "max_samples": null,
+  "min_impurity_decrease": 0.0,
+  "min_impurity_split": null,
+  "min_samples_leaf": 1,
+  "min_samples_split": 2,
+  "min_weight_fraction_leaf": 0.0,
+  "n_estimators": 10,
+  "n_jobs": 1,
+  "oob_score": false,
+  "random_state": 1360019114,
+  "verbose": 0,
+  "warm_start": false
+ },
+ "convergence_warnings": 0,
+ "fitted_effective": [
+  {
+   "classes_": "array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16,\n       17, 18, 19, 20, 21, 22, 23, 24, 25])",
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": "array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16,\n       17, 18, 19, 20, 21, 22, 23, 24, 25])",
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": "array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16,\n       17, 18, 19, 20, 21, 22, 23, 24, 25])",
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": "array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16,\n       17, 18, 19, 20, 21, 22, 23, 24, 25])",
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": "array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16,\n       17, 18, 19, 20, 21, 22, 23, 24, 25])",
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": "array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16,\n       17, 18, 19, 20, 21, 22, 23, 24, 25])",
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": "array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16,\n       17, 18, 19, 20, 21, 22, 23, 24, 25])",
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": "array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16,\n       17, 18, 19, 20, 21, 22, 23, 24, 25])",
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": "array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16,\n       17, 18, 19, 20, 21, 22, 23, 24, 25])",
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": "array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16,\n       17, 18, 19, 20, 21, 22, 23, 24, 25])",
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": "array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16,\n       17, 18, 19, 20, 21, 22, 23, 24, 25])",
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": "array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16,\n       17, 18, 19, 20, 21, 22, 23, 24, 25])",
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": "array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16,\n       17, 18, 19, 20, 21, 22, 23, 24, 25])",
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": "array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16,\n       17, 18, 19, 20, 21, 22, 23, 24, 25])",
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": "array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16,\n       17, 18, 19, 20, 21, 22, 23, 24, 25])",
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": "array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16,\n       17, 18, 19, 20, 21, 22, 23, 24, 25])",
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": "array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16,\n       17, 18, 19, 20, 21, 22, 23, 24, 25])",
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": "array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16,\n       17, 18, 19, 20, 21, 22, 23, 24, 25])",
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": "array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16,\n       17, 18, 19, 20, 21, 22, 23, 24, 25])",
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": "array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16,\n       17, 18, 19, 20, 21, 22, 23, 24, 25])",
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": "array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16,\n       17, 18, 19, 20, 21, 22, 23, 24, 25])",
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": "array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16,\n       17, 18, 19, 20, 21, 22, 23, 24, 25])",
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": "array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16,\n       17, 18, 19, 20, 21, 22, 23, 24, 25])",
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": "array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16,\n       17, 18, 19, 20, 21, 22, 23, 24, 25])",
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": "array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16,\n       17, 18, 19, 20, 21, 22, 23, 24, 25])",
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": "array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16,\n       17, 18, 19, 20, 21, 22, 23, 24, 25])",
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": "array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16,\n       17, 18, 19, 20, 21, 22, 23, 24, 25])",
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": "array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16,\n       17, 18, 19, 20, 21, 22, 23, 24, 25])",
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": "array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16,\n       17, 18, 19, 20, 21, 22, 23, 24, 25])",
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": "array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16,\n       17, 18, 19, 20, 21, 22, 23, 24, 25])",
+   "n_fitted_estimators": 10
+  }
+ ],
+ "fold_keys": [
+  "r0_f0",
+  "r0_f1",
+  "r0_f2",
+  "r0_f3",
+  "r0_f4",
+  "r1_f0",
+  "r1_f1",
+  "r1_f2",
+  "r1_f3",
+  "r1_f4",
+  "r2_f0",
+  "r2_f1",
+  "r2_f2",
+  "r2_f3",
+  "r2_f4",
+  "r3_f0",
+  "r3_f1",
+  "r3_f2",
+  "r3_f3",
+  "r3_f4",
+  "r4_f0",
+  "r4_f1",
+  "r4_f2",
+  "r4_f3",
+  "r4_f4",
+  "r5_f0",
+  "r5_f1",
+  "r5_f2",
+  "r5_f3",
+  "r5_f4"
+ ],
+ "id": "G2RESTORE__openml_6__RF__R",
+ "job_sha256": "44667ee8eb538ea00111252fd4d7ec425306d4f7667c7aca81d5e0aab2baa7e3",
+ "npz_sha256": "03dd8d072b9e9f76145e82af2c0cfa48721fa04efad4a1d3d4c47943449a34e6",
+ "portability": "ok",
+ "portability_report": null,
+ "provenance": {
+  "executable": "/home/uraz/versionshift_envs/sk-0.22.2.post1/bin/python",
+  "machine": "x86_64",
+  "numpy": "1.18.4",
+  "numpy_config_sha256": "c1eac50e0f4378abaa67c8f02f20e4dd176520354c507772214c44e4ff6abca9",
+  "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.2.5",
+  "processor": "x86_64",
+  "python": "3.8.20",
+  "scipy": "1.4.1",
+  "sklearn": "0.22.2.post1",
+  "sklearn_file": "/home/uraz/versionshift_envs/sk-0.22.2.post1/lib/python3.8/site-packages/sklearn/__init__.py",
+  "threadpools": [
+   {
+    "architecture": null,
+    "filepath": "/home/uraz/versionshift_envs/sk-0.22.2.post1/lib/python3.8/site-packages/numpy.libs/libopenblasp-r0-34a18dc3.3.7.so",
+    "internal_api": "openblas",
+    "num_threads": 1,
+    "version": "0.3.7"
+   },
+   {
+    "architecture": null,
+    "filepath": "/home/uraz/versionshift_envs/sk-0.22.2.post1/lib/python3.8/site-packages/sklearn/.libs/libgomp-3300acd3.so.1.0.0",
+    "internal_api": "openmp",
+    "num_threads": 1,
+    "version": null
+   }
+  ]
+ },
+ "status": "ok",
+ "values_imputed": 0,
+ "worker_sha256": "60076384d6bd04288acf32943de1e55924e5d2546d82ebca1fec8ae16717647f"
+}

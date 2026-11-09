@@ -1,0 +1,452 @@
+{
+  "alpha": 0.05,
+  "first_crossing_20": null,
+  "margin_pp": 0.5,
+  "order_seed": 20261106,
+  "role": "DESCRIPTIVE sequential wealth, not a new valid preregistered inference claim",
+  "trace": [
+    {
+      "M_pp": 0.016687016687016866,
+      "dataset": "openml_125922",
+      "phase": "pilot",
+      "position": 1,
+      "wealth": 1.0
+    },
+    {
+      "M_pp": 0.14505351854749415,
+      "dataset": "openml_3913",
+      "phase": "pilot",
+      "position": 2,
+      "wealth": 1.0
+    },
+    {
+      "M_pp": 0.04888888888889017,
+      "dataset": "openml_16",
+      "phase": "pilot",
+      "position": 3,
+      "wealth": 1.0
+    },
+    {
+      "M_pp": 0.06310797107228026,
+      "dataset": "openml_3917",
+      "phase": "pilot",
+      "position": 4,
+      "wealth": 1.0
+    },
+    {
+      "M_pp": 0.002166543184930858,
+      "dataset": "openml_28",
+      "phase": "pilot",
+      "position": 5,
+      "wealth": 1.0
+    },
+    {
+      "M_pp": 0.030947278515413214,
+      "dataset": "openml_37",
+      "phase": "pilot",
+      "position": 6,
+      "wealth": 1.0
+    },
+    {
+      "M_pp": 0.003595828838547277,
+      "dataset": "openml_23",
+      "phase": "pilot",
+      "position": 7,
+      "wealth": 1.0
+    },
+    {
+      "M_pp": 0.005555555555555665,
+      "dataset": "openml_146824",
+      "phase": "pilot",
+      "position": 8,
+      "wealth": 1.0
+    },
+    {
+      "M_pp": 0.0,
+      "dataset": "openml_14952",
+      "phase": "pilot",
+      "position": 9,
+      "wealth": 1.0
+    },
+    {
+      "M_pp": 0.033342402723445894,
+      "dataset": "openml_14969",
+      "phase": "pilot",
+      "position": 10,
+      "wealth": 1.0
+    },
+    {
+      "M_pp": 0.021761692580869286,
+      "dataset": "openml_14965",
+      "phase": "pilot",
+      "position": 11,
+      "wealth": 1.0
+    },
+    {
+      "M_pp": 0.09040986951453137,
+      "dataset": "openml_9985",
+      "phase": "pilot",
+      "position": 12,
+      "wealth": 1.0
+    },
+    {
+      "M_pp": 0.058400973129656,
+      "dataset": "openml_2079",
+      "phase": "pilot",
+      "position": 13,
+      "wealth": 1.0
+    },
+    {
+      "M_pp": 0.025908858767308165,
+      "dataset": "openml_3918",
+      "phase": "pilot",
+      "position": 14,
+      "wealth": 1.0
+    },
+    {
+      "M_pp": 0.004873294346978704,
+      "dataset": "openml_10101",
+      "phase": "pilot",
+      "position": 15,
+      "wealth": 1.0
+    },
+    {
+      "M_pp": 0.06329364946385678,
+      "dataset": "openml_219",
+      "phase": "pilot",
+      "position": 16,
+      "wealth": 1.0
+    },
+    {
+      "M_pp": 0.003991327049869485,
+      "dataset": "openml_3560",
+      "phase": "pilot_excluded",
+      "position": 17,
+      "wealth": 1.0
+    },
+    {
+      "M_pp": 0.15384615384615444,
+      "dataset": "openml_9976",
+      "phase": "pilot_excluded",
+      "position": 18,
+      "wealth": 1.0
+    },
+    {
+      "M_pp": 0.015075021236436413,
+      "dataset": "openml_9960",
+      "phase": "pilot_excluded",
+      "position": 19,
+      "wealth": 1.0
+    },
+    {
+      "M_pp": 0.0036489691662105164,
+      "dataset": "openml_125920",
+      "phase": "pilot_excluded",
+      "position": 20,
+      "wealth": 1.0
+    },
+    {
+      "M_pp": 0.03624514791638309,
+      "dataset": "openml_167120",
+      "phase": "pilot_excluded",
+      "position": 21,
+      "wealth": 1.0
+    },
+    {
+      "M_pp": 0.019123838029883832,
+      "dataset": "openml_7592",
+      "phase": "pilot_excluded",
+      "position": 22,
+      "wealth": 1.0
+    },
+    {
+      "M_pp": 0.0,
+      "dataset": "openml_9964",
+      "phase": "pilot_excluded",
+      "position": 23,
+      "wealth": 1.0
+    },
+    {
+      "M_pp": 0.3699349647266324,
+      "dataset": "openml_3902",
+      "phase": "pilot_excluded",
+      "position": 24,
+      "wealth": 1.0
+    },
+    {
+      "M_pp": 0.2894761517013349,
+      "dataset": "openml_9978",
+      "phase": "pilot_excluded",
+      "position": 25,
+      "wealth": 1.0
+    },
+    {
+      "M_pp": 0.0038580246913580197,
+      "dataset": "openml_146195",
+      "phase": "pilot_excluded",
+      "position": 26,
+      "wealth": 1.0
+    },
+    {
+      "M_pp": 0.03611111111111313,
+      "dataset": "openml_12",
+      "phase": "pilot_excluded",
+      "position": 27,
+      "wealth": 1.0
+    },
+    {
+      "M_pp": 0.04006095455790127,
+      "dataset": "openml_10093",
+      "phase": "pilot_excluded",
+      "position": 28,
+      "wealth": 1.0
+    },
+    {
+      "M_pp": 0.15555555555555667,
+      "dataset": "openml_22",
+      "phase": "pilot_excluded",
+      "position": 29,
+      "wealth": 1.0
+    },
+    {
+      "M_pp": 0.0,
+      "dataset": "openml_45",
+      "phase": "pilot_excluded",
+      "position": 30,
+      "wealth": 1.0
+    },
+    {
+      "M_pp": 0.009423625196423131,
+      "dataset": "openml_43",
+      "phase": "pilot_excluded",
+      "position": 31,
+      "wealth": 1.0
+    },
+    {
+      "M_pp": 0.0,
+      "dataset": "openml_11",
+      "phase": "pilot_excluded",
+      "position": 32,
+      "wealth": 1.0
+    },
+    {
+      "M_pp": 0.0,
+      "dataset": "openml_15",
+      "phase": "pilot_excluded",
+      "position": 33,
+      "wealth": 1.0
+    },
+    {
+      "M_pp": 0.05191533272928562,
+      "dataset": "openml_53",
+      "phase": "pilot_excluded",
+      "position": 34,
+      "wealth": 1.0
+    },
+    {
+      "M_pp": 0.004409171075837737,
+      "dataset": "openml_3549",
+      "phase": "pilot_excluded",
+      "position": 35,
+      "wealth": 1.0
+    },
+    {
+      "M_pp": 0.02105373452185671,
+      "dataset": "openml_6",
+      "phase": "pilot_excluded",
+      "position": 36,
+      "wealth": 1.0
+    },
+    {
+      "M_pp": 0.0,
+      "dataset": "openml_3",
+      "phase": "pilot_excluded",
+      "position": 37,
+      "wealth": 1.0
+    },
+    {
+      "M_pp": 0.11788994916295942,
+      "dataset": "openml_9957",
+      "phase": "pilot_excluded",
+      "position": 38,
+      "wealth": 1.0
+    },
+    {
+      "M_pp": 0.39219863029386853,
+      "dataset": "openml_146819",
+      "phase": "pilot_excluded",
+      "position": 39,
+      "wealth": 1.0
+    },
+    {
+      "M_pp": 0.172505366322092,
+      "dataset": "openml_3903",
+      "phase": "pilot_excluded",
+      "position": 40,
+      "wealth": 1.0
+    },
+    {
+      "M_pp": 0.05555555555555487,
+      "dataset": "openml_14",
+      "phase": "pilot_excluded",
+      "position": 41,
+      "wealth": 1.0
+    },
+    {
+      "M_pp": 0.06746031746031725,
+      "dataset": "openml_31",
+      "phase": "pilot_excluded",
+      "position": 42,
+      "wealth": 1.0
+    },
+    {
+      "M_pp": 0.01826635956999542,
+      "dataset": "openml_9946",
+      "phase": "pilot_excluded",
+      "position": 43,
+      "wealth": 1.0
+    },
+    {
+      "M_pp": 0.0336700336700336,
+      "dataset": "openml_146822",
+      "phase": "pilot_excluded",
+      "position": 44,
+      "wealth": 1.0
+    },
+    {
+      "M_pp": 1.0362081563168128e-15,
+      "dataset": "openml_3022",
+      "phase": "pilot_excluded",
+      "position": 45,
+      "wealth": 1.0
+    },
+    {
+      "M_pp": 0.08789718994694487,
+      "dataset": "openml_146820",
+      "phase": "pilot_excluded",
+      "position": 46,
+      "wealth": 1.0
+    },
+    {
+      "M_pp": 0.0010683760683763866,
+      "dataset": "openml_32",
+      "phase": "pilot_excluded",
+      "position": 47,
+      "wealth": 1.0
+    },
+    {
+      "M_pp": 0.0073914195104839465,
+      "dataset": "openml_9971",
+      "phase": "pilot_excluded",
+      "position": 48,
+      "wealth": 1.0
+    },
+    {
+      "M_pp": 0.04166666666666798,
+      "dataset": "openml_18",
+      "phase": "pilot_excluded",
+      "position": 49,
+      "wealth": 1.0
+    },
+    {
+      "M_pp": 0.005645284505604368,
+      "dataset": "openml_9952",
+      "phase": "pilot_excluded",
+      "position": 50,
+      "wealth": 1.0
+    },
+    {
+      "M_pp": 0.05061833927381096,
+      "dataset": "openml_3021",
+      "phase": "pilot_excluded",
+      "position": 51,
+      "wealth": 1.0
+    },
+    {
+      "M_pp": 0.0,
+      "dataset": "openml_167119",
+      "phase": "pilot_excluded",
+      "position": 52,
+      "wealth": 1.0
+    },
+    {
+      "M_pp": 7.864079757761526e-17,
+      "dataset": "openml_167140",
+      "phase": "pilot_excluded",
+      "position": 53,
+      "wealth": 1.0
+    },
+    {
+      "M_pp": 0.0,
+      "dataset": "openml_146821",
+      "phase": "pilot_excluded",
+      "position": 54,
+      "wealth": 1.0
+    },
+    {
+      "M_pp": 0.048241484823351666,
+      "dataset": "openml_167141",
+      "phase": "pilot_excluded",
+      "position": 55,
+      "wealth": 1.0
+    },
+    {
+      "M_pp": 0.016977401807920695,
+      "dataset": "openml_3904",
+      "phase": "pilot_excluded",
+      "position": 56,
+      "wealth": 1.0
+    },
+    {
+      "M_pp": 0.02634351086363498,
+      "dataset": "openml_9977",
+      "phase": "pilot_excluded",
+      "position": 57,
+      "wealth": 1.0
+    },
+    {
+      "M_pp": 0.024422973698336185,
+      "dataset": "openml_14954",
+      "phase": "pilot_excluded",
+      "position": 58,
+      "wealth": 1.0
+    },
+    {
+      "M_pp": 0.019194591416813758,
+      "dataset": "openml_146800",
+      "phase": "pilot_excluded",
+      "position": 59,
+      "wealth": 1.0
+    },
+    {
+      "M_pp": 0.0005872942633095531,
+      "dataset": "openml_2074",
+      "phase": "pilot_excluded",
+      "position": 60,
+      "wealth": 1.0
+    },
+    {
+      "M_pp": 0.0,
+      "dataset": "openml_49",
+      "phase": "pilot_excluded",
+      "position": 61,
+      "wealth": 1.0
+    },
+    {
+      "M_pp": 0.1417606139766506,
+      "dataset": "openml_29",
+      "phase": "pilot_excluded",
+      "position": 62,
+      "wealth": 1.0
+    },
+    {
+      "M_pp": 0.07543237968759854,
+      "dataset": "openml_146817",
+      "phase": "pilot_excluded",
+      "position": 63,
+      "wealth": 1.0
+    }
+  ],
+  "warning": "Stage C sample and analysis follow observed Stage B results; conditional-mean/exchangeability assumptions need independent justification",
+  "wealth_final": 1.0
+}

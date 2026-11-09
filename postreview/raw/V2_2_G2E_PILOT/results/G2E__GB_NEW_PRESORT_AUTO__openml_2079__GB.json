@@ -1,0 +1,489 @@
+{
+ "ba": [
+  0.65628505861064,
+  0.5929110940738849,
+  0.7115696964534174,
+  0.6194494136354601,
+  0.6565934065934066,
+  0.6741180008621869,
+  0.6435911633586052,
+  0.5988372093023255,
+  0.6297938495612914,
+  0.6097569097569098,
+  0.6467004571655735,
+  0.6979101002356817,
+  0.6340020444671607,
+  0.6136723741374903,
+  0.6172716172716173,
+  0.7019840624491788,
+  0.6493866598517761,
+  0.6334682113751882,
+  0.6344024192861402,
+  0.686019536019536,
+  0.6299230485276996,
+  0.5719907998977767,
+  0.7044538149189312,
+  0.6796334156799273,
+  0.6728160728160727,
+  0.638258640584222,
+  0.6659198682454497,
+  0.6921941107987619,
+  0.5987917766987534,
+  0.6003552003552003
+ ],
+ "constructor": {
+  "ccp_alpha": 0.0,
+  "criterion": "friedman_mse",
+  "init": null,
+  "learning_rate": 0.1,
+  "loss": "deviance",
+  "max_depth": 3,
+  "max_features": null,
+  "max_leaf_nodes": null,
+  "min_impurity_decrease": 0.0,
+  "min_impurity_split": null,
+  "min_samples_leaf": 1,
+  "min_samples_split": 2,
+  "min_weight_fraction_leaf": 0.0,
+  "n_estimators": 100,
+  "n_iter_no_change": null,
+  "presort": "auto",
+  "random_state": 251777436,
+  "subsample": 1.0,
+  "tol": 0.0001,
+  "validation_fraction": 0.1,
+  "verbose": 0,
+  "warm_start": false
+ },
+ "convergence_warnings": 0,
+ "fitted_effective": [
+  {
+   "classes_": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "max_features_": 91,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 500
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "max_features_": 91,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 500
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "max_features_": 91,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 500
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "max_features_": 91,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 500
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "max_features_": 91,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 500
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "max_features_": 91,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 500
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "max_features_": 91,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 500
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "max_features_": 91,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 500
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "max_features_": 91,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 500
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "max_features_": 91,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 500
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "max_features_": 91,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 500
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "max_features_": 91,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 500
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "max_features_": 91,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 500
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "max_features_": 91,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 500
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "max_features_": 91,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 500
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "max_features_": 91,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 500
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "max_features_": 91,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 500
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "max_features_": 91,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 500
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "max_features_": 91,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 500
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "max_features_": 91,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 500
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "max_features_": 91,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 500
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "max_features_": 91,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 500
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "max_features_": 91,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 500
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "max_features_": 91,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 500
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "max_features_": 91,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 500
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "max_features_": 91,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 500
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "max_features_": 91,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 500
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "max_features_": 91,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 500
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "max_features_": 91,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 500
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "max_features_": 91,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 500
+  }
+ ],
+ "fold_keys": [
+  "r0_f0",
+  "r0_f1",
+  "r0_f2",
+  "r0_f3",
+  "r0_f4",
+  "r1_f0",
+  "r1_f1",
+  "r1_f2",
+  "r1_f3",
+  "r1_f4",
+  "r2_f0",
+  "r2_f1",
+  "r2_f2",
+  "r2_f3",
+  "r2_f4",
+  "r3_f0",
+  "r3_f1",
+  "r3_f2",
+  "r3_f3",
+  "r3_f4",
+  "r4_f0",
+  "r4_f1",
+  "r4_f2",
+  "r4_f3",
+  "r4_f4",
+  "r5_f0",
+  "r5_f1",
+  "r5_f2",
+  "r5_f3",
+  "r5_f4"
+ ],
+ "id": "G2E__GB_NEW_PRESORT_AUTO__openml_2079__GB",
+ "job_sha256": "0cc0e5c2be9336fc114627842e82f59a05bf287689fa678e1b7db4ea004e9fe7",
+ "npz_sha256": "02f39395853c1c734ea9febead776567d69fb7ae439429685a39336d990fe6b4",
+ "portability": "ok",
+ "portability_report": null,
+ "provenance": {
+  "executable": "/home/uraz/versionshift_envs/sk-0.22.2.post1/bin/python",
+  "machine": "x86_64",
+  "numpy": "1.18.4",
+  "numpy_config_sha256": "c1eac50e0f4378abaa67c8f02f20e4dd176520354c507772214c44e4ff6abca9",
+  "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.2.5",
+  "processor": "x86_64",
+  "python": "3.8.20",
+  "scipy": "1.4.1",
+  "sklearn": "0.22.2.post1",
+  "sklearn_file": "/home/uraz/versionshift_envs/sk-0.22.2.post1/lib/python3.8/site-packages/sklearn/__init__.py",
+  "threadpools": [
+   {
+    "architecture": null,
+    "filepath": "/home/uraz/versionshift_envs/sk-0.22.2.post1/lib/python3.8/site-packages/numpy.libs/libopenblasp-r0-34a18dc3.3.7.so",
+    "internal_api": "openblas",
+    "num_threads": 1,
+    "version": "0.3.7"
+   },
+   {
+    "architecture": null,
+    "filepath": "/home/uraz/versionshift_envs/sk-0.22.2.post1/lib/python3.8/site-packages/sklearn/.libs/libgomp-3300acd3.so.1.0.0",
+    "internal_api": "openmp",
+    "num_threads": 1,
+    "version": null
+   }
+  ]
+ },
+ "status": "ok",
+ "values_imputed": 13440,
+ "worker_sha256": "f27700a20e73cf4ab187f9aedc2874389413c0844216cbc81e7395d063184807"
+}

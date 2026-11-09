@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "scope": "63 datasets x 30 folds, two distinct within-runtime boosting interventions",
+  "pilot_folds": 960,
+  "holdout_folds": 2820,
+  "paired_folds_total": 3780,
+  "pilot_worker_sha256": "f27700a20e73cf4ab187f9aedc2874389413c0844216cbc81e7395d063184807",
+  "holdout_worker_sha256": "f27700a20e73cf4ab187f9aedc2874389413c0844216cbc81e7395d063184807",
+  "plan_sha256": "523c42a3dabee44e66d43d538b228939b01fd7fe1b68285f542f0980906492f4",
+  "baseline_archive_sha256": "5eb716b64c21ded6f979b0b1610bb68aee46ad2f24889a0d3b133bd430c6ff7d",
+  "arms": {
+    "GB_NEW_PRESORT_AUTO": {
+      "datasets": 63,
+      "paired_folds": 1890,
+      "prediction_hash_mismatch_folds": 0,
+      "score_mismatch_folds": 0,
+      "mean_signed_change_pp": 0.0,
+      "mean_absolute_change_pp": 0.0,
+      "mean_absolute_dataset_mean_change_pp": 0.0,
+      "max_absolute_dataset_mean_change_pp": 0.0,
+      "datasets_with_nonzero_mean_change": 0,
+      "interpretation": "within-runtime configuration intervention, not direct cross-release causal attribution"
+    },
+    "HGB_OLD_MAXBINS255": {
+      "datasets": 63,
+      "paired_folds": 1890,
+      "prediction_hash_mismatch_folds": 1123,
+      "score_mismatch_folds": 1067,
+      "mean_signed_change_pp": -0.018358228393495428,
+      "mean_absolute_change_pp": 0.591244420903102,
+      "mean_absolute_dataset_mean_change_pp": 0.10912942802756695,
+      "max_absolute_dataset_mean_change_pp": 0.5484250992063489,
+      "datasets_with_nonzero_mean_change": 40,
+      "interpretation": "within-runtime configuration intervention, not direct cross-release causal attribution"
+    }
+  },
+  "limitations": [
+    "GB compares new-release presort auto against new shipped defaults",
+    "HGB compares max_bins 255 versus 256 WITHIN old release",
+    "Cannot infer six-estimator default-vs-runtime decomposition from these interventions alone"
+  ]
+}

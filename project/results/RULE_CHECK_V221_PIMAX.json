@@ -1,0 +1,56 @@
+{
+ "N1_pure_null": {
+  "pi_avg_truth": 0.0,
+  "pi_max_truth": 0.0,
+  "pi_max_truth_at_1pp": 0.0,
+  "mean_M": 0.0
+ },
+ "N2_rng_stream_changed": {
+  "pi_avg_truth": 0.0,
+  "pi_max_truth": 0.05945,
+  "pi_max_truth_at_1pp": 5e-05,
+  "mean_M": 0.10934931664893292
+ },
+ "N3_hetero_skew_corr": {
+  "pi_avg_truth": 0.00765,
+  "pi_max_truth": 0.12845,
+  "pi_max_truth_at_1pp": 0.01785,
+  "mean_M": 0.10980611912152703
+ },
+ "N4_variance_only_change": {
+  "pi_avg_truth": 0.03275,
+  "pi_max_truth": 0.354,
+  "pi_max_truth_at_1pp": 0.0597,
+  "mean_M": 0.20679441764684134
+ },
+ "A1_sparse_large_effect": {
+  "pi_avg_truth": 0.1069,
+  "pi_max_truth": 0.20985,
+  "pi_max_truth_at_1pp": 0.11715,
+  "mean_M": 0.23722221814606256
+ },
+ "A2_dense_small_effect": {
+  "pi_avg_truth": 0.40085,
+  "pi_max_truth": 0.95695,
+  "pi_max_truth_at_1pp": 0.5336,
+  "mean_M": 0.4718521286738565
+ },
+ "B0_at_margin_boundary": {
+  "pi_avg_truth": 0.4837,
+  "pi_max_truth": 0.9675,
+  "pi_max_truth_at_1pp": 0.60755,
+  "mean_M": 0.5064276419473944
+ },
+ "A3_dense_meaningful": {
+  "pi_avg_truth": 0.9288,
+  "pi_max_truth": 0.99745,
+  "pi_max_truth_at_1pp": 0.95585,
+  "mean_M": 0.9127997128563833
+ },
+ "C1_one_strong_pair": {
+  "pi_avg_truth": 0.01335,
+  "pi_max_truth": 1.0,
+  "pi_max_truth_at_1pp": 1.0,
+  "mean_M": 0.37595537850822847
+ }
+}

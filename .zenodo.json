@@ -1,0 +1,24 @@
+{
+  "title": "VersionShift replication package: do library upgrades change machine-learning conclusions?",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "Code, frozen protocol, fold-level results and post-review evidence for the study 'When a Library Upgrade Changes the Verdict: Default-Configuration Drift and the Stability of Machine-Learning Comparisons' (submitted to Information and Software Technology). Six scikit-learn classifiers on 63 OpenML-CC18 tasks with frozen folds, across 0.21.3 to 0.22.2.post1 and 1.8.0 to 1.9.1. The release asset VersionShift_replication.zip (SHA-256 5eb716b64c21ded6f979b0b1610bb68aee46ad2f24889a0d3b133bd430c6ff7d) is the frozen original-study archive required by the post-review kits.",
+  "creators": [
+    {
+      "name": "Yavanoğlu, Uraz",
+      "affiliation": "Department of Computer Engineering, Gazi University, Ankara, Türkiye",
+      "orcid": "0000-0001-8358-8150"
+    }
+  ],
+  "keywords": [
+    "dependency upgrades",
+    "default arguments",
+    "breaking changes",
+    "scikit-learn",
+    "reproducibility",
+    "conclusion stability",
+    "empirical software engineering"
+  ],
+  "notes": "Financially supported by UAYTECH Corporation. OpenML-CC18 datasets are not redistributed; they are rebuilt from OpenML and checked against frozen SHA-256 hashes."
+}

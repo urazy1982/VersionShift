@@ -1,0 +1,8 @@
+# Controller / analysis environment (Python >= 3.10). The per-release scikit-learn
+# environments are built separately and hash-locked by project/crossversion/build_envs.sh.
+numpy>=2.0
+pandas>=2.2
+scipy>=1.13
+matplotlib>=3.8      # paper figures only
+openml>=0.14         # plan rebuild only (step 2)
+requests>=2.31       # plan rebuild only (step 2)

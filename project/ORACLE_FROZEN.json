@@ -1,0 +1,38 @@
+{
+ "status": "FROZEN_COMPLETE",
+ "frame_path": "/mnt/c/VersionShift_v2_2_5/ORACLE_FRAME_REVIEWED.csv",
+ "frame_sha256": "33f04fb6c6da89654f3524cfaef290644b80e37afcd5148dcffa740e9bcfe2f6",
+ "opportunities": 78,
+ "frozen_at": "2026-11-06T17:11:04+0300",
+ "provenance": {
+  "builder_sha256": "2715cc1be7c17d270a3873ab5908312e774ab28215b1c1fe5b3c05ba4397c884",
+  "changelog_csv_sha256": "07ee371885f3be9329cd743fef6bca2974d317961cf3d9e8a4271f2be75f4323",
+  "introspect_sha256": "d499720bbfea975d9779e4d65744b72560fc7a4ae4dbae3d8711f051a149fe38",
+  "releases": [
+   "0.21.3",
+   "0.22.2.post1",
+   "0.23.2",
+   "0.24.2",
+   "1.0.2",
+   "1.1.3",
+   "1.2.2",
+   "1.3.2",
+   "1.4.2",
+   "1.5.2",
+   "1.6.1",
+   "1.7.2",
+   "1.8.0",
+   "1.9.1"
+  ],
+  "estimators": [
+   "LR",
+   "SVC",
+   "kNN",
+   "RF",
+   "GB",
+   "HGB"
+  ],
+  "expected_opportunities": 78,
+  "built_frame_sha256": "aab85be544c8d40c8cee4a62300ec559b5fa03141a878a9da02ba49c20bc478f"
+ }
+}

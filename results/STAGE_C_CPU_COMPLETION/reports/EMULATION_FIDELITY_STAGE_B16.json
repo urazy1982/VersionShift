@@ -1,0 +1,10 @@
+{
+  "caveat": "emu_R19 uses 1.9-era defaults, whereas the real observed comparator is 0.22.2.post1; not perfectly matched counterfactual endpoints",
+  "emulator_M_pp": 3.784141225264174,
+  "k_datasets": 16,
+  "mean_absolute_pair_delta_difference_pp": 0.06485489663291925,
+  "n_pair_deltas": 240,
+  "pearson_pair_delta": 0.9998568797732246,
+  "real_M_pp": 3.8116037394828792,
+  "role": "G5 exploratory emulation-fidelity diagnostic"
+}

@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "jobs": 188,
+  "folds": 5640,
+  "datasets": 47,
+  "source_sha256": "60076384d6bd04288acf32943de1e55924e5d2546d82ebca1fec8ae16717647f",
+  "plan_sha256": "523c42a3dabee44e66d43d538b228939b01fd7fe1b68285f542f0980906492f4",
+  "note": "G2-D holdout47 restoration fits only; comparisons require separate analysis"
+}

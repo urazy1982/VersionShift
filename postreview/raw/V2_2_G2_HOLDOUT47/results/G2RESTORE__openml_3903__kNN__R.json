@@ -1,0 +1,355 @@
+{
+ "ba": [
+  0.5219639679715302,
+  0.49466192170818507,
+  0.5170151245551602,
+  0.4982142857142857,
+  0.50625,
+  0.5379782028469751,
+  0.4875444839857651,
+  0.4928825622775801,
+  0.5241071428571429,
+  0.5205357142857143,
+  0.5013901245551602,
+  0.52769128113879,
+  0.5170151245551602,
+  0.5169642857142858,
+  0.5223214285714286,
+  0.49110320284697506,
+  0.48398576512455516,
+  0.5223532028469751,
+  0.5049107142857143,
+  0.5013392857142858,
+  0.5187944839857651,
+  0.5500444839857651,
+  0.5031694839857651,
+  0.5084821428571429,
+  0.4857142857142857,
+  0.5134564056939501,
+  0.5013901245551602,
+  0.5152357651245552,
+  0.49464285714285716,
+  0.5066964285714286
+ ],
+ "constructor": {
+  "algorithm": "auto",
+  "leaf_size": 30,
+  "metric": "minkowski",
+  "metric_params": null,
+  "n_jobs": 1,
+  "n_neighbors": 5,
+  "p": 2,
+  "weights": "uniform"
+ },
+ "convergence_warnings": 0,
+ "fitted_effective": [
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1
+   ],
+   "effective_metric_": "euclidean"
+  }
+ ],
+ "fold_keys": [
+  "r0_f0",
+  "r0_f1",
+  "r0_f2",
+  "r0_f3",
+  "r0_f4",
+  "r1_f0",
+  "r1_f1",
+  "r1_f2",
+  "r1_f3",
+  "r1_f4",
+  "r2_f0",
+  "r2_f1",
+  "r2_f2",
+  "r2_f3",
+  "r2_f4",
+  "r3_f0",
+  "r3_f1",
+  "r3_f2",
+  "r3_f3",
+  "r3_f4",
+  "r4_f0",
+  "r4_f1",
+  "r4_f2",
+  "r4_f3",
+  "r4_f4",
+  "r5_f0",
+  "r5_f1",
+  "r5_f2",
+  "r5_f3",
+  "r5_f4"
+ ],
+ "id": "G2RESTORE__openml_3903__kNN__R",
+ "job_sha256": "4145ee805ecb4d1159865c2b6af79b9b85cecae6439f26358809da6a44b2256d",
+ "npz_sha256": "e443ca777582f2b3aadfbaf56325a27c68b5ab39cdfb69604361a56e8d3e0b77",
+ "portability": "ok",
+ "portability_report": null,
+ "provenance": {
+  "executable": "/home/uraz/versionshift_envs/sk-0.22.2.post1/bin/python",
+  "machine": "x86_64",
+  "numpy": "1.18.4",
+  "numpy_config_sha256": "c1eac50e0f4378abaa67c8f02f20e4dd176520354c507772214c44e4ff6abca9",
+  "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.2.5",
+  "processor": "x86_64",
+  "python": "3.8.20",
+  "scipy": "1.4.1",
+  "sklearn": "0.22.2.post1",
+  "sklearn_file": "/home/uraz/versionshift_envs/sk-0.22.2.post1/lib/python3.8/site-packages/sklearn/__init__.py",
+  "threadpools": [
+   {
+    "architecture": null,
+    "filepath": "/home/uraz/versionshift_envs/sk-0.22.2.post1/lib/python3.8/site-packages/numpy.libs/libopenblasp-r0-34a18dc3.3.7.so",
+    "internal_api": "openblas",
+    "num_threads": 1,
+    "version": "0.3.7"
+   },
+   {
+    "architecture": null,
+    "filepath": "/home/uraz/versionshift_envs/sk-0.22.2.post1/lib/python3.8/site-packages/sklearn/.libs/libgomp-3300acd3.so.1.0.0",
+    "internal_api": "openmp",
+    "num_threads": 1,
+    "version": null
+   }
+  ]
+ },
+ "status": "ok",
+ "values_imputed": 0,
+ "worker_sha256": "60076384d6bd04288acf32943de1e55924e5d2546d82ebca1fec8ae16717647f"
+}

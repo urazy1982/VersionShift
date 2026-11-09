@@ -1,0 +1,7 @@
+
+--- 2026-11-08 02:15:14 ---
+/home/uraz/versionshift_controller/bin/python3 /mnt/c/VersionShift_v2_2_5/code/emulate_plan.py --plan-dir /home/uraz/versionshift_data/STAGE_B_PLAN_CACHED --out /home/uraz/versionshift_data/STAGE_C_CPU_COMPLETION/EMULATED_STAGE_B16_R21_R19.csv --datasets openml_10101,openml_125922,openml_146824,openml_14952,openml_14965,openml_14969,openml_16,openml_2079,openml_219,openml_23,openml_28,openml_37,openml_3913,openml_3917,openml_3918,openml_9985
+
+--- 2026-11-08 13:08:53 ---
+/home/uraz/versionshift_controller/bin/python3 /mnt/c/VersionShift_v2_2_5/code/emulate_plan.py --plan-dir /home/uraz/versionshift_data/STAGE_B_PLAN_CACHED --out /home/uraz/versionshift_data/STAGE_C_CPU_COMPLETION/EMULATED_STAGE_B16_R21_R19.csv --datasets openml_10101,openml_125922,openml_146824,openml_14952,openml_14965,openml_14969,openml_16,openml_2079,openml_219,openml_23,openml_28,openml_37,openml_3913,openml_3917,openml_3918,openml_9985
+rows 5760

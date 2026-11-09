@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv/
+paper/output/
+*.csv.gz.tmp
+.DS_Store

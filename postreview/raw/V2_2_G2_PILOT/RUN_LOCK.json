@@ -1,0 +1,36 @@
+{
+  "algorithms": [
+    "LR",
+    "SVC",
+    "RF",
+    "kNN"
+  ],
+  "expected_folds": 1920,
+  "expected_jobs": 64,
+  "plan_sha256": "523c42a3dabee44e66d43d538b228939b01fd7fe1b68285f542f0980906492f4",
+  "policy": "R",
+  "purpose": "VersionShift v2.2 post-review G2 semantic restoration pilot",
+  "python": "/home/uraz/versionshift_envs/sk-0.22.2.post1/bin/python",
+  "runner_sha256": "a29686c9c92af1e110a5c59b6741f4ee1415d09d020edbd2d94a68fe3036a424",
+  "selected_datasets": [
+    "openml_10101",
+    "openml_125922",
+    "openml_146824",
+    "openml_14952",
+    "openml_14965",
+    "openml_14969",
+    "openml_16",
+    "openml_2079",
+    "openml_219",
+    "openml_23",
+    "openml_28",
+    "openml_37",
+    "openml_3913",
+    "openml_3917",
+    "openml_3918",
+    "openml_9985"
+  ],
+  "selection_sha256": "55554df012a30d7000d3b5840babd23f8e10b9daca57b10e8cf6099fce92943c",
+  "sklearn": "0.22.2.post1",
+  "worker_sha256": "60076384d6bd04288acf32943de1e55924e5d2546d82ebca1fec8ae16717647f"
+}

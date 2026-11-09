@@ -1,0 +1,32 @@
+{
+ "algorithms": [
+  "LR",
+  "SVC",
+  "kNN",
+  "RF",
+  "GB",
+  "HGB"
+ ],
+ "controller_sha256": "1b608d171354bc865f24ec594842b6fc8ac6a5c6a3c92c3996e183286efc17cd",
+ "pin_from": null,
+ "plan_sha256": "bd3675437dfbb2f48f128bc1178e7e665d196090ca7849cd5a2b2941aafd73d9",
+ "policies": [
+  "D"
+ ],
+ "releases": {
+  "A": {
+   "python": "/opt/pyvenv/bin/python",
+   "sklearn": "1.8.0"
+  },
+  "B": {
+   "python": "/opt/pyvenv/bin/python",
+   "sklearn": "1.8.0"
+  }
+ },
+ "selected_datasets": [
+  "iris"
+ ],
+ "selection_sha256": "02adac841917e6265bf15a199e4c263cdc14d080605ad8c54484846c5c0db2c9",
+ "translations_file": null,
+ "worker_sha256": "8d41b805f6366d7d7d5bb47fc8e45045a02ccb07fcec5b88b8153bc79daaf284"
+}

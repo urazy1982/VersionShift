@@ -1,0 +1,260 @@
+{
+  "margins": {
+    "0.5": {
+      "0.21.3:0.22.2.post1": {
+        "margin_pp": 0.5,
+        "K": 16,
+        "K_complete_case": 16,
+        "complete_case_coverage": 1.0,
+        "pair_availability": {
+          "LR-SVC": 16,
+          "LR-kNN": 16,
+          "LR-RF": 16,
+          "LR-GB": 16,
+          "LR-HGB": 16,
+          "SVC-kNN": 16,
+          "SVC-RF": 16,
+          "SVC-GB": 16,
+          "SVC-HGB": 16,
+          "kNN-RF": 16,
+          "kNN-GB": 16,
+          "kNN-HGB": 16,
+          "RF-GB": 16,
+          "RF-HGB": 16,
+          "GB-HGB": 16
+        },
+        "q_mean": {
+          "M_pp": 3.8116037394828797,
+          "M_k_sd": 3.431496624564062,
+          "M_one_sided_lower95": 2.3077071449204074,
+          "M_one_sided_upper95": 5.3155003340453515,
+          "p_changed_unadjusted": 0.0007706703029697575,
+          "pairs_all_tost_equivalent": false,
+          "per_pair": [
+            {
+              "pair": "LR-SVC",
+              "n": 16,
+              "mean_signed_pp": -6.107557195715085,
+              "ci90": [
+                -10.380784078540202,
+                -1.8343303128899668
+              ],
+              "tost_equivalent": false
+            },
+            {
+              "pair": "LR-kNN",
+              "n": 16,
+              "mean_signed_pp": -1.7457354277277575,
+              "ci90": [
+                -4.380359174389314,
+                0.888888318933799
+              ],
+              "tost_equivalent": false
+            },
+            {
+              "pair": "LR-RF",
+              "n": 16,
+              "mean_signed_pp": -3.617331444260097,
+              "ci90": [
+                -6.257798400502418,
+                -0.9768644880177755
+              ],
+              "tost_equivalent": false
+            },
+            {
+              "pair": "LR-GB",
+              "n": 16,
+              "mean_signed_pp": -1.7551063870184205,
+              "ci90": [
+                -4.390779014447579,
+                0.8805662404107379
+              ],
+              "tost_equivalent": false
+            },
+            {
+              "pair": "LR-HGB",
+              "n": 16,
+              "mean_signed_pp": -1.7285067867082118,
+              "ci90": [
+                -4.3980639466622815,
+                0.9410503732458584
+              ],
+              "tost_equivalent": false
+            },
+            {
+              "pair": "SVC-kNN",
+              "n": 16,
+              "mean_signed_pp": 4.361821767987326,
+              "ci90": [
+                -0.5624236311402111,
+                9.286067167114863
+              ],
+              "tost_equivalent": false
+            },
+            {
+              "pair": "SVC-RF",
+              "n": 16,
+              "mean_signed_pp": 2.4902257514549855,
+              "ci90": [
+                -2.1961351575082033,
+                7.176586660418174
+              ],
+              "tost_equivalent": false
+            },
+            {
+              "pair": "SVC-GB",
+              "n": 16,
+              "mean_signed_pp": 4.352450808696663,
+              "ci90": [
+                -0.5665463831826063,
+                9.271448000575932
+              ],
+              "tost_equivalent": false
+            },
+            {
+              "pair": "SVC-HGB",
+              "n": 16,
+              "mean_signed_pp": 4.379050409006872,
+              "ci90": [
+                -0.5606981765423926,
+                9.318798994556136
+              ],
+              "tost_equivalent": false
+            },
+            {
+              "pair": "kNN-RF",
+              "n": 16,
+              "mean_signed_pp": -1.8715960165323393,
+              "ci90": [
+                -2.487830386433416,
+                -1.2553616466312625
+              ],
+              "tost_equivalent": false
+            },
+            {
+              "pair": "kNN-GB",
+              "n": 16,
+              "mean_signed_pp": -0.009370959290662822,
+              "ci90": [
+                -0.035625319134158034,
+                0.016883400552832387
+              ],
+              "tost_equivalent": true
+            },
+            {
+              "pair": "kNN-HGB",
+              "n": 16,
+              "mean_signed_pp": 0.01722864101954645,
+              "ci90": [
+                -0.06388983279270591,
+                0.09834711483179881
+              ],
+              "tost_equivalent": true
+            },
+            {
+              "pair": "RF-GB",
+              "n": 16,
+              "mean_signed_pp": 1.8622250572416765,
+              "ci90": [
+                1.2457078717840464,
+                2.4787422426993064
+              ],
+              "tost_equivalent": false
+            },
+            {
+              "pair": "RF-HGB",
+              "n": 16,
+              "mean_signed_pp": 1.8888246575518863,
+              "ci90": [
+                1.2930051597756922,
+                2.4846441553280805
+              ],
+              "tost_equivalent": false
+            },
+            {
+              "pair": "GB-HGB",
+              "n": 16,
+              "mean_signed_pp": 0.026599600310209692,
+              "ci90": [
+                -0.06413863816120778,
+                0.11733783878162717
+              ],
+              "tost_equivalent": true
+            }
+          ]
+        },
+        "q_prev": {
+          "primary_avg_pair": {
+            "population": "stratified",
+            "estimate": 0.9365079365079365,
+            "affected": 15,
+            "K": 16,
+            "n_effective": 15.828514456630108,
+            "lower": 0.7330901375089811,
+            "upper": 0.9967076441257781,
+            "p_exceeds_limit": null,
+            "interpretation": "design-weighted (selection strata) estimate for the eligible frame; Kish effective n"
+          },
+          "sensitivity_any_pair_pi_max": {
+            "population": "stratified",
+            "estimate": 0.9999999999999999,
+            "affected": 16,
+            "K": 16,
+            "n_effective": 15.828514456630108,
+            "lower": 0.8275698657169752,
+            "upper": 1.0,
+            "p_exceeds_limit": null,
+            "interpretation": "design-weighted (selection strata) estimate for the eligible frame; Kish effective n",
+            "threshold_pp": 1.0
+          },
+          "descriptive_pi_max_at_margin": 1.0,
+          "limit": 0.1
+        },
+        "equivalence_inputs": {
+          "all_pairs_tost": false,
+          "prevalence_ok": false,
+          "M_upper_below_margin": false
+        },
+        "missingness_sensitivity": {
+          "available_case_M_pp": 3.8116037394828797,
+          "prevalence_bounds_missing_as_unaffected": 0.9375,
+          "prevalence_bounds_missing_as_affected": 0.9375
+        },
+        "edge": "0.21.3:0.22.2.post1",
+        "datasets": [
+          "openml_10101",
+          "openml_125922",
+          "openml_146824",
+          "openml_14952",
+          "openml_14965",
+          "openml_14969",
+          "openml_16",
+          "openml_2079",
+          "openml_219",
+          "openml_23",
+          "openml_28",
+          "openml_37",
+          "openml_3913",
+          "openml_3917",
+          "openml_3918",
+          "openml_9985"
+        ],
+        "evidence": "observed_cross_release",
+        "adjusted": {
+          "mean": {
+            "p_adjusted": 0.001541340605939515,
+            "method": "holm",
+            "family": "primary"
+          }
+        },
+        "labels": [
+          "CHANGED_MEAN"
+        ],
+        "family": "primary",
+        "sensitivity_flags": [
+          "ANY_PAIR_WIDESPREAD"
+        ]
+      }
+    }
+  }
+}

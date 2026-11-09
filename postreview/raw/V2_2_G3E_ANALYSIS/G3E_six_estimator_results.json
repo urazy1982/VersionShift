@@ -1,0 +1,1584 @@
+{
+  "status": "PASS",
+  "scope": [
+    "pilot16",
+    "holdout47",
+    "full63"
+  ],
+  "description": "Post-review E2; all six estimators, identical dataset and fold identities",
+  "treatment": "HGB corrected n_iter_no_change=None; remaining five estimators original policy E",
+  "original_zip_sha256": "5eb716b64c21ded6f979b0b1610bb68aee46ad2f24889a0d3b133bd430c6ff7d",
+  "comparisons": {
+    "pilot16": {
+      "D": {
+        "K": 16,
+        "M_pp": 3.8116037394828797,
+        "affected_gt_0_5": 15,
+        "winner_changes": 6,
+        "dataset_results": [
+          {
+            "dataset": "openml_10101",
+            "old_winner": "GB",
+            "new_winner": "GB",
+            "M_pp": 0.510020421423926
+          },
+          {
+            "dataset": "openml_125922",
+            "old_winner": "HGB",
+            "new_winner": "SVC",
+            "M_pp": 1.2369063035729775
+          },
+          {
+            "dataset": "openml_146824",
+            "old_winner": "kNN",
+            "new_winner": "SVC",
+            "M_pp": 1.6616666666666637
+          },
+          {
+            "dataset": "openml_14952",
+            "old_winner": "HGB",
+            "new_winner": "RF",
+            "M_pp": 0.49767174195849484
+          },
+          {
+            "dataset": "openml_14965",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 3.29785899963326
+          },
+          {
+            "dataset": "openml_14969",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 8.308295552871504
+          },
+          {
+            "dataset": "openml_16",
+            "old_winner": "kNN",
+            "new_winner": "SVC",
+            "M_pp": 2.5238888888888775
+          },
+          {
+            "dataset": "openml_2079",
+            "old_winner": "GB",
+            "new_winner": "GB",
+            "M_pp": 11.499418898643707
+          },
+          {
+            "dataset": "openml_219",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 1.873038619566257
+          },
+          {
+            "dataset": "openml_23",
+            "old_winner": "GB",
+            "new_winner": "GB",
+            "M_pp": 3.007929875643652
+          },
+          {
+            "dataset": "openml_28",
+            "old_winner": "kNN",
+            "new_winner": "SVC",
+            "M_pp": 9.523847842087134
+          },
+          {
+            "dataset": "openml_37",
+            "old_winner": "GB",
+            "new_winner": "GB",
+            "M_pp": 7.132156223309262
+          },
+          {
+            "dataset": "openml_3913",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 4.517646342947544
+          },
+          {
+            "dataset": "openml_3917",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 2.1002096909235064
+          },
+          {
+            "dataset": "openml_3918",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 2.4828438576468708
+          },
+          {
+            "dataset": "openml_9985",
+            "old_winner": "HGB",
+            "new_winner": "RF",
+            "M_pp": 0.812259905942435
+          }
+        ]
+      },
+      "E2": {
+        "K": 16,
+        "M_pp": 0.38177309077955535,
+        "affected_gt_0_5": 1,
+        "winner_changes": 0,
+        "dataset_results": [
+          {
+            "dataset": "openml_10101",
+            "old_winner": "GB",
+            "new_winner": "GB",
+            "M_pp": 0.0
+          },
+          {
+            "dataset": "openml_125922",
+            "old_winner": "SVC",
+            "new_winner": "SVC",
+            "M_pp": 0.044215044215041154
+          },
+          {
+            "dataset": "openml_146824",
+            "old_winner": "SVC",
+            "new_winner": "SVC",
+            "M_pp": 0.3138888888888829
+          },
+          {
+            "dataset": "openml_14952",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 0.0
+          },
+          {
+            "dataset": "openml_14965",
+            "old_winner": "GB",
+            "new_winner": "GB",
+            "M_pp": 0.014245014245015378
+          },
+          {
+            "dataset": "openml_14969",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 0.11428084318509946
+          },
+          {
+            "dataset": "openml_16",
+            "old_winner": "SVC",
+            "new_winner": "SVC",
+            "M_pp": 0.16388888888888667
+          },
+          {
+            "dataset": "openml_2079",
+            "old_winner": "GB",
+            "new_winner": "GB",
+            "M_pp": 5.077081115840806
+          },
+          {
+            "dataset": "openml_219",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 0.0013071895424824713
+          },
+          {
+            "dataset": "openml_23",
+            "old_winner": "GB",
+            "new_winner": "GB",
+            "M_pp": 0.13804281919123676
+          },
+          {
+            "dataset": "openml_28",
+            "old_winner": "SVC",
+            "new_winner": "SVC",
+            "M_pp": 0.018521301776701193
+          },
+          {
+            "dataset": "openml_37",
+            "old_winner": "RF",
+            "new_winner": "RF",
+            "M_pp": 0.011305225560988674
+          },
+          {
+            "dataset": "openml_3913",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 0.026455026455029913
+          },
+          {
+            "dataset": "openml_3917",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 0.011663735887130619
+          },
+          {
+            "dataset": "openml_3918",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 0.037406065485773375
+          },
+          {
+            "dataset": "openml_9985",
+            "old_winner": "RF",
+            "new_winner": "RF",
+            "M_pp": 0.13606829330981066
+          }
+        ]
+      }
+    },
+    "holdout47": {
+      "D": {
+        "K": 47,
+        "M_pp": 5.41355797000062,
+        "affected_gt_0_5": 44,
+        "winner_changes": 19,
+        "dataset_results": [
+          {
+            "dataset": "openml_10093",
+            "old_winner": "SVC",
+            "new_winner": "kNN",
+            "M_pp": 0.14425115746614192
+          },
+          {
+            "dataset": "openml_11",
+            "old_winner": "HGB",
+            "new_winner": "SVC",
+            "M_pp": 0.5788368323960204
+          },
+          {
+            "dataset": "openml_12",
+            "old_winner": "LR",
+            "new_winner": "HGB",
+            "M_pp": 21.11333333333333
+          },
+          {
+            "dataset": "openml_125920",
+            "old_winner": "GB",
+            "new_winner": "GB",
+            "M_pp": 2.5232621784345928
+          },
+          {
+            "dataset": "openml_14",
+            "old_winner": "HGB",
+            "new_winner": "SVC",
+            "M_pp": 3.773333333333333
+          },
+          {
+            "dataset": "openml_146195",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 2.4113504005955817
+          },
+          {
+            "dataset": "openml_146800",
+            "old_winner": "HGB",
+            "new_winner": "RF",
+            "M_pp": 2.707554379776601
+          },
+          {
+            "dataset": "openml_146817",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 8.777251455002784
+          },
+          {
+            "dataset": "openml_146819",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 3.672578391626011
+          },
+          {
+            "dataset": "openml_146820",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 6.508907207455748
+          },
+          {
+            "dataset": "openml_146821",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 13.493555686737503
+          },
+          {
+            "dataset": "openml_146822",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 3.9225589225589177
+          },
+          {
+            "dataset": "openml_14954",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 3.8457344207227324
+          },
+          {
+            "dataset": "openml_15",
+            "old_winner": "SVC",
+            "new_winner": "SVC",
+            "M_pp": 0.5153212901660084
+          },
+          {
+            "dataset": "openml_167119",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 1.382861351771111
+          },
+          {
+            "dataset": "openml_167120",
+            "old_winner": "SVC",
+            "new_winner": "LR",
+            "M_pp": 0.732565705669901
+          },
+          {
+            "dataset": "openml_167140",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 1.4021114290332188
+          },
+          {
+            "dataset": "openml_167141",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 3.6481299655715844
+          },
+          {
+            "dataset": "openml_18",
+            "old_winner": "GB",
+            "new_winner": "RF",
+            "M_pp": 13.641666666666659
+          },
+          {
+            "dataset": "openml_2074",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 1.969298198489551
+          },
+          {
+            "dataset": "openml_22",
+            "old_winner": "kNN",
+            "new_winner": "SVC",
+            "M_pp": 21.36
+          },
+          {
+            "dataset": "openml_29",
+            "old_winner": "LR",
+            "new_winner": "RF",
+            "M_pp": 3.563672082229514
+          },
+          {
+            "dataset": "openml_3",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 0.9958173000818675
+          },
+          {
+            "dataset": "openml_3021",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 1.1085532197860237
+          },
+          {
+            "dataset": "openml_3022",
+            "old_winner": "HGB",
+            "new_winner": "RF",
+            "M_pp": 6.493827160493824
+          },
+          {
+            "dataset": "openml_31",
+            "old_winner": "LR",
+            "new_winner": "HGB",
+            "M_pp": 1.3248677248677179
+          },
+          {
+            "dataset": "openml_32",
+            "old_winner": "kNN",
+            "new_winner": "SVC",
+            "M_pp": 28.924857549857553
+          },
+          {
+            "dataset": "openml_3549",
+            "old_winner": "LR",
+            "new_winner": "LR",
+            "M_pp": 25.11844186431207
+          },
+          {
+            "dataset": "openml_3560",
+            "old_winner": "SVC",
+            "new_winner": "LR",
+            "M_pp": 0.5368021997472402
+          },
+          {
+            "dataset": "openml_3902",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 3.840075231481485
+          },
+          {
+            "dataset": "openml_3903",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 2.0417506919731045
+          },
+          {
+            "dataset": "openml_3904",
+            "old_winner": "RF",
+            "new_winner": "RF",
+            "M_pp": 0.44219513386145193
+          },
+          {
+            "dataset": "openml_43",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 5.975779154406024
+          },
+          {
+            "dataset": "openml_45",
+            "old_winner": "GB",
+            "new_winner": "SVC",
+            "M_pp": 1.4982144722286412
+          },
+          {
+            "dataset": "openml_49",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 6.325297945098936
+          },
+          {
+            "dataset": "openml_53",
+            "old_winner": "LR",
+            "new_winner": "HGB",
+            "M_pp": 9.819614117579233
+          },
+          {
+            "dataset": "openml_6",
+            "old_winner": "SVC",
+            "new_winner": "HGB",
+            "M_pp": 4.8303258838996666
+          },
+          {
+            "dataset": "openml_7592",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 1.1193228334055059
+          },
+          {
+            "dataset": "openml_9946",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 13.57809735241768
+          },
+          {
+            "dataset": "openml_9952",
+            "old_winner": "HGB",
+            "new_winner": "RF",
+            "M_pp": 0.8230841307713584
+          },
+          {
+            "dataset": "openml_9957",
+            "old_winner": "LR",
+            "new_winner": "HGB",
+            "M_pp": 3.006958953293442
+          },
+          {
+            "dataset": "openml_9960",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 2.0886927882316044
+          },
+          {
+            "dataset": "openml_9964",
+            "old_winner": "HGB",
+            "new_winner": "SVC",
+            "M_pp": 2.617872949929393
+          },
+          {
+            "dataset": "openml_9971",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 0.6162376353729935
+          },
+          {
+            "dataset": "openml_9976",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 7.543162393162398
+          },
+          {
+            "dataset": "openml_9977",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 0.4731523951338185
+          },
+          {
+            "dataset": "openml_9978",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 1.6060891195992748
+          }
+        ]
+      },
+      "E2": {
+        "K": 47,
+        "M_pp": 0.5296615511018194,
+        "affected_gt_0_5": 9,
+        "winner_changes": 0,
+        "dataset_results": [
+          {
+            "dataset": "openml_10093",
+            "old_winner": "kNN",
+            "new_winner": "kNN",
+            "M_pp": 0.0
+          },
+          {
+            "dataset": "openml_11",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 0.3381207382014016
+          },
+          {
+            "dataset": "openml_12",
+            "old_winner": "LR",
+            "new_winner": "LR",
+            "M_pp": 0.11111111111110006
+          },
+          {
+            "dataset": "openml_125920",
+            "old_winner": "LR",
+            "new_winner": "LR",
+            "M_pp": 0.013227513227512588
+          },
+          {
+            "dataset": "openml_14",
+            "old_winner": "SVC",
+            "new_winner": "SVC",
+            "M_pp": 0.4250000000000019
+          },
+          {
+            "dataset": "openml_146195",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 0.19126936927693095
+          },
+          {
+            "dataset": "openml_146800",
+            "old_winner": "RF",
+            "new_winner": "RF",
+            "M_pp": 1.0795855379188737
+          },
+          {
+            "dataset": "openml_146817",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 4.577064794030041
+          },
+          {
+            "dataset": "openml_146819",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 0.0
+          },
+          {
+            "dataset": "openml_146820",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 0.0
+          },
+          {
+            "dataset": "openml_146821",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 5.042259043455215
+          },
+          {
+            "dataset": "openml_146822",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 0.9769119769119812
+          },
+          {
+            "dataset": "openml_14954",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 0.008960573476699096
+          },
+          {
+            "dataset": "openml_15",
+            "old_winner": "SVC",
+            "new_winner": "SVC",
+            "M_pp": 0.0
+          },
+          {
+            "dataset": "openml_167119",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 0.0886479618601849
+          },
+          {
+            "dataset": "openml_167120",
+            "old_winner": "LR",
+            "new_winner": "LR",
+            "M_pp": 0.0
+          },
+          {
+            "dataset": "openml_167140",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 0.3931185312817538
+          },
+          {
+            "dataset": "openml_167141",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 0.0006475006475028522
+          },
+          {
+            "dataset": "openml_18",
+            "old_winner": "RF",
+            "new_winner": "RF",
+            "M_pp": 1.272222222222221
+          },
+          {
+            "dataset": "openml_2074",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 1.5268736599495536
+          },
+          {
+            "dataset": "openml_22",
+            "old_winner": "SVC",
+            "new_winner": "SVC",
+            "M_pp": 0.27500000000000097
+          },
+          {
+            "dataset": "openml_29",
+            "old_winner": "RF",
+            "new_winner": "RF",
+            "M_pp": 0.00721500721500945
+          },
+          {
+            "dataset": "openml_3",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 0.0
+          },
+          {
+            "dataset": "openml_3021",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 0.001569365976152426
+          },
+          {
+            "dataset": "openml_3022",
+            "old_winner": "RF",
+            "new_winner": "RF",
+            "M_pp": 3.9708193041526436
+          },
+          {
+            "dataset": "openml_31",
+            "old_winner": "GB",
+            "new_winner": "GB",
+            "M_pp": 0.01851851851850957
+          },
+          {
+            "dataset": "openml_32",
+            "old_winner": "SVC",
+            "new_winner": "SVC",
+            "M_pp": 0.2334401709401656
+          },
+          {
+            "dataset": "openml_3549",
+            "old_winner": "LR",
+            "new_winner": "LR",
+            "M_pp": 0.028718790168303105
+          },
+          {
+            "dataset": "openml_3560",
+            "old_winner": "LR",
+            "new_winner": "LR",
+            "M_pp": 0.03639682588308565
+          },
+          {
+            "dataset": "openml_3902",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 0.002170138888885731
+          },
+          {
+            "dataset": "openml_3903",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 0.013406979043099435
+          },
+          {
+            "dataset": "openml_3904",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 8.541200505381615e-07
+          },
+          {
+            "dataset": "openml_43",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 0.0
+          },
+          {
+            "dataset": "openml_45",
+            "old_winner": "SVC",
+            "new_winner": "SVC",
+            "M_pp": 0.3430169406711059
+          },
+          {
+            "dataset": "openml_49",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 0.0
+          },
+          {
+            "dataset": "openml_53",
+            "old_winner": "LR",
+            "new_winner": "LR",
+            "M_pp": 0.2783493423028413
+          },
+          {
+            "dataset": "openml_6",
+            "old_winner": "RF",
+            "new_winner": "RF",
+            "M_pp": 1.733200814682661
+          },
+          {
+            "dataset": "openml_7592",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 0.00916360144198336
+          },
+          {
+            "dataset": "openml_9946",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 0.0
+          },
+          {
+            "dataset": "openml_9952",
+            "old_winner": "RF",
+            "new_winner": "RF",
+            "M_pp": 0.0
+          },
+          {
+            "dataset": "openml_9957",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 0.007716049382717453
+          },
+          {
+            "dataset": "openml_9960",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 1.6449218070251987
+          },
+          {
+            "dataset": "openml_9964",
+            "old_winner": "SVC",
+            "new_winner": "SVC",
+            "M_pp": 0.17696725317693637
+          },
+          {
+            "dataset": "openml_9971",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 0.030019066163643988
+          },
+          {
+            "dataset": "openml_9976",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 0.03846153846154721
+          },
+          {
+            "dataset": "openml_9977",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 0.0
+          },
+          {
+            "dataset": "openml_9978",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 0.0
+          }
+        ]
+      }
+    },
+    "full63": {
+      "D": {
+        "K": 63,
+        "M_pp": 5.006712451138972,
+        "affected_gt_0_5": 59,
+        "winner_changes": 25,
+        "dataset_results": [
+          {
+            "dataset": "openml_10093",
+            "old_winner": "SVC",
+            "new_winner": "kNN",
+            "M_pp": 0.14425115746614192
+          },
+          {
+            "dataset": "openml_10101",
+            "old_winner": "GB",
+            "new_winner": "GB",
+            "M_pp": 0.510020421423926
+          },
+          {
+            "dataset": "openml_11",
+            "old_winner": "HGB",
+            "new_winner": "SVC",
+            "M_pp": 0.5788368323960204
+          },
+          {
+            "dataset": "openml_12",
+            "old_winner": "LR",
+            "new_winner": "HGB",
+            "M_pp": 21.11333333333333
+          },
+          {
+            "dataset": "openml_125920",
+            "old_winner": "GB",
+            "new_winner": "GB",
+            "M_pp": 2.5232621784345928
+          },
+          {
+            "dataset": "openml_125922",
+            "old_winner": "HGB",
+            "new_winner": "SVC",
+            "M_pp": 1.2369063035729775
+          },
+          {
+            "dataset": "openml_14",
+            "old_winner": "HGB",
+            "new_winner": "SVC",
+            "M_pp": 3.773333333333333
+          },
+          {
+            "dataset": "openml_146195",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 2.4113504005955817
+          },
+          {
+            "dataset": "openml_146800",
+            "old_winner": "HGB",
+            "new_winner": "RF",
+            "M_pp": 2.707554379776601
+          },
+          {
+            "dataset": "openml_146817",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 8.777251455002784
+          },
+          {
+            "dataset": "openml_146819",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 3.672578391626011
+          },
+          {
+            "dataset": "openml_146820",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 6.508907207455748
+          },
+          {
+            "dataset": "openml_146821",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 13.493555686737503
+          },
+          {
+            "dataset": "openml_146822",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 3.9225589225589177
+          },
+          {
+            "dataset": "openml_146824",
+            "old_winner": "kNN",
+            "new_winner": "SVC",
+            "M_pp": 1.6616666666666637
+          },
+          {
+            "dataset": "openml_14952",
+            "old_winner": "HGB",
+            "new_winner": "RF",
+            "M_pp": 0.49767174195849484
+          },
+          {
+            "dataset": "openml_14954",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 3.8457344207227324
+          },
+          {
+            "dataset": "openml_14965",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 3.29785899963326
+          },
+          {
+            "dataset": "openml_14969",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 8.308295552871504
+          },
+          {
+            "dataset": "openml_15",
+            "old_winner": "SVC",
+            "new_winner": "SVC",
+            "M_pp": 0.5153212901660084
+          },
+          {
+            "dataset": "openml_16",
+            "old_winner": "kNN",
+            "new_winner": "SVC",
+            "M_pp": 2.5238888888888775
+          },
+          {
+            "dataset": "openml_167119",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 1.382861351771111
+          },
+          {
+            "dataset": "openml_167120",
+            "old_winner": "SVC",
+            "new_winner": "LR",
+            "M_pp": 0.732565705669901
+          },
+          {
+            "dataset": "openml_167140",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 1.4021114290332188
+          },
+          {
+            "dataset": "openml_167141",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 3.6481299655715844
+          },
+          {
+            "dataset": "openml_18",
+            "old_winner": "GB",
+            "new_winner": "RF",
+            "M_pp": 13.641666666666659
+          },
+          {
+            "dataset": "openml_2074",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 1.969298198489551
+          },
+          {
+            "dataset": "openml_2079",
+            "old_winner": "GB",
+            "new_winner": "GB",
+            "M_pp": 11.499418898643707
+          },
+          {
+            "dataset": "openml_219",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 1.873038619566257
+          },
+          {
+            "dataset": "openml_22",
+            "old_winner": "kNN",
+            "new_winner": "SVC",
+            "M_pp": 21.36
+          },
+          {
+            "dataset": "openml_23",
+            "old_winner": "GB",
+            "new_winner": "GB",
+            "M_pp": 3.007929875643652
+          },
+          {
+            "dataset": "openml_28",
+            "old_winner": "kNN",
+            "new_winner": "SVC",
+            "M_pp": 9.523847842087134
+          },
+          {
+            "dataset": "openml_29",
+            "old_winner": "LR",
+            "new_winner": "RF",
+            "M_pp": 3.563672082229514
+          },
+          {
+            "dataset": "openml_3",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 0.9958173000818675
+          },
+          {
+            "dataset": "openml_3021",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 1.1085532197860237
+          },
+          {
+            "dataset": "openml_3022",
+            "old_winner": "HGB",
+            "new_winner": "RF",
+            "M_pp": 6.493827160493824
+          },
+          {
+            "dataset": "openml_31",
+            "old_winner": "LR",
+            "new_winner": "HGB",
+            "M_pp": 1.3248677248677179
+          },
+          {
+            "dataset": "openml_32",
+            "old_winner": "kNN",
+            "new_winner": "SVC",
+            "M_pp": 28.924857549857553
+          },
+          {
+            "dataset": "openml_3549",
+            "old_winner": "LR",
+            "new_winner": "LR",
+            "M_pp": 25.11844186431207
+          },
+          {
+            "dataset": "openml_3560",
+            "old_winner": "SVC",
+            "new_winner": "LR",
+            "M_pp": 0.5368021997472402
+          },
+          {
+            "dataset": "openml_37",
+            "old_winner": "GB",
+            "new_winner": "GB",
+            "M_pp": 7.132156223309262
+          },
+          {
+            "dataset": "openml_3902",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 3.840075231481485
+          },
+          {
+            "dataset": "openml_3903",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 2.0417506919731045
+          },
+          {
+            "dataset": "openml_3904",
+            "old_winner": "RF",
+            "new_winner": "RF",
+            "M_pp": 0.44219513386145193
+          },
+          {
+            "dataset": "openml_3913",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 4.517646342947544
+          },
+          {
+            "dataset": "openml_3917",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 2.1002096909235064
+          },
+          {
+            "dataset": "openml_3918",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 2.4828438576468708
+          },
+          {
+            "dataset": "openml_43",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 5.975779154406024
+          },
+          {
+            "dataset": "openml_45",
+            "old_winner": "GB",
+            "new_winner": "SVC",
+            "M_pp": 1.4982144722286412
+          },
+          {
+            "dataset": "openml_49",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 6.325297945098936
+          },
+          {
+            "dataset": "openml_53",
+            "old_winner": "LR",
+            "new_winner": "HGB",
+            "M_pp": 9.819614117579233
+          },
+          {
+            "dataset": "openml_6",
+            "old_winner": "SVC",
+            "new_winner": "HGB",
+            "M_pp": 4.8303258838996666
+          },
+          {
+            "dataset": "openml_7592",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 1.1193228334055059
+          },
+          {
+            "dataset": "openml_9946",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 13.57809735241768
+          },
+          {
+            "dataset": "openml_9952",
+            "old_winner": "HGB",
+            "new_winner": "RF",
+            "M_pp": 0.8230841307713584
+          },
+          {
+            "dataset": "openml_9957",
+            "old_winner": "LR",
+            "new_winner": "HGB",
+            "M_pp": 3.006958953293442
+          },
+          {
+            "dataset": "openml_9960",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 2.0886927882316044
+          },
+          {
+            "dataset": "openml_9964",
+            "old_winner": "HGB",
+            "new_winner": "SVC",
+            "M_pp": 2.617872949929393
+          },
+          {
+            "dataset": "openml_9971",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 0.6162376353729935
+          },
+          {
+            "dataset": "openml_9976",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 7.543162393162398
+          },
+          {
+            "dataset": "openml_9977",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 0.4731523951338185
+          },
+          {
+            "dataset": "openml_9978",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 1.6060891195992748
+          },
+          {
+            "dataset": "openml_9985",
+            "old_winner": "HGB",
+            "new_winner": "RF",
+            "M_pp": 0.812259905942435
+          }
+        ]
+      },
+      "E2": {
+        "K": 63,
+        "M_pp": 0.4921025770517206,
+        "affected_gt_0_5": 10,
+        "winner_changes": 0,
+        "dataset_results": [
+          {
+            "dataset": "openml_10093",
+            "old_winner": "kNN",
+            "new_winner": "kNN",
+            "M_pp": 0.0
+          },
+          {
+            "dataset": "openml_10101",
+            "old_winner": "GB",
+            "new_winner": "GB",
+            "M_pp": 0.0
+          },
+          {
+            "dataset": "openml_11",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 0.3381207382014016
+          },
+          {
+            "dataset": "openml_12",
+            "old_winner": "LR",
+            "new_winner": "LR",
+            "M_pp": 0.11111111111110006
+          },
+          {
+            "dataset": "openml_125920",
+            "old_winner": "LR",
+            "new_winner": "LR",
+            "M_pp": 0.013227513227512588
+          },
+          {
+            "dataset": "openml_125922",
+            "old_winner": "SVC",
+            "new_winner": "SVC",
+            "M_pp": 0.044215044215041154
+          },
+          {
+            "dataset": "openml_14",
+            "old_winner": "SVC",
+            "new_winner": "SVC",
+            "M_pp": 0.4250000000000019
+          },
+          {
+            "dataset": "openml_146195",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 0.19126936927693095
+          },
+          {
+            "dataset": "openml_146800",
+            "old_winner": "RF",
+            "new_winner": "RF",
+            "M_pp": 1.0795855379188737
+          },
+          {
+            "dataset": "openml_146817",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 4.577064794030041
+          },
+          {
+            "dataset": "openml_146819",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 0.0
+          },
+          {
+            "dataset": "openml_146820",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 0.0
+          },
+          {
+            "dataset": "openml_146821",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 5.042259043455215
+          },
+          {
+            "dataset": "openml_146822",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 0.9769119769119812
+          },
+          {
+            "dataset": "openml_146824",
+            "old_winner": "SVC",
+            "new_winner": "SVC",
+            "M_pp": 0.3138888888888829
+          },
+          {
+            "dataset": "openml_14952",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 0.0
+          },
+          {
+            "dataset": "openml_14954",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 0.008960573476699096
+          },
+          {
+            "dataset": "openml_14965",
+            "old_winner": "GB",
+            "new_winner": "GB",
+            "M_pp": 0.014245014245015378
+          },
+          {
+            "dataset": "openml_14969",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 0.11428084318509946
+          },
+          {
+            "dataset": "openml_15",
+            "old_winner": "SVC",
+            "new_winner": "SVC",
+            "M_pp": 0.0
+          },
+          {
+            "dataset": "openml_16",
+            "old_winner": "SVC",
+            "new_winner": "SVC",
+            "M_pp": 0.16388888888888667
+          },
+          {
+            "dataset": "openml_167119",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 0.0886479618601849
+          },
+          {
+            "dataset": "openml_167120",
+            "old_winner": "LR",
+            "new_winner": "LR",
+            "M_pp": 0.0
+          },
+          {
+            "dataset": "openml_167140",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 0.3931185312817538
+          },
+          {
+            "dataset": "openml_167141",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 0.0006475006475028522
+          },
+          {
+            "dataset": "openml_18",
+            "old_winner": "RF",
+            "new_winner": "RF",
+            "M_pp": 1.272222222222221
+          },
+          {
+            "dataset": "openml_2074",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 1.5268736599495536
+          },
+          {
+            "dataset": "openml_2079",
+            "old_winner": "GB",
+            "new_winner": "GB",
+            "M_pp": 5.077081115840806
+          },
+          {
+            "dataset": "openml_219",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 0.0013071895424824713
+          },
+          {
+            "dataset": "openml_22",
+            "old_winner": "SVC",
+            "new_winner": "SVC",
+            "M_pp": 0.27500000000000097
+          },
+          {
+            "dataset": "openml_23",
+            "old_winner": "GB",
+            "new_winner": "GB",
+            "M_pp": 0.13804281919123676
+          },
+          {
+            "dataset": "openml_28",
+            "old_winner": "SVC",
+            "new_winner": "SVC",
+            "M_pp": 0.018521301776701193
+          },
+          {
+            "dataset": "openml_29",
+            "old_winner": "RF",
+            "new_winner": "RF",
+            "M_pp": 0.00721500721500945
+          },
+          {
+            "dataset": "openml_3",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 0.0
+          },
+          {
+            "dataset": "openml_3021",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 0.001569365976152426
+          },
+          {
+            "dataset": "openml_3022",
+            "old_winner": "RF",
+            "new_winner": "RF",
+            "M_pp": 3.9708193041526436
+          },
+          {
+            "dataset": "openml_31",
+            "old_winner": "GB",
+            "new_winner": "GB",
+            "M_pp": 0.01851851851850957
+          },
+          {
+            "dataset": "openml_32",
+            "old_winner": "SVC",
+            "new_winner": "SVC",
+            "M_pp": 0.2334401709401656
+          },
+          {
+            "dataset": "openml_3549",
+            "old_winner": "LR",
+            "new_winner": "LR",
+            "M_pp": 0.028718790168303105
+          },
+          {
+            "dataset": "openml_3560",
+            "old_winner": "LR",
+            "new_winner": "LR",
+            "M_pp": 0.03639682588308565
+          },
+          {
+            "dataset": "openml_37",
+            "old_winner": "RF",
+            "new_winner": "RF",
+            "M_pp": 0.011305225560988674
+          },
+          {
+            "dataset": "openml_3902",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 0.002170138888885731
+          },
+          {
+            "dataset": "openml_3903",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 0.013406979043099435
+          },
+          {
+            "dataset": "openml_3904",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 8.541200505381615e-07
+          },
+          {
+            "dataset": "openml_3913",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 0.026455026455029913
+          },
+          {
+            "dataset": "openml_3917",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 0.011663735887130619
+          },
+          {
+            "dataset": "openml_3918",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 0.037406065485773375
+          },
+          {
+            "dataset": "openml_43",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 0.0
+          },
+          {
+            "dataset": "openml_45",
+            "old_winner": "SVC",
+            "new_winner": "SVC",
+            "M_pp": 0.3430169406711059
+          },
+          {
+            "dataset": "openml_49",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 0.0
+          },
+          {
+            "dataset": "openml_53",
+            "old_winner": "LR",
+            "new_winner": "LR",
+            "M_pp": 0.2783493423028413
+          },
+          {
+            "dataset": "openml_6",
+            "old_winner": "RF",
+            "new_winner": "RF",
+            "M_pp": 1.733200814682661
+          },
+          {
+            "dataset": "openml_7592",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 0.00916360144198336
+          },
+          {
+            "dataset": "openml_9946",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 0.0
+          },
+          {
+            "dataset": "openml_9952",
+            "old_winner": "RF",
+            "new_winner": "RF",
+            "M_pp": 0.0
+          },
+          {
+            "dataset": "openml_9957",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 0.007716049382717453
+          },
+          {
+            "dataset": "openml_9960",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 1.6449218070251987
+          },
+          {
+            "dataset": "openml_9964",
+            "old_winner": "SVC",
+            "new_winner": "SVC",
+            "M_pp": 0.17696725317693637
+          },
+          {
+            "dataset": "openml_9971",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 0.030019066163643988
+          },
+          {
+            "dataset": "openml_9976",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 0.03846153846154721
+          },
+          {
+            "dataset": "openml_9977",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 0.0
+          },
+          {
+            "dataset": "openml_9978",
+            "old_winner": "HGB",
+            "new_winner": "HGB",
+            "M_pp": 0.0
+          },
+          {
+            "dataset": "openml_9985",
+            "old_winner": "RF",
+            "new_winner": "RF",
+            "M_pp": 0.13606829330981066
+          }
+        ]
+      }
+    }
+  },
+  "limitations": [
+    "Post-review corrected map, not frozen v2.1 E policy",
+    "No CIs or tests recomputed",
+    "A complete fitted-parameter/provenance audit remains required"
+  ]
+}

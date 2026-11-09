@@ -1,0 +1,206 @@
+{
+  "created": "2026-11-07T20:36:14+0300",
+  "phase": "phase1",
+  "project": "/mnt/c/VersionShift_v2_2_5",
+  "data": "/home/uraz/versionshift_data",
+  "envs": "/home/uraz/versionshift_envs",
+  "n_fail": 0,
+  "n_warn": 0,
+  "checks": [
+    {
+      "check": "project directory exists",
+      "result": "PASS",
+      "detail": "/mnt/c/VersionShift_v2_2_5"
+    },
+    {
+      "check": "v2.2.5 SHA256 manifest present",
+      "result": "PASS",
+      "detail": "/mnt/c/VersionShift_v2_2_5/SHA256_MANIFEST_V225.json"
+    },
+    {
+      "check": "all v2.2.5 manifest files unchanged",
+      "result": "PASS",
+      "detail": "80/80 match"
+    },
+    {
+      "check": "crossversion/worker.py matches Stage B run locks",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "crossversion/controller.py matches Stage B run locks",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "code/analysis_v221.py present",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "code/lenses_crossrelease_v225.py present",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "code/emulate_plan.py present",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "crossversion/build_envs.sh present",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "oracle frame hash",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "ORACLE_FROZEN.json present",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "ORACLE_FROZEN status and frame path",
+      "result": "PASS",
+      "detail": "frame_path=/mnt/c/VersionShift_v2_2_5/ORACLE_FRAME_REVIEWED.csv"
+    },
+    {
+      "check": "PLAN.json hash",
+      "result": "PASS",
+      "detail": "/home/uraz/versionshift_data/STAGE_B_PLAN_CACHED/PLAN.json"
+    },
+    {
+      "check": "all 63 plan datasets and folds present with matching hashes",
+      "result": "PASS",
+      "detail": "63 datasets"
+    },
+    {
+      "check": "STAGE_B_SELECTION.json hash",
+      "result": "PASS",
+      "detail": "/home/uraz/versionshift_data/STAGE_B_SELECTION.json"
+    },
+    {
+      "check": "Stage B run EDGE_0213_0222 complete and bound",
+      "result": "PASS",
+      "detail": "768 jobs"
+    },
+    {
+      "check": "Stage B run EDGE_0213_0222_REVERSE complete and bound",
+      "result": "PASS",
+      "detail": "192 jobs"
+    },
+    {
+      "check": "Stage B run EDGE_180_190 complete and bound",
+      "result": "PASS",
+      "detail": "768 jobs"
+    },
+    {
+      "check": "Stage B run EDGE_180_190_REVERSE complete and bound",
+      "result": "PASS",
+      "detail": "192 jobs"
+    },
+    {
+      "check": "existing A/A run AA_0213 present (kept; kit re-runs 0.21.3 A/A as AA_0_21_3)",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "STAGE_C47_POS: absent or resumable",
+      "result": "PASS",
+      "detail": "will be created"
+    },
+    {
+      "check": "STAGE_C47_POS_REVERSE: absent or resumable",
+      "result": "PASS",
+      "detail": "will be created"
+    },
+    {
+      "check": "STAGE_C47_NEG: absent or resumable",
+      "result": "PASS",
+      "detail": "will be created"
+    },
+    {
+      "check": "STAGE_C47_NEG_REVERSE: absent or resumable",
+      "result": "PASS",
+      "detail": "will be created"
+    },
+    {
+      "check": "interpreter sk-0.21.3",
+      "result": "PASS",
+      "detail": "sklearn 0.21.3 numpy 1.17.2 scipy 1.3.1 python 3.7.12"
+    },
+    {
+      "check": "sk-0.21.3 FREEZE.txt and PROVENANCE.json",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "interpreter sk-0.22.2.post1",
+      "result": "PASS",
+      "detail": "sklearn 0.22.2.post1 numpy 1.18.4 scipy 1.4.1 python 3.8.20"
+    },
+    {
+      "check": "sk-0.22.2.post1 FREEZE.txt and PROVENANCE.json",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "interpreter sk-1.8.0",
+      "result": "PASS",
+      "detail": "sklearn 1.8.0 numpy 2.4.2 scipy 1.17.0 python 3.13.18"
+    },
+    {
+      "check": "sk-1.8.0 FREEZE.txt and PROVENANCE.json",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "interpreter sk-1.9.1",
+      "result": "PASS",
+      "detail": "sklearn 1.9.1 numpy 2.5.4 scipy 1.18.1 python 3.13.18"
+    },
+    {
+      "check": "sk-1.9.1 FREEZE.txt and PROVENANCE.json",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "controller python has numpy/pandas/scipy",
+      "result": "PASS",
+      "detail": "/home/uraz/versionshift_controller/bin/python3: numpy 2.5.4 pandas 3.1.1 scipy 1.18.1"
+    },
+    {
+      "check": "running inside ~/versionshift_controller venv",
+      "result": "PASS",
+      "detail": "/home/uraz/versionshift_controller"
+    },
+    {
+      "check": "free disk in data directory >= 5 GB",
+      "result": "PASS",
+      "detail": "987.5 GB"
+    },
+    {
+      "check": "CPUs >= workers (10)",
+      "result": "PASS",
+      "detail": "20 logical CPUs"
+    },
+    {
+      "check": "available memory >= 16 GB",
+      "result": "PASS",
+      "detail": "31.3 GB available"
+    },
+    {
+      "check": "BLAS/OpenMP thread variables set to 1",
+      "result": "PASS",
+      "detail": "{'OMP_NUM_THREADS': '1', 'OPENBLAS_NUM_THREADS': '1', 'MKL_NUM_THREADS': '1'}"
+    },
+    {
+      "check": "project on /mnt/c (as ORACLE_FROZEN expects)",
+      "result": "PASS",
+      "detail": ""
+    }
+  ]
+}

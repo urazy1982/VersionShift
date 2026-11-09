@@ -1,0 +1,255 @@
+{
+ "generated_on": "2026-11-06",
+ "reviewer": "Claude (Anthropic AI model claude-fable-5-1), independent blinded reviewer",
+ "frame_file": "ORACLE_FRAME_REVIEWED.csv",
+ "frame_sha256": "33f04fb6c6da89654f3524cfaef290644b80e37afcd5148dcffa740e9bcfe2f6",
+ "evidence_file": "ORACLE_EVIDENCE_78.csv",
+ "evidence_sha256": "4fcb0d62819c62ae7d95dac16d4b459efb739f820c59feca9a60feaa1b2e1386",
+ "source_working_frame_sha256": "aab85be544c8d40c8cee4a62300ec559b5fa03141a878a9da02ba49c20bc478f",
+ "source_provenance_sha256": "5ed169334bada69041561c43a3c1388277a90d26b0db5c3ed2155c60e72c289e",
+ "row_count": 78,
+ "expected_rows": 78,
+ "duplicates": [],
+ "missing_keys": [],
+ "unexpected_keys": [],
+ "schema_identical_to_working": true,
+ "row_order_identical_to_working": true,
+ "pipeline_conditions_unchanged": true,
+ "coding_status_counts": {
+  "coded_complete": 78
+ },
+ "missing_required_fields": {},
+ "missing_required_fields_total": 0,
+ "invalid_categories": [],
+ "draft_coder_rows": [],
+ "coded_on_all_iso_dates": true,
+ "all_references_https": true,
+ "distinct_reference_urls": 105,
+ "predicted_impact_counts": {
+  "no_change_expected": 53,
+  "fp_level_change_possible": 11,
+  "change_possible": 8,
+  "change_expected": 6
+ },
+ "coding_uncertainty_counts": {
+  "low": 10,
+  "medium": 65,
+  "high": 3
+ },
+ "high_uncertainty_rows": [
+  "0.24.2->1.0.2|kNN",
+  "1.5.2->1.6.1|RF",
+  "1.5.2->1.6.1|GB"
+ ],
+ "draft_classifications_changed": [
+  {
+   "edge": "0.21.3->0.22.2.post1",
+   "estimator": "GB",
+   "draft": "no_change_expected",
+   "reviewed": "fp_level_change_possible"
+  },
+  {
+   "edge": "0.21.3->0.22.2.post1",
+   "estimator": "HGB",
+   "draft": "change_possible",
+   "reviewed": "change_expected"
+  },
+  {
+   "edge": "1.0.2->1.1.3",
+   "estimator": "LR",
+   "draft": "no_change_expected",
+   "reviewed": "fp_level_change_possible"
+  },
+  {
+   "edge": "1.0.2->1.1.3",
+   "estimator": "kNN",
+   "draft": "no_change_expected",
+   "reviewed": "fp_level_change_possible"
+  },
+  {
+   "edge": "1.0.2->1.1.3",
+   "estimator": "RF",
+   "draft": "no_change_expected",
+   "reviewed": "change_possible"
+  },
+  {
+   "edge": "1.0.2->1.1.3",
+   "estimator": "GB",
+   "draft": "no_change_expected",
+   "reviewed": "change_possible"
+  },
+  {
+   "edge": "1.0.2->1.1.3",
+   "estimator": "HGB",
+   "draft": "no_change_expected",
+   "reviewed": "fp_level_change_possible"
+  },
+  {
+   "edge": "1.7.2->1.8.0",
+   "estimator": "RF",
+   "draft": "no_change_expected",
+   "reviewed": "change_possible"
+  },
+  {
+   "edge": "1.7.2->1.8.0",
+   "estimator": "GB",
+   "draft": "no_change_expected",
+   "reviewed": "change_possible"
+  },
+  {
+   "edge": "1.8.0->1.9.1",
+   "estimator": "HGB",
+   "draft": "no_change_expected",
+   "reviewed": "change_expected"
+  }
+ ],
+ "draft_rows_newly_coded": 48,
+ "compatibility_estimates_changed_vs_draft": 15,
+ "compatibility_changes": [
+  {
+   "edge": "0.21.3->0.22.2.post1",
+   "estimator": "LR",
+   "draft": "strict_pin_portable_expected",
+   "reviewed": "strict_pin_may_fail: solver: warn -> lbfgs; multi_class: warn -> auto"
+  },
+  {
+   "edge": "0.21.3->0.22.2.post1",
+   "estimator": "SVC",
+   "draft": "strict_pin_portable_expected",
+   "reviewed": "strict_pin_may_fail: gamma: auto_deprecated -> scale"
+  },
+  {
+   "edge": "0.21.3->0.22.2.post1",
+   "estimator": "RF",
+   "draft": "strict_pin_portable_expected",
+   "reviewed": "strict_pin_may_fail: n_estimators: warn -> 100"
+  },
+  {
+   "edge": "0.21.3->0.22.2.post1",
+   "estimator": "GB",
+   "draft": "strict_pin_portable_expected",
+   "reviewed": "strict_pin_may_fail: presort: auto -> deprecated"
+  },
+  {
+   "edge": "0.21.3->0.22.2.post1",
+   "estimator": "HGB",
+   "draft": "strict_pin_portable_expected",
+   "reviewed": "strict_pin_may_fail: max_bins: 256 -> 255"
+  },
+  {
+   "edge": "0.22.2.post1->0.23.2",
+   "estimator": "HGB",
+   "draft": "strict_pin_portable_expected",
+   "reviewed": "strict_pin_may_fail: early_stopping, monotonic_cst: <absent>"
+  },
+  {
+   "edge": "0.23.2->0.24.2",
+   "estimator": "GB",
+   "draft": "strict_pin_portable_expected",
+   "reviewed": "strict_pin_may_fail: presort: deprecated -> <absent>"
+  },
+  {
+   "edge": "0.23.2->0.24.2",
+   "estimator": "HGB",
+   "draft": "strict_pin_portable_expected",
+   "reviewed": "strict_pin_may_fail: categorical_features: <absent> -> None"
+  },
+  {
+   "edge": "0.24.2->1.0.2",
+   "estimator": "RF",
+   "draft": "strict_pin_portable_expected",
+   "reviewed": "strict_pin_may_fail: min_impurity_split: None -> <absent>"
+  },
+  {
+   "edge": "0.24.2->1.0.2",
+   "estimator": "GB",
+   "draft": "strict_pin_portable_expected",
+   "reviewed": "strict_pin_may_fail: min_impurity_split: None -> <absent>"
+  },
+  {
+   "edge": "1.1.3->1.2.2",
+   "estimator": "HGB",
+   "draft": "strict_pin_portable_expected",
+   "reviewed": "strict_pin_may_fail: interaction_cst, class_weight: <absent>"
+  },
+  {
+   "edge": "1.3.2->1.4.2",
+   "estimator": "RF",
+   "draft": "strict_pin_portable_expected",
+   "reviewed": "strict_pin_may_fail: monotonic_cst: <absent>"
+  },
+  {
+   "edge": "1.3.2->1.4.2",
+   "estimator": "HGB",
+   "draft": "strict_pin_portable_expected",
+   "reviewed": "strict_pin_may_fail: max_features: <absent> -> 1.0"
+  },
+  {
+   "edge": "1.5.2->1.6.1",
+   "estimator": "HGB",
+   "draft": "strict_pin_portable_expected",
+   "reviewed": "strict_pin_may_fail: categorical_features: warn -> from_dtype"
+  },
+  {
+   "edge": "1.7.2->1.8.0",
+   "estimator": "LR",
+   "draft": "strict_pin_portable_expected",
+   "reviewed": "strict_pin_may_fail: multi_class: deprecated -> <absent>"
+  }
+ ],
+ "evidence_file_aligned": true,
+ "measured_effects_examined": false,
+ "evidence_measured_effect_column_blank": true,
+ "provenance_checks": {
+  "working_frame_sha256_matches_built_frame_sha256": true,
+  "builder_sha256_matches_zip_oracle_frame_py": true,
+  "changelog_csv_sha256_matches_zip": true,
+  "releases_match": true,
+  "estimators_match": true,
+  "expected_opportunities_78": true,
+  "introspect_json_present_in_zip": false,
+  "introspect_sha256_recorded": "d499720bbfea975d9779e4d65744b72560fc7a4ae4dbae3d8711f051a149fe38"
+ },
+ "project_freeze_dry_run": {
+  "command": "/usr/local/bin/python3 -I /home/claude/vs_zip/VersionShift_v2_2_5/code/oracle_frame.py freeze --frame <scratch>/ORACLE_FRAME_REVIEWED.csv --out <scratch>/FROZEN_DRYRUN_NOT_A_DELIVERABLE.json",
+  "returncode": 0,
+  "stdout": "{'status': 'FROZEN_COMPLETE', 'frame_path': '<scratch>/ORACLE_FRAME_REVIEWED.csv', 'frame_sha256': '33f04fb6c6da89654f3524cfaef290644b80e37afcd5148dcffa740e9bcfe2f6', 'opportunities': 78, 'frozen_at': '2026-11-06T17:03:09+0300', 'provenance': {'builder_sha256': '2715cc1be7c17d270a3873ab5908312e774ab28215b1c1fe5b3c05ba4397c884', 'changelog_csv_sha256': '07ee371885f3be9329cd743fef6bca2974d317961cf3d9e8a4271f2be75f4323', 'introspect_sha256': 'd499720bbfea975d9779e4d65744b72560fc7a4ae4dbae3d8711f051a149fe38', 'releases': ['0.21.3', '0.22.2.post1', '0.23.2', '0.24.2', '1.0.2', '1.1.3', '1.2.2', '1.3.2', '1.4.2', '1.5.2', '1.6.1', '1.7.2', '1.8.0', '1.9.1'], 'estimators': ['LR', 'SVC', 'kNN', 'RF', 'GB', 'HGB'], 'expected_opportunities': 78, 'built_frame_sha256': 'aab85b",
+  "stderr": "",
+  "passed": true,
+  "note": "Dry run only: executed with the UNMODIFIED project script (sha256 2715cc1be7c17d270a3873ab5908312e774ab28215b1c1fe5b3c05ba4397c884) and the ORIGINAL provenance file copied beside the reviewed frame in a scratch directory; the resulting FROZEN json was discarded. The oracle is NOT frozen, NOT externally timestamped and NOT author-confirmed."
+ },
+ "project_freeze_on_working_frame": {
+  "returncode": 1,
+  "message": "cannot freeze: 78 of 78 opportunities incomplete, draft-coded or invalid (first: [{'edge': '0.21.3->0.22.2.post1', 'estimator': 'LR'}, {'edge': '0.21.3->0.22.2.post1', 'estimator': 'SVC'}, {'edge': '0.21.3->0.22.2.post1', 'estimator': 'kNN'}])",
+  "note": "baseline: the supplied working frame, same unmodified script and original provenance file"
+ },
+ "structural_validation_passed": true,
+ "disputed_classifications_for_author": [
+  {
+   "edge": "0.22.2.post1->0.23.2",
+   "estimator": "SVC",
+   "note": "DISPUTED: the official Changed-models list names SVC unconditionally; the trigger analysis relies on the random_state docstring. Author may prefer change_possible to honour the official listing literally."
+  },
+  {
+   "edge": "1.5.2->1.6.1",
+   "estimator": "RF",
+   "note": "draft: not coded. Reviewer: change_possible from a LATER release note (1.8.0) describing a 1.6.0 regression. Author decision: whether the oracle may use notes published after the destination release."
+  },
+  {
+   "edge": "1.8.0->1.9.1",
+   "estimator": "kNN",
+   "note": "DISPUTED (minor): author may prefer fp_level_change_possible to be conservative about tie handling."
+  }
+ ],
+ "author_decisions_required": [
+  "Confirm or overrule each reviewed classification (78 rows); the coder field records the reviewer, not the author.",
+  "Decide whether later-release notes may document earlier regressions (1.5.2->1.6.1 RF/GB coded from the 1.8.0 fix note #32259).",
+  "Decide SVC 0.22.2.post1->0.23.2: official 'Changed models' listing vs documented probability=True-only RNG mechanism.",
+  "Decide kNN 1.8.0->1.9.1: tie-order-only change coded no_change_expected; conservative alternative is fp_level_change_possible.",
+  "Decide whether dependency-stack (SciPy/NumPy/BLAS) drift should be coded into the oracle or kept as a separate construct (reviewer kept it separate).",
+  "Run controller.py introspect on all 14 releases and reconcile auto_default_diff / estimated_compatibility (reviewer values are doc-derived).",
+  "Freeze (oracle_frame.py freeze) and externally timestamp AFTER confirmation; this review did not freeze."
+ ],
+ "final_decision": "READY_FOR_AUTHOR_CONFIRMATION",
+ "final_decision_meaning": "all 78 classifications carry independently justified evidence and pass structural checks; author confirmation, freeze and external timestamp remain to be done"
+}

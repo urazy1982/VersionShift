@@ -1,0 +1,33 @@
+{
+  "configuration": "HGB: max_iter=200, learning_rate=0.1, n_iter_no_change=None, max_bins=255",
+  "datasets": [
+    "openml_10101",
+    "openml_125922",
+    "openml_146824",
+    "openml_14952",
+    "openml_14965",
+    "openml_14969",
+    "openml_16",
+    "openml_2079",
+    "openml_219",
+    "openml_23",
+    "openml_28",
+    "openml_37",
+    "openml_3913",
+    "openml_3917",
+    "openml_3918",
+    "openml_9985"
+  ],
+  "job_count": 32,
+  "plan_sha256": "523c42a3dabee44e66d43d538b228939b01fd7fe1b68285f542f0980906492f4",
+  "purpose": "G3-E post-review six-estimator E2 comparison: only HGB missing cells",
+  "runner_sha256": "4c40e62fb2404d8d3f6e0fc0bccf361bcdb499bfaafb336599c49072a2cbc5d4",
+  "scope": "pilot",
+  "selection_sha256": "55554df012a30d7000d3b5840babd23f8e10b9daca57b10e8cf6099fce92943c",
+  "versions": {
+    "0.21.3": "/home/uraz/versionshift_envs/sk-0.21.3/bin/python",
+    "0.22.2.post1": "/home/uraz/versionshift_envs/sk-0.22.2.post1/bin/python"
+  },
+  "worker_sha256": "ee39adb1d9cda6030e62245dc6e10576e9b38056de94403c2355e3086431d90c",
+  "workers": 8
+}

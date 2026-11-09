@@ -1,0 +1,336 @@
+{
+ "ba": [
+  0.6013574660633484,
+  0.6146520146520147,
+  0.6293471234647705,
+  0.6436414708886619,
+  0.6327787381158168,
+  0.6244559362206421,
+  0.6055591467356173,
+  0.6594053005817712,
+  0.6248297582567246,
+  0.6125108038029387,
+  0.6824822236586943,
+  0.6167420814479638,
+  0.6272355095884508,
+  0.6427902621722846,
+  0.6349178910976664,
+  0.636328377504848,
+  0.6405300581771171,
+  0.6789915966386555,
+  0.6517705141300647,
+  0.6187986171132238,
+  0.6258349493643611,
+  0.6111613876319759,
+  0.5936867054514113,
+  0.6422369765066395,
+  0.5551858254105445,
+  0.6712992889463478,
+  0.5957767722473605,
+  0.6335272570566688,
+  0.6276387470207695,
+  0.5845505617977528
+ ],
+ "constructor": {
+  "bootstrap": true,
+  "ccp_alpha": 0.0,
+  "class_weight": null,
+  "criterion": "gini",
+  "max_depth": null,
+  "max_features": "auto",
+  "max_leaf_nodes": null,
+  "max_samples": null,
+  "min_impurity_decrease": 0.0,
+  "min_impurity_split": null,
+  "min_samples_leaf": 1,
+  "min_samples_split": 2,
+  "min_weight_fraction_leaf": 0.0,
+  "n_estimators": 10,
+  "n_jobs": 1,
+  "oob_score": false,
+  "random_state": 29636466,
+  "verbose": 0,
+  "warm_start": false
+ },
+ "convergence_warnings": 0,
+ "fitted_effective": [
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "n_fitted_estimators": 10
+  }
+ ],
+ "fold_keys": [
+  "r0_f0",
+  "r0_f1",
+  "r0_f2",
+  "r0_f3",
+  "r0_f4",
+  "r1_f0",
+  "r1_f1",
+  "r1_f2",
+  "r1_f3",
+  "r1_f4",
+  "r2_f0",
+  "r2_f1",
+  "r2_f2",
+  "r2_f3",
+  "r2_f4",
+  "r3_f0",
+  "r3_f1",
+  "r3_f2",
+  "r3_f3",
+  "r3_f4",
+  "r4_f0",
+  "r4_f1",
+  "r4_f2",
+  "r4_f3",
+  "r4_f4",
+  "r5_f0",
+  "r5_f1",
+  "r5_f2",
+  "r5_f3",
+  "r5_f4"
+ ],
+ "id": "G2RESTORE__openml_3917__RF__R",
+ "job_sha256": "c5c1afbcbbcbe6bad165d1ae01393c43cbbf7cf8a440bf2b63d66911472cd245",
+ "npz_sha256": "453fe6727d59c3812fa8f1d3730893d886f64c57efe5522b788c42ab549c2081",
+ "portability": "ok",
+ "portability_report": null,
+ "provenance": {
+  "executable": "/home/uraz/versionshift_envs/sk-0.22.2.post1/bin/python",
+  "machine": "x86_64",
+  "numpy": "1.18.4",
+  "numpy_config_sha256": "c1eac50e0f4378abaa67c8f02f20e4dd176520354c507772214c44e4ff6abca9",
+  "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.2.5",
+  "processor": "x86_64",
+  "python": "3.8.20",
+  "scipy": "1.4.1",
+  "sklearn": "0.22.2.post1",
+  "sklearn_file": "/home/uraz/versionshift_envs/sk-0.22.2.post1/lib/python3.8/site-packages/sklearn/__init__.py",
+  "threadpools": [
+   {
+    "architecture": null,
+    "filepath": "/home/uraz/versionshift_envs/sk-0.22.2.post1/lib/python3.8/site-packages/numpy.libs/libopenblasp-r0-34a18dc3.3.7.so",
+    "internal_api": "openblas",
+    "num_threads": 1,
+    "version": "0.3.7"
+   },
+   {
+    "architecture": null,
+    "filepath": "/home/uraz/versionshift_envs/sk-0.22.2.post1/lib/python3.8/site-packages/sklearn/.libs/libgomp-3300acd3.so.1.0.0",
+    "internal_api": "openmp",
+    "num_threads": 1,
+    "version": null
+   }
+  ]
+ },
+ "status": "ok",
+ "values_imputed": 0,
+ "worker_sha256": "60076384d6bd04288acf32943de1e55924e5d2546d82ebca1fec8ae16717647f"
+}

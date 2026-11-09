@@ -1,0 +1,542 @@
+{
+ "ba": [
+  0.4910043619437825,
+  0.4986575061201927,
+  0.4896561547046984,
+  0.4833630421865716,
+  0.46582928494781,
+  0.49567289602408127,
+  0.4773564483836652,
+  0.4843394649219892,
+  0.4764026822850352,
+  0.4888330894546873,
+  0.48805226900046916,
+  0.41992883388844754,
+  0.48823416784581836,
+  0.45543672014260245,
+  0.48120963808408934,
+  0.472367388082928,
+  0.45353298865151365,
+  0.4937236442090811,
+  0.5080921257391845,
+  0.43831821285728223,
+  0.4533727255412945,
+  0.4513775659517538,
+  0.47196887973587004,
+  0.5118693942223355,
+  0.49000682860208755,
+  0.5068773778167983,
+  0.44497400950429916,
+  0.47675786996175346,
+  0.471677559912854,
+  0.49262393912789
+ ],
+ "constructor": {
+  "C": 1.0,
+  "class_weight": null,
+  "dual": false,
+  "fit_intercept": true,
+  "intercept_scaling": 1,
+  "l1_ratio": null,
+  "max_iter": 100,
+  "multi_class": "ovr",
+  "n_jobs": null,
+  "penalty": "l2",
+  "random_state": null,
+  "solver": "liblinear",
+  "tol": 0.0001,
+  "verbose": 0,
+  "warm_start": false
+ },
+ "convergence_warnings": 0,
+ "fitted_effective": [
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "coef_shape": [
+    3,
+    24
+   ],
+   "n_iter_": [
+    12
+   ]
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "coef_shape": [
+    3,
+    24
+   ],
+   "n_iter_": [
+    12
+   ]
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "coef_shape": [
+    3,
+    24
+   ],
+   "n_iter_": [
+    13
+   ]
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "coef_shape": [
+    3,
+    24
+   ],
+   "n_iter_": [
+    13
+   ]
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "coef_shape": [
+    3,
+    24
+   ],
+   "n_iter_": [
+    12
+   ]
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "coef_shape": [
+    3,
+    24
+   ],
+   "n_iter_": [
+    13
+   ]
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "coef_shape": [
+    3,
+    24
+   ],
+   "n_iter_": [
+    13
+   ]
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "coef_shape": [
+    3,
+    24
+   ],
+   "n_iter_": [
+    12
+   ]
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "coef_shape": [
+    3,
+    24
+   ],
+   "n_iter_": [
+    13
+   ]
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "coef_shape": [
+    3,
+    24
+   ],
+   "n_iter_": [
+    12
+   ]
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "coef_shape": [
+    3,
+    24
+   ],
+   "n_iter_": [
+    12
+   ]
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "coef_shape": [
+    3,
+    24
+   ],
+   "n_iter_": [
+    12
+   ]
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "coef_shape": [
+    3,
+    24
+   ],
+   "n_iter_": [
+    12
+   ]
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "coef_shape": [
+    3,
+    24
+   ],
+   "n_iter_": [
+    13
+   ]
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "coef_shape": [
+    3,
+    24
+   ],
+   "n_iter_": [
+    13
+   ]
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "coef_shape": [
+    3,
+    24
+   ],
+   "n_iter_": [
+    12
+   ]
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "coef_shape": [
+    3,
+    24
+   ],
+   "n_iter_": [
+    13
+   ]
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "coef_shape": [
+    3,
+    24
+   ],
+   "n_iter_": [
+    12
+   ]
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "coef_shape": [
+    3,
+    24
+   ],
+   "n_iter_": [
+    13
+   ]
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "coef_shape": [
+    3,
+    24
+   ],
+   "n_iter_": [
+    12
+   ]
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "coef_shape": [
+    3,
+    24
+   ],
+   "n_iter_": [
+    12
+   ]
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "coef_shape": [
+    3,
+    24
+   ],
+   "n_iter_": [
+    13
+   ]
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "coef_shape": [
+    3,
+    24
+   ],
+   "n_iter_": [
+    13
+   ]
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "coef_shape": [
+    3,
+    24
+   ],
+   "n_iter_": [
+    13
+   ]
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "coef_shape": [
+    3,
+    24
+   ],
+   "n_iter_": [
+    12
+   ]
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "coef_shape": [
+    3,
+    24
+   ],
+   "n_iter_": [
+    13
+   ]
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "coef_shape": [
+    3,
+    24
+   ],
+   "n_iter_": [
+    12
+   ]
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "coef_shape": [
+    3,
+    24
+   ],
+   "n_iter_": [
+    14
+   ]
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "coef_shape": [
+    3,
+    24
+   ],
+   "n_iter_": [
+    13
+   ]
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "coef_shape": [
+    3,
+    24
+   ],
+   "n_iter_": [
+    12
+   ]
+  }
+ ],
+ "fold_keys": [
+  "r0_f0",
+  "r0_f1",
+  "r0_f2",
+  "r0_f3",
+  "r0_f4",
+  "r1_f0",
+  "r1_f1",
+  "r1_f2",
+  "r1_f3",
+  "r1_f4",
+  "r2_f0",
+  "r2_f1",
+  "r2_f2",
+  "r2_f3",
+  "r2_f4",
+  "r3_f0",
+  "r3_f1",
+  "r3_f2",
+  "r3_f3",
+  "r3_f4",
+  "r4_f0",
+  "r4_f1",
+  "r4_f2",
+  "r4_f3",
+  "r4_f4",
+  "r5_f0",
+  "r5_f1",
+  "r5_f2",
+  "r5_f3",
+  "r5_f4"
+ ],
+ "id": "G2RESTORE__openml_23__LR__R",
+ "job_sha256": "3fd5d0a09234fef49dfc5d5eefd29a923e3af358e346a705459cc92a40faff67",
+ "npz_sha256": "18b74a4230699af9f9039e4572bdb837e5961fbdf67bdbf7fada45100f26c087",
+ "portability": "ok",
+ "portability_report": null,
+ "provenance": {
+  "executable": "/home/uraz/versionshift_envs/sk-0.22.2.post1/bin/python",
+  "machine": "x86_64",
+  "numpy": "1.18.4",
+  "numpy_config_sha256": "c1eac50e0f4378abaa67c8f02f20e4dd176520354c507772214c44e4ff6abca9",
+  "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.2.5",
+  "processor": "x86_64",
+  "python": "3.8.20",
+  "scipy": "1.4.1",
+  "sklearn": "0.22.2.post1",
+  "sklearn_file": "/home/uraz/versionshift_envs/sk-0.22.2.post1/lib/python3.8/site-packages/sklearn/__init__.py",
+  "threadpools": [
+   {
+    "architecture": null,
+    "filepath": "/home/uraz/versionshift_envs/sk-0.22.2.post1/lib/python3.8/site-packages/numpy.libs/libopenblasp-r0-34a18dc3.3.7.so",
+    "internal_api": "openblas",
+    "num_threads": 1,
+    "version": "0.3.7"
+   },
+   {
+    "architecture": null,
+    "filepath": "/home/uraz/versionshift_envs/sk-0.22.2.post1/lib/python3.8/site-packages/sklearn/.libs/libgomp-3300acd3.so.1.0.0",
+    "internal_api": "openmp",
+    "num_threads": 1,
+    "version": null
+   }
+  ]
+ },
+ "status": "ok",
+ "values_imputed": 0,
+ "worker_sha256": "60076384d6bd04288acf32943de1e55924e5d2546d82ebca1fec8ae16717647f"
+}

@@ -1,0 +1,9 @@
+{
+  "stage_b_datasets": [
+    "iris"
+  ],
+  "plan_sha256": "bd3675437dfbb2f48f128bc1178e7e665d196090ca7849cd5a2b2941aafd73d9",
+  "stratum_weights_by_dataset": {
+    "iris": 1.0
+  }
+}

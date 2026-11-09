@@ -1,0 +1,73 @@
+{
+  "HGB_signed_contrast_identity_max_error_pp": 0.0,
+  "contrast_definitions": {
+    "GB_newD_to_presort_auto": "Within-new-runtime GB presort diagnostic",
+    "GB_oldD_to_newD": "Old shipped GB versus new shipped GB: total release shift",
+    "HGB_old255_to_new255": "Old runtime with max_bins=255 versus new shipped HGB with max_bins=255: remaining cross-runtime difference; other configuration/implementation changes uncontrolled",
+    "HGB_old256_to_old255": "Within-old-runtime HGB change in max_bins only",
+    "HGB_oldD_to_newD": "Old shipped HGB (max_bins=256) versus new shipped HGB (max_bins=255): total release shift"
+  },
+  "contrasts": {
+    "GB_newD_to_presort_auto": {
+      "datasets": 63,
+      "datasets_with_mean_score_change": 0,
+      "folds": 1890,
+      "hash_changed_folds": 0,
+      "mean_absolute_dataset_mean_pp": 0.0,
+      "mean_absolute_fold_pp": 0.0,
+      "mean_signed_pp": 0.0,
+      "score_changed_folds": 0
+    },
+    "GB_oldD_to_newD": {
+      "datasets": 63,
+      "datasets_with_mean_score_change": 39,
+      "folds": 1890,
+      "hash_changed_folds": 174,
+      "mean_absolute_dataset_mean_pp": 0.021837037852775684,
+      "mean_absolute_fold_pp": 0.05143807982551321,
+      "mean_signed_pp": 0.009408871295529832,
+      "score_changed_folds": 152
+    },
+    "HGB_old255_to_new255": {
+      "datasets": 63,
+      "datasets_with_mean_score_change": 0,
+      "folds": 1890,
+      "hash_changed_folds": 0,
+      "mean_absolute_dataset_mean_pp": 0.0,
+      "mean_absolute_fold_pp": 0.0,
+      "mean_signed_pp": 0.0,
+      "score_changed_folds": 0
+    },
+    "HGB_old256_to_old255": {
+      "datasets": 63,
+      "datasets_with_mean_score_change": 40,
+      "folds": 1890,
+      "hash_changed_folds": 1123,
+      "mean_absolute_dataset_mean_pp": 0.10912942802756695,
+      "mean_absolute_fold_pp": 0.591244420903102,
+      "mean_signed_pp": -0.018358228393495428,
+      "score_changed_folds": 1067
+    },
+    "HGB_oldD_to_newD": {
+      "datasets": 63,
+      "datasets_with_mean_score_change": 40,
+      "folds": 1890,
+      "hash_changed_folds": 1123,
+      "mean_absolute_dataset_mean_pp": 0.10912942802756695,
+      "mean_absolute_fold_pp": 0.591244420903102,
+      "mean_signed_pp": -0.018358228393495428,
+      "score_changed_folds": 1067
+    }
+  },
+  "limitations": [
+    "Equal max_bins values do not by themselves imply equivalent full parameter configurations or implementations",
+    "Absolute contrasts need not add; signed fold-level differences do add under paired fold keys",
+    "The within-old-runtime max_bins change does not identify default-driven impact on the newer runtime",
+    "All 63 datasets are the finite eligible frame; inference beyond the frame requires additional assumptions"
+  ],
+  "plan_sha256": "523c42a3dabee44e66d43d538b228939b01fd7fe1b68285f542f0980906492f4",
+  "scope": "63 datasets and 30 paired folds; cross-release boosting contrasts",
+  "source_zip_sha256": "5eb716b64c21ded6f979b0b1610bb68aee46ad2f24889a0d3b133bd430c6ff7d",
+  "status": "PASS",
+  "worker_sha256": "f27700a20e73cf4ab187f9aedc2874389413c0844216cbc81e7395d063184807"
+}

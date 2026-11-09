@@ -1,0 +1,86 @@
+{
+  "python": "3.7.12",
+  "role": "API-and-fit smoke test; not a mitigation claim",
+  "sklearn": "0.21.3",
+  "status": "PASS",
+  "tests": {
+    "GB": {
+      "prediction_sha256": "2f0fc1177e38a81bbea396de058f74e27e614859b2f91a5319ade516a5495c78",
+      "predictions": 75,
+      "requested": {
+        "learning_rate": 0.1,
+        "max_depth": 3,
+        "n_estimators": 200,
+        "random_state": 42,
+        "subsample": 1.0
+      },
+      "status": "PASS",
+      "warnings": []
+    },
+    "HGB": {
+      "prediction_sha256": "ae5f5b1a4dda283bb98c38b5a6965a16d756ab22c5922b637a294113baab41fe",
+      "predictions": 75,
+      "requested": {
+        "learning_rate": 0.1,
+        "max_bins": 255,
+        "max_iter": 200,
+        "n_iter_no_change": null,
+        "random_state": 42
+      },
+      "status": "PASS",
+      "warnings": []
+    },
+    "LR": {
+      "prediction_sha256": "a2263cb90d8e05fcb14e587f706a90ae206273071b1b3573f128193c49dfe75c",
+      "predictions": 75,
+      "requested": {
+        "C": 1.0,
+        "max_iter": 1000,
+        "solver": "lbfgs",
+        "tol": 0.0001
+      },
+      "status": "PASS",
+      "warnings": [
+        "Default multi_class will be changed to 'auto' in 0.22. Specify the multi_class option to silence this warning."
+      ]
+    },
+    "RF": {
+      "prediction_sha256": "9b4392d569128cfb58eb47ce7dd76ce0c99179fd32183304ace59078c29471ad",
+      "predictions": 75,
+      "requested": {
+        "bootstrap": true,
+        "max_features": "sqrt",
+        "min_samples_leaf": 1,
+        "n_estimators": 300,
+        "n_jobs": 1,
+        "random_state": 42
+      },
+      "status": "PASS",
+      "warnings": []
+    },
+    "SVC": {
+      "prediction_sha256": "551e4a50830e311520d3291edcb6c30f782efb3379e0aca8f63b7ffca32a4bf4",
+      "predictions": 75,
+      "requested": {
+        "C": 1.0,
+        "gamma": "scale",
+        "kernel": "rbf"
+      },
+      "status": "PASS",
+      "warnings": []
+    },
+    "kNN": {
+      "prediction_sha256": "c587de48efa33065b94df3e514c6b6f65223e307f303f1e6e09bc06345a7ec74",
+      "predictions": 75,
+      "requested": {
+        "algorithm": "brute",
+        "metric": "euclidean",
+        "n_jobs": 1,
+        "n_neighbors": 5,
+        "weights": "uniform"
+      },
+      "status": "PASS",
+      "warnings": []
+    }
+  }
+}

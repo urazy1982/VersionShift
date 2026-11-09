@@ -1,0 +1,299 @@
+{
+ "margin_pp": 0.5,
+ "contrasts": [
+  {
+   "primary": {
+    "estimate_pp": 4.420411412025381,
+    "ci95": [
+     3.2497992007729244,
+     5.688735974537044
+    ],
+    "ci95_bca": [
+     3.273346582724088,
+     5.748864631138557
+    ],
+    "ci95_t": [
+     3.12884433447904,
+     5.711978489571721
+    ],
+    "one_sided_lower95_bca": 3.446271093504597,
+    "one_sided_lower95": 3.430561203071126,
+    "margin_pp": 0.5,
+    "p_vs_margin": 0.0002,
+    "exceeds_margin": true,
+    "below_margin_equivalence": false,
+    "p_vs_margin_holm": 0.0004
+   },
+   "co_primary": {
+    "estimate": 0.11893939393939394,
+    "ci95": [
+     0.08257575757575758,
+     0.1606060606060606
+    ],
+    "ci95_bca": [
+     0.08409090909090909,
+     0.1636363636363636
+    ],
+    "ci95_t": [
+     0.07756273505626576,
+     0.16031605282252212
+    ],
+    "p_boot_two_sided": 0.0004,
+    "p_wilcoxon": 1.682854126055112e-06,
+    "p_wilcoxon_bh": 2.264433706484999e-06
+   },
+   "secondary": {
+    "median_vnr": 1.453262779331735,
+    "share_vnr_gt1": 0.6363636363636364,
+    "S_mean": 2.695157123688257,
+    "S_p_wilcoxon": 7.958078640513122e-12,
+    "signed_shift_pp": 1.4416709480950236
+   },
+   "label": "primary: 0.21-era -> 1.9.1 defaults, raw features",
+   "old": "R21",
+   "new": "R19",
+   "algorithms": [
+    "LR",
+    "SVC",
+    "kNN",
+    "RF",
+    "GB",
+    "HGB"
+   ],
+   "K": 44,
+   "datasets_dropped_incomplete": [],
+   "prevalence_M_gt_margin": 0.8181818181818182,
+   "prevalence_ci95": [
+    0.6803944899010419,
+    0.9048719433294636
+   ],
+   "per_pair_mean_abs_shift_pp": {
+    "LR-SVC": 10.1215,
+    "LR-kNN": 0.5166,
+    "LR-RF": 4.4824,
+    "LR-GB": 0.5166,
+    "LR-HGB": 0.5166,
+    "SVC-kNN": 9.7064,
+    "SVC-RF": 8.5333,
+    "SVC-GB": 9.7064,
+    "SVC-HGB": 9.7064,
+    "kNN-RF": 4.1667,
+    "kNN-GB": 0.0,
+    "kNN-HGB": 0.0,
+    "RF-GB": 4.1667,
+    "RF-HGB": 4.1667,
+    "GB-HGB": 0.0
+   }
+  },
+  {
+   "primary": {
+    "estimate_pp": 1.4670568747197243,
+    "ci95": [
+     1.091302590826879,
+     1.8816894177967332
+    ],
+    "ci95_bca": [
+     1.1227408686662181,
+     1.9376854297539647
+    ],
+    "ci95_t": [
+     1.0488823017740387,
+     1.88523144766541
+    ],
+    "one_sided_lower95_bca": 1.173412665152726,
+    "one_sided_lower95": 1.146330593818975,
+    "margin_pp": 0.5,
+    "p_vs_margin": 0.0002,
+    "exceeds_margin": true,
+    "below_margin_equivalence": false,
+    "p_vs_margin_holm": 0.0004
+   },
+   "co_primary": {
+    "estimate": 0.07803030303030302,
+    "ci95": [
+     0.05454545454545456,
+     0.10303030303030304
+    ],
+    "ci95_bca": [
+     0.0553030303030303,
+     0.1037878787878788
+    ],
+    "ci95_t": [
+     0.05236047760651715,
+     0.10370012845408888
+    ],
+    "p_boot_two_sided": 0.0004,
+    "p_wilcoxon": 2.264433706484999e-06,
+    "p_wilcoxon_bh": 2.264433706484999e-06
+   },
+   "secondary": {
+    "median_vnr": 0.04136474504188803,
+    "share_vnr_gt1": 0.06818181818181818,
+    "S_mean": 1.3824532077246519,
+    "S_p_wilcoxon": 1.2877080735052004e-08,
+    "signed_shift_pp": -0.21006337499189556
+   },
+   "label": "primary: 0.21-era -> 1.9.1 defaults, std features",
+   "old": "R21",
+   "new": "R19",
+   "algorithms": [
+    "LR",
+    "SVC",
+    "kNN",
+    "RF",
+    "GB",
+    "HGB"
+   ],
+   "K": 44,
+   "datasets_dropped_incomplete": [],
+   "prevalence_M_gt_margin": 0.7272727272727273,
+   "prevalence_ci95": [
+    0.5815112678667256,
+    0.8365361844407784
+   ],
+   "per_pair_mean_abs_shift_pp": {
+    "LR-SVC": 0.2795,
+    "LR-kNN": 0.2795,
+    "LR-RF": 4.2211,
+    "LR-GB": 0.2795,
+    "LR-HGB": 0.2795,
+    "SVC-kNN": 0.0,
+    "SVC-RF": 4.1667,
+    "SVC-GB": 0.0,
+    "SVC-HGB": 0.0,
+    "kNN-RF": 4.1667,
+    "kNN-GB": 0.0,
+    "kNN-HGB": 0.0,
+    "RF-GB": 4.1667,
+    "RF-HGB": 4.1667,
+    "GB-HGB": 0.0
+   }
+  }
+ ],
+ "negative_control": {
+  "primary": {
+   "estimate_pp": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "ci95_bca": [
+    0.0,
+    0.0
+   ],
+   "ci95_t": [
+    0.0,
+    0.0
+   ],
+   "one_sided_lower95_bca": 0.0,
+   "one_sided_lower95": 0.0,
+   "margin_pp": 0.5,
+   "p_vs_margin": 1.0,
+   "exceeds_margin": false,
+   "below_margin_equivalence": true
+  },
+  "co_primary": {
+   "estimate": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "ci95_bca": [
+    0.0,
+    0.0
+   ],
+   "ci95_t": [
+    0.0,
+    0.0
+   ],
+   "p_boot_two_sided": 1.0,
+   "p_wilcoxon": 1.0
+  },
+  "secondary": {
+   "median_vnr": 0.0,
+   "share_vnr_gt1": 0.0,
+   "S_mean": 0.11863246893506006,
+   "S_p_wilcoxon": 0.5437091915644032,
+   "signed_shift_pp": 0.0
+  },
+  "label": "negative control: algorithms without default change",
+  "old": "R21",
+  "new": "R19",
+  "algorithms": [
+   "kNN",
+   "GB",
+   "HGB"
+  ],
+  "K": 44,
+  "datasets_dropped_incomplete": [],
+  "prevalence_M_gt_margin": 0.0,
+  "prevalence_ci95": [
+   0.0,
+   0.08029560492349135
+  ],
+  "per_pair_mean_abs_shift_pp": {
+   "kNN-GB": 0.0,
+   "kNN-HGB": 0.0,
+   "GB-HGB": 0.0
+  }
+ },
+ "leg_identified": "Emulation runs old and new defaults in ONE runtime (1.9.1): it identifies only the B->D leg (defaults, new runtime) of the 2x2; cells A and C need old binaries (crossversion/).",
+ "noise_components": [
+  {
+   "algo": "GB",
+   "regime": "R19",
+   "seed_sd_pp": 0.1076,
+   "total_rerun_sd_pp": 0.8366,
+   "split_sd_pp": 0.7588,
+   "seed_variance_share": 0.0185
+  },
+  {
+   "algo": "HGB",
+   "regime": "R19",
+   "seed_sd_pp": 0.0,
+   "total_rerun_sd_pp": 0.6908,
+   "split_sd_pp": 0.6908,
+   "seed_variance_share": 0.0
+  },
+  {
+   "algo": "LR",
+   "regime": "R19",
+   "seed_sd_pp": 0.0,
+   "total_rerun_sd_pp": 0.4959,
+   "split_sd_pp": 0.4959,
+   "seed_variance_share": 0.0
+  },
+  {
+   "algo": "RF",
+   "regime": "R19",
+   "seed_sd_pp": 0.3663,
+   "total_rerun_sd_pp": 0.6777,
+   "split_sd_pp": 0.1823,
+   "seed_variance_share": 0.5094
+  },
+  {
+   "algo": "RF",
+   "regime": "R21",
+   "seed_sd_pp": 0.9025,
+   "total_rerun_sd_pp": 0.9446,
+   "split_sd_pp": 0.3267,
+   "seed_variance_share": 0.7674
+  },
+  {
+   "algo": "SVC",
+   "regime": "R19",
+   "seed_sd_pp": 0.0,
+   "total_rerun_sd_pp": 0.63,
+   "split_sd_pp": 0.63,
+   "seed_variance_share": 0.0
+  },
+  {
+   "algo": "kNN",
+   "regime": "R19",
+   "seed_sd_pp": 0.0,
+   "total_rerun_sd_pp": 0.8093,
+   "split_sd_pp": 0.8093,
+   "seed_variance_share": 0.0
+  }
+ ]
+}

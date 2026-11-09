@@ -1,0 +1,3582 @@
+{
+  "tool": "VersionShift v2.2 G0C evidence audit",
+  "zip": "/mnt/c/VersionShift/VersionShift_replication.zip",
+  "sha256": "5eb716b64c21ded6f979b0b1610bb68aee46ad2f24889a0d3b133bd430c6ff7d",
+  "read_only": true,
+  "disclaimer": "Structural inspection and hash verification only. NOT a numerical/scientific replication.",
+  "required_files": {
+    "present": 9,
+    "expected": 9,
+    "missing": []
+  },
+  "compressed_file_profiles": [
+    {
+      "path": "VersionShift/project/evidence/AA_CONTROL/CROSS_RELEASE_FOLDS.csv.gz",
+      "kind": "csv.gz",
+      "rows": 120,
+      "columns": [
+        "condition",
+        "release",
+        "dataset",
+        "algo",
+        "policy",
+        "k",
+        "n",
+        "status",
+        "portability",
+        "sklearn",
+        "numpy",
+        "rep",
+        "fold",
+        "ba",
+        "pred_sha"
+      ],
+      "null_cells": {},
+      "first_values": {
+        "condition": [
+          "A",
+          "B"
+        ],
+        "release": [
+          "A",
+          "B"
+        ],
+        "dataset": [
+          "iris"
+        ],
+        "algo": [
+          "LR",
+          "SVC",
+          "kNN"
+        ],
+        "policy": [
+          "D"
+        ],
+        "k": [
+          "3"
+        ],
+        "n": [
+          "150"
+        ],
+        "status": [
+          "ok"
+        ],
+        "portability": [
+          "ok"
+        ],
+        "sklearn": [
+          "1.8.0"
+        ],
+        "numpy": [
+          "2.3.5"
+        ],
+        "rep": [
+          "0",
+          "1"
+        ],
+        "fold": [
+          "0",
+          "1",
+          "2"
+        ],
+        "ba": [
+          "0.9666666666666667",
+          "1.0",
+          "0.9333333333333332"
+        ],
+        "pred_sha": [
+          "29c9aab20328a42f",
+          "9b02464df529555d",
+          "ca7eaa11b24553ba"
+        ]
+      }
+    },
+    {
+      "path": "VersionShift/project/results/expA/fold_scores.csv.gz",
+      "kind": "csv.gz",
+      "rows": 39600,
+      "columns": [
+        "dataset",
+        "origin",
+        "hetero",
+        "n",
+        "p",
+        "k",
+        "rep",
+        "fold",
+        "algo",
+        "regime",
+        "policy",
+        "prep",
+        "ba",
+        "conv_warn",
+        "fit_s",
+        "fit_id",
+        "pred_sha"
+      ],
+      "null_cells": {
+        "hetero": 3600
+      },
+      "first_values": {
+        "dataset": [
+          "syn13_linear",
+          "syn03_linear",
+          "digits"
+        ],
+        "origin": [
+          "synthetic",
+          "real"
+        ],
+        "hetero": [
+          "True",
+          "",
+          "False"
+        ],
+        "n": [
+          "1500",
+          "1797",
+          "1000"
+        ],
+        "p": [
+          "30",
+          "64",
+          "10"
+        ],
+        "k": [
+          "4",
+          "2",
+          "10"
+        ],
+        "rep": [
+          "0",
+          "1",
+          "2"
+        ],
+        "fold": [
+          "0",
+          "1",
+          "2"
+        ],
+        "algo": [
+          "LR",
+          "SVC",
+          "kNN"
+        ],
+        "regime": [
+          "R21",
+          "R19"
+        ],
+        "policy": [
+          "D",
+          "E"
+        ],
+        "prep": [
+          "raw",
+          "std"
+        ],
+        "ba": [
+          "0.42661806543385494",
+          "0.4263513513513514",
+          "0.41995139876718823"
+        ],
+        "conv_warn": [
+          "0",
+          "1",
+          "4"
+        ],
+        "fit_s": [
+          "0.13202619552612305",
+          "0.05670475959777832",
+          "0.6840047836303711"
+        ],
+        "fit_id": [
+          "0",
+          "1",
+          "2"
+        ],
+        "pred_sha": [
+          "364c4a4471f7ac40",
+          "8023e564cdfdb54b",
+          "3ebccb03535c1ee9"
+        ]
+      }
+    },
+    {
+      "path": "VersionShift/project/results/expA/prediction_disagreement.csv.gz",
+      "kind": "csv.gz",
+      "rows": 19800,
+      "columns": [
+        "dataset",
+        "rep",
+        "fold",
+        "algo",
+        "policy",
+        "prep",
+        "n_test",
+        "n_disagree"
+      ],
+      "null_cells": {},
+      "first_values": {
+        "dataset": [
+          "syn13_linear",
+          "syn03_linear",
+          "digits"
+        ],
+        "rep": [
+          "0",
+          "1",
+          "2"
+        ],
+        "fold": [
+          "0",
+          "1",
+          "2"
+        ],
+        "algo": [
+          "LR",
+          "SVC",
+          "kNN"
+        ],
+        "policy": [
+          "D",
+          "E"
+        ],
+        "prep": [
+          "raw",
+          "std"
+        ],
+        "n_test": [
+          "300",
+          "360",
+          "359"
+        ],
+        "n_disagree": [
+          "63",
+          "9",
+          "3"
+        ]
+      }
+    },
+    {
+      "path": "VersionShift/project/results/expA2/seed_reruns.csv.gz",
+      "kind": "csv.gz",
+      "rows": 6160,
+      "columns": [
+        "dataset",
+        "origin",
+        "fold",
+        "algo",
+        "regime",
+        "seed_rep",
+        "ba"
+      ],
+      "null_cells": {},
+      "first_values": {
+        "dataset": [
+          "syn13_linear",
+          "syn03_linear",
+          "syn05_linear"
+        ],
+        "origin": [
+          "synthetic",
+          "real"
+        ],
+        "fold": [
+          "0",
+          "1",
+          "2"
+        ],
+        "algo": [
+          "RF",
+          "GB",
+          "HGB"
+        ],
+        "regime": [
+          "R21",
+          "R19"
+        ],
+        "seed_rep": [
+          "0",
+          "1",
+          "2"
+        ],
+        "ba": [
+          "0.47684447605500235",
+          "0.49324324324324326",
+          "0.5366228070175438"
+        ]
+      }
+    },
+    {
+      "path": "VersionShift/project/results/expA_analysis/pairs_D_raw.csv.gz",
+      "kind": "csv.gz",
+      "rows": 660,
+      "columns": [
+        "dataset",
+        "pair",
+        "null_pair",
+        "s21",
+        "s19",
+        "w19",
+        "w21",
+        "x",
+        "x2",
+        "delta21_pp",
+        "delta19_pp",
+        "shift_pp",
+        "noise_sd_pp",
+        "vnr",
+        "six_R",
+        "six_Nold",
+        "six_Nnew",
+        "cont_cross",
+        "cont_null"
+      ],
+      "null_cells": {},
+      "first_values": {
+        "dataset": [
+          "breast_cancer",
+          "digits",
+          "iris"
+        ],
+        "pair": [
+          "LR-SVC",
+          "LR-kNN",
+          "LR-RF"
+        ],
+        "null_pair": [
+          "False",
+          "True"
+        ],
+        "s21": [
+          "A>B",
+          "~",
+          "B>A"
+        ],
+        "s19": [
+          "A>B",
+          "~",
+          "B>A"
+        ],
+        "w19": [
+          "('A>B', 'A>B')",
+          "('~', '~')",
+          "('B>A', 'B>A')"
+        ],
+        "w21": [
+          "('A>B', 'A>B')",
+          "('A>B', '~')",
+          "('~', '~')"
+        ],
+        "x": [
+          "('A>B', 'A>B')",
+          "('A>B', '~')",
+          "('~', '~')"
+        ],
+        "x2": [
+          "('A>B', 'A>B')",
+          "('~', '~')",
+          "('B>A', 'B>A')"
+        ],
+        "delta21_pp": [
+          "44.70966410001786",
+          "2.700190159042107",
+          "-0.35311026364907644"
+        ],
+        "delta19_pp": [
+          "4.473471968763485",
+          "1.8327547108664073",
+          "-1.7523649649836992"
+        ],
+        "shift_pp": [
+          "-40.23619213125438",
+          "-0.8674354481756998",
+          "-1.3992547013346228"
+        ],
+        "noise_sd_pp": [
+          "0.6493695531507039",
+          "0.6762923221092013",
+          "0.9145615408545567"
+        ],
+        "vnr": [
+          "61.9619320555309",
+          "1.2826338845166345",
+          "1.5299732591282746"
+        ],
+        "six_R": [
+          "0",
+          "1"
+        ],
+        "six_Nold": [
+          "0"
+        ],
+        "six_Nnew": [
+          "0"
+        ],
+        "cont_cross": [
+          "0.165486641007215",
+          "4.227638072260627e-05",
+          "0.0003644799093176346"
+        ],
+        "cont_null": [
+          "2.198324369227085e-05",
+          "5.642350763544553e-08",
+          "7.041616247120216e-07"
+        ]
+      }
+    },
+    {
+      "path": "VersionShift/project/results/expA_analysis/pairs_D_std.csv.gz",
+      "kind": "csv.gz",
+      "rows": 660,
+      "columns": [
+        "dataset",
+        "pair",
+        "null_pair",
+        "s21",
+        "s19",
+        "w19",
+        "w21",
+        "x",
+        "x2",
+        "delta21_pp",
+        "delta19_pp",
+        "shift_pp",
+        "noise_sd_pp",
+        "vnr",
+        "six_R",
+        "six_Nold",
+        "six_Nnew",
+        "cont_cross",
+        "cont_null"
+      ],
+      "null_cells": {},
+      "first_values": {
+        "dataset": [
+          "breast_cancer",
+          "digits",
+          "iris"
+        ],
+        "pair": [
+          "LR-SVC",
+          "LR-kNN",
+          "LR-RF"
+        ],
+        "null_pair": [
+          "False",
+          "True"
+        ],
+        "s21": [
+          "~",
+          "A>B",
+          "B>A"
+        ],
+        "s19": [
+          "~",
+          "B>A",
+          "A>B"
+        ],
+        "w19": [
+          "('~', '~')",
+          "('~', 'A>B')",
+          "('B>A', 'B>A')"
+        ],
+        "w21": [
+          "('~', '~')",
+          "('~', 'A>B')",
+          "('B>A', 'B>A')"
+        ],
+        "x": [
+          "('~', '~')",
+          "('~', 'A>B')",
+          "('B>A', 'B>A')"
+        ],
+        "x2": [
+          "('~', '~')",
+          "('A>B', '~')",
+          "('B>A', 'B>A')"
+        ],
+        "delta21_pp": [
+          "0.6737355658498764",
+          "1.9190476623738966",
+          "2.502991679621226"
+        ],
+        "delta19_pp": [
+          "0.6972097442536321",
+          "1.942521840777652",
+          "1.994646604866059"
+        ],
+        "shift_pp": [
+          "0.023474178403755763",
+          "0.02347417840375554",
+          "-0.5083450747551672"
+        ],
+        "noise_sd_pp": [
+          "0.527668705567917",
+          "0.7248143547181751",
+          "0.5088057536180566"
+        ],
+        "vnr": [
+          "0.044486584396721186",
+          "0.032386470067749765",
+          "0.9990945879451765"
+        ],
+        "six_R": [
+          "0",
+          "1"
+        ],
+        "six_Nold": [
+          "0"
+        ],
+        "six_Nnew": [
+          "0"
+        ],
+        "cont_cross": [
+          "3.7372770069549476e-05",
+          "1.0277974821491413e-07",
+          "0.00012819361081372178"
+        ],
+        "cont_null": [
+          "3.166398894603859e-05",
+          "3.6031030033067844e-05",
+          "5.691641403270989e-07"
+        ]
+      }
+    },
+    {
+      "path": "VersionShift/results/STAGE_B_RUNS/AA_0213/CROSS_RELEASE_FOLDS.csv.gz",
+      "kind": "csv.gz",
+      "rows": 5760,
+      "columns": [
+        "condition",
+        "release",
+        "dataset",
+        "algo",
+        "policy",
+        "k",
+        "n",
+        "status",
+        "portability",
+        "sklearn",
+        "numpy",
+        "rep",
+        "fold",
+        "ba",
+        "pred_sha"
+      ],
+      "null_cells": {},
+      "first_values": {
+        "condition": [
+          "AA1",
+          "AA2"
+        ],
+        "release": [
+          "AA1",
+          "AA2"
+        ],
+        "dataset": [
+          "openml_16",
+          "openml_23",
+          "openml_28"
+        ],
+        "algo": [
+          "LR",
+          "SVC",
+          "kNN"
+        ],
+        "policy": [
+          "D"
+        ],
+        "k": [
+          "10",
+          "3",
+          "2"
+        ],
+        "n": [
+          "2000",
+          "1473",
+          "5000"
+        ],
+        "status": [
+          "ok"
+        ],
+        "portability": [
+          "ok"
+        ],
+        "sklearn": [
+          "0.21.3"
+        ],
+        "numpy": [
+          "1.17.2"
+        ],
+        "rep": [
+          "0",
+          "1",
+          "2"
+        ],
+        "fold": [
+          "0",
+          "1",
+          "2"
+        ],
+        "ba": [
+          "0.9375",
+          "0.9425000000000001",
+          "0.9349999999999999"
+        ],
+        "pred_sha": [
+          "49dd21283f6be917",
+          "ce5d5511ec674b9f",
+          "170b1f60070a19a0"
+        ]
+      }
+    },
+    {
+      "path": "VersionShift/results/STAGE_B_RUNS/AA_0_21_3/CROSS_RELEASE_FOLDS.csv.gz",
+      "kind": "csv.gz",
+      "rows": 5760,
+      "columns": [
+        "condition",
+        "release",
+        "dataset",
+        "algo",
+        "policy",
+        "k",
+        "n",
+        "status",
+        "portability",
+        "sklearn",
+        "numpy",
+        "rep",
+        "fold",
+        "ba",
+        "pred_sha"
+      ],
+      "null_cells": {},
+      "first_values": {
+        "condition": [
+          "AA1",
+          "AA2"
+        ],
+        "release": [
+          "AA1",
+          "AA2"
+        ],
+        "dataset": [
+          "openml_16",
+          "openml_23",
+          "openml_28"
+        ],
+        "algo": [
+          "LR",
+          "SVC",
+          "kNN"
+        ],
+        "policy": [
+          "D"
+        ],
+        "k": [
+          "10",
+          "3",
+          "2"
+        ],
+        "n": [
+          "2000",
+          "1473",
+          "5000"
+        ],
+        "status": [
+          "ok"
+        ],
+        "portability": [
+          "ok"
+        ],
+        "sklearn": [
+          "0.21.3"
+        ],
+        "numpy": [
+          "1.17.2"
+        ],
+        "rep": [
+          "0",
+          "1",
+          "2"
+        ],
+        "fold": [
+          "0",
+          "1",
+          "2"
+        ],
+        "ba": [
+          "0.9375",
+          "0.9425000000000001",
+          "0.9349999999999999"
+        ],
+        "pred_sha": [
+          "49dd21283f6be917",
+          "ce5d5511ec674b9f",
+          "170b1f60070a19a0"
+        ]
+      }
+    },
+    {
+      "path": "VersionShift/results/STAGE_B_RUNS/AA_0_22_2_post1/CROSS_RELEASE_FOLDS.csv.gz",
+      "kind": "csv.gz",
+      "rows": 5760,
+      "columns": [
+        "condition",
+        "release",
+        "dataset",
+        "algo",
+        "policy",
+        "k",
+        "n",
+        "status",
+        "portability",
+        "sklearn",
+        "numpy",
+        "rep",
+        "fold",
+        "ba",
+        "pred_sha"
+      ],
+      "null_cells": {},
+      "first_values": {
+        "condition": [
+          "AA1",
+          "AA2"
+        ],
+        "release": [
+          "AA1",
+          "AA2"
+        ],
+        "dataset": [
+          "openml_16",
+          "openml_23",
+          "openml_28"
+        ],
+        "algo": [
+          "LR",
+          "SVC",
+          "kNN"
+        ],
+        "policy": [
+          "D"
+        ],
+        "k": [
+          "10",
+          "3",
+          "2"
+        ],
+        "n": [
+          "2000",
+          "1473",
+          "5000"
+        ],
+        "status": [
+          "ok"
+        ],
+        "portability": [
+          "ok"
+        ],
+        "sklearn": [
+          "0.22.2.post1"
+        ],
+        "numpy": [
+          "1.18.4"
+        ],
+        "rep": [
+          "0",
+          "1",
+          "2"
+        ],
+        "fold": [
+          "0",
+          "1",
+          "2"
+        ],
+        "ba": [
+          "0.9549999999999998",
+          "0.95",
+          "0.9475"
+        ],
+        "pred_sha": [
+          "e74e5f6c2dd58a80",
+          "adccf4bc8a3cd073",
+          "bb042604c2af47e4"
+        ]
+      }
+    },
+    {
+      "path": "VersionShift/results/STAGE_B_RUNS/AA_1_8_0/CROSS_RELEASE_FOLDS.csv.gz",
+      "kind": "csv.gz",
+      "rows": 5760,
+      "columns": [
+        "condition",
+        "release",
+        "dataset",
+        "algo",
+        "policy",
+        "k",
+        "n",
+        "status",
+        "portability",
+        "sklearn",
+        "numpy",
+        "rep",
+        "fold",
+        "ba",
+        "pred_sha"
+      ],
+      "null_cells": {},
+      "first_values": {
+        "condition": [
+          "AA1",
+          "AA2"
+        ],
+        "release": [
+          "AA1",
+          "AA2"
+        ],
+        "dataset": [
+          "openml_16",
+          "openml_23",
+          "openml_28"
+        ],
+        "algo": [
+          "LR",
+          "SVC",
+          "kNN"
+        ],
+        "policy": [
+          "D"
+        ],
+        "k": [
+          "10",
+          "3",
+          "2"
+        ],
+        "n": [
+          "2000",
+          "1473",
+          "5000"
+        ],
+        "status": [
+          "ok"
+        ],
+        "portability": [
+          "ok"
+        ],
+        "sklearn": [
+          "1.8.0"
+        ],
+        "numpy": [
+          "2.4.2"
+        ],
+        "rep": [
+          "0",
+          "1",
+          "2"
+        ],
+        "fold": [
+          "0",
+          "1",
+          "2"
+        ],
+        "ba": [
+          "0.9524999999999999",
+          "0.95",
+          "0.9475"
+        ],
+        "pred_sha": [
+          "46ebc3923b65279a",
+          "adccf4bc8a3cd073",
+          "bb042604c2af47e4"
+        ]
+      }
+    },
+    {
+      "path": "VersionShift/results/STAGE_B_RUNS/AA_1_9_1/CROSS_RELEASE_FOLDS.csv.gz",
+      "kind": "csv.gz",
+      "rows": 5760,
+      "columns": [
+        "condition",
+        "release",
+        "dataset",
+        "algo",
+        "policy",
+        "k",
+        "n",
+        "status",
+        "portability",
+        "sklearn",
+        "numpy",
+        "rep",
+        "fold",
+        "ba",
+        "pred_sha"
+      ],
+      "null_cells": {},
+      "first_values": {
+        "condition": [
+          "AA1",
+          "AA2"
+        ],
+        "release": [
+          "AA1",
+          "AA2"
+        ],
+        "dataset": [
+          "openml_16",
+          "openml_23",
+          "openml_28"
+        ],
+        "algo": [
+          "LR",
+          "SVC",
+          "kNN"
+        ],
+        "policy": [
+          "D"
+        ],
+        "k": [
+          "10",
+          "3",
+          "2"
+        ],
+        "n": [
+          "2000",
+          "1473",
+          "5000"
+        ],
+        "status": [
+          "ok"
+        ],
+        "portability": [
+          "ok"
+        ],
+        "sklearn": [
+          "1.9.1"
+        ],
+        "numpy": [
+          "2.5.4"
+        ],
+        "rep": [
+          "0",
+          "1",
+          "2"
+        ],
+        "fold": [
+          "0",
+          "1",
+          "2"
+        ],
+        "ba": [
+          "0.9524999999999999",
+          "0.95",
+          "0.9475"
+        ],
+        "pred_sha": [
+          "46ebc3923b65279a",
+          "adccf4bc8a3cd073",
+          "bb042604c2af47e4"
+        ]
+      }
+    },
+    {
+      "path": "VersionShift/results/STAGE_B_RUNS/EDGE_0213_0222/CROSS_RELEASE_FOLDS.csv.gz",
+      "kind": "csv.gz",
+      "rows": 19328,
+      "columns": [
+        "condition",
+        "release",
+        "dataset",
+        "algo",
+        "policy",
+        "k",
+        "n",
+        "status",
+        "portability",
+        "sklearn",
+        "numpy",
+        "rep",
+        "fold",
+        "ba",
+        "pred_sha",
+        "detail"
+      ],
+      "null_cells": {
+        "detail": 19200,
+        "sklearn": 128,
+        "numpy": 128,
+        "rep": 128,
+        "fold": 128,
+        "ba": 128,
+        "pred_sha": 128
+      },
+      "first_values": {
+        "condition": [
+          "0.21.3",
+          "0.22.2.post1"
+        ],
+        "release": [
+          "0.21.3",
+          "0.22.2.post1"
+        ],
+        "dataset": [
+          "openml_16",
+          "openml_23",
+          "openml_28"
+        ],
+        "algo": [
+          "LR",
+          "SVC",
+          "kNN"
+        ],
+        "policy": [
+          "D",
+          "E",
+          "P"
+        ],
+        "k": [
+          "10",
+          "3",
+          "2"
+        ],
+        "n": [
+          "2000",
+          "1473",
+          "5000"
+        ],
+        "status": [
+          "ok",
+          "not_portable"
+        ],
+        "portability": [
+          "ok",
+          "unsupported",
+          "ineffective"
+        ],
+        "sklearn": [
+          "0.21.3",
+          "",
+          "0.22.2.post1"
+        ],
+        "numpy": [
+          "1.17.2",
+          "",
+          "1.18.4"
+        ],
+        "rep": [
+          "0.0",
+          "1.0",
+          "2.0"
+        ],
+        "fold": [
+          "0.0",
+          "1.0",
+          "2.0"
+        ],
+        "ba": [
+          "0.9375",
+          "0.9425000000000001",
+          "0.9349999999999999"
+        ],
+        "pred_sha": [
+          "49dd21283f6be917",
+          "ce5d5511ec674b9f",
+          "170b1f60070a19a0"
+        ],
+        "detail": [
+          "",
+          "TypeError(\"__init__() got an unexpected keyword argument 'early_stopping'\")",
+          "multi_class,solver"
+        ]
+      }
+    },
+    {
+      "path": "VersionShift/results/STAGE_B_RUNS/EDGE_0213_0222_REVERSE/CROSS_RELEASE_FOLDS.csv.gz",
+      "kind": "csv.gz",
+      "rows": 3904,
+      "columns": [
+        "condition",
+        "release",
+        "dataset",
+        "algo",
+        "policy",
+        "k",
+        "n",
+        "status",
+        "portability",
+        "sklearn",
+        "numpy",
+        "rep",
+        "fold",
+        "ba",
+        "pred_sha",
+        "detail"
+      ],
+      "null_cells": {
+        "detail": 3840,
+        "sklearn": 64,
+        "numpy": 64,
+        "rep": 64,
+        "fold": 64,
+        "ba": 64,
+        "pred_sha": 64
+      },
+      "first_values": {
+        "condition": [
+          "0.21.3",
+          "0.22.2.post1"
+        ],
+        "release": [
+          "0.21.3",
+          "0.22.2.post1"
+        ],
+        "dataset": [
+          "openml_16",
+          "openml_23",
+          "openml_28"
+        ],
+        "algo": [
+          "LR",
+          "SVC",
+          "kNN"
+        ],
+        "policy": [
+          "P"
+        ],
+        "k": [
+          "10",
+          "3",
+          "2"
+        ],
+        "n": [
+          "2000",
+          "1473",
+          "5000"
+        ],
+        "status": [
+          "ok",
+          "not_portable"
+        ],
+        "portability": [
+          "ok",
+          "removed"
+        ],
+        "sklearn": [
+          "0.21.3",
+          "",
+          "0.22.2.post1"
+        ],
+        "numpy": [
+          "1.17.2",
+          "",
+          "1.18.4"
+        ],
+        "rep": [
+          "0.0",
+          "1.0",
+          "2.0"
+        ],
+        "fold": [
+          "0.0",
+          "1.0",
+          "2.0"
+        ],
+        "ba": [
+          "0.9549999999999998",
+          "0.95",
+          "0.9475"
+        ],
+        "pred_sha": [
+          "e74e5f6c2dd58a80",
+          "adccf4bc8a3cd073",
+          "bb042604c2af47e4"
+        ],
+        "detail": [
+          "",
+          "break_ties",
+          "ccp_alpha,max_samples"
+        ]
+      }
+    },
+    {
+      "path": "VersionShift/results/STAGE_B_RUNS/EDGE_180_190/CROSS_RELEASE_FOLDS.csv.gz",
+      "kind": "csv.gz",
+      "rows": 22576,
+      "columns": [
+        "condition",
+        "release",
+        "dataset",
+        "algo",
+        "policy",
+        "k",
+        "n",
+        "status",
+        "portability",
+        "sklearn",
+        "numpy",
+        "rep",
+        "fold",
+        "ba",
+        "pred_sha",
+        "detail"
+      ],
+      "null_cells": {
+        "detail": 22560,
+        "sklearn": 16,
+        "numpy": 16,
+        "rep": 16,
+        "fold": 16,
+        "ba": 16,
+        "pred_sha": 16
+      },
+      "first_values": {
+        "condition": [
+          "1.8.0",
+          "1.9.1"
+        ],
+        "release": [
+          "1.8.0",
+          "1.9.1"
+        ],
+        "dataset": [
+          "openml_16",
+          "openml_23",
+          "openml_28"
+        ],
+        "algo": [
+          "LR",
+          "SVC",
+          "kNN"
+        ],
+        "policy": [
+          "D",
+          "E",
+          "P"
+        ],
+        "k": [
+          "10",
+          "3",
+          "2"
+        ],
+        "n": [
+          "2000",
+          "1473",
+          "5000"
+        ],
+        "status": [
+          "ok",
+          "not_portable"
+        ],
+        "portability": [
+          "ok",
+          "ineffective"
+        ],
+        "sklearn": [
+          "1.8.0",
+          "1.9.1",
+          ""
+        ],
+        "numpy": [
+          "2.4.2",
+          "2.5.4",
+          ""
+        ],
+        "rep": [
+          "0.0",
+          "1.0",
+          "2.0"
+        ],
+        "fold": [
+          "0.0",
+          "1.0",
+          "2.0"
+        ],
+        "ba": [
+          "0.9524999999999999",
+          "0.95",
+          "0.9475"
+        ],
+        "pred_sha": [
+          "46ebc3923b65279a",
+          "adccf4bc8a3cd073",
+          "bb042604c2af47e4"
+        ],
+        "detail": [
+          "",
+          "penalty"
+        ]
+      }
+    },
+    {
+      "path": "VersionShift/results/STAGE_B_RUNS/EDGE_180_190_REVERSE/CROSS_RELEASE_FOLDS.csv.gz",
+      "kind": "csv.gz",
+      "rows": 4368,
+      "columns": [
+        "condition",
+        "release",
+        "dataset",
+        "algo",
+        "policy",
+        "k",
+        "n",
+        "status",
+        "portability",
+        "detail",
+        "sklearn",
+        "numpy",
+        "rep",
+        "fold",
+        "ba",
+        "pred_sha"
+      ],
+      "null_cells": {
+        "sklearn": 48,
+        "numpy": 48,
+        "rep": 48,
+        "fold": 48,
+        "ba": 48,
+        "pred_sha": 48,
+        "detail": 4320
+      },
+      "first_values": {
+        "condition": [
+          "1.8.0",
+          "1.9.1"
+        ],
+        "release": [
+          "1.8.0",
+          "1.9.1"
+        ],
+        "dataset": [
+          "openml_16",
+          "openml_23",
+          "openml_28"
+        ],
+        "algo": [
+          "LR",
+          "SVC",
+          "kNN"
+        ],
+        "policy": [
+          "P"
+        ],
+        "k": [
+          "10",
+          "3",
+          "2"
+        ],
+        "n": [
+          "2000",
+          "1473",
+          "5000"
+        ],
+        "status": [
+          "not_portable",
+          "ok"
+        ],
+        "portability": [
+          "ineffective",
+          "ok"
+        ],
+        "detail": [
+          "penalty",
+          "probability",
+          ""
+        ],
+        "sklearn": [
+          "",
+          "1.8.0",
+          "1.9.1"
+        ],
+        "numpy": [
+          "",
+          "2.4.2",
+          "2.5.4"
+        ],
+        "rep": [
+          "",
+          "0.0",
+          "1.0"
+        ],
+        "fold": [
+          "",
+          "0.0",
+          "1.0"
+        ],
+        "ba": [
+          "",
+          "0.9650000000000001",
+          "0.9724999999999999"
+        ],
+        "pred_sha": [
+          "",
+          "c2cbd4e529c0a1df",
+          "5e5a94fc2968e254"
+        ]
+      }
+    },
+    {
+      "path": "VersionShift/results/STAGE_B_RUNS/STAGE_C47_NEG/CROSS_RELEASE_FOLDS.csv.gz",
+      "kind": "csv.gz",
+      "rows": 66317,
+      "columns": [
+        "condition",
+        "release",
+        "dataset",
+        "algo",
+        "policy",
+        "k",
+        "n",
+        "status",
+        "portability",
+        "sklearn",
+        "numpy",
+        "rep",
+        "fold",
+        "ba",
+        "pred_sha",
+        "detail"
+      ],
+      "null_cells": {
+        "detail": 66270,
+        "sklearn": 47,
+        "numpy": 47,
+        "rep": 47,
+        "fold": 47,
+        "ba": 47,
+        "pred_sha": 47
+      },
+      "first_values": {
+        "condition": [
+          "1.8.0",
+          "1.9.1"
+        ],
+        "release": [
+          "1.8.0",
+          "1.9.1"
+        ],
+        "dataset": [
+          "openml_3",
+          "openml_6",
+          "openml_11"
+        ],
+        "algo": [
+          "LR",
+          "SVC",
+          "kNN"
+        ],
+        "policy": [
+          "D",
+          "E",
+          "P"
+        ],
+        "k": [
+          "2",
+          "26",
+          "3"
+        ],
+        "n": [
+          "3196",
+          "5000",
+          "625"
+        ],
+        "status": [
+          "ok",
+          "not_portable"
+        ],
+        "portability": [
+          "ok",
+          "ineffective"
+        ],
+        "sklearn": [
+          "1.8.0",
+          "1.9.1",
+          ""
+        ],
+        "numpy": [
+          "2.4.2",
+          "2.5.4",
+          ""
+        ],
+        "rep": [
+          "0.0",
+          "1.0",
+          "2.0"
+        ],
+        "fold": [
+          "0.0",
+          "1.0",
+          "2.0"
+        ],
+        "ba": [
+          "0.9622911040663771",
+          "0.9595121232943948",
+          "0.9668548149602434"
+        ],
+        "pred_sha": [
+          "fa6c754309a5779f",
+          "545c2a7a579faddf",
+          "cd36eb075a0eed71"
+        ],
+        "detail": [
+          "",
+          "penalty"
+        ]
+      }
+    },
+    {
+      "path": "VersionShift/results/STAGE_B_RUNS/STAGE_C47_NEG_REVERSE/CROSS_RELEASE_FOLDS.csv.gz",
+      "kind": "csv.gz",
+      "rows": 12831,
+      "columns": [
+        "condition",
+        "release",
+        "dataset",
+        "algo",
+        "policy",
+        "k",
+        "n",
+        "status",
+        "portability",
+        "detail",
+        "sklearn",
+        "numpy",
+        "rep",
+        "fold",
+        "ba",
+        "pred_sha"
+      ],
+      "null_cells": {
+        "sklearn": 141,
+        "numpy": 141,
+        "rep": 141,
+        "fold": 141,
+        "ba": 141,
+        "pred_sha": 141,
+        "detail": 12690
+      },
+      "first_values": {
+        "condition": [
+          "1.8.0",
+          "1.9.1"
+        ],
+        "release": [
+          "1.8.0",
+          "1.9.1"
+        ],
+        "dataset": [
+          "openml_3",
+          "openml_6",
+          "openml_11"
+        ],
+        "algo": [
+          "LR",
+          "SVC",
+          "kNN"
+        ],
+        "policy": [
+          "P"
+        ],
+        "k": [
+          "2",
+          "26",
+          "3"
+        ],
+        "n": [
+          "3196",
+          "5000",
+          "625"
+        ],
+        "status": [
+          "not_portable",
+          "ok"
+        ],
+        "portability": [
+          "ineffective",
+          "ok"
+        ],
+        "detail": [
+          "penalty",
+          "probability",
+          ""
+        ],
+        "sklearn": [
+          "",
+          "1.8.0",
+          "1.9.1"
+        ],
+        "numpy": [
+          "",
+          "2.4.2",
+          "2.5.4"
+        ],
+        "rep": [
+          "",
+          "0.0",
+          "1.0"
+        ],
+        "fold": [
+          "",
+          "0.0",
+          "1.0"
+        ],
+        "ba": [
+          "",
+          "0.9349144847559783",
+          "0.9299352115441248"
+        ],
+        "pred_sha": [
+          "",
+          "3f05debf8844dd9a",
+          "462393e344a22f6c"
+        ]
+      }
+    },
+    {
+      "path": "VersionShift/results/STAGE_B_RUNS/STAGE_C47_POS/CROSS_RELEASE_FOLDS.csv.gz",
+      "kind": "csv.gz",
+      "rows": 56776,
+      "columns": [
+        "condition",
+        "release",
+        "dataset",
+        "algo",
+        "policy",
+        "k",
+        "n",
+        "status",
+        "portability",
+        "sklearn",
+        "numpy",
+        "rep",
+        "fold",
+        "ba",
+        "pred_sha",
+        "detail"
+      ],
+      "null_cells": {
+        "detail": 56400,
+        "sklearn": 376,
+        "numpy": 376,
+        "rep": 376,
+        "fold": 376,
+        "ba": 376,
+        "pred_sha": 376
+      },
+      "first_values": {
+        "condition": [
+          "0.21.3",
+          "0.22.2.post1"
+        ],
+        "release": [
+          "0.21.3",
+          "0.22.2.post1"
+        ],
+        "dataset": [
+          "openml_3",
+          "openml_6",
+          "openml_11"
+        ],
+        "algo": [
+          "LR",
+          "SVC",
+          "kNN"
+        ],
+        "policy": [
+          "D",
+          "E",
+          "P"
+        ],
+        "k": [
+          "2",
+          "26",
+          "3"
+        ],
+        "n": [
+          "3196",
+          "5000",
+          "625"
+        ],
+        "status": [
+          "ok",
+          "not_portable"
+        ],
+        "portability": [
+          "ok",
+          "unsupported",
+          "ineffective"
+        ],
+        "sklearn": [
+          "0.21.3",
+          "",
+          "0.22.2.post1"
+        ],
+        "numpy": [
+          "1.17.2",
+          "",
+          "1.18.4"
+        ],
+        "rep": [
+          "0.0",
+          "1.0",
+          "2.0"
+        ],
+        "fold": [
+          "0.0",
+          "1.0",
+          "2.0"
+        ],
+        "ba": [
+          "0.9639250909944816",
+          "0.9578727790320998",
+          "0.9668548149602434"
+        ],
+        "pred_sha": [
+          "ff7f8238bb15026f",
+          "1a9c603887e0912c",
+          "cd36eb075a0eed71"
+        ],
+        "detail": [
+          "",
+          "TypeError(\"__init__() got an unexpected keyword argument 'early_stopping'\")",
+          "multi_class,solver"
+        ]
+      }
+    },
+    {
+      "path": "VersionShift/results/STAGE_B_RUNS/STAGE_C47_POS_REVERSE/CROSS_RELEASE_FOLDS.csv.gz",
+      "kind": "csv.gz",
+      "rows": 11468,
+      "columns": [
+        "condition",
+        "release",
+        "dataset",
+        "algo",
+        "policy",
+        "k",
+        "n",
+        "status",
+        "portability",
+        "sklearn",
+        "numpy",
+        "rep",
+        "fold",
+        "ba",
+        "pred_sha",
+        "detail"
+      ],
+      "null_cells": {
+        "detail": 11280,
+        "sklearn": 188,
+        "numpy": 188,
+        "rep": 188,
+        "fold": 188,
+        "ba": 188,
+        "pred_sha": 188
+      },
+      "first_values": {
+        "condition": [
+          "0.21.3",
+          "0.22.2.post1"
+        ],
+        "release": [
+          "0.21.3",
+          "0.22.2.post1"
+        ],
+        "dataset": [
+          "openml_3",
+          "openml_6",
+          "openml_11"
+        ],
+        "algo": [
+          "LR",
+          "SVC",
+          "kNN"
+        ],
+        "policy": [
+          "P"
+        ],
+        "k": [
+          "2",
+          "26",
+          "3"
+        ],
+        "n": [
+          "3196",
+          "5000",
+          "625"
+        ],
+        "status": [
+          "ok",
+          "not_portable"
+        ],
+        "portability": [
+          "ok",
+          "removed"
+        ],
+        "sklearn": [
+          "0.21.3",
+          "",
+          "0.22.2.post1"
+        ],
+        "numpy": [
+          "1.17.2",
+          "",
+          "1.18.4"
+        ],
+        "rep": [
+          "0.0",
+          "1.0",
+          "2.0"
+        ],
+        "fold": [
+          "0.0",
+          "1.0",
+          "2.0"
+        ],
+        "ba": [
+          "0.9639250909944816",
+          "0.9578727790320998",
+          "0.9668548149602434"
+        ],
+        "pred_sha": [
+          "ff7f8238bb15026f",
+          "1a9c603887e0912c",
+          "cd36eb075a0eed71"
+        ],
+        "detail": [
+          "",
+          "break_ties",
+          "ccp_alpha,max_samples"
+        ]
+      }
+    },
+    {
+      "path": "VersionShift/results/STAGE_B_SCIENCE_V225/CELL_C_NEG.csv.gz",
+      "kind": "csv.gz",
+      "rows": 4368,
+      "columns": [
+        "condition",
+        "release",
+        "dataset",
+        "algo",
+        "policy",
+        "k",
+        "n",
+        "status",
+        "portability",
+        "sklearn",
+        "numpy",
+        "rep",
+        "fold",
+        "ba",
+        "pred_sha",
+        "detail"
+      ],
+      "null_cells": {
+        "detail": 4320,
+        "sklearn": 48,
+        "numpy": 48,
+        "rep": 48,
+        "fold": 48,
+        "ba": 48,
+        "pred_sha": 48
+      },
+      "first_values": {
+        "condition": [
+          "1.8.0"
+        ],
+        "release": [
+          "1.8.0"
+        ],
+        "dataset": [
+          "openml_16",
+          "openml_23",
+          "openml_28"
+        ],
+        "algo": [
+          "LR",
+          "SVC",
+          "kNN"
+        ],
+        "policy": [
+          "D",
+          "P"
+        ],
+        "k": [
+          "10",
+          "3",
+          "2"
+        ],
+        "n": [
+          "2000",
+          "1473",
+          "5000"
+        ],
+        "status": [
+          "ok",
+          "not_portable"
+        ],
+        "portability": [
+          "ok",
+          "ineffective"
+        ],
+        "sklearn": [
+          "1.8.0",
+          ""
+        ],
+        "numpy": [
+          "2.4.2",
+          ""
+        ],
+        "rep": [
+          "0.0",
+          "1.0",
+          "2.0"
+        ],
+        "fold": [
+          "0.0",
+          "1.0",
+          "2.0"
+        ],
+        "ba": [
+          "0.9524999999999999",
+          "0.95",
+          "0.9475"
+        ],
+        "pred_sha": [
+          "46ebc3923b65279a",
+          "adccf4bc8a3cd073",
+          "bb042604c2af47e4"
+        ],
+        "detail": [
+          "",
+          "penalty",
+          "probability"
+        ]
+      }
+    },
+    {
+      "path": "VersionShift/results/STAGE_B_SCIENCE_V225/CELL_C_POS.csv.gz",
+      "kind": "csv.gz",
+      "rows": 3904,
+      "columns": [
+        "condition",
+        "release",
+        "dataset",
+        "algo",
+        "policy",
+        "k",
+        "n",
+        "status",
+        "portability",
+        "sklearn",
+        "numpy",
+        "rep",
+        "fold",
+        "ba",
+        "pred_sha",
+        "detail"
+      ],
+      "null_cells": {
+        "detail": 3840,
+        "sklearn": 64,
+        "numpy": 64,
+        "rep": 64,
+        "fold": 64,
+        "ba": 64,
+        "pred_sha": 64
+      },
+      "first_values": {
+        "condition": [
+          "0.21.3"
+        ],
+        "release": [
+          "0.21.3"
+        ],
+        "dataset": [
+          "openml_16",
+          "openml_23",
+          "openml_28"
+        ],
+        "algo": [
+          "LR",
+          "SVC",
+          "kNN"
+        ],
+        "policy": [
+          "D",
+          "P"
+        ],
+        "k": [
+          "10",
+          "3",
+          "2"
+        ],
+        "n": [
+          "2000",
+          "1473",
+          "5000"
+        ],
+        "status": [
+          "ok",
+          "not_portable"
+        ],
+        "portability": [
+          "ok",
+          "removed"
+        ],
+        "sklearn": [
+          "0.21.3",
+          ""
+        ],
+        "numpy": [
+          "1.17.2",
+          ""
+        ],
+        "rep": [
+          "0.0",
+          "1.0",
+          "2.0"
+        ],
+        "fold": [
+          "0.0",
+          "1.0",
+          "2.0"
+        ],
+        "ba": [
+          "0.9375",
+          "0.9425000000000001",
+          "0.9349999999999999"
+        ],
+        "pred_sha": [
+          "49dd21283f6be917",
+          "ce5d5511ec674b9f",
+          "170b1f60070a19a0"
+        ],
+        "detail": [
+          "",
+          "break_ties",
+          "ccp_alpha,max_samples"
+        ]
+      }
+    },
+    {
+      "path": "VersionShift/results/STAGE_C_CPU_COMPLETION/merged/CELL_C_NEG.csv.gz",
+      "kind": "csv.gz",
+      "rows": 17199,
+      "columns": [
+        "condition",
+        "release",
+        "dataset",
+        "algo",
+        "policy",
+        "k",
+        "n",
+        "status",
+        "portability",
+        "sklearn",
+        "numpy",
+        "rep",
+        "fold",
+        "ba",
+        "pred_sha",
+        "detail"
+      ],
+      "null_cells": {
+        "detail": 17010,
+        "sklearn": 189,
+        "numpy": 189,
+        "rep": 189,
+        "fold": 189,
+        "ba": 189,
+        "pred_sha": 189
+      },
+      "first_values": {
+        "condition": [
+          "1.8.0"
+        ],
+        "release": [
+          "1.8.0"
+        ],
+        "dataset": [
+          "openml_16",
+          "openml_23",
+          "openml_28"
+        ],
+        "algo": [
+          "LR",
+          "SVC",
+          "kNN"
+        ],
+        "policy": [
+          "D",
+          "P"
+        ],
+        "k": [
+          "10",
+          "3",
+          "2"
+        ],
+        "n": [
+          "2000",
+          "1473",
+          "5000"
+        ],
+        "status": [
+          "ok",
+          "not_portable"
+        ],
+        "portability": [
+          "ok",
+          "ineffective"
+        ],
+        "sklearn": [
+          "1.8.0",
+          ""
+        ],
+        "numpy": [
+          "2.4.2",
+          ""
+        ],
+        "rep": [
+          "0.0",
+          "1.0",
+          "2.0"
+        ],
+        "fold": [
+          "0.0",
+          "1.0",
+          "2.0"
+        ],
+        "ba": [
+          "0.9524999999999999",
+          "0.95",
+          "0.9475"
+        ],
+        "pred_sha": [
+          "46ebc3923b65279a",
+          "adccf4bc8a3cd073",
+          "bb042604c2af47e4"
+        ],
+        "detail": [
+          "",
+          "penalty",
+          "probability"
+        ]
+      }
+    },
+    {
+      "path": "VersionShift/results/STAGE_C_CPU_COMPLETION/merged/CELL_C_POS.csv.gz",
+      "kind": "csv.gz",
+      "rows": 15372,
+      "columns": [
+        "condition",
+        "release",
+        "dataset",
+        "algo",
+        "policy",
+        "k",
+        "n",
+        "status",
+        "portability",
+        "sklearn",
+        "numpy",
+        "rep",
+        "fold",
+        "ba",
+        "pred_sha",
+        "detail"
+      ],
+      "null_cells": {
+        "detail": 15120,
+        "sklearn": 252,
+        "numpy": 252,
+        "rep": 252,
+        "fold": 252,
+        "ba": 252,
+        "pred_sha": 252
+      },
+      "first_values": {
+        "condition": [
+          "0.21.3"
+        ],
+        "release": [
+          "0.21.3"
+        ],
+        "dataset": [
+          "openml_16",
+          "openml_23",
+          "openml_28"
+        ],
+        "algo": [
+          "LR",
+          "SVC",
+          "kNN"
+        ],
+        "policy": [
+          "D",
+          "P"
+        ],
+        "k": [
+          "10",
+          "3",
+          "2"
+        ],
+        "n": [
+          "2000",
+          "1473",
+          "5000"
+        ],
+        "status": [
+          "ok",
+          "not_portable"
+        ],
+        "portability": [
+          "ok",
+          "removed"
+        ],
+        "sklearn": [
+          "0.21.3",
+          ""
+        ],
+        "numpy": [
+          "1.17.2",
+          ""
+        ],
+        "rep": [
+          "0.0",
+          "1.0",
+          "2.0"
+        ],
+        "fold": [
+          "0.0",
+          "1.0",
+          "2.0"
+        ],
+        "ba": [
+          "0.9375",
+          "0.9425000000000001",
+          "0.9349999999999999"
+        ],
+        "pred_sha": [
+          "49dd21283f6be917",
+          "ce5d5511ec674b9f",
+          "170b1f60070a19a0"
+        ],
+        "detail": [
+          "",
+          "break_ties",
+          "ccp_alpha,max_samples"
+        ]
+      }
+    },
+    {
+      "path": "VersionShift/results/STAGE_C_CPU_COMPLETION/merged/HOLDOUT47_NEG.csv.gz",
+      "kind": "csv.gz",
+      "rows": 66317,
+      "columns": [
+        "condition",
+        "release",
+        "dataset",
+        "algo",
+        "policy",
+        "k",
+        "n",
+        "status",
+        "portability",
+        "sklearn",
+        "numpy",
+        "rep",
+        "fold",
+        "ba",
+        "pred_sha",
+        "detail"
+      ],
+      "null_cells": {
+        "detail": 66270,
+        "sklearn": 47,
+        "numpy": 47,
+        "rep": 47,
+        "fold": 47,
+        "ba": 47,
+        "pred_sha": 47
+      },
+      "first_values": {
+        "condition": [
+          "1.8.0",
+          "1.9.1"
+        ],
+        "release": [
+          "1.8.0",
+          "1.9.1"
+        ],
+        "dataset": [
+          "openml_3",
+          "openml_6",
+          "openml_11"
+        ],
+        "algo": [
+          "LR",
+          "SVC",
+          "kNN"
+        ],
+        "policy": [
+          "D",
+          "E",
+          "P"
+        ],
+        "k": [
+          "2",
+          "26",
+          "3"
+        ],
+        "n": [
+          "3196",
+          "5000",
+          "625"
+        ],
+        "status": [
+          "ok",
+          "not_portable"
+        ],
+        "portability": [
+          "ok",
+          "ineffective"
+        ],
+        "sklearn": [
+          "1.8.0",
+          "1.9.1",
+          ""
+        ],
+        "numpy": [
+          "2.4.2",
+          "2.5.4",
+          ""
+        ],
+        "rep": [
+          "0.0",
+          "1.0",
+          "2.0"
+        ],
+        "fold": [
+          "0.0",
+          "1.0",
+          "2.0"
+        ],
+        "ba": [
+          "0.9622911040663771",
+          "0.9595121232943948",
+          "0.9668548149602434"
+        ],
+        "pred_sha": [
+          "fa6c754309a5779f",
+          "545c2a7a579faddf",
+          "cd36eb075a0eed71"
+        ],
+        "detail": [
+          "",
+          "penalty"
+        ]
+      }
+    },
+    {
+      "path": "VersionShift/results/STAGE_C_CPU_COMPLETION/merged/HOLDOUT47_POS.csv.gz",
+      "kind": "csv.gz",
+      "rows": 56776,
+      "columns": [
+        "condition",
+        "release",
+        "dataset",
+        "algo",
+        "policy",
+        "k",
+        "n",
+        "status",
+        "portability",
+        "sklearn",
+        "numpy",
+        "rep",
+        "fold",
+        "ba",
+        "pred_sha",
+        "detail"
+      ],
+      "null_cells": {
+        "detail": 56400,
+        "sklearn": 376,
+        "numpy": 376,
+        "rep": 376,
+        "fold": 376,
+        "ba": 376,
+        "pred_sha": 376
+      },
+      "first_values": {
+        "condition": [
+          "0.21.3",
+          "0.22.2.post1"
+        ],
+        "release": [
+          "0.21.3",
+          "0.22.2.post1"
+        ],
+        "dataset": [
+          "openml_3",
+          "openml_6",
+          "openml_11"
+        ],
+        "algo": [
+          "LR",
+          "SVC",
+          "kNN"
+        ],
+        "policy": [
+          "D",
+          "E",
+          "P"
+        ],
+        "k": [
+          "2",
+          "26",
+          "3"
+        ],
+        "n": [
+          "3196",
+          "5000",
+          "625"
+        ],
+        "status": [
+          "ok",
+          "not_portable"
+        ],
+        "portability": [
+          "ok",
+          "unsupported",
+          "ineffective"
+        ],
+        "sklearn": [
+          "0.21.3",
+          "",
+          "0.22.2.post1"
+        ],
+        "numpy": [
+          "1.17.2",
+          "",
+          "1.18.4"
+        ],
+        "rep": [
+          "0.0",
+          "1.0",
+          "2.0"
+        ],
+        "fold": [
+          "0.0",
+          "1.0",
+          "2.0"
+        ],
+        "ba": [
+          "0.9639250909944816",
+          "0.9578727790320998",
+          "0.9668548149602434"
+        ],
+        "pred_sha": [
+          "ff7f8238bb15026f",
+          "1a9c603887e0912c",
+          "cd36eb075a0eed71"
+        ],
+        "detail": [
+          "",
+          "TypeError(\"__init__() got an unexpected keyword argument 'early_stopping'\")",
+          "multi_class,solver"
+        ]
+      }
+    },
+    {
+      "path": "VersionShift/results/STAGE_C_CPU_COMPLETION/merged/NEG.csv.gz",
+      "kind": "csv.gz",
+      "rows": 88893,
+      "columns": [
+        "condition",
+        "release",
+        "dataset",
+        "algo",
+        "policy",
+        "k",
+        "n",
+        "status",
+        "portability",
+        "sklearn",
+        "numpy",
+        "rep",
+        "fold",
+        "ba",
+        "pred_sha",
+        "detail"
+      ],
+      "null_cells": {
+        "detail": 88830,
+        "sklearn": 63,
+        "numpy": 63,
+        "rep": 63,
+        "fold": 63,
+        "ba": 63,
+        "pred_sha": 63
+      },
+      "first_values": {
+        "condition": [
+          "1.8.0",
+          "1.9.1"
+        ],
+        "release": [
+          "1.8.0",
+          "1.9.1"
+        ],
+        "dataset": [
+          "openml_16",
+          "openml_23",
+          "openml_28"
+        ],
+        "algo": [
+          "LR",
+          "SVC",
+          "kNN"
+        ],
+        "policy": [
+          "D",
+          "E",
+          "P"
+        ],
+        "k": [
+          "10",
+          "3",
+          "2"
+        ],
+        "n": [
+          "2000",
+          "1473",
+          "5000"
+        ],
+        "status": [
+          "ok",
+          "not_portable"
+        ],
+        "portability": [
+          "ok",
+          "ineffective"
+        ],
+        "sklearn": [
+          "1.8.0",
+          "1.9.1",
+          ""
+        ],
+        "numpy": [
+          "2.4.2",
+          "2.5.4",
+          ""
+        ],
+        "rep": [
+          "0.0",
+          "1.0",
+          "2.0"
+        ],
+        "fold": [
+          "0.0",
+          "1.0",
+          "2.0"
+        ],
+        "ba": [
+          "0.9524999999999999",
+          "0.95",
+          "0.9475"
+        ],
+        "pred_sha": [
+          "46ebc3923b65279a",
+          "adccf4bc8a3cd073",
+          "bb042604c2af47e4"
+        ],
+        "detail": [
+          "",
+          "penalty"
+        ]
+      }
+    },
+    {
+      "path": "VersionShift/results/STAGE_C_CPU_COMPLETION/merged/NEG_REVERSE.csv.gz",
+      "kind": "csv.gz",
+      "rows": 17199,
+      "columns": [
+        "condition",
+        "release",
+        "dataset",
+        "algo",
+        "policy",
+        "k",
+        "n",
+        "status",
+        "portability",
+        "detail",
+        "sklearn",
+        "numpy",
+        "rep",
+        "fold",
+        "ba",
+        "pred_sha"
+      ],
+      "null_cells": {
+        "sklearn": 189,
+        "numpy": 189,
+        "rep": 189,
+        "fold": 189,
+        "ba": 189,
+        "pred_sha": 189,
+        "detail": 17010
+      },
+      "first_values": {
+        "condition": [
+          "1.8.0",
+          "1.9.1"
+        ],
+        "release": [
+          "1.8.0",
+          "1.9.1"
+        ],
+        "dataset": [
+          "openml_16",
+          "openml_23",
+          "openml_28"
+        ],
+        "algo": [
+          "LR",
+          "SVC",
+          "kNN"
+        ],
+        "policy": [
+          "P"
+        ],
+        "k": [
+          "10",
+          "3",
+          "2"
+        ],
+        "n": [
+          "2000",
+          "1473",
+          "5000"
+        ],
+        "status": [
+          "not_portable",
+          "ok"
+        ],
+        "portability": [
+          "ineffective",
+          "ok"
+        ],
+        "detail": [
+          "penalty",
+          "probability",
+          ""
+        ],
+        "sklearn": [
+          "",
+          "1.8.0",
+          "1.9.1"
+        ],
+        "numpy": [
+          "",
+          "2.4.2",
+          "2.5.4"
+        ],
+        "rep": [
+          "",
+          "0.0",
+          "1.0"
+        ],
+        "fold": [
+          "",
+          "0.0",
+          "1.0"
+        ],
+        "ba": [
+          "",
+          "0.9650000000000001",
+          "0.9724999999999999"
+        ],
+        "pred_sha": [
+          "",
+          "c2cbd4e529c0a1df",
+          "5e5a94fc2968e254"
+        ]
+      }
+    },
+    {
+      "path": "VersionShift/results/STAGE_C_CPU_COMPLETION/merged/POS.csv.gz",
+      "kind": "csv.gz",
+      "rows": 76104,
+      "columns": [
+        "condition",
+        "release",
+        "dataset",
+        "algo",
+        "policy",
+        "k",
+        "n",
+        "status",
+        "portability",
+        "sklearn",
+        "numpy",
+        "rep",
+        "fold",
+        "ba",
+        "pred_sha",
+        "detail"
+      ],
+      "null_cells": {
+        "detail": 75600,
+        "sklearn": 504,
+        "numpy": 504,
+        "rep": 504,
+        "fold": 504,
+        "ba": 504,
+        "pred_sha": 504
+      },
+      "first_values": {
+        "condition": [
+          "0.21.3",
+          "0.22.2.post1"
+        ],
+        "release": [
+          "0.21.3",
+          "0.22.2.post1"
+        ],
+        "dataset": [
+          "openml_16",
+          "openml_23",
+          "openml_28"
+        ],
+        "algo": [
+          "LR",
+          "SVC",
+          "kNN"
+        ],
+        "policy": [
+          "D",
+          "E",
+          "P"
+        ],
+        "k": [
+          "10",
+          "3",
+          "2"
+        ],
+        "n": [
+          "2000",
+          "1473",
+          "5000"
+        ],
+        "status": [
+          "ok",
+          "not_portable"
+        ],
+        "portability": [
+          "ok",
+          "unsupported",
+          "ineffective"
+        ],
+        "sklearn": [
+          "0.21.3",
+          "",
+          "0.22.2.post1"
+        ],
+        "numpy": [
+          "1.17.2",
+          "",
+          "1.18.4"
+        ],
+        "rep": [
+          "0.0",
+          "1.0",
+          "2.0"
+        ],
+        "fold": [
+          "0.0",
+          "1.0",
+          "2.0"
+        ],
+        "ba": [
+          "0.9375",
+          "0.9425000000000001",
+          "0.9349999999999999"
+        ],
+        "pred_sha": [
+          "49dd21283f6be917",
+          "ce5d5511ec674b9f",
+          "170b1f60070a19a0"
+        ],
+        "detail": [
+          "",
+          "TypeError(\"__init__() got an unexpected keyword argument 'early_stopping'\")",
+          "multi_class,solver"
+        ]
+      }
+    },
+    {
+      "path": "VersionShift/results/STAGE_C_CPU_COMPLETION/merged/POS_REVERSE.csv.gz",
+      "kind": "csv.gz",
+      "rows": 15372,
+      "columns": [
+        "condition",
+        "release",
+        "dataset",
+        "algo",
+        "policy",
+        "k",
+        "n",
+        "status",
+        "portability",
+        "sklearn",
+        "numpy",
+        "rep",
+        "fold",
+        "ba",
+        "pred_sha",
+        "detail"
+      ],
+      "null_cells": {
+        "detail": 15120,
+        "sklearn": 252,
+        "numpy": 252,
+        "rep": 252,
+        "fold": 252,
+        "ba": 252,
+        "pred_sha": 252
+      },
+      "first_values": {
+        "condition": [
+          "0.21.3",
+          "0.22.2.post1"
+        ],
+        "release": [
+          "0.21.3",
+          "0.22.2.post1"
+        ],
+        "dataset": [
+          "openml_16",
+          "openml_23",
+          "openml_28"
+        ],
+        "algo": [
+          "LR",
+          "SVC",
+          "kNN"
+        ],
+        "policy": [
+          "P"
+        ],
+        "k": [
+          "10",
+          "3",
+          "2"
+        ],
+        "n": [
+          "2000",
+          "1473",
+          "5000"
+        ],
+        "status": [
+          "ok",
+          "not_portable"
+        ],
+        "portability": [
+          "ok",
+          "removed"
+        ],
+        "sklearn": [
+          "0.21.3",
+          "",
+          "0.22.2.post1"
+        ],
+        "numpy": [
+          "1.17.2",
+          "",
+          "1.18.4"
+        ],
+        "rep": [
+          "0.0",
+          "1.0",
+          "2.0"
+        ],
+        "fold": [
+          "0.0",
+          "1.0",
+          "2.0"
+        ],
+        "ba": [
+          "0.9549999999999998",
+          "0.95",
+          "0.9475"
+        ],
+        "pred_sha": [
+          "e74e5f6c2dd58a80",
+          "adccf4bc8a3cd073",
+          "bb042604c2af47e4"
+        ],
+        "detail": [
+          "",
+          "break_ties",
+          "ccp_alpha,max_samples"
+        ]
+      }
+    }
+  ],
+  "job_status_profiles": [
+    {
+      "path": "VersionShift/results/STAGE_B_RUNS/AA_0213/JOB_STATUS.jsonl",
+      "rows": 192,
+      "status_counts": {
+        "ok": 192
+      },
+      "invalid_lines": [],
+      "keys": {
+        "id": 192,
+        "status": 192,
+        "portability": 192,
+        "seconds": 192
+      },
+      "samples": [
+        {
+          "id": "AA1__openml_16__LR__D",
+          "status": "ok",
+          "portability": "ok",
+          "seconds": 3.94
+        },
+        {
+          "id": "AA1__openml_16__SVC__D",
+          "status": "ok",
+          "portability": "ok",
+          "seconds": 4.47
+        }
+      ]
+    },
+    {
+      "path": "VersionShift/results/STAGE_B_RUNS/AA_0_21_3/PARALLEL_JOB_STATUS.jsonl",
+      "rows": 192,
+      "status_counts": {
+        "ok": 192
+      },
+      "invalid_lines": [],
+      "keys": {
+        "id": 192,
+        "ok": 192,
+        "scheduler": 192,
+        "seconds": 192,
+        "status": 192
+      },
+      "samples": [
+        {
+          "id": "AA2__openml_16__kNN__D",
+          "ok": true,
+          "scheduler": "v225-10worker",
+          "seconds": 1.01,
+          "status": "ok"
+        },
+        {
+          "id": "AA1__openml_16__kNN__D",
+          "ok": true,
+          "scheduler": "v225-10worker",
+          "seconds": 1.05,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "path": "VersionShift/results/STAGE_B_RUNS/AA_0_22_2_post1/PARALLEL_JOB_STATUS.jsonl",
+      "rows": 192,
+      "status_counts": {
+        "ok": 192
+      },
+      "invalid_lines": [],
+      "keys": {
+        "id": 192,
+        "ok": 192,
+        "scheduler": 192,
+        "seconds": 192,
+        "status": 192
+      },
+      "samples": [
+        {
+          "id": "AA2__openml_16__kNN__D",
+          "ok": true,
+          "scheduler": "v225-10worker",
+          "seconds": 1.01,
+          "status": "ok"
+        },
+        {
+          "id": "AA1__openml_16__kNN__D",
+          "ok": true,
+          "scheduler": "v225-10worker",
+          "seconds": 1.04,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "path": "VersionShift/results/STAGE_B_RUNS/AA_1_8_0/PARALLEL_JOB_STATUS.jsonl",
+      "rows": 192,
+      "status_counts": {
+        "ok": 192
+      },
+      "invalid_lines": [],
+      "keys": {
+        "id": 192,
+        "ok": 192,
+        "scheduler": 192,
+        "seconds": 192,
+        "status": 192
+      },
+      "samples": [
+        {
+          "id": "AA2__openml_16__kNN__D",
+          "ok": true,
+          "scheduler": "v225-10worker",
+          "seconds": 0.74,
+          "status": "ok"
+        },
+        {
+          "id": "AA1__openml_16__kNN__D",
+          "ok": true,
+          "scheduler": "v225-10worker",
+          "seconds": 0.75,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "path": "VersionShift/results/STAGE_B_RUNS/AA_1_9_1/PARALLEL_JOB_STATUS.jsonl",
+      "rows": 192,
+      "status_counts": {
+        "ok": 192
+      },
+      "invalid_lines": [],
+      "keys": {
+        "id": 192,
+        "ok": 192,
+        "scheduler": 192,
+        "seconds": 192,
+        "status": 192
+      },
+      "samples": [
+        {
+          "id": "AA1__openml_16__kNN__D",
+          "ok": true,
+          "scheduler": "v225-10worker",
+          "seconds": 0.82,
+          "status": "ok"
+        },
+        {
+          "id": "AA2__openml_16__kNN__D",
+          "ok": true,
+          "scheduler": "v225-10worker",
+          "seconds": 0.82,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "path": "VersionShift/results/STAGE_B_RUNS/EDGE_0213_0222/JOB_STATUS.jsonl",
+      "rows": 43,
+      "status_counts": {
+        "ok": 37,
+        "not_portable": 6
+      },
+      "invalid_lines": [],
+      "keys": {
+        "id": 43,
+        "status": 43,
+        "portability": 43,
+        "seconds": 43
+      },
+      "samples": [
+        {
+          "id": "0.21.3__openml_16__LR__D",
+          "status": "ok",
+          "portability": "ok",
+          "seconds": 3.97
+        },
+        {
+          "id": "0.21.3__openml_16__LR__E",
+          "status": "ok",
+          "portability": "ok",
+          "seconds": 4.29
+        }
+      ]
+    },
+    {
+      "path": "VersionShift/results/STAGE_B_RUNS/EDGE_0213_0222/PARALLEL_JOB_STATUS.jsonl",
+      "rows": 725,
+      "status_counts": {
+        "not_portable": 122,
+        "ok": 603
+      },
+      "invalid_lines": [],
+      "keys": {
+        "id": 725,
+        "ok": 725,
+        "scheduler": 725,
+        "seconds": 725,
+        "status": 725
+      },
+      "samples": [
+        {
+          "id": "0.22.2.post1__openml_16__HGB__E",
+          "ok": true,
+          "scheduler": "v225-resume",
+          "seconds": 0.32,
+          "status": "not_portable"
+        },
+        {
+          "id": "0.22.2.post1__openml_16__HGB__P",
+          "ok": true,
+          "scheduler": "v225-resume",
+          "seconds": 0.32,
+          "status": "not_portable"
+        }
+      ]
+    },
+    {
+      "path": "VersionShift/results/STAGE_B_RUNS/EDGE_0213_0222_REVERSE/JOB_STATUS.jsonl",
+      "rows": 10,
+      "status_counts": {
+        "ok": 6,
+        "not_portable": 4
+      },
+      "invalid_lines": [],
+      "keys": {
+        "id": 10,
+        "status": 10,
+        "portability": 10,
+        "seconds": 10
+      },
+      "samples": [
+        {
+          "id": "0.21.3__openml_16__LR__P",
+          "status": "ok",
+          "portability": "ok",
+          "seconds": 1.64
+        },
+        {
+          "id": "0.21.3__openml_16__SVC__P",
+          "status": "not_portable",
+          "portability": "removed",
+          "seconds": 0.21
+        }
+      ]
+    },
+    {
+      "path": "VersionShift/results/STAGE_B_RUNS/EDGE_0213_0222_REVERSE/PARALLEL_JOB_STATUS.jsonl",
+      "rows": 182,
+      "status_counts": {
+        "not_portable": 60,
+        "ok": 122
+      },
+      "invalid_lines": [],
+      "keys": {
+        "id": 182,
+        "ok": 182,
+        "scheduler": 182,
+        "seconds": 182,
+        "status": 182
+      },
+      "samples": [
+        {
+          "id": "0.21.3__openml_23__RF__P",
+          "ok": true,
+          "scheduler": "v225-10worker",
+          "seconds": 0.3,
+          "status": "not_portable"
+        },
+        {
+          "id": "0.21.3__openml_23__SVC__P",
+          "ok": true,
+          "scheduler": "v225-10worker",
+          "seconds": 0.3,
+          "status": "not_portable"
+        }
+      ]
+    },
+    {
+      "path": "VersionShift/results/STAGE_B_RUNS/EDGE_180_190/PARALLEL_JOB_STATUS.jsonl",
+      "rows": 768,
+      "status_counts": {
+        "ok": 752,
+        "not_portable": 16
+      },
+      "invalid_lines": [],
+      "keys": {
+        "id": 768,
+        "ok": 768,
+        "scheduler": 768,
+        "seconds": 768,
+        "status": 768
+      },
+      "samples": [
+        {
+          "id": "1.8.0__openml_16__kNN__E",
+          "ok": true,
+          "scheduler": "v225-10worker",
+          "seconds": 0.78,
+          "status": "ok"
+        },
+        {
+          "id": "1.8.0__openml_16__kNN__D",
+          "ok": true,
+          "scheduler": "v225-10worker",
+          "seconds": 0.78,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "path": "VersionShift/results/STAGE_B_RUNS/EDGE_180_190_REVERSE/PARALLEL_JOB_STATUS.jsonl",
+      "rows": 192,
+      "status_counts": {
+        "not_portable": 48,
+        "ok": 144
+      },
+      "invalid_lines": [],
+      "keys": {
+        "id": 192,
+        "ok": 192,
+        "scheduler": 192,
+        "seconds": 192,
+        "status": 192
+      },
+      "samples": [
+        {
+          "id": "1.8.0__openml_16__LR__P",
+          "ok": true,
+          "scheduler": "v225-10worker",
+          "seconds": 0.62,
+          "status": "not_portable"
+        },
+        {
+          "id": "1.8.0__openml_16__GB__P",
+          "ok": true,
+          "scheduler": "v225-10worker",
+          "seconds": 0.63,
+          "status": "not_portable"
+        }
+      ]
+    },
+    {
+      "path": "VersionShift/results/STAGE_B_RUNS/STAGE_C47_NEG/PARALLEL_JOB_STATUS.jsonl",
+      "rows": 2256,
+      "status_counts": {
+        "ok": 2209,
+        "not_portable": 47
+      },
+      "invalid_lines": [],
+      "keys": {
+        "id": 2256,
+        "ok": 2256,
+        "scheduler": 2256,
+        "seconds": 2256,
+        "status": 2256
+      },
+      "samples": [
+        {
+          "id": "1.8.0__openml_3__LR__E",
+          "ok": true,
+          "scheduler": "v225-10worker",
+          "seconds": 0.92,
+          "status": "ok"
+        },
+        {
+          "id": "1.8.0__openml_3__LR__P",
+          "ok": true,
+          "scheduler": "v225-10worker",
+          "seconds": 0.94,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "path": "VersionShift/results/STAGE_B_RUNS/STAGE_C47_NEG_REVERSE/PARALLEL_JOB_STATUS.jsonl",
+      "rows": 564,
+      "status_counts": {
+        "not_portable": 141,
+        "ok": 423
+      },
+      "invalid_lines": [],
+      "keys": {
+        "id": 564,
+        "ok": 564,
+        "scheduler": 564,
+        "seconds": 564,
+        "status": 564
+      },
+      "samples": [
+        {
+          "id": "1.8.0__openml_3__SVC__P",
+          "ok": true,
+          "scheduler": "v225-10worker",
+          "seconds": 0.69,
+          "status": "not_portable"
+        },
+        {
+          "id": "1.8.0__openml_3__LR__P",
+          "ok": true,
+          "scheduler": "v225-10worker",
+          "seconds": 0.7,
+          "status": "not_portable"
+        }
+      ]
+    },
+    {
+      "path": "VersionShift/results/STAGE_B_RUNS/STAGE_C47_POS/PARALLEL_JOB_STATUS.jsonl",
+      "rows": 2256,
+      "status_counts": {
+        "ok": 1880,
+        "not_portable": 376
+      },
+      "invalid_lines": [],
+      "keys": {
+        "id": 2256,
+        "ok": 2256,
+        "scheduler": 2256,
+        "seconds": 2256,
+        "status": 2256
+      },
+      "samples": [
+        {
+          "id": "0.21.3__openml_3__LR__P",
+          "ok": true,
+          "scheduler": "v225-10worker",
+          "seconds": 0.52,
+          "status": "ok"
+        },
+        {
+          "id": "0.21.3__openml_3__LR__D",
+          "ok": true,
+          "scheduler": "v225-10worker",
+          "seconds": 0.53,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "path": "VersionShift/results/STAGE_B_RUNS/STAGE_C47_POS_REVERSE/PARALLEL_JOB_STATUS.jsonl",
+      "rows": 564,
+      "status_counts": {
+        "not_portable": 188,
+        "ok": 376
+      },
+      "invalid_lines": [],
+      "keys": {
+        "id": 564,
+        "ok": 564,
+        "scheduler": 564,
+        "seconds": 564,
+        "status": 564
+      },
+      "samples": [
+        {
+          "id": "0.21.3__openml_3__RF__P",
+          "ok": true,
+          "scheduler": "v225-10worker",
+          "seconds": 0.3,
+          "status": "not_portable"
+        },
+        {
+          "id": "0.21.3__openml_3__SVC__P",
+          "ok": true,
+          "scheduler": "v225-10worker",
+          "seconds": 0.32,
+          "status": "not_portable"
+        }
+      ]
+    }
+  ],
+  "collect_summaries": [
+    {
+      "path": "VersionShift/results/STAGE_B_RUNS/AA_0213/COLLECT_SUMMARY.json",
+      "planned_jobs": 192,
+      "missing_jobs": [],
+      "status_counts": {
+        "ok": 192
+      },
+      "portability_counts": {
+        "ok": 192
+      }
+    },
+    {
+      "path": "VersionShift/results/STAGE_B_RUNS/AA_0_21_3/COLLECT_SUMMARY.json",
+      "planned_jobs": 192,
+      "missing_jobs": [],
+      "status_counts": {
+        "ok": 192
+      },
+      "portability_counts": {
+        "ok": 192
+      }
+    },
+    {
+      "path": "VersionShift/results/STAGE_B_RUNS/AA_0_22_2_post1/COLLECT_SUMMARY.json",
+      "planned_jobs": 192,
+      "missing_jobs": [],
+      "status_counts": {
+        "ok": 192
+      },
+      "portability_counts": {
+        "ok": 192
+      }
+    },
+    {
+      "path": "VersionShift/results/STAGE_B_RUNS/AA_1_8_0/COLLECT_SUMMARY.json",
+      "planned_jobs": 192,
+      "missing_jobs": [],
+      "status_counts": {
+        "ok": 192
+      },
+      "portability_counts": {
+        "ok": 192
+      }
+    },
+    {
+      "path": "VersionShift/results/STAGE_B_RUNS/AA_1_9_1/COLLECT_SUMMARY.json",
+      "planned_jobs": 192,
+      "missing_jobs": [],
+      "status_counts": {
+        "ok": 192
+      },
+      "portability_counts": {
+        "ok": 192
+      }
+    },
+    {
+      "path": "VersionShift/results/STAGE_B_RUNS/EDGE_0213_0222/COLLECT_SUMMARY.json",
+      "planned_jobs": 768,
+      "missing_jobs": [],
+      "status_counts": {
+        "ok": 640,
+        "not_portable": 128
+      },
+      "portability_counts": {
+        "ok": 640,
+        "ineffective": 64,
+        "unsupported": 32,
+        "unpinned_new": 32
+      }
+    },
+    {
+      "path": "VersionShift/results/STAGE_B_RUNS/EDGE_0213_0222_REVERSE/COLLECT_SUMMARY.json",
+      "planned_jobs": 192,
+      "missing_jobs": [],
+      "status_counts": {
+        "ok": 128,
+        "not_portable": 64
+      },
+      "portability_counts": {
+        "ok": 128,
+        "removed": 64
+      }
+    },
+    {
+      "path": "VersionShift/results/STAGE_B_RUNS/EDGE_180_190/COLLECT_SUMMARY.json",
+      "planned_jobs": 768,
+      "missing_jobs": [],
+      "status_counts": {
+        "ok": 752,
+        "not_portable": 16
+      },
+      "portability_counts": {
+        "ok": 752,
+        "ineffective": 16
+      }
+    },
+    {
+      "path": "VersionShift/results/STAGE_B_RUNS/EDGE_180_190_REVERSE/COLLECT_SUMMARY.json",
+      "planned_jobs": 192,
+      "missing_jobs": [],
+      "status_counts": {
+        "ok": 144,
+        "not_portable": 48
+      },
+      "portability_counts": {
+        "ok": 144,
+        "ineffective": 48
+      }
+    },
+    {
+      "path": "VersionShift/results/STAGE_B_RUNS/STAGE_C47_NEG/COLLECT_SUMMARY.json",
+      "planned_jobs": 2256,
+      "missing_jobs": [],
+      "status_counts": {
+        "ok": 2209,
+        "not_portable": 47
+      },
+      "portability_counts": {
+        "ok": 2209,
+        "ineffective": 47
+      }
+    },
+    {
+      "path": "VersionShift/results/STAGE_B_RUNS/STAGE_C47_NEG_REVERSE/COLLECT_SUMMARY.json",
+      "planned_jobs": 564,
+      "missing_jobs": [],
+      "status_counts": {
+        "ok": 423,
+        "not_portable": 141
+      },
+      "portability_counts": {
+        "ok": 423,
+        "ineffective": 141
+      }
+    },
+    {
+      "path": "VersionShift/results/STAGE_B_RUNS/STAGE_C47_POS/COLLECT_SUMMARY.json",
+      "planned_jobs": 2256,
+      "missing_jobs": [],
+      "status_counts": {
+        "ok": 1880,
+        "not_portable": 376
+      },
+      "portability_counts": {
+        "ok": 1880,
+        "ineffective": 188,
+        "unsupported": 94,
+        "unpinned_new": 94
+      }
+    },
+    {
+      "path": "VersionShift/results/STAGE_B_RUNS/STAGE_C47_POS_REVERSE/COLLECT_SUMMARY.json",
+      "planned_jobs": 564,
+      "missing_jobs": [],
+      "status_counts": {
+        "ok": 376,
+        "not_portable": 188
+      },
+      "portability_counts": {
+        "ok": 376,
+        "removed": 188
+      }
+    }
+  ],
+  "completion_hash_checks": {
+    "entries": 23,
+    "pass": 23,
+    "fail": 0
+  },
+  "reports_loaded": [
+    "VersionShift/results/STAGE_C_CPU_COMPLETION/reports/FULL63_FRAME_CENSUS.json",
+    "VersionShift/results/STAGE_C_CPU_COMPLETION/reports/HOLDOUT47_FINITE_SUBFRAME_SENSITIVITY.json",
+    "VersionShift/results/STAGE_C_CPU_COMPLETION/reports/CPU_COMPLETION_ASSESSMENT.json",
+    "VersionShift/results/INDEPENDENT_VERIFICATION/VERIFY_SUMMARY.json",
+    "VersionShift/results/data/STAGE_C_COMPLETION_PROTOCOL_RECORD.json",
+    "VersionShift/results/data/AMENDMENT_V226_FREEZE.json"
+  ],
+  "warnings": []
+}

@@ -1,0 +1,743 @@
+{
+ "header": {
+  "blinding": "UNBLINDED_EXPLORATORY",
+  "note": "outcomes revealed before the oracle frame was frozen"
+ },
+ "population": "superpopulation",
+ "plan_coverage": {
+  "planned_datasets": 1,
+  "required_jobs": 12,
+  "status": "PASS"
+ },
+ "primary_family": [
+  "A:B"
+ ],
+ "margins": {
+  "0.25": {
+   "A:B": {
+    "margin_pp": 0.25,
+    "K": 1,
+    "K_complete_case": 1,
+    "complete_case_coverage": 1.0,
+    "pair_availability": {
+     "LR-SVC": 1,
+     "LR-kNN": 1,
+     "LR-RF": 1,
+     "LR-GB": 1,
+     "LR-HGB": 1,
+     "SVC-kNN": 1,
+     "SVC-RF": 1,
+     "SVC-GB": 1,
+     "SVC-HGB": 1,
+     "kNN-RF": 1,
+     "kNN-GB": 1,
+     "kNN-HGB": 1,
+     "RF-GB": 1,
+     "RF-HGB": 1,
+     "GB-HGB": 1
+    },
+    "q_mean": {
+     "M_pp": 0.0,
+     "M_k_sd": 0.0,
+     "M_one_sided_lower95": 0.0,
+     "M_one_sided_upper95": 0.0,
+     "p_changed_unadjusted": 1.0,
+     "pairs_all_tost_equivalent": false,
+     "per_pair": [
+      {
+       "pair": "LR-SVC",
+       "n": 1,
+       "mean_signed_pp": 0.0,
+       "ci90": [
+        0.0,
+        0.0
+       ],
+       "tost_equivalent": false
+      },
+      {
+       "pair": "LR-kNN",
+       "n": 1,
+       "mean_signed_pp": 0.0,
+       "ci90": [
+        0.0,
+        0.0
+       ],
+       "tost_equivalent": false
+      },
+      {
+       "pair": "LR-RF",
+       "n": 1,
+       "mean_signed_pp": 0.0,
+       "ci90": [
+        0.0,
+        0.0
+       ],
+       "tost_equivalent": false
+      },
+      {
+       "pair": "LR-GB",
+       "n": 1,
+       "mean_signed_pp": 0.0,
+       "ci90": [
+        0.0,
+        0.0
+       ],
+       "tost_equivalent": false
+      },
+      {
+       "pair": "LR-HGB",
+       "n": 1,
+       "mean_signed_pp": 0.0,
+       "ci90": [
+        0.0,
+        0.0
+       ],
+       "tost_equivalent": false
+      },
+      {
+       "pair": "SVC-kNN",
+       "n": 1,
+       "mean_signed_pp": 0.0,
+       "ci90": [
+        0.0,
+        0.0
+       ],
+       "tost_equivalent": false
+      },
+      {
+       "pair": "SVC-RF",
+       "n": 1,
+       "mean_signed_pp": 0.0,
+       "ci90": [
+        0.0,
+        0.0
+       ],
+       "tost_equivalent": false
+      },
+      {
+       "pair": "SVC-GB",
+       "n": 1,
+       "mean_signed_pp": 0.0,
+       "ci90": [
+        0.0,
+        0.0
+       ],
+       "tost_equivalent": false
+      },
+      {
+       "pair": "SVC-HGB",
+       "n": 1,
+       "mean_signed_pp": 0.0,
+       "ci90": [
+        0.0,
+        0.0
+       ],
+       "tost_equivalent": false
+      },
+      {
+       "pair": "kNN-RF",
+       "n": 1,
+       "mean_signed_pp": 0.0,
+       "ci90": [
+        0.0,
+        0.0
+       ],
+       "tost_equivalent": false
+      },
+      {
+       "pair": "kNN-GB",
+       "n": 1,
+       "mean_signed_pp": 0.0,
+       "ci90": [
+        0.0,
+        0.0
+       ],
+       "tost_equivalent": false
+      },
+      {
+       "pair": "kNN-HGB",
+       "n": 1,
+       "mean_signed_pp": 0.0,
+       "ci90": [
+        0.0,
+        0.0
+       ],
+       "tost_equivalent": false
+      },
+      {
+       "pair": "RF-GB",
+       "n": 1,
+       "mean_signed_pp": 0.0,
+       "ci90": [
+        0.0,
+        0.0
+       ],
+       "tost_equivalent": false
+      },
+      {
+       "pair": "RF-HGB",
+       "n": 1,
+       "mean_signed_pp": 0.0,
+       "ci90": [
+        0.0,
+        0.0
+       ],
+       "tost_equivalent": false
+      },
+      {
+       "pair": "GB-HGB",
+       "n": 1,
+       "mean_signed_pp": 0.0,
+       "ci90": [
+        0.0,
+        0.0
+       ],
+       "tost_equivalent": false
+      }
+     ]
+    },
+    "q_prev": {
+     "primary_avg_pair": {
+      "population": "superpopulation",
+      "estimate": 0.0,
+      "affected": 0,
+      "K": 1,
+      "lower": 0.0,
+      "upper": 0.95,
+      "p_exceeds_limit": 1.0,
+      "interpretation": "assumes tasks are an exchangeable sample of a wider task population"
+     },
+     "sensitivity_any_pair_pi_max": {
+      "population": "superpopulation",
+      "estimate": 0.0,
+      "affected": 0,
+      "K": 1,
+      "lower": 0.0,
+      "upper": 0.95,
+      "p_exceeds_limit": 1.0,
+      "interpretation": "assumes tasks are an exchangeable sample of a wider task population",
+      "threshold_pp": 1.0
+     },
+     "descriptive_pi_max_at_margin": 0.0,
+     "limit": 0.1
+    },
+    "equivalence_inputs": {
+     "all_pairs_tost": false,
+     "prevalence_ok": false,
+     "M_upper_below_margin": false
+    },
+    "missingness_sensitivity": {
+     "available_case_M_pp": 0.0,
+     "prevalence_bounds_missing_as_unaffected": 0.0,
+     "prevalence_bounds_missing_as_affected": 0.0
+    },
+    "edge": "A:B",
+    "datasets": [
+     "iris"
+    ],
+    "evidence": "observed_cross_release",
+    "adjusted": {
+     "mean": {
+      "p_adjusted": 1.0,
+      "method": "holm",
+      "family": "primary"
+     },
+     "prev": {
+      "p_adjusted": 1.0,
+      "method": "holm",
+      "family": "primary"
+     }
+    },
+    "labels": [
+     "INCONCLUSIVE"
+    ],
+    "family": "primary",
+    "sensitivity_flags": []
+   }
+  },
+  "0.5": {
+   "A:B": {
+    "margin_pp": 0.5,
+    "K": 1,
+    "K_complete_case": 1,
+    "complete_case_coverage": 1.0,
+    "pair_availability": {
+     "LR-SVC": 1,
+     "LR-kNN": 1,
+     "LR-RF": 1,
+     "LR-GB": 1,
+     "LR-HGB": 1,
+     "SVC-kNN": 1,
+     "SVC-RF": 1,
+     "SVC-GB": 1,
+     "SVC-HGB": 1,
+     "kNN-RF": 1,
+     "kNN-GB": 1,
+     "kNN-HGB": 1,
+     "RF-GB": 1,
+     "RF-HGB": 1,
+     "GB-HGB": 1
+    },
+    "q_mean": {
+     "M_pp": 0.0,
+     "M_k_sd": 0.0,
+     "M_one_sided_lower95": 0.0,
+     "M_one_sided_upper95": 0.0,
+     "p_changed_unadjusted": 1.0,
+     "pairs_all_tost_equivalent": false,
+     "per_pair": [
+      {
+       "pair": "LR-SVC",
+       "n": 1,
+       "mean_signed_pp": 0.0,
+       "ci90": [
+        0.0,
+        0.0
+       ],
+       "tost_equivalent": false
+      },
+      {
+       "pair": "LR-kNN",
+       "n": 1,
+       "mean_signed_pp": 0.0,
+       "ci90": [
+        0.0,
+        0.0
+       ],
+       "tost_equivalent": false
+      },
+      {
+       "pair": "LR-RF",
+       "n": 1,
+       "mean_signed_pp": 0.0,
+       "ci90": [
+        0.0,
+        0.0
+       ],
+       "tost_equivalent": false
+      },
+      {
+       "pair": "LR-GB",
+       "n": 1,
+       "mean_signed_pp": 0.0,
+       "ci90": [
+        0.0,
+        0.0
+       ],
+       "tost_equivalent": false
+      },
+      {
+       "pair": "LR-HGB",
+       "n": 1,
+       "mean_signed_pp": 0.0,
+       "ci90": [
+        0.0,
+        0.0
+       ],
+       "tost_equivalent": false
+      },
+      {
+       "pair": "SVC-kNN",
+       "n": 1,
+       "mean_signed_pp": 0.0,
+       "ci90": [
+        0.0,
+        0.0
+       ],
+       "tost_equivalent": false
+      },
+      {
+       "pair": "SVC-RF",
+       "n": 1,
+       "mean_signed_pp": 0.0,
+       "ci90": [
+        0.0,
+        0.0
+       ],
+       "tost_equivalent": false
+      },
+      {
+       "pair": "SVC-GB",
+       "n": 1,
+       "mean_signed_pp": 0.0,
+       "ci90": [
+        0.0,
+        0.0
+       ],
+       "tost_equivalent": false
+      },
+      {
+       "pair": "SVC-HGB",
+       "n": 1,
+       "mean_signed_pp": 0.0,
+       "ci90": [
+        0.0,
+        0.0
+       ],
+       "tost_equivalent": false
+      },
+      {
+       "pair": "kNN-RF",
+       "n": 1,
+       "mean_signed_pp": 0.0,
+       "ci90": [
+        0.0,
+        0.0
+       ],
+       "tost_equivalent": false
+      },
+      {
+       "pair": "kNN-GB",
+       "n": 1,
+       "mean_signed_pp": 0.0,
+       "ci90": [
+        0.0,
+        0.0
+       ],
+       "tost_equivalent": false
+      },
+      {
+       "pair": "kNN-HGB",
+       "n": 1,
+       "mean_signed_pp": 0.0,
+       "ci90": [
+        0.0,
+        0.0
+       ],
+       "tost_equivalent": false
+      },
+      {
+       "pair": "RF-GB",
+       "n": 1,
+       "mean_signed_pp": 0.0,
+       "ci90": [
+        0.0,
+        0.0
+       ],
+       "tost_equivalent": false
+      },
+      {
+       "pair": "RF-HGB",
+       "n": 1,
+       "mean_signed_pp": 0.0,
+       "ci90": [
+        0.0,
+        0.0
+       ],
+       "tost_equivalent": false
+      },
+      {
+       "pair": "GB-HGB",
+       "n": 1,
+       "mean_signed_pp": 0.0,
+       "ci90": [
+        0.0,
+        0.0
+       ],
+       "tost_equivalent": false
+      }
+     ]
+    },
+    "q_prev": {
+     "primary_avg_pair": {
+      "population": "superpopulation",
+      "estimate": 0.0,
+      "affected": 0,
+      "K": 1,
+      "lower": 0.0,
+      "upper": 0.95,
+      "p_exceeds_limit": 1.0,
+      "interpretation": "assumes tasks are an exchangeable sample of a wider task population"
+     },
+     "sensitivity_any_pair_pi_max": {
+      "population": "superpopulation",
+      "estimate": 0.0,
+      "affected": 0,
+      "K": 1,
+      "lower": 0.0,
+      "upper": 0.95,
+      "p_exceeds_limit": 1.0,
+      "interpretation": "assumes tasks are an exchangeable sample of a wider task population",
+      "threshold_pp": 1.0
+     },
+     "descriptive_pi_max_at_margin": 0.0,
+     "limit": 0.1
+    },
+    "equivalence_inputs": {
+     "all_pairs_tost": false,
+     "prevalence_ok": false,
+     "M_upper_below_margin": false
+    },
+    "missingness_sensitivity": {
+     "available_case_M_pp": 0.0,
+     "prevalence_bounds_missing_as_unaffected": 0.0,
+     "prevalence_bounds_missing_as_affected": 0.0
+    },
+    "edge": "A:B",
+    "datasets": [
+     "iris"
+    ],
+    "evidence": "observed_cross_release",
+    "adjusted": {
+     "mean": {
+      "p_adjusted": 1.0,
+      "method": "holm",
+      "family": "primary"
+     },
+     "prev": {
+      "p_adjusted": 1.0,
+      "method": "holm",
+      "family": "primary"
+     }
+    },
+    "labels": [
+     "INCONCLUSIVE"
+    ],
+    "family": "primary",
+    "sensitivity_flags": []
+   }
+  },
+  "1.0": {
+   "A:B": {
+    "margin_pp": 1.0,
+    "K": 1,
+    "K_complete_case": 1,
+    "complete_case_coverage": 1.0,
+    "pair_availability": {
+     "LR-SVC": 1,
+     "LR-kNN": 1,
+     "LR-RF": 1,
+     "LR-GB": 1,
+     "LR-HGB": 1,
+     "SVC-kNN": 1,
+     "SVC-RF": 1,
+     "SVC-GB": 1,
+     "SVC-HGB": 1,
+     "kNN-RF": 1,
+     "kNN-GB": 1,
+     "kNN-HGB": 1,
+     "RF-GB": 1,
+     "RF-HGB": 1,
+     "GB-HGB": 1
+    },
+    "q_mean": {
+     "M_pp": 0.0,
+     "M_k_sd": 0.0,
+     "M_one_sided_lower95": 0.0,
+     "M_one_sided_upper95": 0.0,
+     "p_changed_unadjusted": 1.0,
+     "pairs_all_tost_equivalent": false,
+     "per_pair": [
+      {
+       "pair": "LR-SVC",
+       "n": 1,
+       "mean_signed_pp": 0.0,
+       "ci90": [
+        0.0,
+        0.0
+       ],
+       "tost_equivalent": false
+      },
+      {
+       "pair": "LR-kNN",
+       "n": 1,
+       "mean_signed_pp": 0.0,
+       "ci90": [
+        0.0,
+        0.0
+       ],
+       "tost_equivalent": false
+      },
+      {
+       "pair": "LR-RF",
+       "n": 1,
+       "mean_signed_pp": 0.0,
+       "ci90": [
+        0.0,
+        0.0
+       ],
+       "tost_equivalent": false
+      },
+      {
+       "pair": "LR-GB",
+       "n": 1,
+       "mean_signed_pp": 0.0,
+       "ci90": [
+        0.0,
+        0.0
+       ],
+       "tost_equivalent": false
+      },
+      {
+       "pair": "LR-HGB",
+       "n": 1,
+       "mean_signed_pp": 0.0,
+       "ci90": [
+        0.0,
+        0.0
+       ],
+       "tost_equivalent": false
+      },
+      {
+       "pair": "SVC-kNN",
+       "n": 1,
+       "mean_signed_pp": 0.0,
+       "ci90": [
+        0.0,
+        0.0
+       ],
+       "tost_equivalent": false
+      },
+      {
+       "pair": "SVC-RF",
+       "n": 1,
+       "mean_signed_pp": 0.0,
+       "ci90": [
+        0.0,
+        0.0
+       ],
+       "tost_equivalent": false
+      },
+      {
+       "pair": "SVC-GB",
+       "n": 1,
+       "mean_signed_pp": 0.0,
+       "ci90": [
+        0.0,
+        0.0
+       ],
+       "tost_equivalent": false
+      },
+      {
+       "pair": "SVC-HGB",
+       "n": 1,
+       "mean_signed_pp": 0.0,
+       "ci90": [
+        0.0,
+        0.0
+       ],
+       "tost_equivalent": false
+      },
+      {
+       "pair": "kNN-RF",
+       "n": 1,
+       "mean_signed_pp": 0.0,
+       "ci90": [
+        0.0,
+        0.0
+       ],
+       "tost_equivalent": false
+      },
+      {
+       "pair": "kNN-GB",
+       "n": 1,
+       "mean_signed_pp": 0.0,
+       "ci90": [
+        0.0,
+        0.0
+       ],
+       "tost_equivalent": false
+      },
+      {
+       "pair": "kNN-HGB",
+       "n": 1,
+       "mean_signed_pp": 0.0,
+       "ci90": [
+        0.0,
+        0.0
+       ],
+       "tost_equivalent": false
+      },
+      {
+       "pair": "RF-GB",
+       "n": 1,
+       "mean_signed_pp": 0.0,
+       "ci90": [
+        0.0,
+        0.0
+       ],
+       "tost_equivalent": false
+      },
+      {
+       "pair": "RF-HGB",
+       "n": 1,
+       "mean_signed_pp": 0.0,
+       "ci90": [
+        0.0,
+        0.0
+       ],
+       "tost_equivalent": false
+      },
+      {
+       "pair": "GB-HGB",
+       "n": 1,
+       "mean_signed_pp": 0.0,
+       "ci90": [
+        0.0,
+        0.0
+       ],
+       "tost_equivalent": false
+      }
+     ]
+    },
+    "q_prev": {
+     "primary_avg_pair": {
+      "population": "superpopulation",
+      "estimate": 0.0,
+      "affected": 0,
+      "K": 1,
+      "lower": 0.0,
+      "upper": 0.95,
+      "p_exceeds_limit": 1.0,
+      "interpretation": "assumes tasks are an exchangeable sample of a wider task population"
+     },
+     "sensitivity_any_pair_pi_max": {
+      "population": "superpopulation",
+      "estimate": 0.0,
+      "affected": 0,
+      "K": 1,
+      "lower": 0.0,
+      "upper": 0.95,
+      "p_exceeds_limit": 1.0,
+      "interpretation": "assumes tasks are an exchangeable sample of a wider task population",
+      "threshold_pp": 1.0
+     },
+     "descriptive_pi_max_at_margin": 0.0,
+     "limit": 0.1
+    },
+    "equivalence_inputs": {
+     "all_pairs_tost": false,
+     "prevalence_ok": false,
+     "M_upper_below_margin": false
+    },
+    "missingness_sensitivity": {
+     "available_case_M_pp": 0.0,
+     "prevalence_bounds_missing_as_unaffected": 0.0,
+     "prevalence_bounds_missing_as_affected": 0.0
+    },
+    "edge": "A:B",
+    "datasets": [
+     "iris"
+    ],
+    "evidence": "observed_cross_release",
+    "adjusted": {
+     "mean": {
+      "p_adjusted": 1.0,
+      "method": "holm",
+      "family": "primary"
+     },
+     "prev": {
+      "p_adjusted": 1.0,
+      "method": "holm",
+      "family": "primary"
+     }
+    },
+    "labels": [
+     "INCONCLUSIVE"
+    ],
+    "family": "primary",
+    "sensitivity_flags": []
+   }
+  }
+ }
+}

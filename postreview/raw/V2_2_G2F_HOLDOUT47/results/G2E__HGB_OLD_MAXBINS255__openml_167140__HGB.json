@@ -1,0 +1,391 @@
+{
+ "ba": [
+  0.9546567505515435,
+  0.9508783708179478,
+  0.9540640694008385,
+  0.9661289154802573,
+  0.9800441388676683,
+  0.967927089661584,
+  0.9606000171132569,
+  0.9748435124301483,
+  0.9652864166814762,
+  0.950912486206604,
+  0.951141950875379,
+  0.9597575183144759,
+  0.9726648631926755,
+  0.9627786663507295,
+  0.9650086297145121,
+  0.9694933116827554,
+  0.9659643649336204,
+  0.9456785735442214,
+  0.9661289154802573,
+  0.956294032764621,
+  0.9666989014776468,
+  0.9518854201633657,
+  0.9518854201633657,
+  0.9607645676598938,
+  0.9640126757773816,
+  0.9708577562673883,
+  0.9609291182065306,
+  0.959263866674565,
+  0.9590993161279281,
+  0.9563081798375915
+ ],
+ "constructor": {
+  "l2_regularization": 0.0,
+  "learning_rate": 0.1,
+  "loss": "auto",
+  "max_bins": 255,
+  "max_depth": null,
+  "max_iter": 100,
+  "max_leaf_nodes": 31,
+  "min_samples_leaf": 20,
+  "n_iter_no_change": null,
+  "random_state": 903789582,
+  "scoring": null,
+  "tol": 1e-07,
+  "validation_fraction": 0.1,
+  "verbose": 0
+ },
+ "convergence_warnings": 0,
+ "fitted_effective": [
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "do_early_stopping_": false,
+   "n_iter_": 100
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "do_early_stopping_": false,
+   "n_iter_": 100
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "do_early_stopping_": false,
+   "n_iter_": 100
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "do_early_stopping_": false,
+   "n_iter_": 100
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "do_early_stopping_": false,
+   "n_iter_": 100
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "do_early_stopping_": false,
+   "n_iter_": 100
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "do_early_stopping_": false,
+   "n_iter_": 100
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "do_early_stopping_": false,
+   "n_iter_": 100
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "do_early_stopping_": false,
+   "n_iter_": 100
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "do_early_stopping_": false,
+   "n_iter_": 100
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "do_early_stopping_": false,
+   "n_iter_": 100
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "do_early_stopping_": false,
+   "n_iter_": 100
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "do_early_stopping_": false,
+   "n_iter_": 100
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "do_early_stopping_": false,
+   "n_iter_": 100
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "do_early_stopping_": false,
+   "n_iter_": 100
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "do_early_stopping_": false,
+   "n_iter_": 100
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "do_early_stopping_": false,
+   "n_iter_": 100
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "do_early_stopping_": false,
+   "n_iter_": 100
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "do_early_stopping_": false,
+   "n_iter_": 100
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "do_early_stopping_": false,
+   "n_iter_": 100
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "do_early_stopping_": false,
+   "n_iter_": 100
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "do_early_stopping_": false,
+   "n_iter_": 100
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "do_early_stopping_": false,
+   "n_iter_": 100
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "do_early_stopping_": false,
+   "n_iter_": 100
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "do_early_stopping_": false,
+   "n_iter_": 100
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "do_early_stopping_": false,
+   "n_iter_": 100
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "do_early_stopping_": false,
+   "n_iter_": 100
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "do_early_stopping_": false,
+   "n_iter_": 100
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "do_early_stopping_": false,
+   "n_iter_": 100
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "do_early_stopping_": false,
+   "n_iter_": 100
+  }
+ ],
+ "fold_keys": [
+  "r0_f0",
+  "r0_f1",
+  "r0_f2",
+  "r0_f3",
+  "r0_f4",
+  "r1_f0",
+  "r1_f1",
+  "r1_f2",
+  "r1_f3",
+  "r1_f4",
+  "r2_f0",
+  "r2_f1",
+  "r2_f2",
+  "r2_f3",
+  "r2_f4",
+  "r3_f0",
+  "r3_f1",
+  "r3_f2",
+  "r3_f3",
+  "r3_f4",
+  "r4_f0",
+  "r4_f1",
+  "r4_f2",
+  "r4_f3",
+  "r4_f4",
+  "r5_f0",
+  "r5_f1",
+  "r5_f2",
+  "r5_f3",
+  "r5_f4"
+ ],
+ "id": "G2E__HGB_OLD_MAXBINS255__openml_167140__HGB",
+ "job_sha256": "34d5bc439878b3faffdb72d71f8f74327bc26d6e803ffa83673d706668291665",
+ "npz_sha256": "004850e96df9157471eb924f28491ba9b2c2958fcddc6405aa50d0ddbfa5dcb2",
+ "portability": "ok",
+ "portability_report": null,
+ "provenance": {
+  "executable": "/home/uraz/versionshift_envs/sk-0.21.3/bin/python",
+  "machine": "x86_64",
+  "numpy": "1.17.2",
+  "numpy_config_sha256": "c1eac50e0f4378abaa67c8f02f20e4dd176520354c507772214c44e4ff6abca9",
+  "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-debian-trixie-sid",
+  "processor": "x86_64",
+  "python": "3.7.12",
+  "scipy": "1.3.1",
+  "sklearn": "0.21.3",
+  "sklearn_file": "/home/uraz/versionshift_envs/sk-0.21.3/lib/python3.7/site-packages/sklearn/__init__.py",
+  "threadpools": [
+   {
+    "architecture": null,
+    "filepath": "/home/uraz/versionshift_envs/sk-0.21.3/lib/python3.7/site-packages/numpy/.libs/libopenblasp-r0-2ecf47d5.3.7.dev.so",
+    "internal_api": "openblas",
+    "num_threads": 1,
+    "version": "0.3.7.dev"
+   },
+   {
+    "architecture": null,
+    "filepath": "/home/uraz/versionshift_envs/sk-0.21.3/lib/python3.7/site-packages/sklearn/.libs/libgomp-3300acd3.so.1.0.0",
+    "internal_api": "openmp",
+    "num_threads": 1,
+    "version": null
+   }
+  ]
+ },
+ "status": "ok",
+ "values_imputed": 0,
+ "worker_sha256": "f27700a20e73cf4ab187f9aedc2874389413c0844216cbc81e7395d063184807"
+}

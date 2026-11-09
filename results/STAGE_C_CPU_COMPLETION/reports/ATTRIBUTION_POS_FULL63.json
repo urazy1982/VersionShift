@@ -1,0 +1,122 @@
+{
+ "header": {
+  "blinding": "ORACLE_FROZEN_BEFORE_OUTCOMES",
+  "frame_sha256": "33f04fb6c6da89654f3524cfaef290644b80e37afcd5148dcffa740e9bcfe2f6",
+  "frozen_at": "2026-11-06T17:11:04+0300"
+ },
+ "plan_coverage": {
+  "A": {
+   "status": "PASS",
+   "planned_datasets": 63,
+   "required_jobs": 378,
+   "planned_default_jobs": 378,
+   "failed_default_jobs": 0,
+   "default_job_failure_share": 0.0,
+   "default_job_success_share": 1.0,
+   "excluded_datasets_failed_default_jobs": [],
+   "failure_ledger": [],
+   "excluded_share": 0.0,
+   "retained_datasets": 63,
+   "rule": "G2 requires >=95%% default-policy job success; any failed default job excludes its dataset from the analysed contrast; dataset retention reported separately"
+  },
+  "B": {
+   "status": "PASS",
+   "planned_datasets": 63,
+   "required_jobs": 756,
+   "planned_default_jobs": 378,
+   "failed_default_jobs": 0,
+   "default_job_failure_share": 0.0,
+   "default_job_success_share": 1.0,
+   "excluded_datasets_failed_default_jobs": [],
+   "failure_ledger": [],
+   "excluded_share": 0.0,
+   "retained_datasets": 63,
+   "rule": "G2 requires >=95%% default-policy job success; any failed default job excludes its dataset from the analysed contrast; dataset retention reported separately"
+  },
+  "C": {
+   "status": "PASS",
+   "planned_datasets": 63,
+   "required_jobs": 756,
+   "planned_default_jobs": 378,
+   "failed_default_jobs": 0,
+   "default_job_failure_share": 0.0,
+   "default_job_success_share": 1.0,
+   "excluded_datasets_failed_default_jobs": [],
+   "failure_ledger": [],
+   "excluded_share": 0.0,
+   "retained_datasets": 63,
+   "rule": "G2 requires >=95%% default-policy job success; any failed default job excludes its dataset from the analysed contrast; dataset retention reported separately"
+  },
+  "D": {
+   "status": "PASS",
+   "planned_datasets": 63,
+   "required_jobs": 378,
+   "planned_default_jobs": 378,
+   "failed_default_jobs": 0,
+   "default_job_failure_share": 0.0,
+   "default_job_success_share": 1.0,
+   "excluded_datasets_failed_default_jobs": [],
+   "failure_ledger": [],
+   "excluded_share": 0.0,
+   "retained_datasets": 63,
+   "rule": "G2 requires >=95%% default-policy job success; any failed default job excludes its dataset from the analysed contrast; dataset retention reported separately"
+  }
+ },
+ "identifiability_counts": {
+  "total_only": 882,
+  "defaults_first": 63
+ },
+ "summary": {
+  "defaults_first": {
+   "units": 63,
+   "datasets": 63,
+   "total": {
+    "mean": -0.3946974259348676,
+    "ci95": [
+     -1.932506430236748,
+     1.0673247185516759
+    ],
+    "mean_abs": 3.0585031315116473,
+    "mean_abs_ci95": [
+     1.854729674785957,
+     4.433067116999706
+    ]
+   },
+   "defaults": {
+    "mean": -0.3946974259348676,
+    "ci95": [
+     -1.932506430236748,
+     1.0673247185516759
+    ],
+    "mean_abs": 3.0585031315116473,
+    "mean_abs_ci95": [
+     1.854729674785957,
+     4.433067116999706
+    ]
+   },
+   "runtime_stack": {
+    "mean": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "mean_abs": 0.0,
+    "mean_abs_ci95": [
+     0.0,
+     0.0
+    ]
+   },
+   "note": "single ordered path; order-dependent; interaction not identifiable"
+  },
+  "total_only": {
+   "units": 882,
+   "datasets": 63,
+   "note": "non-identifiable: no numerical attribution reported",
+   "mean_total": 1.4883085574073465
+  }
+ },
+ "component_labels": {
+  "defaults": "default-configuration effect",
+  "runtime_stack": "runtime-stack effect: scikit-learn implementation + numpy/scipy/BLAS/OpenMP + interpreter (not attributable to scikit-learn alone unless the stack is held fixed)"
+ }
+}

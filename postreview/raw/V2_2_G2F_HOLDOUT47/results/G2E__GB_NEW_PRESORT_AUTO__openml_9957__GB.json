@@ -1,0 +1,399 @@
+{
+ "ba": [
+  0.8210431654676259,
+  0.8797786720321932,
+  0.876307847082495,
+  0.8516096579476862,
+  0.8622233400402415,
+  0.8002098321342925,
+  0.8409959758551308,
+  0.7982394366197183,
+  0.8622233400402415,
+  0.8691649899396379,
+  0.8418764988009593,
+  0.86579476861167,
+  0.841297786720322,
+  0.798440643863179,
+  0.8406941649899397,
+  0.8418764988009593,
+  0.8410965794768612,
+  0.8302816901408451,
+  0.8903923541247485,
+  0.8375251509054327,
+  0.8043065547561951,
+  0.8902917505030181,
+  0.8442655935613682,
+  0.7880281690140845,
+  0.8302816901408451,
+  0.8038069544364508,
+  0.8727364185110664,
+  0.8091549295774648,
+  0.8480382293762575,
+  0.8022132796780683
+ ],
+ "constructor": {
+  "ccp_alpha": 0.0,
+  "criterion": "friedman_mse",
+  "init": null,
+  "learning_rate": 0.1,
+  "loss": "deviance",
+  "max_depth": 3,
+  "max_features": null,
+  "max_leaf_nodes": null,
+  "min_impurity_decrease": 0.0,
+  "min_impurity_split": null,
+  "min_samples_leaf": 1,
+  "min_samples_split": 2,
+  "min_weight_fraction_leaf": 0.0,
+  "n_estimators": 100,
+  "n_iter_no_change": null,
+  "presort": "auto",
+  "random_state": 685810773,
+  "subsample": 1.0,
+  "tol": 0.0001,
+  "validation_fraction": 0.1,
+  "verbose": 0,
+  "warm_start": false
+ },
+ "convergence_warnings": 0,
+ "fitted_effective": [
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "max_features_": 41,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 100
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "max_features_": 41,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 100
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "max_features_": 41,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 100
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "max_features_": 41,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 100
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "max_features_": 41,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 100
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "max_features_": 41,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 100
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "max_features_": 41,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 100
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "max_features_": 41,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 100
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "max_features_": 41,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 100
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "max_features_": 41,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 100
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "max_features_": 41,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 100
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "max_features_": 41,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 100
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "max_features_": 41,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 100
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "max_features_": 41,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 100
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "max_features_": 41,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 100
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "max_features_": 41,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 100
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "max_features_": 41,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 100
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "max_features_": 41,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 100
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "max_features_": 41,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 100
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "max_features_": 41,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 100
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "max_features_": 41,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 100
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "max_features_": 41,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 100
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "max_features_": 41,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 100
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "max_features_": 41,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 100
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "max_features_": 41,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 100
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "max_features_": 41,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 100
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "max_features_": 41,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 100
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "max_features_": 41,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 100
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "max_features_": 41,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 100
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "max_features_": 41,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 100
+  }
+ ],
+ "fold_keys": [
+  "r0_f0",
+  "r0_f1",
+  "r0_f2",
+  "r0_f3",
+  "r0_f4",
+  "r1_f0",
+  "r1_f1",
+  "r1_f2",
+  "r1_f3",
+  "r1_f4",
+  "r2_f0",
+  "r2_f1",
+  "r2_f2",
+  "r2_f3",
+  "r2_f4",
+  "r3_f0",
+  "r3_f1",
+  "r3_f2",
+  "r3_f3",
+  "r3_f4",
+  "r4_f0",
+  "r4_f1",
+  "r4_f2",
+  "r4_f3",
+  "r4_f4",
+  "r5_f0",
+  "r5_f1",
+  "r5_f2",
+  "r5_f3",
+  "r5_f4"
+ ],
+ "id": "G2E__GB_NEW_PRESORT_AUTO__openml_9957__GB",
+ "job_sha256": "f3049f69733b5c302af8d8d571ae6e88f8c8521496110b30ebee4800a9199d55",
+ "npz_sha256": "688536b03bcc9d08f37d4c07c8f48738fe00388ce6f6364e31662b758dfe8cff",
+ "portability": "ok",
+ "portability_report": null,
+ "provenance": {
+  "executable": "/home/uraz/versionshift_envs/sk-0.22.2.post1/bin/python",
+  "machine": "x86_64",
+  "numpy": "1.18.4",
+  "numpy_config_sha256": "c1eac50e0f4378abaa67c8f02f20e4dd176520354c507772214c44e4ff6abca9",
+  "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.2.5",
+  "processor": "x86_64",
+  "python": "3.8.20",
+  "scipy": "1.4.1",
+  "sklearn": "0.22.2.post1",
+  "sklearn_file": "/home/uraz/versionshift_envs/sk-0.22.2.post1/lib/python3.8/site-packages/sklearn/__init__.py",
+  "threadpools": [
+   {
+    "architecture": null,
+    "filepath": "/home/uraz/versionshift_envs/sk-0.22.2.post1/lib/python3.8/site-packages/numpy.libs/libopenblasp-r0-34a18dc3.3.7.so",
+    "internal_api": "openblas",
+    "num_threads": 1,
+    "version": "0.3.7"
+   },
+   {
+    "architecture": null,
+    "filepath": "/home/uraz/versionshift_envs/sk-0.22.2.post1/lib/python3.8/site-packages/sklearn/.libs/libgomp-3300acd3.so.1.0.0",
+    "internal_api": "openmp",
+    "num_threads": 1,
+    "version": null
+   }
+  ]
+ },
+ "status": "ok",
+ "values_imputed": 0,
+ "worker_sha256": "f27700a20e73cf4ab187f9aedc2874389413c0844216cbc81e7395d063184807"
+}

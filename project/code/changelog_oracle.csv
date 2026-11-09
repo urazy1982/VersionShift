@@ -1,0 +1,18 @@
+release,estimator,category,change,trigger_condition,effect_unweighted_dense_float64_nonan_n_lt_10k,verification,source
+0.22,SVC,DABC_semantic,gamma default 'auto_deprecated'(=auto) -> 'scale',always (bites when feature variance != 1),certain,verify_full_changelog,https://scikit-learn.org/stable/whats_new/v0.22.html
+0.22,RF,DABC_semantic,n_estimators default 10 -> 100,always,certain,verify_full_changelog,https://scikit-learn.org/stable/whats_new/v0.22.html
+0.22,LR,DABC_semantic,solver default 'liblinear' -> 'lbfgs',always,certain,verify_full_changelog,https://scikit-learn.org/stable/whats_new/v0.22.html
+0.22,LR,DABC_semantic,multi_class default 'warn'(ovr) -> 'auto'(multinomial for lbfgs),n_classes>2,certain,verify_full_changelog,https://scikit-learn.org/stable/whats_new/v0.22.html
+0.22,HGB,changed_models_list,listed in 'Changed models' (may produce different models),always,possible,verified_in_session,https://scikit-learn.org/stable/whats_new/v0.22.html
+0.22,ALL,splitter_changed_models,StratifiedKFold (and cv=int with classifiers) listed in 'Changed models',native splits only,certain_if_native_splits,verified_in_session,https://scikit-learn.org/stable/whats_new/v0.22.html
+0.23,HGB,DABC_conditional,early_stopping='auto' introduced (enabled only if n_samples > 10000),n_samples>10000,none,verified_in_session,https://scikit-learn.org/1.2/modules/generated/sklearn.ensemble.HistGradientBoostingClassifier.html
+1.1,RF,DABC_syntactic_equivalent,max_features default 'auto' -> 'sqrt' (same meaning for classifiers),never,none,verify_full_changelog,https://scikit-learn.org/stable/whats_new/v1.1.html
+1.1,HGB,API_rename_equivalent,loss 'auto' deprecated in favour of 'log_loss' (equivalent),never,none,verified_in_session,https://scikit-learn.org/1.1/modules/generated/sklearn.ensemble.HistGradientBoostingClassifier.html
+1.8,LR,API_deprecation_equivalent,penalty deprecated; l1_ratio default None -> 0.0 (L2 unchanged),never,none,verified_in_session,https://scikit-learn.org/stable/whats_new/v1.8.html
+<=1.9.1 (release to verify),LR,API_removal_note,liblinear multiclass no longer supported (raises; wrap in OneVsRestClassifier),liblinear and n_classes>2,structural_failure_for_old_config,observed_in_session_1.9.1,local ValueError in scikit-learn 1.9.1
+1.8,RF,Fix_changes_results,tree splitting with near-constant features and missing values,NaN present,none,verified_in_session,https://scikit-learn.org/stable/whats_new/v1.8.html
+1.9,RF,Fix_changes_results,bootstrap draws use sample_weight,sample_weight given,none,verified_in_session,https://scikit-learn.org/stable/whats_new/v1.9.html
+1.9,HGB,Fix_changes_results,weight-aware bin edges (unweighted edges unchanged when distinct values < max_bins),sample_weight given or n_samples > subsample,none,verified_in_session,https://scikit-learn.org/stable/whats_new/v1.9.html
+1.9,GB,Fix_changes_results,friedman_mse scaling fixed; now squared_error (equivalent up to floating point),always (floating point only),possible_fp,verified_in_session,https://scikit-learn.org/stable/whats_new/v1.9.html
+1.9,LR,Efficiency_changes_results,lbfgs gradient computed in float32 for float32 input,float32 input,none,verified_in_session,https://scikit-learn.org/stable/whats_new/v1.9.html
+1.9,SVC,API_deprecation,probability parameter deprecated (CalibratedClassifierCV replacement),probability=True,none,verified_in_session,https://scikit-learn.org/stable/whats_new/v1.9.html

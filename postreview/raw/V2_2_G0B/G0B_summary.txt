@@ -1,0 +1,265 @@
+VersionShift v2.2 G0-B SCIENTIFIC PACKAGE INVENTORY
+ZIP SHA-256: 5eb716b64c21ded6f979b0b1610bb68aee46ad2f24889a0d3b133bd430c6ff7d
+Files: 266; uncompressed bytes: 11,318,951
+This is file/schema discovery, NOT analysis replication or scientific certification.
+
+TOP-LEVEL MEMBER COUNTS:
+  VersionShift: 266
+
+CATEGORY COUNTS (overlapping):
+  raw_results: 153
+  scripts: 82
+  summary: 48
+  frozen_protocol: 32
+  environments: 26
+  paper: 2
+
+TOP 80 EVIDENCE CANDIDATES (path | bytes | type | records/lines | sample keys):
+  VersionShift/project/results/expA_analysis/EXP_A_B_REPORT.json | 30419 | json | 1127 | meta, L1, L2, L3, L4, ExpB, E_policy_note
+  VersionShift/project/results/expA_analysis/L2_algorithm_metric.csv | 2045 | csv | 15 | algo, policy, prep, K, mean_shift_pp, ci95_pp, mean_abs_shift_pp, median_noise_sd_pp, median_vnr, share_vnr_gt1, share_vnr_gt2, max_abs_shift_pp, hetero_mean_abs_shift_pp, homo_mean_abs_shift_pp
+  VersionShift/project/results/v21_analysis/V21_REPORT.json | 6202 | json | 299 | margin_pp, contrasts, negative_control, leg_identified, noise_components
+  VersionShift/results/INDEPENDENT_VERIFICATION/VERIFY_SUMMARY.json | 26166 | json | 1091 | created, tool, runs, frames, problems, status
+  VersionShift/results/STAGE_B_SCIENCE_V225/REPORT_SHA256.txt | 636 | text | 7 | 
+  VersionShift/results/data/PREFLIGHT_REPORT_phase1.json | 5398 | json | 206 | created, phase, project, data, envs, n_fail, n_warn, checks
+  VersionShift/results/STAGE_B_RUNS/AA_0213/COLLECT_SUMMARY.json | 122 | json | 10 | planned_jobs, missing_jobs, status_counts, portability_counts
+  VersionShift/results/STAGE_B_RUNS/AA_0_21_3/COLLECT_SUMMARY.json | 122 | json | 10 | planned_jobs, missing_jobs, status_counts, portability_counts
+  VersionShift/results/STAGE_B_RUNS/AA_0_22_2_post1/COLLECT_SUMMARY.json | 122 | json | 10 | planned_jobs, missing_jobs, status_counts, portability_counts
+  VersionShift/results/STAGE_B_RUNS/AA_1_8_0/COLLECT_SUMMARY.json | 122 | json | 10 | planned_jobs, missing_jobs, status_counts, portability_counts
+  VersionShift/results/STAGE_B_RUNS/AA_1_9_1/COLLECT_SUMMARY.json | 122 | json | 10 | planned_jobs, missing_jobs, status_counts, portability_counts
+  VersionShift/results/STAGE_B_RUNS/EDGE_0213_0222/COLLECT_SUMMARY.json | 209 | json | 14 | planned_jobs, missing_jobs, status_counts, portability_counts
+  VersionShift/results/STAGE_B_RUNS/EDGE_0213_0222_REVERSE/COLLECT_SUMMARY.json | 161 | json | 12 | planned_jobs, missing_jobs, status_counts, portability_counts
+  VersionShift/results/STAGE_B_RUNS/EDGE_180_190/COLLECT_SUMMARY.json | 165 | json | 12 | planned_jobs, missing_jobs, status_counts, portability_counts
+  VersionShift/results/STAGE_B_RUNS/EDGE_180_190_REVERSE/COLLECT_SUMMARY.json | 165 | json | 12 | planned_jobs, missing_jobs, status_counts, portability_counts
+  VersionShift/results/STAGE_B_RUNS/STAGE_C47_NEG/COLLECT_SUMMARY.json | 168 | json | 12 | planned_jobs, missing_jobs, status_counts, portability_counts
+  VersionShift/results/STAGE_B_RUNS/STAGE_C47_NEG_REVERSE/COLLECT_SUMMARY.json | 167 | json | 12 | planned_jobs, missing_jobs, status_counts, portability_counts
+  VersionShift/results/STAGE_B_RUNS/STAGE_C47_POS/COLLECT_SUMMARY.json | 213 | json | 14 | planned_jobs, missing_jobs, status_counts, portability_counts
+  VersionShift/results/STAGE_B_RUNS/STAGE_C47_POS_REVERSE/COLLECT_SUMMARY.json | 163 | json | 12 | planned_jobs, missing_jobs, status_counts, portability_counts
+  VersionShift/results/STAGE_B_SCIENCE_V225/ATTRIBUTION_0213_0222.json | 3570 | json | 122 | header, plan_coverage, identifiability_counts, summary, component_labels
+  VersionShift/results/STAGE_B_SCIENCE_V225/ATTRIBUTION_180_190.json | 4587 | json | 183 | header, plan_coverage, identifiability_counts, summary, component_labels
+  VersionShift/results/STAGE_B_SCIENCE_V225/MITIGATION_0213_0222.json | 1865 | json | 78 | header, edge, plan_coverage, failure_to_transfer, selection_check, mitigation_P
+  VersionShift/results/STAGE_B_SCIENCE_V225/MITIGATION_180_190.json | 1906 | json | 78 | header, edge, plan_coverage, failure_to_transfer, selection_check, mitigation_P
+  VersionShift/results/STAGE_C_CPU_COMPLETION/reports/ATTRIBUTION_NEG_FULL63.json | 4597 | json | 183 | header, plan_coverage, identifiability_counts, summary, component_labels
+  VersionShift/results/STAGE_C_CPU_COMPLETION/reports/ATTRIBUTION_POS_FULL63.json | 3573 | json | 122 | header, plan_coverage, identifiability_counts, summary, component_labels
+  VersionShift/results/STAGE_C_CPU_COMPLETION/reports/CPU_COMPLETION_ASSESSMENT.json | 2696 | json | 66 | datasets, emulation_fidelity, gates, immutable_inputs, note, primary_results, scientific_status, status
+  VersionShift/results/STAGE_C_CPU_COMPLETION/reports/EMULATION_FIDELITY_STAGE_B16.json | 434 | json | 10 | caveat, emulator_M_pp, k_datasets, mean_absolute_pair_delta_difference_pp, n_pair_deltas, pearson_pair_delta, real_M_pp, role
+  VersionShift/results/STAGE_C_CPU_COMPLETION/reports/FULL63_FRAME_CENSUS.json | 40771 | json | 1825 | header, population, plan_coverage, primary_family, margins
+  VersionShift/results/STAGE_C_CPU_COMPLETION/reports/HOLDOUT47_FINITE_SUBFRAME_SENSITIVITY.json | 38823 | json | 1729 | header, population, plan_coverage, primary_family, margins
+  VersionShift/results/STAGE_C_CPU_COMPLETION/reports/LENS_D_STAGEB_FIRST_NEG_EXPLORATORY.json | 9865 | json | 452 | alpha, first_crossing_20, margin_pp, order_seed, role, trace, warning, wealth_final
+  VersionShift/results/STAGE_C_CPU_COMPLETION/reports/LENS_D_STAGEB_FIRST_POS_EXPLORATORY.json | 10793 | json | 452 | alpha, first_crossing_20, margin_pp, order_seed, role, trace, warning, wealth_final
+  VersionShift/results/STAGE_C_CPU_COMPLETION/reports/LENSES_NEG_D_EXPLORATORY.json | 8350 | json | 470 | header, role, edge, policies, plan_coverage, datasets, lensB_random_effects_by_pair, lensC_discovery, lensD_anytime_valid, caveats
+  VersionShift/results/STAGE_C_CPU_COMPLETION/reports/LENSES_NEG_S_EXPLORATORY.json | 1057 | json | 18 | edge, equivalence, equivalent_report, equivalent_report_sha256, input, input_sha256, policy, reason, recorded_at, role, status
+  VersionShift/results/STAGE_C_CPU_COMPLETION/reports/LENSES_POS_D_EXPLORATORY.json | 8956 | json | 470 | header, role, edge, policies, plan_coverage, datasets, lensB_random_effects_by_pair, lensC_discovery, lensD_anytime_valid, caveats
+  VersionShift/results/STAGE_C_CPU_COMPLETION/reports/LENSES_POS_S_EXPLORATORY.json | 1148 | json | 26 | amendment, edge, input, input_sha256, policy, policy_S_row_counts, reason, recorded_at, role, status, svc_S_ok_rows_on_new_release
+  VersionShift/results/STAGE_C_CPU_COMPLETION/reports/MITIGATION_NEG_FULL63.json | 1908 | json | 78 | header, edge, plan_coverage, failure_to_transfer, selection_check, mitigation_P
+  VersionShift/results/STAGE_C_CPU_COMPLETION/reports/MITIGATION_POS_FULL63.json | 1866 | json | 78 | header, edge, plan_coverage, failure_to_transfer, selection_check, mitigation_P
+  VersionShift/results/STAGE_C_CPU_COMPLETION/reports/POLICIES_FULL63_DESCRIPTIVE.json | 1001 | json | 46 | 0.21.3:0.22.2.post1, 1.8.0:1.9.1
+  VersionShift/project/results/expA_analysis/L1_predictions.csv | 692 | csv | 15 | algo, policy, prep, prediction_disagreement_rate, folds_with_any_change, datasets_with_any_change
+  VersionShift/project/results/expA_analysis/L3_pairs_D_raw.csv | 783 | csv | 3 | set, slots, datasets, full_budget_paired_change, full_budget_paired_reversal, half_budget_cross_change, half_budget_within_change, excess_change, half_cross_reversal, half_within_reversal, median_vnr, share_vnr_gt1, share_vnr_gt2, mean_abs_shift_pp
+  VersionShift/project/results/expA_analysis/L3_pairs_D_std.csv | 790 | csv | 3 | set, slots, datasets, full_budget_paired_change, full_budget_paired_reversal, half_budget_cross_change, half_budget_within_change, excess_change, half_cross_reversal, half_within_reversal, median_vnr, share_vnr_gt1, share_vnr_gt2, mean_abs_shift_pp
+  VersionShift/results/BUNDLE_SHA256_MANIFEST.json | 14159 | json | 125 | created, label, with_raw, n_files, files
+  VersionShift/results/data/AMENDMENT_V226_FREEZE.json | 673 | json | 19 | amendment, amendment_sha256, frozen_at, note, preceded_all_new_outcomes, result_files_at_freeze
+  VersionShift/results/data/PLAN.json | 141052 | json | 7200 | created, datasets, eligible, folds, frame_size, ledger_sha256, reps, rules, schema
+  VersionShift/results/data/STAGE_C_COMPLETION_PROTOCOL_RECORD.json | 1013 | json | 17 | action, author_confirmation, external_timestamp_evidence, interpretation, oracle_frame_sha256, original_analysis_code_sha256, original_stage_c_floor, original_worker_sha256, plan_sha256, project, stage_b_seen, stage_b_selection_sha256, stage_c47_selection_sha256, total_eligible, unseen_stage_c
+  VersionShift/results/STAGE_C_CPU_COMPLETION/CPU_OUTPUT_SHA256.json | 2474 | json | 25 | merged/CELL_C_NEG.csv.gz, merged/CELL_C_POS.csv.gz, merged/HOLDOUT47_NEG.csv.gz, merged/HOLDOUT47_POS.csv.gz, merged/NEG.csv.gz, merged/NEG_REVERSE.csv.gz, merged/POS.csv.gz, merged/POS_REVERSE.csv.gz, reports/ATTRIBUTION_NEG_FULL63.json, reports/ATTRIBUTION_POS_FULL63.json, reports/CPU_COMPLETION_ASSESSMENT.json, reports/EMULATION_FIDELITY_STAGE_B16.json, reports/FULL63_FRAME_CENSUS.json, reports/HOLDOUT47_FINITE_SUBFRAME_SENSITIVITY.json, reports/LENSES_NEG_D_EXPLORATORY.json, reports/LENSES_NEG_S_EXPLORATORY.json, reports/LENSES_POS_D_EXPLORATORY.json, reports/LENSES_POS_S_EXPLORATORY.json, reports/LENS_D_STAGEB_FIRST_NEG_EXPLORATORY.json, reports/LENS_D_STAGEB_FIRST_POS_EXPLORATORY.json, reports/MITIGATION_NEG_FULL63.json, reports/MITIGATION_POS_FULL63.json, reports/POLICIES_FULL63_DESCRIPTIVE.json
+  VersionShift/pipeline/kit/REPORTED_STAGE_B_NUMERICAL_CHECK.json | 594 | json | 13 | scope, early_edge_mean_M_pp, early_edge_one_sided_p, early_edge_lower95, early_edge_Holm_adjusted_p, later_edge_mean_M_pp, later_edge_lower95, later_edge_upper95, prevalence_upper_0_of_16, explicit_map_early_M_pp, descriptive_early_reduction_pct
+  VersionShift/results/envs/sk-0.21.3/PROVENANCE.json | 856 | json | 27 | python, compiler, cc, machine, sklearn, numpy, scipy, threadpools
+  VersionShift/results/envs/sk-0.22.2.post1/PROVENANCE.json | 799 | json | 28 | python, compiler, cc, machine, sklearn, numpy, scipy, threadpools
+  VersionShift/results/envs/sk-1.8.0/PROVENANCE.json | 1154 | json | 39 | python, compiler, cc, machine, sklearn, numpy, scipy, threadpools
+  VersionShift/results/envs/sk-1.9.1/PROVENANCE.json | 1160 | json | 39 | python, compiler, cc, machine, sklearn, numpy, scipy, threadpools
+  VersionShift/results/STAGE_B_RUNS/AA_0213/RUN_LOCK.json | 1020 | json | 47 | algorithms, controller_sha256, pin_from, plan_sha256, policies, releases, selected_datasets, selection_sha256, translations_file, worker_sha256
+  VersionShift/results/STAGE_B_RUNS/AA_0_21_3/RUN_LOCK.json | 1020 | json | 47 | algorithms, controller_sha256, pin_from, plan_sha256, policies, releases, selected_datasets, selection_sha256, translations_file, worker_sha256
+  VersionShift/results/STAGE_B_RUNS/AA_0_22_2_post1/RUN_LOCK.json | 1044 | json | 47 | algorithms, controller_sha256, pin_from, plan_sha256, policies, releases, selected_datasets, selection_sha256, translations_file, worker_sha256
+  VersionShift/results/STAGE_B_RUNS/AA_1_8_0/RUN_LOCK.json | 1016 | json | 47 | algorithms, controller_sha256, pin_from, plan_sha256, policies, releases, selected_datasets, selection_sha256, translations_file, worker_sha256
+  VersionShift/results/STAGE_B_RUNS/AA_1_9_1/RUN_LOCK.json | 1016 | json | 47 | algorithms, controller_sha256, pin_from, plan_sha256, policies, releases, selected_datasets, selection_sha256, translations_file, worker_sha256
+  VersionShift/results/STAGE_B_RUNS/EDGE_0213_0222/RUN_LOCK.json | 3267 | json | 153 | algorithms, controller_sha256, pin_from, pinned, plan_sha256, policies, releases, selected_datasets, selection_sha256, translations_file, worker_sha256
+  VersionShift/results/STAGE_B_RUNS/EDGE_0213_0222_REVERSE/RUN_LOCK.json | 3360 | json | 155 | algorithms, controller_sha256, pin_from, pinned, plan_sha256, policies, releases, selected_datasets, selection_sha256, translations_file, worker_sha256
+  VersionShift/results/STAGE_B_RUNS/EDGE_180_190/RUN_LOCK.json | 3444 | json | 161 | algorithms, controller_sha256, pin_from, pinned, plan_sha256, policies, releases, selected_datasets, selection_sha256, translations_file, worker_sha256
+  VersionShift/results/STAGE_B_RUNS/EDGE_180_190_REVERSE/RUN_LOCK.json | 3428 | json | 158 | algorithms, controller_sha256, pin_from, pinned, plan_sha256, policies, releases, selected_datasets, selection_sha256, translations_file, worker_sha256
+  VersionShift/results/STAGE_B_RUNS/STAGE_C47_NEG/RUN_LOCK.json | 3966 | json | 192 | algorithms, controller_sha256, pin_from, pinned, plan_sha256, policies, releases, selected_datasets, selection_sha256, translations_file, worker_sha256
+  VersionShift/results/STAGE_B_RUNS/STAGE_C47_NEG_REVERSE/RUN_LOCK.json | 3950 | json | 189 | algorithms, controller_sha256, pin_from, pinned, plan_sha256, policies, releases, selected_datasets, selection_sha256, translations_file, worker_sha256
+  VersionShift/results/STAGE_B_RUNS/STAGE_C47_POS/RUN_LOCK.json | 3789 | json | 184 | algorithms, controller_sha256, pin_from, pinned, plan_sha256, policies, releases, selected_datasets, selection_sha256, translations_file, worker_sha256
+  VersionShift/results/STAGE_B_RUNS/STAGE_C47_POS_REVERSE/RUN_LOCK.json | 3882 | json | 186 | algorithms, controller_sha256, pin_from, pinned, plan_sha256, policies, releases, selected_datasets, selection_sha256, translations_file, worker_sha256
+  VersionShift/paper/verify_results.py | 4345 | text | 87 | 
+  VersionShift/pipeline/addons/vs_oracle_score_outcome.py | 7188 | text | 132 | 
+  VersionShift/pipeline/kit/SHA256_MANIFEST.json | 1442 | json | 21 | version, created_on, provenance, source_sha256, files
+  VersionShift/project/ANALYSIS_FREEZE_V221.json | 1250 | json | 18 | schema, frozen_at, note, files
+  VersionShift/project/results/expA2/seed_reruns.csv.gz | 30666 | binary_or_unsupported | ? | 
+  VersionShift/project/results/expA_analysis/pairs_D_raw.csv.gz | 39512 | binary_or_unsupported | ? | 
+  VersionShift/project/results/expA_analysis/pairs_D_std.csv.gz | 35870 | binary_or_unsupported | ? | 
+  VersionShift/results/data/AMENDMENT_V226_PRE_RUN.md | 6877 | text | 86 | 
+  VersionShift/results/envs/sk-0.21.3/FREEZE.txt | 84 | text | 5 | 
+  VersionShift/results/envs/sk-0.22.2.post1/FREEZE.txt | 90 | text | 5 | 
+  VersionShift/results/envs/sk-1.8.0/FREEZE.txt | 82 | text | 5 | 
+  VersionShift/results/envs/sk-1.9.1/FREEZE.txt | 118 | text | 7 | 
+  VersionShift/results/STAGE_C_CPU_COMPLETION/ANALYSIS_EXECUTION.log | 17225 | text | 68 | 
+  VersionShift/pipeline/kit/CPU_AUDIT_SUMMARY.md | 2557 | text | 19 | 
+  VersionShift/pipeline/kit/versionshift_policy_descriptives.py | 1313 | text | 34 | 
+  VersionShift/project/code/attribution.py | 5243 | text | 93 | 
+
+POTENTIAL SCRIPT ENTRY POINTS:
+  VersionShift/paper/reproduce_paper.py
+  VersionShift/pipeline/addons/vs_finish_analyze.py
+  VersionShift/pipeline/addons/vs_fixedstack_verify.py
+  VersionShift/pipeline/addons/vs_freeze_amendment.py
+  VersionShift/pipeline/addons/vs_make_upload_bundle.py
+  VersionShift/pipeline/addons/vs_oracle_score_outcome.py
+  VersionShift/pipeline/addons/vs_preflight.py
+  VersionShift/pipeline/addons/vs_verify_independent.py
+  VersionShift/pipeline/kit/versionshift_cpu_finish.py
+  VersionShift/pipeline/kit/versionshift_parallel_10_aa.py
+  VersionShift/project/code/analysis_v21.py
+  VersionShift/project/code/analysis_v22.py
+  VersionShift/project/code/analysis_v221.py
+  VersionShift/project/code/analyze_emulation.py
+  VersionShift/project/code/calibrate_lenses_v225.py
+  VersionShift/project/code/calibrate_v21.py
+  VersionShift/project/code/emulate_plan.py
+  VersionShift/project/code/lenses_crossrelease_v225.py
+  VersionShift/project/code/oracle_frame.py
+  VersionShift/project/code/policy_mitigation_v225.py
+  VersionShift/project/code/rule_check_v22.py
+  VersionShift/project/code/run_emulation.py
+  VersionShift/project/code/run_noise_decomposition.py
+  VersionShift/project/code/stage_b.py
+  VersionShift/project/crossversion/controller.py
+  VersionShift/project/crossversion/worker.py
+  VersionShift/project/fetch_cc18_parallel_safe.py
+  VersionShift/project/tests/test_v2.py
+  VersionShift/project/tests/test_v21.py
+  VersionShift/project/tests/test_v22.py
+  VersionShift/project/tests/test_v221.py
+  VersionShift/project/tests/test_v222.py
+  VersionShift/project/tests/test_v223.py
+  VersionShift/project/tests/test_v224.py
+  VersionShift/project/tests/test_v225.py
+  VersionShift/project/versionshift_parallel_10.py
+  VersionShift/project/versionshift_parallel_resume.py
+  VersionShift/project/versionshift_stageb_readonly_audit.py
+
+FILES WITH STRUCTURED CONTENT:
+  VersionShift/pipeline/kit/REPORTED_STAGE_B_NUMERICAL_CHECK.json | json |  | object (11 keys)
+  VersionShift/pipeline/kit/SHA256_MANIFEST.json | json |  | object (5 keys)
+  VersionShift/pipeline/kit/STAGE_D_EXTERNAL_VALIDATION_INPUTS_REQUIRED.json | json |  | object (5 keys)
+  VersionShift/project/AMENDMENT_MANIFEST_V222.json | json |  | object (2 keys)
+  VersionShift/project/AMENDMENT_MANIFEST_V223.json | json |  | object (3 keys)
+  VersionShift/project/ANALYSIS_FREEZE_V221.json | json |  | object (4 keys)
+  VersionShift/project/INTROSPECT_STAGE_B.json | json |  | object (2 keys)
+  VersionShift/project/ORACLE_CODING_SOURCE.json | json |  | object (78 keys)
+  VersionShift/project/ORACLE_EVIDENCE_78.csv | csv | 78 | 
+  VersionShift/project/ORACLE_FRAME.csv | csv | 78 | 
+  VersionShift/project/ORACLE_FRAME.csv.PROVENANCE.json | json |  | object (7 keys)
+  VersionShift/project/ORACLE_FRAME_REVIEWED.csv | csv | 78 | 
+  VersionShift/project/ORACLE_FRAME_REVIEWED.csv.PROVENANCE.json | json |  | object (7 keys)
+  VersionShift/project/ORACLE_FROZEN.json | json |  | object (6 keys)
+  VersionShift/project/ORACLE_REVIEW_PROVENANCE.json | json |  | object (8 keys)
+  VersionShift/project/ORACLE_VALIDATION.json | json |  | object (42 keys)
+  VersionShift/project/SHA256_MANIFEST_V221.json | json |  | object (2 keys)
+  VersionShift/project/SHA256_MANIFEST_V224.json | json |  | object (2 keys)
+  VersionShift/project/SHA256_MANIFEST_V225.json | json |  | object (6 keys)
+  VersionShift/project/STAGE_B_INTROSPECTION.json | json |  | object (2 keys)
+  VersionShift/project/code/changelog_oracle.csv | csv | 17 | 
+  VersionShift/project/evidence/AA_CONTROL/AA_ANALYSIS.json | json |  | object (5 keys)
+  VersionShift/project/evidence/AA_CONTROL/AA_SELECTION.json | json |  | object (3 keys)
+  VersionShift/project/evidence/AA_CONTROL/COLLECT_SUMMARY.json | json |  | object (4 keys)
+  VersionShift/project/evidence/AA_CONTROL/PLAN.json | json |  | object (9 keys)
+  VersionShift/project/evidence/AA_CONTROL/RUN_LOCK.json | json |  | object (10 keys)
+  VersionShift/project/results/CALIBRATION_LENSES_V225.json | json |  | object (9 keys)
+  VersionShift/project/results/CALIBRATION_V21.json | json |  | object (5 keys)
+  VersionShift/project/results/EXP_EMIT_V225.json | json |  | object (5 keys)
+  VersionShift/project/results/ORACLE_FRAME_DRAFT.csv | csv | 78 | 
+  VersionShift/project/results/RULE_CHECK_V22.json | json |  | object (8 keys)
+  VersionShift/project/results/RULE_CHECK_V221_PIMAX.json | json |  | object (9 keys)
+  VersionShift/project/results/expA/RUN_META.json | json |  | object (10 keys)
+  VersionShift/project/results/expA2/META.json | json |  | object (3 keys)
+  VersionShift/project/results/expA_analysis/EXP_A_B_REPORT.json | json |  | object (7 keys)
+  VersionShift/project/results/expA_analysis/L1_predictions.csv | csv | 15 | 
+  VersionShift/project/results/expA_analysis/L2_algorithm_metric.csv | csv | 15 | 
+  VersionShift/project/results/expA_analysis/L3_pairs_D_raw.csv | csv | 3 | 
+  VersionShift/project/results/expA_analysis/L3_pairs_D_std.csv | csv | 3 | 
+  VersionShift/project/results/v21_analysis/V21_REPORT.json | json |  | object (5 keys)
+  VersionShift/results/BUNDLE_SHA256_MANIFEST.json | json |  | object (5 keys)
+  VersionShift/results/INDEPENDENT_VERIFICATION/VERIFY_SUMMARY.json | json |  | object (6 keys)
+  VersionShift/results/STAGE_B_RUNS/AA_0213/COLLECT_SUMMARY.json | json |  | object (4 keys)
+  VersionShift/results/STAGE_B_RUNS/AA_0213/JOB_STATUS.jsonl | jsonl | 192 | 
+  VersionShift/results/STAGE_B_RUNS/AA_0213/RUN_LOCK.json | json |  | object (10 keys)
+  VersionShift/results/STAGE_B_RUNS/AA_0_21_3/AA_IDENTITY.json | json |  | object (3 keys)
+  VersionShift/results/STAGE_B_RUNS/AA_0_21_3/COLLECT_SUMMARY.json | json |  | object (4 keys)
+  VersionShift/results/STAGE_B_RUNS/AA_0_21_3/PARALLEL_JOB_STATUS.jsonl | jsonl | 192 | 
+  VersionShift/results/STAGE_B_RUNS/AA_0_21_3/RUN_LOCK.json | json |  | object (10 keys)
+  VersionShift/results/STAGE_B_RUNS/AA_0_22_2_post1/AA_IDENTITY.json | json |  | object (3 keys)
+  VersionShift/results/STAGE_B_RUNS/AA_0_22_2_post1/COLLECT_SUMMARY.json | json |  | object (4 keys)
+  VersionShift/results/STAGE_B_RUNS/AA_0_22_2_post1/PARALLEL_JOB_STATUS.jsonl | jsonl | 192 | 
+  VersionShift/results/STAGE_B_RUNS/AA_0_22_2_post1/RUN_LOCK.json | json |  | object (10 keys)
+  VersionShift/results/STAGE_B_RUNS/AA_1_8_0/AA_IDENTITY.json | json |  | object (3 keys)
+  VersionShift/results/STAGE_B_RUNS/AA_1_8_0/COLLECT_SUMMARY.json | json |  | object (4 keys)
+  VersionShift/results/STAGE_B_RUNS/AA_1_8_0/PARALLEL_JOB_STATUS.jsonl | jsonl | 192 | 
+  VersionShift/results/STAGE_B_RUNS/AA_1_8_0/RUN_LOCK.json | json |  | object (10 keys)
+  VersionShift/results/STAGE_B_RUNS/AA_1_9_1/AA_IDENTITY.json | json |  | object (3 keys)
+  VersionShift/results/STAGE_B_RUNS/AA_1_9_1/COLLECT_SUMMARY.json | json |  | object (4 keys)
+  VersionShift/results/STAGE_B_RUNS/AA_1_9_1/PARALLEL_JOB_STATUS.jsonl | jsonl | 192 | 
+  VersionShift/results/STAGE_B_RUNS/AA_1_9_1/RUN_LOCK.json | json |  | object (10 keys)
+  VersionShift/results/STAGE_B_RUNS/EDGE_0213_0222/COLLECT_SUMMARY.json | json |  | object (4 keys)
+  VersionShift/results/STAGE_B_RUNS/EDGE_0213_0222/JOB_STATUS.jsonl | jsonl | 43 | 
+  VersionShift/results/STAGE_B_RUNS/EDGE_0213_0222/PARALLEL_JOB_STATUS.jsonl | jsonl | 725 | 
+  VersionShift/results/STAGE_B_RUNS/EDGE_0213_0222/RUN_LOCK.json | json |  | object (11 keys)
+  VersionShift/results/STAGE_B_RUNS/EDGE_0213_0222_REVERSE/COLLECT_SUMMARY.json | json |  | object (4 keys)
+  VersionShift/results/STAGE_B_RUNS/EDGE_0213_0222_REVERSE/JOB_STATUS.jsonl | jsonl | 10 | 
+  VersionShift/results/STAGE_B_RUNS/EDGE_0213_0222_REVERSE/PARALLEL_JOB_STATUS.jsonl | jsonl | 182 | 
+  VersionShift/results/STAGE_B_RUNS/EDGE_0213_0222_REVERSE/RUN_LOCK.json | json |  | object (11 keys)
+  VersionShift/results/STAGE_B_RUNS/EDGE_180_190/COLLECT_SUMMARY.json | json |  | object (4 keys)
+  VersionShift/results/STAGE_B_RUNS/EDGE_180_190/PARALLEL_JOB_STATUS.jsonl | jsonl | 768 | 
+  VersionShift/results/STAGE_B_RUNS/EDGE_180_190/RUN_LOCK.json | json |  | object (11 keys)
+  VersionShift/results/STAGE_B_RUNS/EDGE_180_190_REVERSE/COLLECT_SUMMARY.json | json |  | object (4 keys)
+  VersionShift/results/STAGE_B_RUNS/EDGE_180_190_REVERSE/PARALLEL_JOB_STATUS.jsonl | jsonl | 192 | 
+  VersionShift/results/STAGE_B_RUNS/EDGE_180_190_REVERSE/RUN_LOCK.json | json |  | object (11 keys)
+  VersionShift/results/STAGE_B_RUNS/STAGE_C47_NEG/COLLECT_SUMMARY.json | json |  | object (4 keys)
+  VersionShift/results/STAGE_B_RUNS/STAGE_C47_NEG/PARALLEL_JOB_STATUS.jsonl | jsonl | 2256 | 
+  VersionShift/results/STAGE_B_RUNS/STAGE_C47_NEG/RUN_LOCK.json | json |  | object (11 keys)
+  VersionShift/results/STAGE_B_RUNS/STAGE_C47_NEG_REVERSE/COLLECT_SUMMARY.json | json |  | object (4 keys)
+  VersionShift/results/STAGE_B_RUNS/STAGE_C47_NEG_REVERSE/PARALLEL_JOB_STATUS.jsonl | jsonl | 564 | 
+  VersionShift/results/STAGE_B_RUNS/STAGE_C47_NEG_REVERSE/RUN_LOCK.json | json |  | object (11 keys)
+  VersionShift/results/STAGE_B_RUNS/STAGE_C47_POS/COLLECT_SUMMARY.json | json |  | object (4 keys)
+  VersionShift/results/STAGE_B_RUNS/STAGE_C47_POS/PARALLEL_JOB_STATUS.jsonl | jsonl | 2256 | 
+  VersionShift/results/STAGE_B_RUNS/STAGE_C47_POS/RUN_LOCK.json | json |  | object (11 keys)
+  VersionShift/results/STAGE_B_RUNS/STAGE_C47_POS_REVERSE/COLLECT_SUMMARY.json | json |  | object (4 keys)
+  VersionShift/results/STAGE_B_RUNS/STAGE_C47_POS_REVERSE/PARALLEL_JOB_STATUS.jsonl | jsonl | 564 | 
+  VersionShift/results/STAGE_B_RUNS/STAGE_C47_POS_REVERSE/RUN_LOCK.json | json |  | object (11 keys)
+  VersionShift/results/STAGE_B_SCIENCE_V225/ATTRIBUTION_0213_0222.json | json |  | object (5 keys)
+  VersionShift/results/STAGE_B_SCIENCE_V225/ATTRIBUTION_180_190.json | json |  | object (5 keys)
+  VersionShift/results/STAGE_B_SCIENCE_V225/EDGES_HOLM.json | json |  | object (5 keys)
+  VersionShift/results/STAGE_B_SCIENCE_V225/EDGE_NEG_FOR_SIZE.json | json |  | object (1 keys)
+  VersionShift/results/STAGE_B_SCIENCE_V225/EDGE_POS_FOR_SIZE.json | json |  | object (1 keys)
+  VersionShift/results/STAGE_B_SCIENCE_V225/MITIGATION_0213_0222.json | json |  | object (6 keys)
+  VersionShift/results/STAGE_B_SCIENCE_V225/MITIGATION_180_190.json | json |  | object (6 keys)
+  VersionShift/results/STAGE_B_SCIENCE_V225/POLICIES_DESCRIPTIVE.json | json |  | object (2 keys)
+  VersionShift/results/STAGE_B_SCIENCE_V225/STAGE_C_SIZE_EXPLORATORY.json | json |  | object (5 keys)
+  VersionShift/results/STAGE_C_CPU_COMPLETION/CPU_OUTPUT_SHA256.json | json |  | object (23 keys)
+  VersionShift/results/STAGE_C_CPU_COMPLETION/EMULATED_STAGE_B16_R21_R19.csv | csv | 5760 | 
+  VersionShift/results/STAGE_C_CPU_COMPLETION/reports/ATTRIBUTION_NEG_FULL63.json | json |  | object (5 keys)
+  VersionShift/results/STAGE_C_CPU_COMPLETION/reports/ATTRIBUTION_POS_FULL63.json | json |  | object (5 keys)
+  VersionShift/results/STAGE_C_CPU_COMPLETION/reports/CPU_COMPLETION_ASSESSMENT.json | json |  | object (8 keys)
+  VersionShift/results/STAGE_C_CPU_COMPLETION/reports/EMULATION_FIDELITY_STAGE_B16.json | json |  | object (8 keys)
+  VersionShift/results/STAGE_C_CPU_COMPLETION/reports/FULL63_FRAME_CENSUS.json | json |  | object (5 keys)
+  VersionShift/results/STAGE_C_CPU_COMPLETION/reports/HOLDOUT47_FINITE_SUBFRAME_SENSITIVITY.json | json |  | object (5 keys)
+  VersionShift/results/STAGE_C_CPU_COMPLETION/reports/LENSES_NEG_D_EXPLORATORY.json | json |  | object (10 keys)
+  VersionShift/results/STAGE_C_CPU_COMPLETION/reports/LENSES_NEG_S_EXPLORATORY.json | json |  | object (11 keys)
+  VersionShift/results/STAGE_C_CPU_COMPLETION/reports/LENSES_POS_D_EXPLORATORY.json | json |  | object (10 keys)
+  VersionShift/results/STAGE_C_CPU_COMPLETION/reports/LENSES_POS_S_EXPLORATORY.json | json |  | object (11 keys)
+  VersionShift/results/STAGE_C_CPU_COMPLETION/reports/LENS_D_STAGEB_FIRST_NEG_EXPLORATORY.json | json |  | object (8 keys)
+  VersionShift/results/STAGE_C_CPU_COMPLETION/reports/LENS_D_STAGEB_FIRST_POS_EXPLORATORY.json | json |  | object (8 keys)
+  VersionShift/results/STAGE_C_CPU_COMPLETION/reports/MITIGATION_NEG_FULL63.json | json |  | object (6 keys)
+  VersionShift/results/STAGE_C_CPU_COMPLETION/reports/MITIGATION_POS_FULL63.json | json |  | object (6 keys)
+  VersionShift/results/STAGE_C_CPU_COMPLETION/reports/POLICIES_FULL63_DESCRIPTIVE.json | json |  | object (2 keys)
+  VersionShift/results/data/AMENDMENT_V226_FREEZE.json | json |  | object (6 keys)
+  VersionShift/results/data/PLAN.json | json |  | object (9 keys)
+  VersionShift/results/data/PREFLIGHT_REPORT_phase1.json | json |  | object (8 keys)
+  VersionShift/results/data/STAGE_B_SELECTION.json | json |  | object (10 keys)
+  VersionShift/results/data/STAGE_C_COMPLETION_PROTOCOL_RECORD.json | json |  | object (15 keys)
+  VersionShift/results/data/STAGE_C_HOLDOUT47_SELECTION.json | json |  | object (8 keys)
+  VersionShift/results/envs/sk-0.21.3/PROVENANCE.json | json |  | object (8 keys)
+  VersionShift/results/envs/sk-0.22.2.post1/PROVENANCE.json | json |  | object (8 keys)
+  VersionShift/results/envs/sk-1.8.0/PROVENANCE.json | json |  | object (8 keys)
+  VersionShift/results/envs/sk-1.9.1/PROVENANCE.json | json |  | object (8 keys)
+
+NEXT GATE: identify authoritative fold rows and job statuses, then recompute v2.1 paper metrics.
+Original archive must remain unchanged; do not overwrite original results.

@@ -1,0 +1,41 @@
+{
+  "M_AB_pp": 5.293761613619836,
+  "M_AC_pp": 0.0,
+  "M_CB_pp": 5.293761613619836,
+  "algorithms": [
+    "LR",
+    "SVC",
+    "RF",
+    "kNN"
+  ],
+  "baseline_zip_sha256": "5eb716b64c21ded6f979b0b1610bb68aee46ad2f24889a0d3b133bd430c6ff7d",
+  "datasets": 16,
+  "pairs": 6,
+  "per_estimator_mean_score_change_pp": {
+    "LR": {
+      "AB": -1.7457354277277566,
+      "AC": 0.0,
+      "CB": -1.7457354277277566
+    },
+    "RF": {
+      "AB": 1.8715960165323393,
+      "AC": 0.0,
+      "CB": 1.8715960165323393
+    },
+    "SVC": {
+      "AB": 4.361821767987326,
+      "AC": 0.0,
+      "CB": 4.361821767987326
+    },
+    "kNN": {
+      "AB": 0.0,
+      "AC": 0.0,
+      "CB": 0.0
+    }
+  },
+  "restoration_plan_sha256": "523c42a3dabee44e66d43d538b228939b01fd7fe1b68285f542f0980906492f4",
+  "scope": "pilot16, four classifiers only; not comparable to published six-classifier M",
+  "winner_changes_AB": 8,
+  "winner_changes_AC": 0,
+  "winner_changes_CB": 8
+}

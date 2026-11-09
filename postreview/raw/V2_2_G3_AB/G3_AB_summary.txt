@@ -1,0 +1,14 @@
+VersionShift G3-A/B: independent read-only robustness assessment
+Archive sha256: 5eb716b64c21ded6f979b0b1610bb68aee46ad2f24889a0d3b133bd430c6ff7d
+POS: K=63 M=5.00671245 pp 90% bootstrap CI=[3.8089,6.3265] 95% bootstrap CI=[3.6116,6.6163]
+  median=2.6179; mean dropping top 4 datasets=3.7103; winners=25; flips=165 strict=164
+  winner threshold 0.00 pp: changed=25 eligible=63
+  winner threshold 0.25 pp: changed=12 eligible=39
+  winner threshold 0.50 pp: changed=6 eligible=30
+  winner threshold 1.00 pp: changed=2 eligible=18
+NEG: K=63 M=0.05130978 pp 90% bootstrap CI=[0.0358,0.0685] 95% bootstrap CI=[0.0332,0.0724]
+  median=0.0218; mean dropping top 4 datasets=0.0340; winners=0; flips=6 strict=5
+  winner threshold 0.00 pp: changed=0 eligible=63
+  winner threshold 0.25 pp: changed=0 eligible=44
+  winner threshold 0.50 pp: changed=0 eligible=34
+  winner threshold 1.00 pp: changed=0 eligible=19

@@ -1,0 +1,639 @@
+{
+ "ba": [
+  0.9574999999999999,
+  0.9650000000000001,
+  0.9649999999999999,
+  0.9775,
+  0.9574999999999999,
+  0.9799999999999999,
+  0.9525,
+  0.9649999999999999,
+  0.97,
+  0.9550000000000001,
+  0.975,
+  0.9525,
+  0.9599999999999997,
+  0.9650000000000001,
+  0.9674999999999999,
+  0.9649999999999999,
+  0.9625,
+  0.9625,
+  0.97,
+  0.9550000000000001,
+  0.975,
+  0.9724999999999999,
+  0.9724999999999999,
+  0.9650000000000001,
+  0.9549999999999998,
+  0.975,
+  0.9675,
+  0.9600000000000002,
+  0.9549999999999998,
+  0.9724999999999999
+ ],
+ "constructor": {
+  "ccp_alpha": 0.0,
+  "criterion": "friedman_mse",
+  "init": null,
+  "learning_rate": 0.1,
+  "loss": "deviance",
+  "max_depth": 3,
+  "max_features": null,
+  "max_leaf_nodes": null,
+  "min_impurity_decrease": 0.0,
+  "min_impurity_split": null,
+  "min_samples_leaf": 1,
+  "min_samples_split": 2,
+  "min_weight_fraction_leaf": 0.0,
+  "n_estimators": 100,
+  "n_iter_no_change": null,
+  "presort": "auto",
+  "random_state": 1632099227,
+  "subsample": 1.0,
+  "tol": 0.0001,
+  "validation_fraction": 0.1,
+  "verbose": 0,
+  "warm_start": false
+ },
+ "convergence_warnings": 0,
+ "fitted_effective": [
+  {
+   "classes_": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "max_features_": 240,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 1000
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "max_features_": 240,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 1000
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "max_features_": 240,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 1000
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "max_features_": 240,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 1000
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "max_features_": 240,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 1000
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "max_features_": 240,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 1000
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "max_features_": 240,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 1000
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "max_features_": 240,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 1000
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "max_features_": 240,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 1000
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "max_features_": 240,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 1000
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "max_features_": 240,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 1000
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "max_features_": 240,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 1000
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "max_features_": 240,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 1000
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "max_features_": 240,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 1000
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "max_features_": 240,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 1000
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "max_features_": 240,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 1000
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "max_features_": 240,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 1000
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "max_features_": 240,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 1000
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "max_features_": 240,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 1000
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "max_features_": 240,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 1000
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "max_features_": 240,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 1000
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "max_features_": 240,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 1000
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "max_features_": 240,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 1000
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "max_features_": 240,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 1000
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "max_features_": 240,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 1000
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "max_features_": 240,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 1000
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "max_features_": 240,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 1000
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "max_features_": 240,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 1000
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "max_features_": 240,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 1000
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "max_features_": 240,
+   "n_estimators_": 100,
+   "n_fitted_estimators": 1000
+  }
+ ],
+ "fold_keys": [
+  "r0_f0",
+  "r0_f1",
+  "r0_f2",
+  "r0_f3",
+  "r0_f4",
+  "r1_f0",
+  "r1_f1",
+  "r1_f2",
+  "r1_f3",
+  "r1_f4",
+  "r2_f0",
+  "r2_f1",
+  "r2_f2",
+  "r2_f3",
+  "r2_f4",
+  "r3_f0",
+  "r3_f1",
+  "r3_f2",
+  "r3_f3",
+  "r3_f4",
+  "r4_f0",
+  "r4_f1",
+  "r4_f2",
+  "r4_f3",
+  "r4_f4",
+  "r5_f0",
+  "r5_f1",
+  "r5_f2",
+  "r5_f3",
+  "r5_f4"
+ ],
+ "id": "G2E__GB_NEW_PRESORT_AUTO__openml_146824__GB",
+ "job_sha256": "f422b582281b790821abb07633cfdaee347b0a9843411be3982d37b20657e62c",
+ "npz_sha256": "31181459835e1c49758167254d1935802e01598a490d6f6309e80d9bcfcb8ba5",
+ "portability": "ok",
+ "portability_report": null,
+ "provenance": {
+  "executable": "/home/uraz/versionshift_envs/sk-0.22.2.post1/bin/python",
+  "machine": "x86_64",
+  "numpy": "1.18.4",
+  "numpy_config_sha256": "c1eac50e0f4378abaa67c8f02f20e4dd176520354c507772214c44e4ff6abca9",
+  "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.2.5",
+  "processor": "x86_64",
+  "python": "3.8.20",
+  "scipy": "1.4.1",
+  "sklearn": "0.22.2.post1",
+  "sklearn_file": "/home/uraz/versionshift_envs/sk-0.22.2.post1/lib/python3.8/site-packages/sklearn/__init__.py",
+  "threadpools": [
+   {
+    "architecture": null,
+    "filepath": "/home/uraz/versionshift_envs/sk-0.22.2.post1/lib/python3.8/site-packages/numpy.libs/libopenblasp-r0-34a18dc3.3.7.so",
+    "internal_api": "openblas",
+    "num_threads": 1,
+    "version": "0.3.7"
+   },
+   {
+    "architecture": null,
+    "filepath": "/home/uraz/versionshift_envs/sk-0.22.2.post1/lib/python3.8/site-packages/sklearn/.libs/libgomp-3300acd3.so.1.0.0",
+    "internal_api": "openmp",
+    "num_threads": 1,
+    "version": null
+   }
+  ]
+ },
+ "status": "ok",
+ "values_imputed": 0,
+ "worker_sha256": "f27700a20e73cf4ab187f9aedc2874389413c0844216cbc81e7395d063184807"
+}

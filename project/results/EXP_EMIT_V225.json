@@ -1,0 +1,403 @@
+{
+ "note": "Experiment E-MIT (v2.2.5): do practitioner pinning policies protect conclusions across the 0.21 -> 1.9.1\ndefault-change wave? Uses the existing Experiment A fits (44 datasets x 6 reruns x 5 folds, scikit-learn 1.9.1);\nno new model fits are needed because every policy's configuration is either identical to an already-fitted\nconfiguration (verified via regimes.effective_signature) or structurally unchanged across regimes.\n\nPolicies (code written in the 0.21 era, then run unchanged under 1.9.1 defaults):\n  D      shipped defaults (no explicit hyperparameters)\n  S6973  SonarSource rule python:S6973 compliance with the values in effect at writing time:\n           SVC C, kernel, gamma pinned; kNN n_neighbors; RF min_samples_leaf, max_features; GB/HGB learning_rate;\n           LogisticRegression is not covered by the rule.\n           RF max_features='auto' (the 0.21 default) is REJECTED by 1.9.1 -> hard failure as written ('S6973');\n           'S6973fix' = the same code after the documented equivalent rewrite max_features='sqrt'.\n  E      the archived explicit map (pins SVC gamma, RF n_estimators, LR solver/max_iter; not LR multi_class)\n  P      full pin of every constructor parameter (identical configurations -> zero within one runtime;\n         in real binaries the P residual is the runtime-stack effect, measured in Stage B)\nOutputs per policy and feature condition: decision_v221 labels and quantities + lenses B/C/D.\n",
+ "structural_check": "SVC under S6973 pins C=1.0, kernel=rbf, gamma=auto = the 0.21 configuration (fitted as R21/D)",
+ "K": 44,
+ "S6973_as_written": {
+  "status": "hard_failure",
+  "estimator": "RF",
+  "datasets_affected": 44,
+  "reason": "max_features='auto' rejected by scikit-learn 1.9.1 (InvalidParameterError)"
+ },
+ "conditions": {
+  "raw": {
+   "D": {
+    "labels": [
+     "CHANGED_MEAN",
+     "WIDESPREAD"
+    ],
+    "sensitivity_flags": [
+     "ANY_PAIR_WIDESPREAD"
+    ],
+    "M_pp": 4.420411412025381,
+    "M_lower95": 3.3437892204408692,
+    "M_upper95": 5.497033603609892,
+    "prevalence_avg": 0.8181818181818182,
+    "prevalence_any_pair_1pp": 0.8863636363636364,
+    "mean_abs_algorithm_shift_pp": {
+     "LR": 0.5165848200427599,
+     "SVC": 9.706370070361444,
+     "kNN": 0.0,
+     "RF": 4.166706293498233,
+     "GB": 0.0,
+     "HGB": 0.0
+    },
+    "lensC": {
+     "discoveries": 43,
+     "storey_pi1": 0.9545454545454546
+    },
+    "lensD": {
+     "rejected": true,
+     "stopping_K": 13,
+     "final_wealth": 167539.90790534075,
+     "max_wealth": 167539.90790534075,
+     "K": 44,
+     "margin_pp": 0.5,
+     "alpha": 0.05,
+     "order_seed": 20261106
+    },
+    "lensB_widest_PI": {
+     "SVC-RF": [
+      -21.48906908731611,
+      31.365689778463093
+     ],
+     "LR-SVC": [
+      -35.71274900705167,
+      16.953318637736658
+     ],
+     "SVC-kNN": [
+      -16.72569674916658,
+      34.899023386966995
+     ]
+    },
+    "multiclass_only_note": null
+   },
+   "S6973fix": {
+    "labels": [
+     "CHANGED_MEAN",
+     "WIDESPREAD"
+    ],
+    "sensitivity_flags": [
+     "ANY_PAIR_WIDESPREAD"
+    ],
+    "M_pp": 1.5477036313334802,
+    "M_lower95": 1.1483708386995635,
+    "M_upper95": 1.947036423967397,
+    "prevalence_avg": 0.7272727272727273,
+    "prevalence_any_pair_1pp": 0.7954545454545454,
+    "mean_abs_algorithm_shift_pp": {
+     "LR": 0.5165848200427599,
+     "SVC": 0.0,
+     "kNN": 0.0,
+     "RF": 4.166706293498233,
+     "GB": 0.0,
+     "HGB": 0.0
+    },
+    "lensC": {
+     "discoveries": 41,
+     "storey_pi1": 0.9545454545454546
+    },
+    "lensD": {
+     "rejected": true,
+     "stopping_K": 24,
+     "final_wealth": 690.0720812949264,
+     "max_wealth": 690.0720812949264,
+     "K": 44,
+     "margin_pp": 0.5,
+     "alpha": 0.05,
+     "order_seed": 20261106
+    },
+    "lensB_widest_PI": {
+     "LR-RF": [
+      -13.624498929966464,
+      4.949036260880536
+     ],
+     "SVC-RF": [
+      -12.078526711460594,
+      3.969887834681333
+     ],
+     "kNN-RF": [
+      -12.078526711460594,
+      3.969887834681333
+     ]
+    },
+    "multiclass_only_note": null
+   },
+   "E": {
+    "labels": [
+     "INCONCLUSIVE"
+    ],
+    "sensitivity_flags": [],
+    "M_pp": 0.0666375045288519,
+    "M_lower95": 0.02892087836686938,
+    "M_upper95": 0.10435413069083443,
+    "prevalence_avg": 0.022727272727272728,
+    "prevalence_any_pair_1pp": 0.09090909090909091,
+    "mean_abs_algorithm_shift_pp": {
+     "LR": 0.19991251358655573,
+     "SVC": 0.0,
+     "kNN": 0.0,
+     "RF": 0.0,
+     "GB": 0.0,
+     "HGB": 0.0
+    },
+    "lensC": {
+     "discoveries": 5,
+     "storey_pi1": 0.0
+    },
+    "lensD": {
+     "rejected": false,
+     "stopping_K": null,
+     "final_wealth": 1.0,
+     "max_wealth": 1.0,
+     "K": 44,
+     "margin_pp": 0.5,
+     "alpha": 0.05,
+     "order_seed": 20261106
+    },
+    "lensB_widest_PI": {
+     "LR-SVC": [
+      -0.6565026502968729,
+      0.7681834257860236
+     ],
+     "LR-kNN": [
+      -0.6565026502968729,
+      0.7681834257860236
+     ],
+     "LR-RF": [
+      -0.6565026502968729,
+      0.7681834257860236
+     ]
+    },
+    "multiclass_only_note": "E residual comes only from LR multi_class on 11 multiclass datasets"
+   },
+   "P": {
+    "labels": [
+     "UNIFORMLY_SMALL"
+    ],
+    "sensitivity_flags": [],
+    "M_pp": 0.0,
+    "M_lower95": 0.0,
+    "M_upper95": 0.0,
+    "prevalence_avg": 0.0,
+    "prevalence_any_pair_1pp": 0.0,
+    "mean_abs_algorithm_shift_pp": {
+     "LR": 0.0,
+     "SVC": 0.0,
+     "kNN": 0.0,
+     "RF": 0.0,
+     "GB": 0.0,
+     "HGB": 0.0
+    },
+    "lensC": {
+     "discoveries": 0,
+     "storey_pi1": 0.0
+    },
+    "lensD": {
+     "rejected": false,
+     "stopping_K": null,
+     "note": "all M_k = 0"
+    },
+    "lensB_widest_PI": {
+     "LR-SVC": [
+      -3.04237263842286e-11,
+      3.04237263842286e-11
+     ],
+     "LR-kNN": [
+      -3.04237263842286e-11,
+      3.04237263842286e-11
+     ],
+     "LR-RF": [
+      -3.04237263842286e-11,
+      3.04237263842286e-11
+     ]
+    },
+    "multiclass_only_note": null
+   }
+  },
+  "std": {
+   "D": {
+    "labels": [
+     "CHANGED_MEAN",
+     "WIDESPREAD"
+    ],
+    "sensitivity_flags": [
+     "ANY_PAIR_WIDESPREAD"
+    ],
+    "M_pp": 1.4670568747197246,
+    "M_lower95": 1.1184756565881808,
+    "M_upper95": 1.8156380928512683,
+    "prevalence_avg": 0.7272727272727273,
+    "prevalence_any_pair_1pp": 0.7954545454545454,
+    "mean_abs_algorithm_shift_pp": {
+     "LR": 0.27947425736322534,
+     "SVC": 1.682156097916904e-17,
+     "kNN": 0.0,
+     "RF": 4.166706293498233,
+     "GB": 0.0,
+     "HGB": 0.0
+    },
+    "lensC": {
+     "discoveries": 39,
+     "storey_pi1": 1.0
+    },
+    "lensD": {
+     "rejected": true,
+     "stopping_K": 24,
+     "final_wealth": 2290.548151820055,
+     "max_wealth": 2290.548151820055,
+     "K": 44,
+     "margin_pp": 0.5,
+     "alpha": 0.05,
+     "order_seed": 20261106
+    },
+    "lensB_widest_PI": {
+     "LR-RF": [
+      -12.358867048195435,
+      4.650816483250547
+     ],
+     "kNN-RF": [
+      -12.078526711460594,
+      3.969887834681333
+     ],
+     "RF-GB": [
+      -3.969887834681333,
+      12.078526711460594
+     ]
+    },
+    "multiclass_only_note": null
+   },
+   "S6973fix": {
+    "labels": [
+     "CHANGED_MEAN",
+     "WIDESPREAD"
+    ],
+    "sensitivity_flags": [
+     "ANY_PAIR_WIDESPREAD"
+    ],
+    "M_pp": 1.4670568747197246,
+    "M_lower95": 1.1184756565881808,
+    "M_upper95": 1.8156380928512683,
+    "prevalence_avg": 0.7272727272727273,
+    "prevalence_any_pair_1pp": 0.7954545454545454,
+    "mean_abs_algorithm_shift_pp": {
+     "LR": 0.27947425736322534,
+     "SVC": 0.0,
+     "kNN": 0.0,
+     "RF": 4.166706293498233,
+     "GB": 0.0,
+     "HGB": 0.0
+    },
+    "lensC": {
+     "discoveries": 39,
+     "storey_pi1": 1.0
+    },
+    "lensD": {
+     "rejected": true,
+     "stopping_K": 24,
+     "final_wealth": 2290.548151820055,
+     "max_wealth": 2290.548151820055,
+     "K": 44,
+     "margin_pp": 0.5,
+     "alpha": 0.05,
+     "order_seed": 20261106
+    },
+    "lensB_widest_PI": {
+     "LR-RF": [
+      -12.358867048195435,
+      4.650816483250547
+     ],
+     "SVC-RF": [
+      -12.078526711460594,
+      3.969887834681333
+     ],
+     "kNN-RF": [
+      -12.078526711460594,
+      3.969887834681333
+     ]
+    },
+    "multiclass_only_note": null
+   },
+   "E": {
+    "labels": [
+     "INCONCLUSIVE"
+    ],
+    "sensitivity_flags": [],
+    "M_pp": 0.06458828615568958,
+    "M_lower95": 0.020573469431064702,
+    "M_upper95": 0.10860310288031447,
+    "prevalence_avg": 0.022727272727272728,
+    "prevalence_any_pair_1pp": 0.06818181818181818,
+    "mean_abs_algorithm_shift_pp": {
+     "LR": 0.19376485846706873,
+     "SVC": 0.0,
+     "kNN": 0.0,
+     "RF": 0.0,
+     "GB": 0.0,
+     "HGB": 0.0
+    },
+    "lensC": {
+     "discoveries": 2,
+     "storey_pi1": 0.0
+    },
+    "lensD": {
+     "rejected": false,
+     "stopping_K": null,
+     "final_wealth": 1.0,
+     "max_wealth": 1.0,
+     "K": 44,
+     "margin_pp": 0.5,
+     "alpha": 0.05,
+     "order_seed": 20261106
+    },
+    "lensB_widest_PI": {
+     "LR-SVC": [
+      -0.5766696249317002,
+      0.7476762999866772
+     ],
+     "LR-kNN": [
+      -0.5766696249317002,
+      0.7476762999866772
+     ],
+     "LR-RF": [
+      -0.5766696249317002,
+      0.7476762999866772
+     ]
+    },
+    "multiclass_only_note": "E residual comes only from LR multi_class on 11 multiclass datasets"
+   },
+   "P": {
+    "labels": [
+     "UNIFORMLY_SMALL"
+    ],
+    "sensitivity_flags": [],
+    "M_pp": 0.0,
+    "M_lower95": 0.0,
+    "M_upper95": 0.0,
+    "prevalence_avg": 0.0,
+    "prevalence_any_pair_1pp": 0.0,
+    "mean_abs_algorithm_shift_pp": {
+     "LR": 0.0,
+     "SVC": 0.0,
+     "kNN": 0.0,
+     "RF": 0.0,
+     "GB": 0.0,
+     "HGB": 0.0
+    },
+    "lensC": {
+     "discoveries": 0,
+     "storey_pi1": 0.0
+    },
+    "lensD": {
+     "rejected": false,
+     "stopping_K": null,
+     "note": "all M_k = 0"
+    },
+    "lensB_widest_PI": {
+     "LR-SVC": [
+      -3.04237263842286e-11,
+      3.04237263842286e-11
+     ],
+     "LR-kNN": [
+      -3.04237263842286e-11,
+      3.04237263842286e-11
+     ],
+     "LR-RF": [
+      -3.04237263842286e-11,
+      3.04237263842286e-11
+     ]
+    },
+    "multiclass_only_note": null
+   }
+  }
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "schema": "versionshift-v2.2.1-analysis-freeze",
+ "frozen_at": "2026-11-06T02:46:38",
+ "note": "Stage B inference must use exactly these files; later changes are versioned and disclosed",
+ "files": {
+  "code/decision_v221.py": "6dc94d8eed5e6812493ba9ae6771c05ddbf876e52e169fdfb42bfb21c45e4b4c",
+  "code/analysis_v221.py": "d68132193c862db03652392a456cc54a187daf57ab1f6cc74f58a6570f4eb0f1",
+  "code/attribution.py": "eb437a24e39e458c79e5ef63f297aa2c25df191b1c422e7a93e963950338a131",
+  "code/oracle_frame.py": "2715cc1be7c17d270a3873ab5908312e774ab28215b1c1fe5b3c05ba4397c884",
+  "code/changelog_oracle.csv": "07ee371885f3be9329cd743fef6bca2974d317961cf3d9e8a4271f2be75f4323",
+  "code/stage_b.py": "dac2bd9e165e10f935617c172ef12a520ad41bc16b91fcde2d48fad2f9cac98f",
+  "code/emulate_plan.py": "540b754a42da6e565e6b899d7cdb8707852b4c2c47c015fa93d49ada25a2eee9",
+  "code/regimes.py": "733b7af4a1dbe2ef41023312adddfb9b2b7fda830c5cdd1b0faad82c9456f881",
+  "crossversion/controller.py": "948d6c472cff69623e14a232c84d789aabf61e29139768705f9bf90e34c7b1b8",
+  "crossversion/worker.py": "8d41b805f6366d7d7d5bb47fc8e45045a02ccb07fcec5b88b8153bc79daaf284",
+  "crossversion/build_envs.sh": "37145b75f606c6151a2792031b3aa2609ab5f057375148e5cceab317f5aa2b5b"
+ }
+}

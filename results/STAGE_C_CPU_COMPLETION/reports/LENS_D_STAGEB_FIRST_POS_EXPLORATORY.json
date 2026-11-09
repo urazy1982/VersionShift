@@ -1,0 +1,452 @@
+{
+  "alpha": 0.05,
+  "first_crossing_20": 5,
+  "margin_pp": 0.5,
+  "order_seed": 20261106,
+  "role": "DESCRIPTIVE sequential wealth, not a new valid preregistered inference claim",
+  "trace": [
+    {
+      "M_pp": 1.236906303572972,
+      "dataset": "openml_125922",
+      "phase": "pilot",
+      "position": 1,
+      "wealth": 1.0
+    },
+    {
+      "M_pp": 4.517646342947548,
+      "dataset": "openml_3913",
+      "phase": "pilot",
+      "position": 2,
+      "wealth": 3.781117904937123
+    },
+    {
+      "M_pp": 2.523888888888887,
+      "dataset": "openml_16",
+      "phase": "pilot",
+      "position": 3,
+      "wealth": 5.462091869823223
+    },
+    {
+      "M_pp": 2.1002096909235033,
+      "dataset": "openml_3917",
+      "phase": "pilot",
+      "position": 4,
+      "wealth": 7.759444444657913
+    },
+    {
+      "M_pp": 9.52384784208713,
+      "dataset": "openml_28",
+      "phase": "pilot",
+      "position": 5,
+      "wealth": 28.452179891055057
+    },
+    {
+      "M_pp": 7.132156223309265,
+      "dataset": "openml_37",
+      "phase": "pilot",
+      "position": 6,
+      "wealth": 56.09843224941978
+    },
+    {
+      "M_pp": 3.0079298756436517,
+      "dataset": "openml_23",
+      "phase": "pilot",
+      "position": 7,
+      "wealth": 76.62252532625467
+    },
+    {
+      "M_pp": 1.661666666666665,
+      "dataset": "openml_146824",
+      "phase": "pilot",
+      "position": 8,
+      "wealth": 90.42631561861714
+    },
+    {
+      "M_pp": 0.4976717419584924,
+      "dataset": "openml_14952",
+      "phase": "pilot",
+      "position": 9,
+      "wealth": 90.39260395747428
+    },
+    {
+      "M_pp": 8.308295552871504,
+      "dataset": "openml_14969",
+      "phase": "pilot",
+      "position": 10,
+      "wealth": 202.78353280717792
+    },
+    {
+      "M_pp": 3.2978589996332546,
+      "dataset": "openml_14965",
+      "phase": "pilot",
+      "position": 11,
+      "wealth": 287.7047048926215
+    },
+    {
+      "M_pp": 0.8122599059424346,
+      "dataset": "openml_9985",
+      "phase": "pilot",
+      "position": 12,
+      "wealth": 301.7467983894787
+    },
+    {
+      "M_pp": 11.499418898643707,
+      "dataset": "openml_2079",
+      "phase": "pilot",
+      "position": 13,
+      "wealth": 823.1879613858582
+    },
+    {
+      "M_pp": 2.4828438576468694,
+      "dataset": "openml_3918",
+      "phase": "pilot",
+      "position": 14,
+      "wealth": 1041.2514561797238
+    },
+    {
+      "M_pp": 0.5100204214239304,
+      "dataset": "openml_10101",
+      "phase": "pilot",
+      "position": 15,
+      "wealth": 1042.6852703088646
+    },
+    {
+      "M_pp": 1.8730386195662594,
+      "dataset": "openml_219",
+      "phase": "pilot",
+      "position": 16,
+      "wealth": 1239.076362688099
+    },
+    {
+      "M_pp": 0.5368021997472415,
+      "dataset": "openml_3560",
+      "phase": "pilot_excluded",
+      "position": 17,
+      "wealth": 1245.4627838113984
+    },
+    {
+      "M_pp": 7.543162393162392,
+      "dataset": "openml_9976",
+      "phase": "pilot_excluded",
+      "position": 18,
+      "wealth": 2473.1269803247365
+    },
+    {
+      "M_pp": 2.088692788231604,
+      "dataset": "openml_9960",
+      "phase": "pilot_excluded",
+      "position": 19,
+      "wealth": 3022.7957823186193
+    },
+    {
+      "M_pp": 2.523262178434592,
+      "dataset": "openml_125920",
+      "phase": "pilot_excluded",
+      "position": 20,
+      "wealth": 3895.6532671104346
+    },
+    {
+      "M_pp": 0.7325657056699052,
+      "dataset": "openml_167120",
+      "phase": "pilot_excluded",
+      "position": 21,
+      "wealth": 4027.9296118265647
+    },
+    {
+      "M_pp": 1.1193228334054999,
+      "dataset": "openml_7592",
+      "phase": "pilot_excluded",
+      "position": 22,
+      "wealth": 4393.12896271738
+    },
+    {
+      "M_pp": 2.6178729499294007,
+      "dataset": "openml_9964",
+      "phase": "pilot_excluded",
+      "position": 23,
+      "wealth": 5766.494195694999
+    },
+    {
+      "M_pp": 3.840075231481483,
+      "dataset": "openml_3902",
+      "phase": "pilot_excluded",
+      "position": 24,
+      "wealth": 8672.874481152885
+    },
+    {
+      "M_pp": 1.606089119599278,
+      "dataset": "openml_9978",
+      "phase": "pilot_excluded",
+      "position": 25,
+      "wealth": 10155.491374106557
+    },
+    {
+      "M_pp": 2.411350400595582,
+      "dataset": "openml_146195",
+      "phase": "pilot_excluded",
+      "position": 26,
+      "wealth": 13193.925020881159
+    },
+    {
+      "M_pp": 21.113333333333326,
+      "dataset": "openml_12",
+      "phase": "pilot_excluded",
+      "position": 27,
+      "wealth": 56559.92613925016
+    },
+    {
+      "M_pp": 0.14425115746614964,
+      "dataset": "openml_10093",
+      "phase": "pilot_excluded",
+      "position": 28,
+      "wealth": 54453.38475844756
+    },
+    {
+      "M_pp": 21.360000000000003,
+      "dataset": "openml_22",
+      "phase": "pilot_excluded",
+      "position": 29,
+      "wealth": 172842.79107200544
+    },
+    {
+      "M_pp": 1.4982144722286495,
+      "dataset": "openml_45",
+      "phase": "pilot_excluded",
+      "position": 30,
+      "wealth": 187533.20354559875
+    },
+    {
+      "M_pp": 5.975779154406022,
+      "dataset": "openml_43",
+      "phase": "pilot_excluded",
+      "position": 31,
+      "wealth": 275650.30247847363
+    },
+    {
+      "M_pp": 0.5788368323960185,
+      "dataset": "openml_11",
+      "phase": "pilot_excluded",
+      "position": 32,
+      "wealth": 277560.9240736266
+    },
+    {
+      "M_pp": 0.5153212901660105,
+      "dataset": "openml_15",
+      "phase": "pilot_excluded",
+      "position": 33,
+      "wealth": 277934.9415947062
+    },
+    {
+      "M_pp": 9.819614117579233,
+      "dataset": "openml_53",
+      "phase": "pilot_excluded",
+      "position": 34,
+      "wealth": 505712.5323287197
+    },
+    {
+      "M_pp": 25.11844186431206,
+      "dataset": "openml_3549",
+      "phase": "pilot_excluded",
+      "position": 35,
+      "wealth": 1614136.87865045
+    },
+    {
+      "M_pp": 4.830325883899663,
+      "dataset": "openml_6",
+      "phase": "pilot_excluded",
+      "position": 36,
+      "wealth": 2134137.869447037
+    },
+    {
+      "M_pp": 0.9958173000818656,
+      "dataset": "openml_3",
+      "phase": "pilot_excluded",
+      "position": 37,
+      "wealth": 2214339.2609194657
+    },
+    {
+      "M_pp": 3.0069589532934344,
+      "dataset": "openml_9957",
+      "phase": "pilot_excluded",
+      "position": 38,
+      "wealth": 2636280.5907985796
+    },
+    {
+      "M_pp": 3.6725783916260117,
+      "dataset": "openml_146819",
+      "phase": "pilot_excluded",
+      "position": 39,
+      "wealth": 3280042.588758727
+    },
+    {
+      "M_pp": 2.0417506919731117,
+      "dataset": "openml_3903",
+      "phase": "pilot_excluded",
+      "position": 40,
+      "wealth": 3675011.13280082
+    },
+    {
+      "M_pp": 3.773333333333333,
+      "dataset": "openml_14",
+      "phase": "pilot_excluded",
+      "position": 41,
+      "wealth": 4622190.478825597
+    },
+    {
+      "M_pp": 1.3248677248677245,
+      "dataset": "openml_31",
+      "phase": "pilot_excluded",
+      "position": 42,
+      "wealth": 4926745.754308458
+    },
+    {
+      "M_pp": 13.578097352417698,
+      "dataset": "openml_9946",
+      "phase": "pilot_excluded",
+      "position": 43,
+      "wealth": 10096303.305046665
+    },
+    {
+      "M_pp": 3.9225589225589212,
+      "dataset": "openml_146822",
+      "phase": "pilot_excluded",
+      "position": 44,
+      "wealth": 12856793.979845269
+    },
+    {
+      "M_pp": 6.493827160493828,
+      "dataset": "openml_3022",
+      "phase": "pilot_excluded",
+      "position": 45,
+      "wealth": 19095765.39318485
+    },
+    {
+      "M_pp": 6.508907207455744,
+      "dataset": "openml_146820",
+      "phase": "pilot_excluded",
+      "position": 46,
+      "wealth": 28536024.48335663
+    },
+    {
+      "M_pp": 28.924857549857556,
+      "dataset": "openml_32",
+      "phase": "pilot_excluded",
+      "position": 47,
+      "wealth": 96300642.76740728
+    },
+    {
+      "M_pp": 0.6162376353729998,
+      "dataset": "openml_9971",
+      "phase": "pilot_excluded",
+      "position": 48,
+      "wealth": 97095795.25251651
+    },
+    {
+      "M_pp": 13.641666666666667,
+      "dataset": "openml_18",
+      "phase": "pilot_excluded",
+      "position": 49,
+      "wealth": 187770456.9372309
+    },
+    {
+      "M_pp": 0.8230841307713502,
+      "dataset": "openml_9952",
+      "phase": "pilot_excluded",
+      "position": 50,
+      "wealth": 192095215.0299046
+    },
+    {
+      "M_pp": 1.1085532197860237,
+      "dataset": "openml_3021",
+      "phase": "pilot_excluded",
+      "position": 51,
+      "wealth": 200438779.4897773
+    },
+    {
+      "M_pp": 1.3828613517711095,
+      "dataset": "openml_167119",
+      "phase": "pilot_excluded",
+      "position": 52,
+      "wealth": 213098239.822017
+    },
+    {
+      "M_pp": 1.4021114290332144,
+      "dataset": "openml_167140",
+      "phase": "pilot_excluded",
+      "position": 53,
+      "wealth": 226896638.15688986
+    },
+    {
+      "M_pp": 13.4935556867375,
+      "dataset": "openml_146821",
+      "phase": "pilot_excluded",
+      "position": 54,
+      "wealth": 439230291.19861555
+    },
+    {
+      "M_pp": 3.6481299655715835,
+      "dataset": "openml_167141",
+      "phase": "pilot_excluded",
+      "position": 55,
+      "wealth": 539106313.0083101
+    },
+    {
+      "M_pp": 0.4421951338614491,
+      "dataset": "openml_3904",
+      "phase": "pilot_excluded",
+      "position": 56,
+      "wealth": 536834174.1234546
+    },
+    {
+      "M_pp": 0.4731523951338202,
+      "dataset": "openml_9977",
+      "phase": "pilot_excluded",
+      "position": 57,
+      "wealth": 535783670.53235877
+    },
+    {
+      "M_pp": 3.8457344207227333,
+      "dataset": "openml_14954",
+      "phase": "pilot_excluded",
+      "position": 58,
+      "wealth": 666413888.6663904
+    },
+    {
+      "M_pp": 2.7075543797766017,
+      "dataset": "openml_146800",
+      "phase": "pilot_excluded",
+      "position": 59,
+      "wealth": 774659997.3832822
+    },
+    {
+      "M_pp": 1.9692981984895443,
+      "dataset": "openml_2074",
+      "phase": "pilot_excluded",
+      "position": 60,
+      "wealth": 858994479.3819416
+    },
+    {
+      "M_pp": 6.32529794509894,
+      "dataset": "openml_49",
+      "phase": "pilot_excluded",
+      "position": 61,
+      "wealth": 1231568209.2372568
+    },
+    {
+      "M_pp": 3.5636720822295143,
+      "dataset": "openml_29",
+      "phase": "pilot_excluded",
+      "position": 62,
+      "wealth": 1515941036.2871084
+    },
+    {
+      "M_pp": 8.777251455002785,
+      "dataset": "openml_146817",
+      "phase": "pilot_excluded",
+      "position": 63,
+      "wealth": 2469792611.790141
+    }
+  ],
+  "warning": "Stage C sample and analysis follow observed Stage B results; conditional-mean/exchangeability assumptions need independent justification",
+  "wealth_final": 2469792611.790141
+}

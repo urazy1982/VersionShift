@@ -1,0 +1,671 @@
+{
+  "status": "PASS",
+  "jobs_planned": 94,
+  "jobs_ok": 94,
+  "jobs_unavailable": 0,
+  "folds": 2820,
+  "datasets": 47,
+  "worker_sha256": "f27700a20e73cf4ab187f9aedc2874389413c0844216cbc81e7395d063184807",
+  "plan_sha256": "523c42a3dabee44e66d43d538b228939b01fd7fe1b68285f542f0980906492f4",
+  "warning": "Experimental diagnostic; do not interpret nonzero errors as failed original baselines",
+  "jobs": [
+    {
+      "id": "G2E__GB_NEW_PRESORT_AUTO__openml_10093__GB",
+      "arm": "GB_NEW_PRESORT_AUTO",
+      "dataset": "openml_10093",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__HGB_OLD_MAXBINS255__openml_10093__HGB",
+      "arm": "HGB_OLD_MAXBINS255",
+      "dataset": "openml_10093",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__GB_NEW_PRESORT_AUTO__openml_11__GB",
+      "arm": "GB_NEW_PRESORT_AUTO",
+      "dataset": "openml_11",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__HGB_OLD_MAXBINS255__openml_11__HGB",
+      "arm": "HGB_OLD_MAXBINS255",
+      "dataset": "openml_11",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__GB_NEW_PRESORT_AUTO__openml_12__GB",
+      "arm": "GB_NEW_PRESORT_AUTO",
+      "dataset": "openml_12",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__HGB_OLD_MAXBINS255__openml_12__HGB",
+      "arm": "HGB_OLD_MAXBINS255",
+      "dataset": "openml_12",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__GB_NEW_PRESORT_AUTO__openml_125920__GB",
+      "arm": "GB_NEW_PRESORT_AUTO",
+      "dataset": "openml_125920",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__HGB_OLD_MAXBINS255__openml_125920__HGB",
+      "arm": "HGB_OLD_MAXBINS255",
+      "dataset": "openml_125920",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__GB_NEW_PRESORT_AUTO__openml_14__GB",
+      "arm": "GB_NEW_PRESORT_AUTO",
+      "dataset": "openml_14",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__HGB_OLD_MAXBINS255__openml_14__HGB",
+      "arm": "HGB_OLD_MAXBINS255",
+      "dataset": "openml_14",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__GB_NEW_PRESORT_AUTO__openml_146195__GB",
+      "arm": "GB_NEW_PRESORT_AUTO",
+      "dataset": "openml_146195",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__HGB_OLD_MAXBINS255__openml_146195__HGB",
+      "arm": "HGB_OLD_MAXBINS255",
+      "dataset": "openml_146195",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__GB_NEW_PRESORT_AUTO__openml_146800__GB",
+      "arm": "GB_NEW_PRESORT_AUTO",
+      "dataset": "openml_146800",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__HGB_OLD_MAXBINS255__openml_146800__HGB",
+      "arm": "HGB_OLD_MAXBINS255",
+      "dataset": "openml_146800",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__GB_NEW_PRESORT_AUTO__openml_146817__GB",
+      "arm": "GB_NEW_PRESORT_AUTO",
+      "dataset": "openml_146817",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__HGB_OLD_MAXBINS255__openml_146817__HGB",
+      "arm": "HGB_OLD_MAXBINS255",
+      "dataset": "openml_146817",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__GB_NEW_PRESORT_AUTO__openml_146819__GB",
+      "arm": "GB_NEW_PRESORT_AUTO",
+      "dataset": "openml_146819",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__HGB_OLD_MAXBINS255__openml_146819__HGB",
+      "arm": "HGB_OLD_MAXBINS255",
+      "dataset": "openml_146819",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__GB_NEW_PRESORT_AUTO__openml_146820__GB",
+      "arm": "GB_NEW_PRESORT_AUTO",
+      "dataset": "openml_146820",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__HGB_OLD_MAXBINS255__openml_146820__HGB",
+      "arm": "HGB_OLD_MAXBINS255",
+      "dataset": "openml_146820",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__GB_NEW_PRESORT_AUTO__openml_146821__GB",
+      "arm": "GB_NEW_PRESORT_AUTO",
+      "dataset": "openml_146821",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__HGB_OLD_MAXBINS255__openml_146821__HGB",
+      "arm": "HGB_OLD_MAXBINS255",
+      "dataset": "openml_146821",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__GB_NEW_PRESORT_AUTO__openml_146822__GB",
+      "arm": "GB_NEW_PRESORT_AUTO",
+      "dataset": "openml_146822",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__HGB_OLD_MAXBINS255__openml_146822__HGB",
+      "arm": "HGB_OLD_MAXBINS255",
+      "dataset": "openml_146822",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__GB_NEW_PRESORT_AUTO__openml_14954__GB",
+      "arm": "GB_NEW_PRESORT_AUTO",
+      "dataset": "openml_14954",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__HGB_OLD_MAXBINS255__openml_14954__HGB",
+      "arm": "HGB_OLD_MAXBINS255",
+      "dataset": "openml_14954",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__GB_NEW_PRESORT_AUTO__openml_15__GB",
+      "arm": "GB_NEW_PRESORT_AUTO",
+      "dataset": "openml_15",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__HGB_OLD_MAXBINS255__openml_15__HGB",
+      "arm": "HGB_OLD_MAXBINS255",
+      "dataset": "openml_15",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__GB_NEW_PRESORT_AUTO__openml_167119__GB",
+      "arm": "GB_NEW_PRESORT_AUTO",
+      "dataset": "openml_167119",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__HGB_OLD_MAXBINS255__openml_167119__HGB",
+      "arm": "HGB_OLD_MAXBINS255",
+      "dataset": "openml_167119",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__GB_NEW_PRESORT_AUTO__openml_167120__GB",
+      "arm": "GB_NEW_PRESORT_AUTO",
+      "dataset": "openml_167120",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__HGB_OLD_MAXBINS255__openml_167120__HGB",
+      "arm": "HGB_OLD_MAXBINS255",
+      "dataset": "openml_167120",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__GB_NEW_PRESORT_AUTO__openml_167140__GB",
+      "arm": "GB_NEW_PRESORT_AUTO",
+      "dataset": "openml_167140",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__HGB_OLD_MAXBINS255__openml_167140__HGB",
+      "arm": "HGB_OLD_MAXBINS255",
+      "dataset": "openml_167140",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__GB_NEW_PRESORT_AUTO__openml_167141__GB",
+      "arm": "GB_NEW_PRESORT_AUTO",
+      "dataset": "openml_167141",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__HGB_OLD_MAXBINS255__openml_167141__HGB",
+      "arm": "HGB_OLD_MAXBINS255",
+      "dataset": "openml_167141",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__GB_NEW_PRESORT_AUTO__openml_18__GB",
+      "arm": "GB_NEW_PRESORT_AUTO",
+      "dataset": "openml_18",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__HGB_OLD_MAXBINS255__openml_18__HGB",
+      "arm": "HGB_OLD_MAXBINS255",
+      "dataset": "openml_18",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__GB_NEW_PRESORT_AUTO__openml_2074__GB",
+      "arm": "GB_NEW_PRESORT_AUTO",
+      "dataset": "openml_2074",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__HGB_OLD_MAXBINS255__openml_2074__HGB",
+      "arm": "HGB_OLD_MAXBINS255",
+      "dataset": "openml_2074",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__GB_NEW_PRESORT_AUTO__openml_22__GB",
+      "arm": "GB_NEW_PRESORT_AUTO",
+      "dataset": "openml_22",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__HGB_OLD_MAXBINS255__openml_22__HGB",
+      "arm": "HGB_OLD_MAXBINS255",
+      "dataset": "openml_22",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__GB_NEW_PRESORT_AUTO__openml_29__GB",
+      "arm": "GB_NEW_PRESORT_AUTO",
+      "dataset": "openml_29",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__HGB_OLD_MAXBINS255__openml_29__HGB",
+      "arm": "HGB_OLD_MAXBINS255",
+      "dataset": "openml_29",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__GB_NEW_PRESORT_AUTO__openml_3__GB",
+      "arm": "GB_NEW_PRESORT_AUTO",
+      "dataset": "openml_3",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__HGB_OLD_MAXBINS255__openml_3__HGB",
+      "arm": "HGB_OLD_MAXBINS255",
+      "dataset": "openml_3",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__GB_NEW_PRESORT_AUTO__openml_3021__GB",
+      "arm": "GB_NEW_PRESORT_AUTO",
+      "dataset": "openml_3021",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__HGB_OLD_MAXBINS255__openml_3021__HGB",
+      "arm": "HGB_OLD_MAXBINS255",
+      "dataset": "openml_3021",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__GB_NEW_PRESORT_AUTO__openml_3022__GB",
+      "arm": "GB_NEW_PRESORT_AUTO",
+      "dataset": "openml_3022",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__HGB_OLD_MAXBINS255__openml_3022__HGB",
+      "arm": "HGB_OLD_MAXBINS255",
+      "dataset": "openml_3022",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__GB_NEW_PRESORT_AUTO__openml_31__GB",
+      "arm": "GB_NEW_PRESORT_AUTO",
+      "dataset": "openml_31",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__HGB_OLD_MAXBINS255__openml_31__HGB",
+      "arm": "HGB_OLD_MAXBINS255",
+      "dataset": "openml_31",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__GB_NEW_PRESORT_AUTO__openml_32__GB",
+      "arm": "GB_NEW_PRESORT_AUTO",
+      "dataset": "openml_32",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__HGB_OLD_MAXBINS255__openml_32__HGB",
+      "arm": "HGB_OLD_MAXBINS255",
+      "dataset": "openml_32",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__GB_NEW_PRESORT_AUTO__openml_3549__GB",
+      "arm": "GB_NEW_PRESORT_AUTO",
+      "dataset": "openml_3549",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__HGB_OLD_MAXBINS255__openml_3549__HGB",
+      "arm": "HGB_OLD_MAXBINS255",
+      "dataset": "openml_3549",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__GB_NEW_PRESORT_AUTO__openml_3560__GB",
+      "arm": "GB_NEW_PRESORT_AUTO",
+      "dataset": "openml_3560",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__HGB_OLD_MAXBINS255__openml_3560__HGB",
+      "arm": "HGB_OLD_MAXBINS255",
+      "dataset": "openml_3560",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__GB_NEW_PRESORT_AUTO__openml_3902__GB",
+      "arm": "GB_NEW_PRESORT_AUTO",
+      "dataset": "openml_3902",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__HGB_OLD_MAXBINS255__openml_3902__HGB",
+      "arm": "HGB_OLD_MAXBINS255",
+      "dataset": "openml_3902",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__GB_NEW_PRESORT_AUTO__openml_3903__GB",
+      "arm": "GB_NEW_PRESORT_AUTO",
+      "dataset": "openml_3903",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__HGB_OLD_MAXBINS255__openml_3903__HGB",
+      "arm": "HGB_OLD_MAXBINS255",
+      "dataset": "openml_3903",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__GB_NEW_PRESORT_AUTO__openml_3904__GB",
+      "arm": "GB_NEW_PRESORT_AUTO",
+      "dataset": "openml_3904",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__HGB_OLD_MAXBINS255__openml_3904__HGB",
+      "arm": "HGB_OLD_MAXBINS255",
+      "dataset": "openml_3904",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__GB_NEW_PRESORT_AUTO__openml_43__GB",
+      "arm": "GB_NEW_PRESORT_AUTO",
+      "dataset": "openml_43",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__HGB_OLD_MAXBINS255__openml_43__HGB",
+      "arm": "HGB_OLD_MAXBINS255",
+      "dataset": "openml_43",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__GB_NEW_PRESORT_AUTO__openml_45__GB",
+      "arm": "GB_NEW_PRESORT_AUTO",
+      "dataset": "openml_45",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__HGB_OLD_MAXBINS255__openml_45__HGB",
+      "arm": "HGB_OLD_MAXBINS255",
+      "dataset": "openml_45",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__GB_NEW_PRESORT_AUTO__openml_49__GB",
+      "arm": "GB_NEW_PRESORT_AUTO",
+      "dataset": "openml_49",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__HGB_OLD_MAXBINS255__openml_49__HGB",
+      "arm": "HGB_OLD_MAXBINS255",
+      "dataset": "openml_49",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__GB_NEW_PRESORT_AUTO__openml_53__GB",
+      "arm": "GB_NEW_PRESORT_AUTO",
+      "dataset": "openml_53",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__HGB_OLD_MAXBINS255__openml_53__HGB",
+      "arm": "HGB_OLD_MAXBINS255",
+      "dataset": "openml_53",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__GB_NEW_PRESORT_AUTO__openml_6__GB",
+      "arm": "GB_NEW_PRESORT_AUTO",
+      "dataset": "openml_6",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__HGB_OLD_MAXBINS255__openml_6__HGB",
+      "arm": "HGB_OLD_MAXBINS255",
+      "dataset": "openml_6",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__GB_NEW_PRESORT_AUTO__openml_7592__GB",
+      "arm": "GB_NEW_PRESORT_AUTO",
+      "dataset": "openml_7592",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__HGB_OLD_MAXBINS255__openml_7592__HGB",
+      "arm": "HGB_OLD_MAXBINS255",
+      "dataset": "openml_7592",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__GB_NEW_PRESORT_AUTO__openml_9946__GB",
+      "arm": "GB_NEW_PRESORT_AUTO",
+      "dataset": "openml_9946",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__HGB_OLD_MAXBINS255__openml_9946__HGB",
+      "arm": "HGB_OLD_MAXBINS255",
+      "dataset": "openml_9946",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__GB_NEW_PRESORT_AUTO__openml_9952__GB",
+      "arm": "GB_NEW_PRESORT_AUTO",
+      "dataset": "openml_9952",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__HGB_OLD_MAXBINS255__openml_9952__HGB",
+      "arm": "HGB_OLD_MAXBINS255",
+      "dataset": "openml_9952",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__GB_NEW_PRESORT_AUTO__openml_9957__GB",
+      "arm": "GB_NEW_PRESORT_AUTO",
+      "dataset": "openml_9957",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__HGB_OLD_MAXBINS255__openml_9957__HGB",
+      "arm": "HGB_OLD_MAXBINS255",
+      "dataset": "openml_9957",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__GB_NEW_PRESORT_AUTO__openml_9960__GB",
+      "arm": "GB_NEW_PRESORT_AUTO",
+      "dataset": "openml_9960",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__HGB_OLD_MAXBINS255__openml_9960__HGB",
+      "arm": "HGB_OLD_MAXBINS255",
+      "dataset": "openml_9960",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__GB_NEW_PRESORT_AUTO__openml_9964__GB",
+      "arm": "GB_NEW_PRESORT_AUTO",
+      "dataset": "openml_9964",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__HGB_OLD_MAXBINS255__openml_9964__HGB",
+      "arm": "HGB_OLD_MAXBINS255",
+      "dataset": "openml_9964",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__GB_NEW_PRESORT_AUTO__openml_9971__GB",
+      "arm": "GB_NEW_PRESORT_AUTO",
+      "dataset": "openml_9971",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__HGB_OLD_MAXBINS255__openml_9971__HGB",
+      "arm": "HGB_OLD_MAXBINS255",
+      "dataset": "openml_9971",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__GB_NEW_PRESORT_AUTO__openml_9976__GB",
+      "arm": "GB_NEW_PRESORT_AUTO",
+      "dataset": "openml_9976",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__HGB_OLD_MAXBINS255__openml_9976__HGB",
+      "arm": "HGB_OLD_MAXBINS255",
+      "dataset": "openml_9976",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__GB_NEW_PRESORT_AUTO__openml_9977__GB",
+      "arm": "GB_NEW_PRESORT_AUTO",
+      "dataset": "openml_9977",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__HGB_OLD_MAXBINS255__openml_9977__HGB",
+      "arm": "HGB_OLD_MAXBINS255",
+      "dataset": "openml_9977",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__GB_NEW_PRESORT_AUTO__openml_9978__GB",
+      "arm": "GB_NEW_PRESORT_AUTO",
+      "dataset": "openml_9978",
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "id": "G2E__HGB_OLD_MAXBINS255__openml_9978__HGB",
+      "arm": "HGB_OLD_MAXBINS255",
+      "dataset": "openml_9978",
+      "status": "ok",
+      "reason": ""
+    }
+  ]
+}

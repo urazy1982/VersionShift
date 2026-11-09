@@ -1,0 +1,66 @@
+{
+  "datasets": {
+    "eligible": 63,
+    "floor": 48,
+    "pilot_seen": 16,
+    "previously_unseen": 47
+  },
+  "emulation_fidelity": {
+    "caveat": "emu_R19 uses 1.9-era defaults, whereas the real observed comparator is 0.22.2.post1; not perfectly matched counterfactual endpoints",
+    "emulator_M_pp": 3.784141225264174,
+    "k_datasets": 16,
+    "mean_absolute_pair_delta_difference_pp": 0.06485489663291925,
+    "n_pair_deltas": 240,
+    "pearson_pair_delta": 0.9998568797732246,
+    "real_M_pp": 3.8116037394828792,
+    "role": "G5 exploratory emulation-fidelity diagnostic"
+  },
+  "gates": {
+    "G1": "A/A 4 environments passed and replay checked",
+    "G2": "inspect plan_coverage in FULL63_FRAME_CENSUS.json",
+    "G3": "local freeze validated; external immutable timestamp and author approval not verified",
+    "G4": "inspect attribution identifiability, use preregistered single-path fallback if needed",
+    "G5": "exploratory fidelity reported with non-identical emulated endpoints",
+    "G6": "63 whole finite frame; 47 untouched one below 48 floor; pilot reuse flagged",
+    "G7": "analysis_v221 strict validation executed"
+  },
+  "immutable_inputs": {
+    "oracle_frame_sha256": "33f04fb6c6da89654f3524cfaef290644b80e37afcd5148dcffa740e9bcfe2f6",
+    "plan_sha256": "523c42a3dabee44e66d43d538b228939b01fd7fe1b68285f542f0980906492f4",
+    "stage_b_selection_sha256": "55554df012a30d7000d3b5840babd23f8e10b9daca57b10e8cf6099fce92943c",
+    "stage_c47_selection_sha256": "a22cc3bae5edf72da79593246c70b010a45e16be14ca7938a6223cfb76a72c4e"
+  },
+  "note": "Stage C finite frame includes 16 Stage B datasets previously examined; 47 untouched complement reported separately",
+  "primary_results": {
+    "NEG": {
+      "full_63_M_pp": 0.05130978037259268,
+      "full_63_complete_cases": 63,
+      "full_63_frame_affected_share": 0.0,
+      "full_63_labels": [
+        "UNIFORMLY_SMALL"
+      ],
+      "holdout_47_M_pp": 0.05571325152460776,
+      "holdout_47_complete_cases": 47,
+      "holdout_47_labels": [
+        "UNIFORMLY_SMALL"
+      ]
+    },
+    "POS": {
+      "full_63_M_pp": 5.006712451138972,
+      "full_63_complete_cases": 63,
+      "full_63_frame_affected_share": 0.9365079365079365,
+      "full_63_labels": [
+        "CHANGED_MEAN",
+        "WIDESPREAD_IN_FRAME"
+      ],
+      "holdout_47_M_pp": 5.413557970000621,
+      "holdout_47_complete_cases": 47,
+      "holdout_47_labels": [
+        "CHANGED_MEAN",
+        "WIDESPREAD_IN_FRAME"
+      ]
+    }
+  },
+  "scientific_status": "NOT_UNTOUCHED_CONFIRMATION; A/A and G2/G7 completed computationally; external G3 proof and floor limitation remain",
+  "status": "CPU_COMPUTATION_COMPLETE_WITH_SCIENTIFIC_QUALIFICATIONS"
+}

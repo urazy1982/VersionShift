@@ -1,0 +1,9 @@
+pilot16
+  D M=3.81160374 pp affected=15/16 changed_winners=6
+  E2 M=0.38177309 pp affected=1/16 changed_winners=0
+holdout47
+  D M=5.41355797 pp affected=44/47 changed_winners=19
+  E2 M=0.52966155 pp affected=9/47 changed_winners=0
+full63
+  D M=5.00671245 pp affected=59/63 changed_winners=25
+  E2 M=0.49210258 pp affected=10/63 changed_winners=0

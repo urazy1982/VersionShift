@@ -1,0 +1,168 @@
+{
+ "created": "2026-11-06T00:03:50",
+ "datasets": [
+  {
+   "dataset_npz": "iris.npz",
+   "dataset_sha256": "3016a2717ce422e306e3ac88d15835f8633eef887d355096f2e07077d05b3814",
+   "fold_keys": [
+    "r0_f0",
+    "r0_f1",
+    "r0_f2",
+    "r0_f3",
+    "r0_f4",
+    "r1_f0",
+    "r1_f1",
+    "r1_f2",
+    "r1_f3",
+    "r1_f4"
+   ],
+   "folds_npz": "iris_folds.npz",
+   "folds_sha256": "401b1bf7462306f0587f83296ea325cb6ba2a49543790ae0a43c1cc3b10cdbea",
+   "info": {
+    "name": "iris",
+    "origin": "sklearn-bundled"
+   },
+   "k": 3,
+   "n": 150,
+   "name": "iris",
+   "p": 4,
+   "seeds": {
+    "r0_f0": 486894529,
+    "r0_f1": 1693894838,
+    "r0_f2": 476034176,
+    "r0_f3": 281638992,
+    "r0_f4": 1572839342,
+    "r1_f0": 1236296250,
+    "r1_f1": 1845159835,
+    "r1_f2": 404222790,
+    "r1_f3": 1598772429,
+    "r1_f4": 586534690
+   },
+   "test_sizes": {
+    "r0_f0": 30,
+    "r0_f1": 30,
+    "r0_f2": 30,
+    "r0_f3": 30,
+    "r0_f4": 30,
+    "r1_f0": 30,
+    "r1_f1": 30,
+    "r1_f2": 30,
+    "r1_f3": 30,
+    "r1_f4": 30
+   }
+  },
+  {
+   "dataset_npz": "wine.npz",
+   "dataset_sha256": "adc597add63eb9e88a4fc555a9829d01577ac6f72815701a447bb20d8b6675a6",
+   "fold_keys": [
+    "r0_f0",
+    "r0_f1",
+    "r0_f2",
+    "r0_f3",
+    "r0_f4",
+    "r1_f0",
+    "r1_f1",
+    "r1_f2",
+    "r1_f3",
+    "r1_f4"
+   ],
+   "folds_npz": "wine_folds.npz",
+   "folds_sha256": "96d00174ed72025834d8f121723d40c5fd6a6d113df0c397006bf78f8cc9806f",
+   "info": {
+    "name": "wine",
+    "origin": "sklearn-bundled"
+   },
+   "k": 3,
+   "n": 178,
+   "name": "wine",
+   "p": 13,
+   "seeds": {
+    "r0_f0": 578010135,
+    "r0_f1": 1588884740,
+    "r0_f2": 1131986444,
+    "r0_f3": 1529056178,
+    "r0_f4": 161263619,
+    "r1_f0": 1015047020,
+    "r1_f1": 1016206956,
+    "r1_f2": 68206346,
+    "r1_f3": 490907295,
+    "r1_f4": 1467460048
+   },
+   "test_sizes": {
+    "r0_f0": 36,
+    "r0_f1": 36,
+    "r0_f2": 36,
+    "r0_f3": 35,
+    "r0_f4": 35,
+    "r1_f0": 36,
+    "r1_f1": 36,
+    "r1_f2": 36,
+    "r1_f3": 35,
+    "r1_f4": 35
+   }
+  },
+  {
+   "dataset_npz": "breast_cancer.npz",
+   "dataset_sha256": "2402285ebb2134863dfb40ffce13904d3f0bae1a81ba53c27339086f80b2490e",
+   "fold_keys": [
+    "r0_f0",
+    "r0_f1",
+    "r0_f2",
+    "r0_f3",
+    "r0_f4",
+    "r1_f0",
+    "r1_f1",
+    "r1_f2",
+    "r1_f3",
+    "r1_f4"
+   ],
+   "folds_npz": "breast_cancer_folds.npz",
+   "folds_sha256": "b22b840b6c49552f2bf07fc4fec7e2cb33a30600a6711c369e6df7d37cc18ba0",
+   "info": {
+    "name": "breast_cancer",
+    "origin": "sklearn-bundled"
+   },
+   "k": 2,
+   "n": 569,
+   "name": "breast_cancer",
+   "p": 30,
+   "seeds": {
+    "r0_f0": 158152653,
+    "r0_f1": 1357001306,
+    "r0_f2": 464761093,
+    "r0_f3": 1335995072,
+    "r0_f4": 2133748306,
+    "r1_f0": 1276532589,
+    "r1_f1": 373016071,
+    "r1_f2": 1554401432,
+    "r1_f3": 1362618587,
+    "r1_f4": 223324740
+   },
+   "test_sizes": {
+    "r0_f0": 114,
+    "r0_f1": 114,
+    "r0_f2": 114,
+    "r0_f3": 114,
+    "r0_f4": 113,
+    "r1_f0": 114,
+    "r1_f1": 114,
+    "r1_f2": 114,
+    "r1_f3": 114,
+    "r1_f4": 113
+   }
+  }
+ ],
+ "eligible": 3,
+ "folds": 5,
+ "frame_size": 3,
+ "ledger_sha256": "69b52dc9a6955f0fe64abc73d4857803c2d5c70b4cb920b8012f8f7d0807cc15",
+ "reps": 2,
+ "rules": {
+  "categorical": "central one-hot",
+  "large_n": "stratified subsample to max_n (seeded)",
+  "max_n": 5000,
+  "min_class_count": 10,
+  "missing": "train-fold median in worker"
+ },
+ "schema": "versionshift-v2.1-plan"
+}

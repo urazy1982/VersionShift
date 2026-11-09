@@ -1,0 +1,17 @@
+VERSION SHIFT G0-D: INDEPENDENT POINT-ESTIMATE RECOMPUTATION
+Based on unique status=ok policy=D fold rows; never on published summaries.
+No original inputs modified. No confidence intervals recomputed.
+
+POS:
+  all63: K=63, M=5.00671 pp, >0.5=59, winners=25, flips=164, material=56
+  pilot16: K=16, M=3.81160 pp, >0.5=15, winners=6, flips=47, material=15
+  holdout47: K=47, M=5.41356 pp, >0.5=44, winners=19, flips=117, material=41
+  Comparison to manuscript: {'M': {'expected': 5.01, 'observed': 5.006712451138973, 'match': True}, 'affected': {'expected': 59, 'observed': 59, 'match': True}, 'winner': {'expected': 25, 'observed': 25, 'match': True}, 'flips': {'expected': 165, 'observed': 164, 'match': False}, 'material': {'expected': 56, 'observed': 56, 'match': True}}
+NEG:
+  all63: K=63, M=0.05131 pp, >0.5=0, winners=0, flips=6, material=0
+  pilot16: K=16, M=0.03837 pp, >0.5=0, winners=0, flips=0, material=0
+  holdout47: K=47, M=0.05571 pp, >0.5=0, winners=0, flips=6, material=0
+  Comparison to manuscript: {'M': {'expected': 0.05, 'observed': 0.0513097803725926, 'match': True}, 'affected': {'expected': 0, 'observed': 0, 'match': True}, 'winner': {'expected': 0, 'observed': 0, 'match': True}, 'flips': {'expected': 6, 'observed': 6, 'match': True}, 'material': {'expected': 0, 'observed': 0, 'match': True}}
+
+Fatal checks: []
+G0-D complete point-estimate certificate only if no fatals and all manuscript comparisons match.

@@ -1,0 +1,44 @@
+{
+  "arms": [
+    [
+      "GB_NEW_PRESORT_AUTO",
+      "GB",
+      "0.22.2.post1"
+    ],
+    [
+      "HGB_OLD_MAXBINS255",
+      "HGB",
+      "0.21.3"
+    ]
+  ],
+  "expected_folds_if_all_pass": 960,
+  "expected_jobs": 32,
+  "plan_sha256": "523c42a3dabee44e66d43d538b228939b01fd7fe1b68285f542f0980906492f4",
+  "purpose": "G2E: two diagnostic interventions, no restored-HGB claim",
+  "runner_sha256": "8bf383c39a281a7fd9f30148b6204cf7dfe38f64d06a2e6b930635c50c1c3a41",
+  "selection": [
+    "openml_10101",
+    "openml_125922",
+    "openml_146824",
+    "openml_14952",
+    "openml_14965",
+    "openml_14969",
+    "openml_16",
+    "openml_2079",
+    "openml_219",
+    "openml_23",
+    "openml_28",
+    "openml_37",
+    "openml_3913",
+    "openml_3917",
+    "openml_3918",
+    "openml_9985"
+  ],
+  "selection_sha256": "55554df012a30d7000d3b5840babd23f8e10b9daca57b10e8cf6099fce92943c",
+  "source_sha256": "f27700a20e73cf4ab187f9aedc2874389413c0844216cbc81e7395d063184807",
+  "versions": {
+    "0.21.3": "/home/uraz/versionshift_envs/sk-0.21.3/bin/python",
+    "0.22.2.post1": "/home/uraz/versionshift_envs/sk-0.22.2.post1/bin/python"
+  },
+  "workers": 8
+}

@@ -1,0 +1,366 @@
+{
+ "ba": [
+  0.9442627549967163,
+  0.9247200482316886,
+  0.8946951297226756,
+  0.9210317652649268,
+  0.9361125450515889,
+  0.9068962322027899,
+  0.9247963825891673,
+  0.9221326297921286,
+  0.9404698435265345,
+  0.9190973346829043,
+  0.9372558507977026,
+  0.9390629577229896,
+  0.9167399878258239,
+  0.9197752829350483,
+  0.9267341469225244,
+  0.9285836950667233,
+  0.9292899374648086,
+  0.9388611802864513,
+  0.9252758871561074,
+  0.9134321799152082,
+  0.9221981508279714,
+  0.9151685514756421,
+  0.8917022758323628,
+  0.9356557356379641,
+  0.9323676737929448,
+  0.9187823806626009,
+  0.9469633500200411,
+  0.9239821779363275,
+  0.9239255896444453,
+  0.9338259335593616
+ ],
+ "constructor": {
+  "bootstrap": true,
+  "ccp_alpha": 0.0,
+  "class_weight": null,
+  "criterion": "gini",
+  "max_depth": null,
+  "max_features": "auto",
+  "max_leaf_nodes": null,
+  "max_samples": null,
+  "min_impurity_decrease": 0.0,
+  "min_impurity_split": null,
+  "min_samples_leaf": 1,
+  "min_samples_split": 2,
+  "min_weight_fraction_leaf": 0.0,
+  "n_estimators": 10,
+  "n_jobs": 1,
+  "oob_score": false,
+  "random_state": 1278713161,
+  "verbose": 0,
+  "warm_start": false
+ },
+ "convergence_warnings": 0,
+ "fitted_effective": [
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "n_fitted_estimators": 10
+  },
+  {
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "n_fitted_estimators": 10
+  }
+ ],
+ "fold_keys": [
+  "r0_f0",
+  "r0_f1",
+  "r0_f2",
+  "r0_f3",
+  "r0_f4",
+  "r1_f0",
+  "r1_f1",
+  "r1_f2",
+  "r1_f3",
+  "r1_f4",
+  "r2_f0",
+  "r2_f1",
+  "r2_f2",
+  "r2_f3",
+  "r2_f4",
+  "r3_f0",
+  "r3_f1",
+  "r3_f2",
+  "r3_f3",
+  "r3_f4",
+  "r4_f0",
+  "r4_f1",
+  "r4_f2",
+  "r4_f3",
+  "r4_f4",
+  "r5_f0",
+  "r5_f1",
+  "r5_f2",
+  "r5_f3",
+  "r5_f4"
+ ],
+ "id": "G2RESTORE__openml_45__RF__R",
+ "job_sha256": "899134f2d98196f05e876b006e1056631f2b5bbc3851ba4205f45adaa69bc187",
+ "npz_sha256": "79a7fc6f4850484fe32d62016b43d2504a36428972711d8a2167aebc9f1d13b7",
+ "portability": "ok",
+ "portability_report": null,
+ "provenance": {
+  "executable": "/home/uraz/versionshift_envs/sk-0.22.2.post1/bin/python",
+  "machine": "x86_64",
+  "numpy": "1.18.4",
+  "numpy_config_sha256": "c1eac50e0f4378abaa67c8f02f20e4dd176520354c507772214c44e4ff6abca9",
+  "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.2.5",
+  "processor": "x86_64",
+  "python": "3.8.20",
+  "scipy": "1.4.1",
+  "sklearn": "0.22.2.post1",
+  "sklearn_file": "/home/uraz/versionshift_envs/sk-0.22.2.post1/lib/python3.8/site-packages/sklearn/__init__.py",
+  "threadpools": [
+   {
+    "architecture": null,
+    "filepath": "/home/uraz/versionshift_envs/sk-0.22.2.post1/lib/python3.8/site-packages/numpy.libs/libopenblasp-r0-34a18dc3.3.7.so",
+    "internal_api": "openblas",
+    "num_threads": 1,
+    "version": "0.3.7"
+   },
+   {
+    "architecture": null,
+    "filepath": "/home/uraz/versionshift_envs/sk-0.22.2.post1/lib/python3.8/site-packages/sklearn/.libs/libgomp-3300acd3.so.1.0.0",
+    "internal_api": "openmp",
+    "num_threads": 1,
+    "version": null
+   }
+  ]
+ },
+ "status": "ok",
+ "values_imputed": 0,
+ "worker_sha256": "60076384d6bd04288acf32943de1e55924e5d2546d82ebca1fec8ae16717647f"
+}

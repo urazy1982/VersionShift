@@ -1,0 +1,14 @@
+G2 ABC pilot, 4 estimators / 16 datasets
+scope: pilot16, four classifiers only; not comparable to published six-classifier M
+datasets: 16
+algorithms: ['LR', 'SVC', 'RF', 'kNN']
+pairs: 6
+M_AB_pp: 5.293761613619836
+M_AC_pp: 0.0
+M_CB_pp: 5.293761613619836
+winner_changes_AB: 8
+winner_changes_AC: 0
+winner_changes_CB: 8
+per_estimator_mean_score_change_pp: {'LR': {'AB': -1.7457354277277566, 'AC': 0.0, 'CB': -1.7457354277277566}, 'SVC': {'AB': 4.361821767987326, 'AC': 0.0, 'CB': 4.361821767987326}, 'RF': {'AB': 1.8715960165323393, 'AC': 0.0, 'CB': 1.8715960165323393}, 'kNN': {'AB': 0.0, 'AC': 0.0, 'CB': 0.0}}
+baseline_zip_sha256: 5eb716b64c21ded6f979b0b1610bb68aee46ad2f24889a0d3b133bd430c6ff7d
+restoration_plan_sha256: 523c42a3dabee44e66d43d538b228939b01fd7fe1b68285f542f0980906492f4

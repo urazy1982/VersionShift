@@ -1,0 +1,27 @@
+{
+ "python": "3.7.12 | packaged by conda-forge | (default, Oct 26 2021, 06:08:21) \n[GCC 9.4.0]",
+ "compiler": "GCC 9.4.0",
+ "cc": "gcc -pthread -B /home/uraz/anaconda3/envs/versionshift_py37/compiler_compat -Wl,--sysroot=/",
+ "machine": "x86_64",
+ "sklearn": "0.21.3",
+ "numpy": "1.17.2",
+ "scipy": "1.3.1",
+ "threadpools": [
+  {
+   "user_api": "openmp",
+   "internal_api": "openmp",
+   "filepath": "/home/uraz/versionshift_envs/sk-0.21.3/lib/python3.7/site-packages/sklearn/.libs/libgomp-3300acd3.so.1.0.0",
+   "prefix": "libgomp",
+   "version": null,
+   "num_threads": 20
+  },
+  {
+   "user_api": "blas",
+   "internal_api": "openblas",
+   "filepath": "/home/uraz/versionshift_envs/sk-0.21.3/lib/python3.7/site-packages/numpy/.libs/libopenblasp-r0-2ecf47d5.3.7.dev.so",
+   "prefix": "libopenblas",
+   "version": "0.3.7.dev",
+   "num_threads": 20
+  }
+ ]
+}

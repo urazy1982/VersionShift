@@ -1,0 +1,59 @@
+{
+  "audit": "VersionShift G3-G server-side statistical verification",
+  "status": "STATISTICAL_ANALYSIS_COMPLETE_RAW_HGB_REPLAY_PENDING",
+  "basis": "Uploaded G3E_six_estimator_results.json per-dataset D/E2 values; no raw E2 HGB job archives uploaded",
+  "method": "20,000 paired dataset bootstrap replicates, percentile intervals; each replicate resamples dataset identities and keeps D and E2 paired; deterministic mulberry32 pseudorandom generator",
+  "inference_scope": "Descriptive finite-frame sensitivity; confidence intervals assume resampling 63 tasks is a meaningful approximation to a task population",
+  "frames": {
+    "pilot16": {
+      "datasets": 16,
+      "mean_D_pp": 3.8116037394828792,
+      "mean_E2_pp": 0.38177309077955535,
+      "paired_absolute_reduction_pp": 3.429830648703324,
+      "relative_reduction_pct": 89.9839249598556,
+      "seed": 20261108,
+      "ci95_D_pp": [2.3010986871390395,5.559078791962908],
+      "ci95_E2_pp": [0.039041228921988025,1.02675923034308],
+      "ci95_paired_reduction_pp": [2.151073950303208,4.889038322525159],
+      "ci95_relative_reduction_pct": [76.33251831428814,98.90342188399413]
+    },
+    "holdout47": {
+      "datasets": 47,
+      "mean_D_pp": 5.4135579700006184,
+      "mean_E2_pp": 0.5296615511018194,
+      "paired_absolute_reduction_pp": 4.883896418898799,
+      "relative_reduction_pct": 90.2160177458715,
+      "seed": 20261109,
+      "ci95_D_pp": [3.6417902583659876,7.439399685215405],
+      "ci95_E2_pp": [0.2395300251675044,0.8879841121380322],
+      "ci95_paired_reduction_pp": [3.1499356108384258,6.888748554421022],
+      "ci95_relative_reduction_pct": [82.46669568785032,95.63054036717418]
+    },
+    "full63": {
+      "datasets": 63,
+      "mean_D_pp": 5.006712451138973,
+      "mean_E2_pp": 0.4921025770517206,
+      "paired_absolute_reduction_pp": 4.5146098740872525,
+      "relative_reduction_pct": 90.17114360262946,
+      "seed": 20261110,
+      "ci95_D_pp": [3.602319254099917,6.57773400601887],
+      "ci95_E2_pp": [0.23150627474230104,0.8077771758941258],
+      "ci95_paired_reduction_pp": [3.156664307575782,6.071574344477728],
+      "ci95_relative_reduction_pct": [83.49480161815757,95.32621166409467],
+      "ci90_E2_pp": [0.2645026702746007,0.7501863188653713],
+      "ci90_paired_reduction_pp": [3.3570281626154665,5.803321719949597],
+      "ci90_relative_reduction_pct": [84.6539779623678,94.63556773187027]
+    }
+  },
+  "independent_source_consistency": {
+    "matched_dataset_ids": "63/63 (D and E2)",
+    "baseline_mean_matches_prior_G0D": true,
+    "E2_mean_matches_G3E_report": true
+  },
+  "not_certified": [
+    "Raw restored HGB output prediction bytes have not been supplied to the server",
+    "Independent fold-by-fold replay of 126 HGB E2 jobs cannot be performed from summary JSON",
+    "Independent verification of fitted-parameter and raw worker/job provenance remains pending",
+    "Other five E-policy archived predictions have not been independently byte-replayed in this G3-G analysis"
+  ]
+}

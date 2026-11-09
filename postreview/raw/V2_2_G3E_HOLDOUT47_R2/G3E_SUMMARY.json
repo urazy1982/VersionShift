@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "scope": "holdout",
+  "jobs": 94,
+  "folds": 2820,
+  "datasets": 47,
+  "worker_sha256": "ee39adb1d9cda6030e62245dc6e10576e9b38056de94403c2355e3086431d90c",
+  "plan_sha256": "523c42a3dabee44e66d43d538b228939b01fd7fe1b68285f542f0980906492f4"
+}

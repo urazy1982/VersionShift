@@ -1,0 +1,362 @@
+{
+ "ba": [
+  0.8739494378496845,
+  0.8753180047405034,
+  0.8729043065203643,
+  0.8667977105856507,
+  0.8941483108824266,
+  0.8757331608343673,
+  0.8880164710766543,
+  0.8786078754145527,
+  0.8624087028579137,
+  0.8666579946426163,
+  0.8584679774657135,
+  0.8717819368479998,
+  0.8836814690732847,
+  0.8907469503382089,
+  0.8795504037308974,
+  0.8749028486466395,
+  0.8757790211005498,
+  0.8685379264401331,
+  0.8982627045152338,
+  0.8798394711992445,
+  0.8810215736346916,
+  0.8620812837012615,
+  0.8895081365767001,
+  0.8655258137249233,
+  0.8714806035728739,
+  0.8690303208770414,
+  0.8734884214896379,
+  0.8717819368479998,
+  0.8772908596866509,
+  0.8744531807057101
+ ],
+ "constructor": {
+  "l2_regularization": 0.0,
+  "learning_rate": 0.1,
+  "loss": "auto",
+  "max_bins": 255,
+  "max_depth": null,
+  "max_iter": 200,
+  "max_leaf_nodes": 31,
+  "min_samples_leaf": 20,
+  "n_iter_no_change": null,
+  "random_state": 1641116411,
+  "scoring": null,
+  "tol": 1e-07,
+  "validation_fraction": 0.1,
+  "verbose": 0,
+  "warm_start": false
+ },
+ "convergence_warnings": 0,
+ "fitted_effective": [
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "do_early_stopping_": false,
+   "n_iter_": 200
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "do_early_stopping_": false,
+   "n_iter_": 200
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "do_early_stopping_": false,
+   "n_iter_": 200
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "do_early_stopping_": false,
+   "n_iter_": 200
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "do_early_stopping_": false,
+   "n_iter_": 200
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "do_early_stopping_": false,
+   "n_iter_": 200
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "do_early_stopping_": false,
+   "n_iter_": 200
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "do_early_stopping_": false,
+   "n_iter_": 200
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "do_early_stopping_": false,
+   "n_iter_": 200
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "do_early_stopping_": false,
+   "n_iter_": 200
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "do_early_stopping_": false,
+   "n_iter_": 200
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "do_early_stopping_": false,
+   "n_iter_": 200
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "do_early_stopping_": false,
+   "n_iter_": 200
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "do_early_stopping_": false,
+   "n_iter_": 200
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "do_early_stopping_": false,
+   "n_iter_": 200
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "do_early_stopping_": false,
+   "n_iter_": 200
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "do_early_stopping_": false,
+   "n_iter_": 200
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "do_early_stopping_": false,
+   "n_iter_": 200
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "do_early_stopping_": false,
+   "n_iter_": 200
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "do_early_stopping_": false,
+   "n_iter_": 200
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "do_early_stopping_": false,
+   "n_iter_": 200
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "do_early_stopping_": false,
+   "n_iter_": 200
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "do_early_stopping_": false,
+   "n_iter_": 200
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "do_early_stopping_": false,
+   "n_iter_": 200
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "do_early_stopping_": false,
+   "n_iter_": 200
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "do_early_stopping_": false,
+   "n_iter_": 200
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "do_early_stopping_": false,
+   "n_iter_": 200
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "do_early_stopping_": false,
+   "n_iter_": 200
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "do_early_stopping_": false,
+   "n_iter_": 200
+  },
+  {
+   "classes_": [
+    0,
+    1
+   ],
+   "do_early_stopping_": false,
+   "n_iter_": 200
+  }
+ ],
+ "fold_keys": [
+  "r0_f0",
+  "r0_f1",
+  "r0_f2",
+  "r0_f3",
+  "r0_f4",
+  "r1_f0",
+  "r1_f1",
+  "r1_f2",
+  "r1_f3",
+  "r1_f4",
+  "r2_f0",
+  "r2_f1",
+  "r2_f2",
+  "r2_f3",
+  "r2_f4",
+  "r3_f0",
+  "r3_f1",
+  "r3_f2",
+  "r3_f3",
+  "r3_f4",
+  "r4_f0",
+  "r4_f1",
+  "r4_f2",
+  "r4_f3",
+  "r4_f4",
+  "r5_f0",
+  "r5_f1",
+  "r5_f2",
+  "r5_f3",
+  "r5_f4"
+ ],
+ "id": "G3E2__0_22_2_post1__openml_9952__HGB",
+ "job_sha256": "7d62482b7dfd2f568d081446d6422c66abbb1ef0d897e4515ea8e3eb0264e01f",
+ "npz_sha256": "b82004a76b98b35b01f5da62815344b6627a2e0764d370b010e692e088c9d22b",
+ "portability": "ok",
+ "portability_report": null,
+ "provenance": {
+  "executable": "/home/uraz/versionshift_envs/sk-0.22.2.post1/bin/python",
+  "machine": "x86_64",
+  "numpy": "1.18.4",
+  "numpy_config_sha256": "c1eac50e0f4378abaa67c8f02f20e4dd176520354c507772214c44e4ff6abca9",
+  "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.2.5",
+  "processor": "x86_64",
+  "python": "3.8.20",
+  "scipy": "1.4.1",
+  "sklearn": "0.22.2.post1",
+  "sklearn_file": "/home/uraz/versionshift_envs/sk-0.22.2.post1/lib/python3.8/site-packages/sklearn/__init__.py",
+  "threadpools": [
+   {
+    "architecture": null,
+    "filepath": "/home/uraz/versionshift_envs/sk-0.22.2.post1/lib/python3.8/site-packages/numpy.libs/libopenblasp-r0-34a18dc3.3.7.so",
+    "internal_api": "openblas",
+    "num_threads": 1,
+    "version": "0.3.7"
+   },
+   {
+    "architecture": null,
+    "filepath": "/home/uraz/versionshift_envs/sk-0.22.2.post1/lib/python3.8/site-packages/sklearn/.libs/libgomp-3300acd3.so.1.0.0",
+    "internal_api": "openmp",
+    "num_threads": 1,
+    "version": null
+   }
+  ]
+ },
+ "status": "ok",
+ "values_imputed": 0,
+ "worker_sha256": "ee39adb1d9cda6030e62245dc6e10576e9b38056de94403c2355e3086431d90c"
+}

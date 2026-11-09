@@ -1,0 +1,14 @@
+{
+  "dataset_count": 63,
+  "errors": [],
+  "folds_replayed": 3780,
+  "jobs_verified": 126,
+  "note": "Validates archived job specifications, claimed model parameters, stored prediction arrays and numeric score replay. It does not refit models.",
+  "status": "PASS",
+  "statuses": {
+    "ok": 126
+  },
+  "worker_sha256_values": [
+    "ee39adb1d9cda6030e62245dc6e10576e9b38056de94403c2355e3086431d90c"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "status": "NOT_SUPPLIED",
+  "requirement": "Stage D requires 5-8 prespecified real, licensed, executable ML notebooks or comparison scripts",
+  "requested_inputs": ["artifact_id", "origin_url", "immutable_commit_or_archive_sha256", "license", "baseline_env_lock", "stated_comparison", "metric", "frozen_expected_outputs"],
+  "integrity_rule": "Do not fabricate artifacts or select cases based on Stage B/C outcomes",
+  "gpu_required": false
+}

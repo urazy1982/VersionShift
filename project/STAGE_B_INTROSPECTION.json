@@ -1,0 +1,790 @@
+{
+ "adjacent_default_diffs": [
+  {
+   "edge": "0.21.3->0.22.2.post1",
+   "estimator": "LR",
+   "new": "auto",
+   "old": "warn",
+   "param": "multi_class"
+  },
+  {
+   "edge": "0.21.3->0.22.2.post1",
+   "estimator": "LR",
+   "new": "lbfgs",
+   "old": "warn",
+   "param": "solver"
+  },
+  {
+   "edge": "0.21.3->0.22.2.post1",
+   "estimator": "SVC",
+   "new": false,
+   "old": "<absent>",
+   "param": "break_ties"
+  },
+  {
+   "edge": "0.21.3->0.22.2.post1",
+   "estimator": "SVC",
+   "new": "scale",
+   "old": "auto_deprecated",
+   "param": "gamma"
+  },
+  {
+   "edge": "0.21.3->0.22.2.post1",
+   "estimator": "RF",
+   "new": 0.0,
+   "old": "<absent>",
+   "param": "ccp_alpha"
+  },
+  {
+   "edge": "0.21.3->0.22.2.post1",
+   "estimator": "RF",
+   "new": null,
+   "old": "<absent>",
+   "param": "max_samples"
+  },
+  {
+   "edge": "0.21.3->0.22.2.post1",
+   "estimator": "RF",
+   "new": 100,
+   "old": "warn",
+   "param": "n_estimators"
+  },
+  {
+   "edge": "0.21.3->0.22.2.post1",
+   "estimator": "GB",
+   "new": 0.0,
+   "old": "<absent>",
+   "param": "ccp_alpha"
+  },
+  {
+   "edge": "0.21.3->0.22.2.post1",
+   "estimator": "GB",
+   "new": "deprecated",
+   "old": "auto",
+   "param": "presort"
+  },
+  {
+   "edge": "0.21.3->0.22.2.post1",
+   "estimator": "HGB",
+   "new": 255,
+   "old": 256,
+   "param": "max_bins"
+  },
+  {
+   "edge": "0.21.3->0.22.2.post1",
+   "estimator": "HGB",
+   "new": false,
+   "old": "<absent>",
+   "param": "warm_start"
+  },
+  {
+   "edge": "0.22.2.post1->1.8.0",
+   "estimator": "LR",
+   "new": 0.0,
+   "old": null,
+   "param": "l1_ratio"
+  },
+  {
+   "edge": "0.22.2.post1->1.8.0",
+   "estimator": "LR",
+   "new": "<absent>",
+   "old": "auto",
+   "param": "multi_class"
+  },
+  {
+   "edge": "0.22.2.post1->1.8.0",
+   "estimator": "LR",
+   "new": "deprecated",
+   "old": "l2",
+   "param": "penalty"
+  },
+  {
+   "edge": "0.22.2.post1->1.8.0",
+   "estimator": "RF",
+   "new": "sqrt",
+   "old": "auto",
+   "param": "max_features"
+  },
+  {
+   "edge": "0.22.2.post1->1.8.0",
+   "estimator": "RF",
+   "new": "<absent>",
+   "old": null,
+   "param": "min_impurity_split"
+  },
+  {
+   "edge": "0.22.2.post1->1.8.0",
+   "estimator": "RF",
+   "new": null,
+   "old": "<absent>",
+   "param": "monotonic_cst"
+  },
+  {
+   "edge": "0.22.2.post1->1.8.0",
+   "estimator": "GB",
+   "new": "log_loss",
+   "old": "deviance",
+   "param": "loss"
+  },
+  {
+   "edge": "0.22.2.post1->1.8.0",
+   "estimator": "GB",
+   "new": "<absent>",
+   "old": null,
+   "param": "min_impurity_split"
+  },
+  {
+   "edge": "0.22.2.post1->1.8.0",
+   "estimator": "GB",
+   "new": "<absent>",
+   "old": "deprecated",
+   "param": "presort"
+  },
+  {
+   "edge": "0.22.2.post1->1.8.0",
+   "estimator": "HGB",
+   "new": "from_dtype",
+   "old": "<absent>",
+   "param": "categorical_features"
+  },
+  {
+   "edge": "0.22.2.post1->1.8.0",
+   "estimator": "HGB",
+   "new": null,
+   "old": "<absent>",
+   "param": "class_weight"
+  },
+  {
+   "edge": "0.22.2.post1->1.8.0",
+   "estimator": "HGB",
+   "new": "auto",
+   "old": "<absent>",
+   "param": "early_stopping"
+  },
+  {
+   "edge": "0.22.2.post1->1.8.0",
+   "estimator": "HGB",
+   "new": null,
+   "old": "<absent>",
+   "param": "interaction_cst"
+  },
+  {
+   "edge": "0.22.2.post1->1.8.0",
+   "estimator": "HGB",
+   "new": "log_loss",
+   "old": "auto",
+   "param": "loss"
+  },
+  {
+   "edge": "0.22.2.post1->1.8.0",
+   "estimator": "HGB",
+   "new": 1.0,
+   "old": "<absent>",
+   "param": "max_features"
+  },
+  {
+   "edge": "0.22.2.post1->1.8.0",
+   "estimator": "HGB",
+   "new": null,
+   "old": "<absent>",
+   "param": "monotonic_cst"
+  },
+  {
+   "edge": "0.22.2.post1->1.8.0",
+   "estimator": "HGB",
+   "new": 10,
+   "old": null,
+   "param": "n_iter_no_change"
+  },
+  {
+   "edge": "0.22.2.post1->1.8.0",
+   "estimator": "HGB",
+   "new": "loss",
+   "old": null,
+   "param": "scoring"
+  },
+  {
+   "edge": "1.8.0->1.9.1",
+   "estimator": "SVC",
+   "new": "deprecated",
+   "old": false,
+   "param": "probability"
+  },
+  {
+   "edge": "1.8.0->1.9.1",
+   "estimator": "GB",
+   "new": "deprecated",
+   "old": "friedman_mse",
+   "param": "criterion"
+  }
+ ],
+ "releases": {
+  "0.21.3": {
+   "defaults": {
+    "GB": {
+     "criterion": "friedman_mse",
+     "init": null,
+     "learning_rate": 0.1,
+     "loss": "deviance",
+     "max_depth": 3,
+     "max_features": null,
+     "max_leaf_nodes": null,
+     "min_impurity_decrease": 0.0,
+     "min_impurity_split": null,
+     "min_samples_leaf": 1,
+     "min_samples_split": 2,
+     "min_weight_fraction_leaf": 0.0,
+     "n_estimators": 100,
+     "n_iter_no_change": null,
+     "presort": "auto",
+     "random_state": null,
+     "subsample": 1.0,
+     "tol": 0.0001,
+     "validation_fraction": 0.1,
+     "verbose": 0,
+     "warm_start": false
+    },
+    "HGB": {
+     "l2_regularization": 0.0,
+     "learning_rate": 0.1,
+     "loss": "auto",
+     "max_bins": 256,
+     "max_depth": null,
+     "max_iter": 100,
+     "max_leaf_nodes": 31,
+     "min_samples_leaf": 20,
+     "n_iter_no_change": null,
+     "random_state": null,
+     "scoring": null,
+     "tol": 1e-07,
+     "validation_fraction": 0.1,
+     "verbose": 0
+    },
+    "LR": {
+     "C": 1.0,
+     "class_weight": null,
+     "dual": false,
+     "fit_intercept": true,
+     "intercept_scaling": 1,
+     "l1_ratio": null,
+     "max_iter": 100,
+     "multi_class": "warn",
+     "n_jobs": null,
+     "penalty": "l2",
+     "random_state": null,
+     "solver": "warn",
+     "tol": 0.0001,
+     "verbose": 0,
+     "warm_start": false
+    },
+    "RF": {
+     "bootstrap": true,
+     "class_weight": null,
+     "criterion": "gini",
+     "max_depth": null,
+     "max_features": "auto",
+     "max_leaf_nodes": null,
+     "min_impurity_decrease": 0.0,
+     "min_impurity_split": null,
+     "min_samples_leaf": 1,
+     "min_samples_split": 2,
+     "min_weight_fraction_leaf": 0.0,
+     "n_estimators": "warn",
+     "n_jobs": null,
+     "oob_score": false,
+     "random_state": null,
+     "verbose": 0,
+     "warm_start": false
+    },
+    "SVC": {
+     "C": 1.0,
+     "cache_size": 200,
+     "class_weight": null,
+     "coef0": 0.0,
+     "decision_function_shape": "ovr",
+     "degree": 3,
+     "gamma": "auto_deprecated",
+     "kernel": "rbf",
+     "max_iter": -1,
+     "probability": false,
+     "random_state": null,
+     "shrinking": true,
+     "tol": 0.001,
+     "verbose": false
+    },
+    "kNN": {
+     "algorithm": "auto",
+     "leaf_size": 30,
+     "metric": "minkowski",
+     "metric_params": null,
+     "n_jobs": null,
+     "n_neighbors": 5,
+     "p": 2,
+     "weights": "uniform"
+    }
+   },
+   "provenance": {
+    "executable": "/home/uraz/versionshift_envs/sk-0.21.3/bin/python",
+    "machine": "x86_64",
+    "numpy": "1.17.2",
+    "numpy_config_sha256": "c1eac50e0f4378abaa67c8f02f20e4dd176520354c507772214c44e4ff6abca9",
+    "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-debian-trixie-sid",
+    "processor": "x86_64",
+    "python": "3.7.12",
+    "scipy": "1.3.1",
+    "sklearn": "0.21.3",
+    "sklearn_file": "/home/uraz/versionshift_envs/sk-0.21.3/lib/python3.7/site-packages/sklearn/__init__.py",
+    "threadpools": [
+     {
+      "architecture": null,
+      "filepath": "/home/uraz/versionshift_envs/sk-0.21.3/lib/python3.7/site-packages/numpy/.libs/libopenblasp-r0-2ecf47d5.3.7.dev.so",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "version": "0.3.7.dev"
+     },
+     {
+      "architecture": null,
+      "filepath": "/home/uraz/versionshift_envs/sk-0.21.3/lib/python3.7/site-packages/sklearn/.libs/libgomp-3300acd3.so.1.0.0",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "version": null
+     }
+    ]
+   }
+  },
+  "0.22.2.post1": {
+   "defaults": {
+    "GB": {
+     "ccp_alpha": 0.0,
+     "criterion": "friedman_mse",
+     "init": null,
+     "learning_rate": 0.1,
+     "loss": "deviance",
+     "max_depth": 3,
+     "max_features": null,
+     "max_leaf_nodes": null,
+     "min_impurity_decrease": 0.0,
+     "min_impurity_split": null,
+     "min_samples_leaf": 1,
+     "min_samples_split": 2,
+     "min_weight_fraction_leaf": 0.0,
+     "n_estimators": 100,
+     "n_iter_no_change": null,
+     "presort": "deprecated",
+     "random_state": null,
+     "subsample": 1.0,
+     "tol": 0.0001,
+     "validation_fraction": 0.1,
+     "verbose": 0,
+     "warm_start": false
+    },
+    "HGB": {
+     "l2_regularization": 0.0,
+     "learning_rate": 0.1,
+     "loss": "auto",
+     "max_bins": 255,
+     "max_depth": null,
+     "max_iter": 100,
+     "max_leaf_nodes": 31,
+     "min_samples_leaf": 20,
+     "n_iter_no_change": null,
+     "random_state": null,
+     "scoring": null,
+     "tol": 1e-07,
+     "validation_fraction": 0.1,
+     "verbose": 0,
+     "warm_start": false
+    },
+    "LR": {
+     "C": 1.0,
+     "class_weight": null,
+     "dual": false,
+     "fit_intercept": true,
+     "intercept_scaling": 1,
+     "l1_ratio": null,
+     "max_iter": 100,
+     "multi_class": "auto",
+     "n_jobs": null,
+     "penalty": "l2",
+     "random_state": null,
+     "solver": "lbfgs",
+     "tol": 0.0001,
+     "verbose": 0,
+     "warm_start": false
+    },
+    "RF": {
+     "bootstrap": true,
+     "ccp_alpha": 0.0,
+     "class_weight": null,
+     "criterion": "gini",
+     "max_depth": null,
+     "max_features": "auto",
+     "max_leaf_nodes": null,
+     "max_samples": null,
+     "min_impurity_decrease": 0.0,
+     "min_impurity_split": null,
+     "min_samples_leaf": 1,
+     "min_samples_split": 2,
+     "min_weight_fraction_leaf": 0.0,
+     "n_estimators": 100,
+     "n_jobs": null,
+     "oob_score": false,
+     "random_state": null,
+     "verbose": 0,
+     "warm_start": false
+    },
+    "SVC": {
+     "C": 1.0,
+     "break_ties": false,
+     "cache_size": 200,
+     "class_weight": null,
+     "coef0": 0.0,
+     "decision_function_shape": "ovr",
+     "degree": 3,
+     "gamma": "scale",
+     "kernel": "rbf",
+     "max_iter": -1,
+     "probability": false,
+     "random_state": null,
+     "shrinking": true,
+     "tol": 0.001,
+     "verbose": false
+    },
+    "kNN": {
+     "algorithm": "auto",
+     "leaf_size": 30,
+     "metric": "minkowski",
+     "metric_params": null,
+     "n_jobs": null,
+     "n_neighbors": 5,
+     "p": 2,
+     "weights": "uniform"
+    }
+   },
+   "provenance": {
+    "executable": "/home/uraz/versionshift_envs/sk-0.22.2.post1/bin/python",
+    "machine": "x86_64",
+    "numpy": "1.18.4",
+    "numpy_config_sha256": "c1eac50e0f4378abaa67c8f02f20e4dd176520354c507772214c44e4ff6abca9",
+    "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.2.5",
+    "processor": "x86_64",
+    "python": "3.8.20",
+    "scipy": "1.4.1",
+    "sklearn": "0.22.2.post1",
+    "sklearn_file": "/home/uraz/versionshift_envs/sk-0.22.2.post1/lib/python3.8/site-packages/sklearn/__init__.py",
+    "threadpools": [
+     {
+      "architecture": null,
+      "filepath": "/home/uraz/versionshift_envs/sk-0.22.2.post1/lib/python3.8/site-packages/numpy.libs/libopenblasp-r0-34a18dc3.3.7.so",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "version": "0.3.7"
+     },
+     {
+      "architecture": null,
+      "filepath": "/home/uraz/versionshift_envs/sk-0.22.2.post1/lib/python3.8/site-packages/sklearn/.libs/libgomp-3300acd3.so.1.0.0",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "version": null
+     }
+    ]
+   }
+  },
+  "1.8.0": {
+   "defaults": {
+    "GB": {
+     "ccp_alpha": 0.0,
+     "criterion": "friedman_mse",
+     "init": null,
+     "learning_rate": 0.1,
+     "loss": "log_loss",
+     "max_depth": 3,
+     "max_features": null,
+     "max_leaf_nodes": null,
+     "min_impurity_decrease": 0.0,
+     "min_samples_leaf": 1,
+     "min_samples_split": 2,
+     "min_weight_fraction_leaf": 0.0,
+     "n_estimators": 100,
+     "n_iter_no_change": null,
+     "random_state": null,
+     "subsample": 1.0,
+     "tol": 0.0001,
+     "validation_fraction": 0.1,
+     "verbose": 0,
+     "warm_start": false
+    },
+    "HGB": {
+     "categorical_features": "from_dtype",
+     "class_weight": null,
+     "early_stopping": "auto",
+     "interaction_cst": null,
+     "l2_regularization": 0.0,
+     "learning_rate": 0.1,
+     "loss": "log_loss",
+     "max_bins": 255,
+     "max_depth": null,
+     "max_features": 1.0,
+     "max_iter": 100,
+     "max_leaf_nodes": 31,
+     "min_samples_leaf": 20,
+     "monotonic_cst": null,
+     "n_iter_no_change": 10,
+     "random_state": null,
+     "scoring": "loss",
+     "tol": 1e-07,
+     "validation_fraction": 0.1,
+     "verbose": 0,
+     "warm_start": false
+    },
+    "LR": {
+     "C": 1.0,
+     "class_weight": null,
+     "dual": false,
+     "fit_intercept": true,
+     "intercept_scaling": 1,
+     "l1_ratio": 0.0,
+     "max_iter": 100,
+     "n_jobs": null,
+     "penalty": "deprecated",
+     "random_state": null,
+     "solver": "lbfgs",
+     "tol": 0.0001,
+     "verbose": 0,
+     "warm_start": false
+    },
+    "RF": {
+     "bootstrap": true,
+     "ccp_alpha": 0.0,
+     "class_weight": null,
+     "criterion": "gini",
+     "max_depth": null,
+     "max_features": "sqrt",
+     "max_leaf_nodes": null,
+     "max_samples": null,
+     "min_impurity_decrease": 0.0,
+     "min_samples_leaf": 1,
+     "min_samples_split": 2,
+     "min_weight_fraction_leaf": 0.0,
+     "monotonic_cst": null,
+     "n_estimators": 100,
+     "n_jobs": null,
+     "oob_score": false,
+     "random_state": null,
+     "verbose": 0,
+     "warm_start": false
+    },
+    "SVC": {
+     "C": 1.0,
+     "break_ties": false,
+     "cache_size": 200,
+     "class_weight": null,
+     "coef0": 0.0,
+     "decision_function_shape": "ovr",
+     "degree": 3,
+     "gamma": "scale",
+     "kernel": "rbf",
+     "max_iter": -1,
+     "probability": false,
+     "random_state": null,
+     "shrinking": true,
+     "tol": 0.001,
+     "verbose": false
+    },
+    "kNN": {
+     "algorithm": "auto",
+     "leaf_size": 30,
+     "metric": "minkowski",
+     "metric_params": null,
+     "n_jobs": null,
+     "n_neighbors": 5,
+     "p": 2,
+     "weights": "uniform"
+    }
+   },
+   "provenance": {
+    "executable": "/home/uraz/versionshift_envs/sk-1.8.0/bin/python",
+    "machine": "x86_64",
+    "numpy": "2.4.2",
+    "numpy_config_sha256": "6f1da618967beac49216adbc09349587f6620ad624368f2586d5a6cc339bf543",
+    "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "processor": "x86_64",
+    "python": "3.13.18",
+    "scipy": "1.17.0",
+    "sklearn": "1.8.0",
+    "sklearn_file": "/home/uraz/versionshift_envs/sk-1.8.0/lib/python3.13/site-packages/sklearn/__init__.py",
+    "threadpools": [
+     {
+      "architecture": "Haswell",
+      "filepath": "/home/uraz/versionshift_envs/sk-1.8.0/lib/python3.13/site-packages/numpy.libs/libscipy_openblas64_-096271d3.so",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "version": "0.3.31.dev"
+     },
+     {
+      "architecture": "Haswell",
+      "filepath": "/home/uraz/versionshift_envs/sk-1.8.0/lib/python3.13/site-packages/scipy.libs/libscipy_openblas-6cdc3b4a.so",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "version": "0.3.30"
+     },
+     {
+      "architecture": null,
+      "filepath": "/home/uraz/versionshift_envs/sk-1.8.0/lib/python3.13/site-packages/scikit_learn.libs/libgomp-e985bcbb.so.1.0.0",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "version": null
+     }
+    ]
+   }
+  },
+  "1.9.1": {
+   "defaults": {
+    "GB": {
+     "ccp_alpha": 0.0,
+     "criterion": "deprecated",
+     "init": null,
+     "learning_rate": 0.1,
+     "loss": "log_loss",
+     "max_depth": 3,
+     "max_features": null,
+     "max_leaf_nodes": null,
+     "min_impurity_decrease": 0.0,
+     "min_samples_leaf": 1,
+     "min_samples_split": 2,
+     "min_weight_fraction_leaf": 0.0,
+     "n_estimators": 100,
+     "n_iter_no_change": null,
+     "random_state": null,
+     "subsample": 1.0,
+     "tol": 0.0001,
+     "validation_fraction": 0.1,
+     "verbose": 0,
+     "warm_start": false
+    },
+    "HGB": {
+     "categorical_features": "from_dtype",
+     "class_weight": null,
+     "early_stopping": "auto",
+     "interaction_cst": null,
+     "l2_regularization": 0.0,
+     "learning_rate": 0.1,
+     "loss": "log_loss",
+     "max_bins": 255,
+     "max_depth": null,
+     "max_features": 1.0,
+     "max_iter": 100,
+     "max_leaf_nodes": 31,
+     "min_samples_leaf": 20,
+     "monotonic_cst": null,
+     "n_iter_no_change": 10,
+     "random_state": null,
+     "scoring": "loss",
+     "tol": 1e-07,
+     "validation_fraction": 0.1,
+     "verbose": 0,
+     "warm_start": false
+    },
+    "LR": {
+     "C": 1.0,
+     "class_weight": null,
+     "dual": false,
+     "fit_intercept": true,
+     "intercept_scaling": 1,
+     "l1_ratio": 0.0,
+     "max_iter": 100,
+     "n_jobs": null,
+     "penalty": "deprecated",
+     "random_state": null,
+     "solver": "lbfgs",
+     "tol": 0.0001,
+     "verbose": 0,
+     "warm_start": false
+    },
+    "RF": {
+     "bootstrap": true,
+     "ccp_alpha": 0.0,
+     "class_weight": null,
+     "criterion": "gini",
+     "max_depth": null,
+     "max_features": "sqrt",
+     "max_leaf_nodes": null,
+     "max_samples": null,
+     "min_impurity_decrease": 0.0,
+     "min_samples_leaf": 1,
+     "min_samples_split": 2,
+     "min_weight_fraction_leaf": 0.0,
+     "monotonic_cst": null,
+     "n_estimators": 100,
+     "n_jobs": null,
+     "oob_score": false,
+     "random_state": null,
+     "verbose": 0,
+     "warm_start": false
+    },
+    "SVC": {
+     "C": 1.0,
+     "break_ties": false,
+     "cache_size": 200,
+     "class_weight": null,
+     "coef0": 0.0,
+     "decision_function_shape": "ovr",
+     "degree": 3,
+     "gamma": "scale",
+     "kernel": "rbf",
+     "max_iter": -1,
+     "probability": "deprecated",
+     "random_state": null,
+     "shrinking": true,
+     "tol": 0.001,
+     "verbose": false
+    },
+    "kNN": {
+     "algorithm": "auto",
+     "leaf_size": 30,
+     "metric": "minkowski",
+     "metric_params": null,
+     "n_jobs": null,
+     "n_neighbors": 5,
+     "p": 2,
+     "weights": "uniform"
+    }
+   },
+   "provenance": {
+    "executable": "/home/uraz/versionshift_envs/sk-1.9.1/bin/python",
+    "machine": "x86_64",
+    "numpy": "2.5.4",
+    "numpy_config_sha256": "0ff8c43bf62815981a34c2203d65e2ada93759fcd9c1f5d52cdec96c6dc786b3",
+    "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "processor": "x86_64",
+    "python": "3.13.18",
+    "scipy": "1.18.1",
+    "sklearn": "1.9.1",
+    "sklearn_file": "/home/uraz/versionshift_envs/sk-1.9.1/lib/python3.13/site-packages/sklearn/__init__.py",
+    "threadpools": [
+     {
+      "architecture": "Haswell",
+      "filepath": "/home/uraz/versionshift_envs/sk-1.9.1/lib/python3.13/site-packages/numpy.libs/libscipy_openblas64_-f48b354e.so",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "version": "0.3.34.106.0"
+     },
+     {
+      "architecture": "Haswell",
+      "filepath": "/home/uraz/versionshift_envs/sk-1.9.1/lib/python3.13/site-packages/scipy.libs/libscipy_openblas-5f890258.so",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "version": "0.3.31.dev"
+     },
+     {
+      "architecture": null,
+      "filepath": "/home/uraz/versionshift_envs/sk-1.9.1/lib/python3.13/site-packages/scikit_learn.libs/libgomp-e985bcbb.so.1.0.0",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "version": null
+     }
+    ]
+   }
+  }
+ }
+}

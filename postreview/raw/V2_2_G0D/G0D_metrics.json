@@ -1,0 +1,2497 @@
+{
+  "POS": {
+    "fold_checks": {
+      "source": "VersionShift/results/STAGE_C_CPU_COMPLETION/merged/POS.csv.gz",
+      "cells": 756,
+      "status_counts": {
+        "ok": 22680
+      },
+      "incomplete": {},
+      "errors": []
+    },
+    "all63": {
+      "edge": "POS",
+      "policy": "D",
+      "n_algorithms": 6,
+      "algorithms": [
+        "LR",
+        "SVC",
+        "kNN",
+        "RF",
+        "GB",
+        "HGB"
+      ],
+      "K": 63,
+      "missing_datasets": [],
+      "M_pp": 5.006712451138973,
+      "affected_0_25": 62,
+      "affected_0_5": 59,
+      "affected_1_0": 50,
+      "winner_changes": 25,
+      "pair_flips": 164,
+      "material_pair_flips": 56,
+      "material_flip_tasks": 32,
+      "datasets": [
+        {
+          "dataset": "openml_10093",
+          "M_pp": 0.14425115746614664,
+          "winner_changed": true,
+          "winner_old": "SVC",
+          "winner_new": "kNN",
+          "pair_flips": 1,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_10101",
+          "M_pp": 0.5100204214239302,
+          "winner_changed": false,
+          "winner_old": "GB",
+          "winner_new": "GB",
+          "pair_flips": 1,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_11",
+          "M_pp": 0.578836832396019,
+          "winner_changed": true,
+          "winner_old": "HGB",
+          "winner_new": "SVC",
+          "pair_flips": 2,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_12",
+          "M_pp": 21.11333333333333,
+          "winner_changed": true,
+          "winner_old": "LR",
+          "winner_new": "HGB",
+          "pair_flips": 4,
+          "material_pair_flips": 1
+        },
+        {
+          "dataset": "openml_125920",
+          "M_pp": 2.5232621784345928,
+          "winner_changed": false,
+          "winner_old": "GB",
+          "winner_new": "GB",
+          "pair_flips": 5,
+          "material_pair_flips": 4
+        },
+        {
+          "dataset": "openml_125922",
+          "M_pp": 1.2369063035729775,
+          "winner_changed": true,
+          "winner_old": "HGB",
+          "winner_new": "SVC",
+          "pair_flips": 5,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_14",
+          "M_pp": 3.773333333333333,
+          "winner_changed": true,
+          "winner_old": "HGB",
+          "winner_new": "SVC",
+          "pair_flips": 7,
+          "material_pair_flips": 3
+        },
+        {
+          "dataset": "openml_146195",
+          "M_pp": 2.4113504005955817,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 2,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_146800",
+          "M_pp": 2.707554379776601,
+          "winner_changed": true,
+          "winner_old": "HGB",
+          "winner_new": "RF",
+          "pair_flips": 2,
+          "material_pair_flips": 1
+        },
+        {
+          "dataset": "openml_146817",
+          "M_pp": 8.77725145500279,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 2,
+          "material_pair_flips": 1
+        },
+        {
+          "dataset": "openml_146819",
+          "M_pp": 3.6725783916260073,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 2,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_146820",
+          "M_pp": 6.508907207455748,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_146821",
+          "M_pp": 13.493555686737507,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 1,
+          "material_pair_flips": 1
+        },
+        {
+          "dataset": "openml_146822",
+          "M_pp": 3.922558922558923,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 2,
+          "material_pair_flips": 1
+        },
+        {
+          "dataset": "openml_146824",
+          "M_pp": 1.6616666666666626,
+          "winner_changed": true,
+          "winner_old": "kNN",
+          "winner_new": "SVC",
+          "pair_flips": 7,
+          "material_pair_flips": 1
+        },
+        {
+          "dataset": "openml_14952",
+          "M_pp": 0.49767174195849767,
+          "winner_changed": true,
+          "winner_old": "HGB",
+          "winner_new": "RF",
+          "pair_flips": 2,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_14954",
+          "M_pp": 3.84573442072274,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 2,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_14965",
+          "M_pp": 3.297858999633252,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 2,
+          "material_pair_flips": 2
+        },
+        {
+          "dataset": "openml_14969",
+          "M_pp": 8.308295552871508,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 2,
+          "material_pair_flips": 2
+        },
+        {
+          "dataset": "openml_15",
+          "M_pp": 0.5153212901660121,
+          "winner_changed": false,
+          "winner_old": "SVC",
+          "winner_new": "SVC",
+          "pair_flips": 5,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_16",
+          "M_pp": 2.5238888888888833,
+          "winner_changed": true,
+          "winner_old": "kNN",
+          "winner_new": "SVC",
+          "pair_flips": 5,
+          "material_pair_flips": 2
+        },
+        {
+          "dataset": "openml_167119",
+          "M_pp": 1.3828613517711144,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 1,
+          "material_pair_flips": 1
+        },
+        {
+          "dataset": "openml_167120",
+          "M_pp": 0.7325657056699034,
+          "winner_changed": true,
+          "winner_old": "SVC",
+          "winner_new": "LR",
+          "pair_flips": 4,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_167140",
+          "M_pp": 1.402111429033216,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 1,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_167141",
+          "M_pp": 3.6481299655715844,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 1,
+          "material_pair_flips": 1
+        },
+        {
+          "dataset": "openml_18",
+          "M_pp": 13.641666666666664,
+          "winner_changed": true,
+          "winner_old": "GB",
+          "winner_new": "RF",
+          "pair_flips": 4,
+          "material_pair_flips": 1
+        },
+        {
+          "dataset": "openml_2074",
+          "M_pp": 1.9692981984895455,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 2,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_2079",
+          "M_pp": 11.499418898643698,
+          "winner_changed": false,
+          "winner_old": "GB",
+          "winner_new": "GB",
+          "pair_flips": 1,
+          "material_pair_flips": 1
+        },
+        {
+          "dataset": "openml_219",
+          "M_pp": 1.873038619566261,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 3,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_22",
+          "M_pp": 21.360000000000007,
+          "winner_changed": true,
+          "winner_old": "kNN",
+          "winner_new": "SVC",
+          "pair_flips": 6,
+          "material_pair_flips": 4
+        },
+        {
+          "dataset": "openml_23",
+          "M_pp": 3.0079298756436543,
+          "winner_changed": false,
+          "winner_old": "GB",
+          "winner_new": "GB",
+          "pair_flips": 5,
+          "material_pair_flips": 4
+        },
+        {
+          "dataset": "openml_28",
+          "M_pp": 9.523847842087134,
+          "winner_changed": true,
+          "winner_old": "kNN",
+          "winner_new": "SVC",
+          "pair_flips": 7,
+          "material_pair_flips": 2
+        },
+        {
+          "dataset": "openml_29",
+          "M_pp": 3.563672082229514,
+          "winner_changed": true,
+          "winner_old": "LR",
+          "winner_new": "RF",
+          "pair_flips": 4,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_3",
+          "M_pp": 0.9958173000818704,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 2,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_3021",
+          "M_pp": 1.10855321978602,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_3022",
+          "M_pp": 6.493827160493824,
+          "winner_changed": true,
+          "winner_old": "HGB",
+          "winner_new": "RF",
+          "pair_flips": 1,
+          "material_pair_flips": 1
+        },
+        {
+          "dataset": "openml_31",
+          "M_pp": 1.3248677248677276,
+          "winner_changed": true,
+          "winner_old": "LR",
+          "winner_new": "HGB",
+          "pair_flips": 2,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_32",
+          "M_pp": 28.924857549857553,
+          "winner_changed": true,
+          "winner_old": "kNN",
+          "winner_new": "SVC",
+          "pair_flips": 7,
+          "material_pair_flips": 1
+        },
+        {
+          "dataset": "openml_3549",
+          "M_pp": 25.118441864312068,
+          "winner_changed": false,
+          "winner_old": "LR",
+          "winner_new": "LR",
+          "pair_flips": 6,
+          "material_pair_flips": 1
+        },
+        {
+          "dataset": "openml_3560",
+          "M_pp": 0.5368021997472402,
+          "winner_changed": true,
+          "winner_old": "SVC",
+          "winner_new": "LR",
+          "pair_flips": 2,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_37",
+          "M_pp": 7.132156223309266,
+          "winner_changed": false,
+          "winner_old": "GB",
+          "winner_new": "GB",
+          "pair_flips": 2,
+          "material_pair_flips": 1
+        },
+        {
+          "dataset": "openml_3902",
+          "M_pp": 3.8400752314814857,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 1,
+          "material_pair_flips": 1
+        },
+        {
+          "dataset": "openml_3903",
+          "M_pp": 2.041750691973112,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 1,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_3904",
+          "M_pp": 0.4421951338614496,
+          "winner_changed": false,
+          "winner_old": "RF",
+          "winner_new": "RF",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_3913",
+          "M_pp": 4.517646342947542,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 1,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_3917",
+          "M_pp": 2.1002096909235,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 1,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_3918",
+          "M_pp": 2.48284385764687,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 2,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_43",
+          "M_pp": 5.9757791544060215,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 2,
+          "material_pair_flips": 1
+        },
+        {
+          "dataset": "openml_45",
+          "M_pp": 1.498214472228646,
+          "winner_changed": true,
+          "winner_old": "GB",
+          "winner_new": "SVC",
+          "pair_flips": 3,
+          "material_pair_flips": 1
+        },
+        {
+          "dataset": "openml_49",
+          "M_pp": 6.325297945098945,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 5,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_53",
+          "M_pp": 9.81961411757924,
+          "winner_changed": true,
+          "winner_old": "LR",
+          "winner_new": "HGB",
+          "pair_flips": 3,
+          "material_pair_flips": 3
+        },
+        {
+          "dataset": "openml_6",
+          "M_pp": 4.830325883899663,
+          "winner_changed": true,
+          "winner_old": "SVC",
+          "winner_new": "HGB",
+          "pair_flips": 6,
+          "material_pair_flips": 6
+        },
+        {
+          "dataset": "openml_7592",
+          "M_pp": 1.1193228334055008,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_9946",
+          "M_pp": 13.578097352417686,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_9952",
+          "M_pp": 0.8230841307713471,
+          "winner_changed": true,
+          "winner_old": "HGB",
+          "winner_new": "RF",
+          "pair_flips": 1,
+          "material_pair_flips": 1
+        },
+        {
+          "dataset": "openml_9957",
+          "M_pp": 3.006958953293437,
+          "winner_changed": true,
+          "winner_old": "LR",
+          "winner_new": "HGB",
+          "pair_flips": 4,
+          "material_pair_flips": 1
+        },
+        {
+          "dataset": "openml_9960",
+          "M_pp": 2.0886927882316093,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_9964",
+          "M_pp": 2.617872949929399,
+          "winner_changed": true,
+          "winner_old": "HGB",
+          "winner_new": "SVC",
+          "pair_flips": 6,
+          "material_pair_flips": 3
+        },
+        {
+          "dataset": "openml_9971",
+          "M_pp": 0.6162376353730025,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 2,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_9976",
+          "M_pp": 7.543162393162392,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 1,
+          "material_pair_flips": 1
+        },
+        {
+          "dataset": "openml_9977",
+          "M_pp": 0.47315239513381946,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 1,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_9978",
+          "M_pp": 1.6060891195992795,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 1,
+          "material_pair_flips": 1
+        },
+        {
+          "dataset": "openml_9985",
+          "M_pp": 0.812259905942435,
+          "winner_changed": true,
+          "winner_old": "HGB",
+          "winner_new": "RF",
+          "pair_flips": 1,
+          "material_pair_flips": 0
+        }
+      ]
+    },
+    "holdout47": {
+      "edge": "POS",
+      "policy": "D",
+      "n_algorithms": 6,
+      "algorithms": [
+        "LR",
+        "SVC",
+        "kNN",
+        "RF",
+        "GB",
+        "HGB"
+      ],
+      "K": 47,
+      "missing_datasets": [],
+      "M_pp": 5.413557970000622,
+      "affected_0_25": 46,
+      "affected_0_5": 44,
+      "affected_1_0": 37,
+      "winner_changes": 19,
+      "pair_flips": 117,
+      "material_pair_flips": 41,
+      "material_flip_tasks": 24,
+      "datasets": [
+        {
+          "dataset": "openml_10093",
+          "M_pp": 0.14425115746614664,
+          "winner_changed": true,
+          "winner_old": "SVC",
+          "winner_new": "kNN",
+          "pair_flips": 1,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_11",
+          "M_pp": 0.578836832396019,
+          "winner_changed": true,
+          "winner_old": "HGB",
+          "winner_new": "SVC",
+          "pair_flips": 2,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_12",
+          "M_pp": 21.11333333333333,
+          "winner_changed": true,
+          "winner_old": "LR",
+          "winner_new": "HGB",
+          "pair_flips": 4,
+          "material_pair_flips": 1
+        },
+        {
+          "dataset": "openml_125920",
+          "M_pp": 2.5232621784345928,
+          "winner_changed": false,
+          "winner_old": "GB",
+          "winner_new": "GB",
+          "pair_flips": 5,
+          "material_pair_flips": 4
+        },
+        {
+          "dataset": "openml_14",
+          "M_pp": 3.773333333333333,
+          "winner_changed": true,
+          "winner_old": "HGB",
+          "winner_new": "SVC",
+          "pair_flips": 7,
+          "material_pair_flips": 3
+        },
+        {
+          "dataset": "openml_146195",
+          "M_pp": 2.4113504005955817,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 2,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_146800",
+          "M_pp": 2.707554379776601,
+          "winner_changed": true,
+          "winner_old": "HGB",
+          "winner_new": "RF",
+          "pair_flips": 2,
+          "material_pair_flips": 1
+        },
+        {
+          "dataset": "openml_146817",
+          "M_pp": 8.77725145500279,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 2,
+          "material_pair_flips": 1
+        },
+        {
+          "dataset": "openml_146819",
+          "M_pp": 3.6725783916260073,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 2,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_146820",
+          "M_pp": 6.508907207455748,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_146821",
+          "M_pp": 13.493555686737507,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 1,
+          "material_pair_flips": 1
+        },
+        {
+          "dataset": "openml_146822",
+          "M_pp": 3.922558922558923,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 2,
+          "material_pair_flips": 1
+        },
+        {
+          "dataset": "openml_14954",
+          "M_pp": 3.84573442072274,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 2,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_15",
+          "M_pp": 0.5153212901660121,
+          "winner_changed": false,
+          "winner_old": "SVC",
+          "winner_new": "SVC",
+          "pair_flips": 5,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_167119",
+          "M_pp": 1.3828613517711144,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 1,
+          "material_pair_flips": 1
+        },
+        {
+          "dataset": "openml_167120",
+          "M_pp": 0.7325657056699034,
+          "winner_changed": true,
+          "winner_old": "SVC",
+          "winner_new": "LR",
+          "pair_flips": 4,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_167140",
+          "M_pp": 1.402111429033216,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 1,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_167141",
+          "M_pp": 3.6481299655715844,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 1,
+          "material_pair_flips": 1
+        },
+        {
+          "dataset": "openml_18",
+          "M_pp": 13.641666666666664,
+          "winner_changed": true,
+          "winner_old": "GB",
+          "winner_new": "RF",
+          "pair_flips": 4,
+          "material_pair_flips": 1
+        },
+        {
+          "dataset": "openml_2074",
+          "M_pp": 1.9692981984895455,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 2,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_22",
+          "M_pp": 21.360000000000007,
+          "winner_changed": true,
+          "winner_old": "kNN",
+          "winner_new": "SVC",
+          "pair_flips": 6,
+          "material_pair_flips": 4
+        },
+        {
+          "dataset": "openml_29",
+          "M_pp": 3.563672082229514,
+          "winner_changed": true,
+          "winner_old": "LR",
+          "winner_new": "RF",
+          "pair_flips": 4,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_3",
+          "M_pp": 0.9958173000818704,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 2,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_3021",
+          "M_pp": 1.10855321978602,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_3022",
+          "M_pp": 6.493827160493824,
+          "winner_changed": true,
+          "winner_old": "HGB",
+          "winner_new": "RF",
+          "pair_flips": 1,
+          "material_pair_flips": 1
+        },
+        {
+          "dataset": "openml_31",
+          "M_pp": 1.3248677248677276,
+          "winner_changed": true,
+          "winner_old": "LR",
+          "winner_new": "HGB",
+          "pair_flips": 2,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_32",
+          "M_pp": 28.924857549857553,
+          "winner_changed": true,
+          "winner_old": "kNN",
+          "winner_new": "SVC",
+          "pair_flips": 7,
+          "material_pair_flips": 1
+        },
+        {
+          "dataset": "openml_3549",
+          "M_pp": 25.118441864312068,
+          "winner_changed": false,
+          "winner_old": "LR",
+          "winner_new": "LR",
+          "pair_flips": 6,
+          "material_pair_flips": 1
+        },
+        {
+          "dataset": "openml_3560",
+          "M_pp": 0.5368021997472402,
+          "winner_changed": true,
+          "winner_old": "SVC",
+          "winner_new": "LR",
+          "pair_flips": 2,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_3902",
+          "M_pp": 3.8400752314814857,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 1,
+          "material_pair_flips": 1
+        },
+        {
+          "dataset": "openml_3903",
+          "M_pp": 2.041750691973112,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 1,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_3904",
+          "M_pp": 0.4421951338614496,
+          "winner_changed": false,
+          "winner_old": "RF",
+          "winner_new": "RF",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_43",
+          "M_pp": 5.9757791544060215,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 2,
+          "material_pair_flips": 1
+        },
+        {
+          "dataset": "openml_45",
+          "M_pp": 1.498214472228646,
+          "winner_changed": true,
+          "winner_old": "GB",
+          "winner_new": "SVC",
+          "pair_flips": 3,
+          "material_pair_flips": 1
+        },
+        {
+          "dataset": "openml_49",
+          "M_pp": 6.325297945098945,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 5,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_53",
+          "M_pp": 9.81961411757924,
+          "winner_changed": true,
+          "winner_old": "LR",
+          "winner_new": "HGB",
+          "pair_flips": 3,
+          "material_pair_flips": 3
+        },
+        {
+          "dataset": "openml_6",
+          "M_pp": 4.830325883899663,
+          "winner_changed": true,
+          "winner_old": "SVC",
+          "winner_new": "HGB",
+          "pair_flips": 6,
+          "material_pair_flips": 6
+        },
+        {
+          "dataset": "openml_7592",
+          "M_pp": 1.1193228334055008,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_9946",
+          "M_pp": 13.578097352417686,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_9952",
+          "M_pp": 0.8230841307713471,
+          "winner_changed": true,
+          "winner_old": "HGB",
+          "winner_new": "RF",
+          "pair_flips": 1,
+          "material_pair_flips": 1
+        },
+        {
+          "dataset": "openml_9957",
+          "M_pp": 3.006958953293437,
+          "winner_changed": true,
+          "winner_old": "LR",
+          "winner_new": "HGB",
+          "pair_flips": 4,
+          "material_pair_flips": 1
+        },
+        {
+          "dataset": "openml_9960",
+          "M_pp": 2.0886927882316093,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_9964",
+          "M_pp": 2.617872949929399,
+          "winner_changed": true,
+          "winner_old": "HGB",
+          "winner_new": "SVC",
+          "pair_flips": 6,
+          "material_pair_flips": 3
+        },
+        {
+          "dataset": "openml_9971",
+          "M_pp": 0.6162376353730025,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 2,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_9976",
+          "M_pp": 7.543162393162392,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 1,
+          "material_pair_flips": 1
+        },
+        {
+          "dataset": "openml_9977",
+          "M_pp": 0.47315239513381946,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 1,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_9978",
+          "M_pp": 1.6060891195992795,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 1,
+          "material_pair_flips": 1
+        }
+      ]
+    },
+    "pilot16": {
+      "edge": "POS",
+      "policy": "D",
+      "n_algorithms": 6,
+      "algorithms": [
+        "LR",
+        "SVC",
+        "kNN",
+        "RF",
+        "GB",
+        "HGB"
+      ],
+      "K": 16,
+      "missing_datasets": [],
+      "M_pp": 3.8116037394828797,
+      "affected_0_25": 16,
+      "affected_0_5": 15,
+      "affected_1_0": 13,
+      "winner_changes": 6,
+      "pair_flips": 47,
+      "material_pair_flips": 15,
+      "material_flip_tasks": 8,
+      "datasets": [
+        {
+          "dataset": "openml_10101",
+          "M_pp": 0.5100204214239302,
+          "winner_changed": false,
+          "winner_old": "GB",
+          "winner_new": "GB",
+          "pair_flips": 1,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_125922",
+          "M_pp": 1.2369063035729775,
+          "winner_changed": true,
+          "winner_old": "HGB",
+          "winner_new": "SVC",
+          "pair_flips": 5,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_146824",
+          "M_pp": 1.6616666666666626,
+          "winner_changed": true,
+          "winner_old": "kNN",
+          "winner_new": "SVC",
+          "pair_flips": 7,
+          "material_pair_flips": 1
+        },
+        {
+          "dataset": "openml_14952",
+          "M_pp": 0.49767174195849767,
+          "winner_changed": true,
+          "winner_old": "HGB",
+          "winner_new": "RF",
+          "pair_flips": 2,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_14965",
+          "M_pp": 3.297858999633252,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 2,
+          "material_pair_flips": 2
+        },
+        {
+          "dataset": "openml_14969",
+          "M_pp": 8.308295552871508,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 2,
+          "material_pair_flips": 2
+        },
+        {
+          "dataset": "openml_16",
+          "M_pp": 2.5238888888888833,
+          "winner_changed": true,
+          "winner_old": "kNN",
+          "winner_new": "SVC",
+          "pair_flips": 5,
+          "material_pair_flips": 2
+        },
+        {
+          "dataset": "openml_2079",
+          "M_pp": 11.499418898643698,
+          "winner_changed": false,
+          "winner_old": "GB",
+          "winner_new": "GB",
+          "pair_flips": 1,
+          "material_pair_flips": 1
+        },
+        {
+          "dataset": "openml_219",
+          "M_pp": 1.873038619566261,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 3,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_23",
+          "M_pp": 3.0079298756436543,
+          "winner_changed": false,
+          "winner_old": "GB",
+          "winner_new": "GB",
+          "pair_flips": 5,
+          "material_pair_flips": 4
+        },
+        {
+          "dataset": "openml_28",
+          "M_pp": 9.523847842087134,
+          "winner_changed": true,
+          "winner_old": "kNN",
+          "winner_new": "SVC",
+          "pair_flips": 7,
+          "material_pair_flips": 2
+        },
+        {
+          "dataset": "openml_37",
+          "M_pp": 7.132156223309266,
+          "winner_changed": false,
+          "winner_old": "GB",
+          "winner_new": "GB",
+          "pair_flips": 2,
+          "material_pair_flips": 1
+        },
+        {
+          "dataset": "openml_3913",
+          "M_pp": 4.517646342947542,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 1,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_3917",
+          "M_pp": 2.1002096909235,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 1,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_3918",
+          "M_pp": 2.48284385764687,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 2,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_9985",
+          "M_pp": 0.812259905942435,
+          "winner_changed": true,
+          "winner_old": "HGB",
+          "winner_new": "RF",
+          "pair_flips": 1,
+          "material_pair_flips": 0
+        }
+      ]
+    },
+    "manuscript_check": {
+      "M": {
+        "expected": 5.01,
+        "observed": 5.006712451138973,
+        "match": true
+      },
+      "affected": {
+        "expected": 59,
+        "observed": 59,
+        "match": true
+      },
+      "winner": {
+        "expected": 25,
+        "observed": 25,
+        "match": true
+      },
+      "flips": {
+        "expected": 165,
+        "observed": 164,
+        "match": false
+      },
+      "material": {
+        "expected": 56,
+        "observed": 56,
+        "match": true
+      }
+    }
+  },
+  "NEG": {
+    "fold_checks": {
+      "source": "VersionShift/results/STAGE_C_CPU_COMPLETION/merged/NEG.csv.gz",
+      "cells": 756,
+      "status_counts": {
+        "ok": 22680
+      },
+      "incomplete": {},
+      "errors": []
+    },
+    "all63": {
+      "edge": "NEG",
+      "policy": "D",
+      "n_algorithms": 6,
+      "algorithms": [
+        "LR",
+        "SVC",
+        "kNN",
+        "RF",
+        "GB",
+        "HGB"
+      ],
+      "K": 63,
+      "missing_datasets": [],
+      "M_pp": 0.0513097803725926,
+      "affected_0_25": 3,
+      "affected_0_5": 0,
+      "affected_1_0": 0,
+      "winner_changes": 0,
+      "pair_flips": 6,
+      "material_pair_flips": 0,
+      "material_flip_tasks": 0,
+      "datasets": [
+        {
+          "dataset": "openml_10093",
+          "M_pp": 0.040060954557896856,
+          "winner_changed": false,
+          "winner_old": "kNN",
+          "winner_new": "kNN",
+          "pair_flips": 1,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_10101",
+          "M_pp": 0.004873294346978696,
+          "winner_changed": false,
+          "winner_old": "GB",
+          "winner_new": "GB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_11",
+          "M_pp": 0.0,
+          "winner_changed": false,
+          "winner_old": "SVC",
+          "winner_new": "SVC",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_12",
+          "M_pp": 0.036111111111116166,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 1,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_125920",
+          "M_pp": 0.0036489691662093073,
+          "winner_changed": false,
+          "winner_old": "GB",
+          "winner_new": "GB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_125922",
+          "M_pp": 0.01668701668702018,
+          "winner_changed": false,
+          "winner_old": "SVC",
+          "winner_new": "SVC",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_14",
+          "M_pp": 0.055555555555557135,
+          "winner_changed": false,
+          "winner_old": "SVC",
+          "winner_new": "SVC",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_146195",
+          "M_pp": 0.003858024691356358,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 1,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_146800",
+          "M_pp": 0.01919459141681538,
+          "winner_changed": false,
+          "winner_old": "RF",
+          "winner_new": "RF",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_146817",
+          "M_pp": 0.07543237968760082,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_146819",
+          "M_pp": 0.39219863029386676,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_146820",
+          "M_pp": 0.0878971899469434,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_146821",
+          "M_pp": 0.0,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_146822",
+          "M_pp": 0.03367003367002989,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_146824",
+          "M_pp": 0.00555555555555524,
+          "winner_changed": false,
+          "winner_old": "SVC",
+          "winner_new": "SVC",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_14952",
+          "M_pp": 0.0,
+          "winner_changed": false,
+          "winner_old": "RF",
+          "winner_new": "RF",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_14954",
+          "M_pp": 0.02442297369833568,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_14965",
+          "M_pp": 0.02176169258087081,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_14969",
+          "M_pp": 0.0333424027234481,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_15",
+          "M_pp": 0.0,
+          "winner_changed": false,
+          "winner_old": "SVC",
+          "winner_new": "SVC",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_16",
+          "M_pp": 0.04888888888889179,
+          "winner_changed": false,
+          "winner_old": "SVC",
+          "winner_new": "SVC",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_167119",
+          "M_pp": 0.0,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_167120",
+          "M_pp": 0.0362451479163847,
+          "winner_changed": false,
+          "winner_old": "LR",
+          "winner_new": "LR",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_167140",
+          "M_pp": 0.0,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_167141",
+          "M_pp": 0.048241484823350333,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_18",
+          "M_pp": 0.041666666666666664,
+          "winner_changed": false,
+          "winner_old": "RF",
+          "winner_new": "RF",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_2074",
+          "M_pp": 0.0005872942633070958,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_2079",
+          "M_pp": 0.05840097312965516,
+          "winner_changed": false,
+          "winner_old": "GB",
+          "winner_new": "GB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_219",
+          "M_pp": 0.06329364946385378,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_22",
+          "M_pp": 0.15555555555555903,
+          "winner_changed": false,
+          "winner_old": "SVC",
+          "winner_new": "SVC",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_23",
+          "M_pp": 0.0035958288385463297,
+          "winner_changed": false,
+          "winner_old": "GB",
+          "winner_new": "GB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_28",
+          "M_pp": 0.0021665431849366237,
+          "winner_changed": false,
+          "winner_old": "SVC",
+          "winner_new": "SVC",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_29",
+          "M_pp": 0.14176061397665288,
+          "winner_changed": false,
+          "winner_old": "RF",
+          "winner_new": "RF",
+          "pair_flips": 2,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_3",
+          "M_pp": 0.0,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_3021",
+          "M_pp": 0.05061833927380803,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_3022",
+          "M_pp": 0.0,
+          "winner_changed": false,
+          "winner_old": "RF",
+          "winner_new": "RF",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_31",
+          "M_pp": 0.06746031746032581,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 1,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_32",
+          "M_pp": 0.0010683760683747323,
+          "winner_changed": false,
+          "winner_old": "SVC",
+          "winner_new": "SVC",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_3549",
+          "M_pp": 0.004409171075839898,
+          "winner_changed": false,
+          "winner_old": "LR",
+          "winner_new": "LR",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_3560",
+          "M_pp": 0.00399132704986845,
+          "winner_changed": false,
+          "winner_old": "LR",
+          "winner_new": "LR",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_37",
+          "M_pp": 0.030947278515409002,
+          "winner_changed": false,
+          "winner_old": "GB",
+          "winner_new": "GB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_3902",
+          "M_pp": 0.3699349647266312,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_3903",
+          "M_pp": 0.1725053663220938,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_3904",
+          "M_pp": 0.01697740180792048,
+          "winner_changed": false,
+          "winner_old": "RF",
+          "winner_new": "RF",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_3913",
+          "M_pp": 0.1450535185474943,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_3917",
+          "M_pp": 0.06310797107228201,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_3918",
+          "M_pp": 0.02590885876730861,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_43",
+          "M_pp": 0.009423625196423776,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_45",
+          "M_pp": 0.0,
+          "winner_changed": false,
+          "winner_old": "SVC",
+          "winner_new": "SVC",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_49",
+          "M_pp": 0.0,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_53",
+          "M_pp": 0.05191533272928079,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_6",
+          "M_pp": 0.02105373452185688,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_7592",
+          "M_pp": 0.01912383802988889,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_9946",
+          "M_pp": 0.018266359569996855,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_9952",
+          "M_pp": 0.0056452845056014665,
+          "winner_changed": false,
+          "winner_old": "RF",
+          "winner_new": "RF",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_9957",
+          "M_pp": 0.11788994916296265,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_9960",
+          "M_pp": 0.015075021236436706,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_9964",
+          "M_pp": 0.0,
+          "winner_changed": false,
+          "winner_old": "SVC",
+          "winner_new": "SVC",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_9971",
+          "M_pp": 0.007391419510481019,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_9976",
+          "M_pp": 0.1538461538461462,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_9977",
+          "M_pp": 0.026343510863632482,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_9978",
+          "M_pp": 0.28947615170133173,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_9985",
+          "M_pp": 0.09040986951453316,
+          "winner_changed": false,
+          "winner_old": "RF",
+          "winner_new": "RF",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        }
+      ]
+    },
+    "holdout47": {
+      "edge": "NEG",
+      "policy": "D",
+      "n_algorithms": 6,
+      "algorithms": [
+        "LR",
+        "SVC",
+        "kNN",
+        "RF",
+        "GB",
+        "HGB"
+      ],
+      "K": 47,
+      "missing_datasets": [],
+      "M_pp": 0.05571325152460745,
+      "affected_0_25": 3,
+      "affected_0_5": 0,
+      "affected_1_0": 0,
+      "winner_changes": 0,
+      "pair_flips": 6,
+      "material_pair_flips": 0,
+      "material_flip_tasks": 0,
+      "datasets": [
+        {
+          "dataset": "openml_10093",
+          "M_pp": 0.040060954557896856,
+          "winner_changed": false,
+          "winner_old": "kNN",
+          "winner_new": "kNN",
+          "pair_flips": 1,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_11",
+          "M_pp": 0.0,
+          "winner_changed": false,
+          "winner_old": "SVC",
+          "winner_new": "SVC",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_12",
+          "M_pp": 0.036111111111116166,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 1,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_125920",
+          "M_pp": 0.0036489691662093073,
+          "winner_changed": false,
+          "winner_old": "GB",
+          "winner_new": "GB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_14",
+          "M_pp": 0.055555555555557135,
+          "winner_changed": false,
+          "winner_old": "SVC",
+          "winner_new": "SVC",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_146195",
+          "M_pp": 0.003858024691356358,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 1,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_146800",
+          "M_pp": 0.01919459141681538,
+          "winner_changed": false,
+          "winner_old": "RF",
+          "winner_new": "RF",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_146817",
+          "M_pp": 0.07543237968760082,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_146819",
+          "M_pp": 0.39219863029386676,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_146820",
+          "M_pp": 0.0878971899469434,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_146821",
+          "M_pp": 0.0,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_146822",
+          "M_pp": 0.03367003367002989,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_14954",
+          "M_pp": 0.02442297369833568,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_15",
+          "M_pp": 0.0,
+          "winner_changed": false,
+          "winner_old": "SVC",
+          "winner_new": "SVC",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_167119",
+          "M_pp": 0.0,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_167120",
+          "M_pp": 0.0362451479163847,
+          "winner_changed": false,
+          "winner_old": "LR",
+          "winner_new": "LR",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_167140",
+          "M_pp": 0.0,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_167141",
+          "M_pp": 0.048241484823350333,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_18",
+          "M_pp": 0.041666666666666664,
+          "winner_changed": false,
+          "winner_old": "RF",
+          "winner_new": "RF",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_2074",
+          "M_pp": 0.0005872942633070958,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_22",
+          "M_pp": 0.15555555555555903,
+          "winner_changed": false,
+          "winner_old": "SVC",
+          "winner_new": "SVC",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_29",
+          "M_pp": 0.14176061397665288,
+          "winner_changed": false,
+          "winner_old": "RF",
+          "winner_new": "RF",
+          "pair_flips": 2,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_3",
+          "M_pp": 0.0,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_3021",
+          "M_pp": 0.05061833927380803,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_3022",
+          "M_pp": 0.0,
+          "winner_changed": false,
+          "winner_old": "RF",
+          "winner_new": "RF",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_31",
+          "M_pp": 0.06746031746032581,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 1,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_32",
+          "M_pp": 0.0010683760683747323,
+          "winner_changed": false,
+          "winner_old": "SVC",
+          "winner_new": "SVC",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_3549",
+          "M_pp": 0.004409171075839898,
+          "winner_changed": false,
+          "winner_old": "LR",
+          "winner_new": "LR",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_3560",
+          "M_pp": 0.00399132704986845,
+          "winner_changed": false,
+          "winner_old": "LR",
+          "winner_new": "LR",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_3902",
+          "M_pp": 0.3699349647266312,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_3903",
+          "M_pp": 0.1725053663220938,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_3904",
+          "M_pp": 0.01697740180792048,
+          "winner_changed": false,
+          "winner_old": "RF",
+          "winner_new": "RF",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_43",
+          "M_pp": 0.009423625196423776,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_45",
+          "M_pp": 0.0,
+          "winner_changed": false,
+          "winner_old": "SVC",
+          "winner_new": "SVC",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_49",
+          "M_pp": 0.0,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_53",
+          "M_pp": 0.05191533272928079,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_6",
+          "M_pp": 0.02105373452185688,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_7592",
+          "M_pp": 0.01912383802988889,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_9946",
+          "M_pp": 0.018266359569996855,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_9952",
+          "M_pp": 0.0056452845056014665,
+          "winner_changed": false,
+          "winner_old": "RF",
+          "winner_new": "RF",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_9957",
+          "M_pp": 0.11788994916296265,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_9960",
+          "M_pp": 0.015075021236436706,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_9964",
+          "M_pp": 0.0,
+          "winner_changed": false,
+          "winner_old": "SVC",
+          "winner_new": "SVC",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_9971",
+          "M_pp": 0.007391419510481019,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_9976",
+          "M_pp": 0.1538461538461462,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_9977",
+          "M_pp": 0.026343510863632482,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_9978",
+          "M_pp": 0.28947615170133173,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        }
+      ]
+    },
+    "pilot16": {
+      "edge": "NEG",
+      "policy": "D",
+      "n_algorithms": 6,
+      "algorithms": [
+        "LR",
+        "SVC",
+        "kNN",
+        "RF",
+        "GB",
+        "HGB"
+      ],
+      "K": 16,
+      "missing_datasets": [],
+      "M_pp": 0.038374583863548986,
+      "affected_0_25": 0,
+      "affected_0_5": 0,
+      "affected_1_0": 0,
+      "winner_changes": 0,
+      "pair_flips": 0,
+      "material_pair_flips": 0,
+      "material_flip_tasks": 0,
+      "datasets": [
+        {
+          "dataset": "openml_10101",
+          "M_pp": 0.004873294346978696,
+          "winner_changed": false,
+          "winner_old": "GB",
+          "winner_new": "GB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_125922",
+          "M_pp": 0.01668701668702018,
+          "winner_changed": false,
+          "winner_old": "SVC",
+          "winner_new": "SVC",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_146824",
+          "M_pp": 0.00555555555555524,
+          "winner_changed": false,
+          "winner_old": "SVC",
+          "winner_new": "SVC",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_14952",
+          "M_pp": 0.0,
+          "winner_changed": false,
+          "winner_old": "RF",
+          "winner_new": "RF",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_14965",
+          "M_pp": 0.02176169258087081,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_14969",
+          "M_pp": 0.0333424027234481,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_16",
+          "M_pp": 0.04888888888889179,
+          "winner_changed": false,
+          "winner_old": "SVC",
+          "winner_new": "SVC",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_2079",
+          "M_pp": 0.05840097312965516,
+          "winner_changed": false,
+          "winner_old": "GB",
+          "winner_new": "GB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_219",
+          "M_pp": 0.06329364946385378,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_23",
+          "M_pp": 0.0035958288385463297,
+          "winner_changed": false,
+          "winner_old": "GB",
+          "winner_new": "GB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_28",
+          "M_pp": 0.0021665431849366237,
+          "winner_changed": false,
+          "winner_old": "SVC",
+          "winner_new": "SVC",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_37",
+          "M_pp": 0.030947278515409002,
+          "winner_changed": false,
+          "winner_old": "GB",
+          "winner_new": "GB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_3913",
+          "M_pp": 0.1450535185474943,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_3917",
+          "M_pp": 0.06310797107228201,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_3918",
+          "M_pp": 0.02590885876730861,
+          "winner_changed": false,
+          "winner_old": "HGB",
+          "winner_new": "HGB",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        },
+        {
+          "dataset": "openml_9985",
+          "M_pp": 0.09040986951453316,
+          "winner_changed": false,
+          "winner_old": "RF",
+          "winner_new": "RF",
+          "pair_flips": 0,
+          "material_pair_flips": 0
+        }
+      ]
+    },
+    "manuscript_check": {
+      "M": {
+        "expected": 0.05,
+        "observed": 0.0513097803725926,
+        "match": true
+      },
+      "affected": {
+        "expected": 0,
+        "observed": 0,
+        "match": true
+      },
+      "winner": {
+        "expected": 0,
+        "observed": 0,
+        "match": true
+      },
+      "flips": {
+        "expected": 6,
+        "observed": 6,
+        "match": true
+      },
+      "material": {
+        "expected": 0,
+        "observed": 0,
+        "match": true
+      }
+    }
+  },
+  "fatal": []
+}

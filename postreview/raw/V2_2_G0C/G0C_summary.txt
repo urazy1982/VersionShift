@@ -1,0 +1,67 @@
+VersionShift v2.2 G0-C RAW-EVIDENCE AUDIT
+Original ZIP: /mnt/c/VersionShift/VersionShift_replication.zip
+SHA256: 5eb716b64c21ded6f979b0b1610bb68aee46ad2f24889a0d3b133bd430c6ff7d
+GATE: G0-C is an evidence audit, NOT independent numerical replication.
+
+REQUIRED FILES: 9/9
+MISSING: none
+CPU OUTPUT HASHES: 23/23 PASS
+WARNINGS: 0
+
+COMPRESSED CSV ROWS — EACH FILE IS A SEPARATE SOURCE (DO NOT SUM OVERLAPPING VERSIONS):
+  VersionShift/project/evidence/AA_CONTROL/CROSS_RELEASE_FOLDS.csv.gz: rows=120 cols=condition|release|dataset|algo|policy|k|n|status|portability|sklearn|numpy|rep|fold|ba|pred_sha
+  VersionShift/project/results/expA/fold_scores.csv.gz: rows=39600 cols=dataset|origin|hetero|n|p|k|rep|fold|algo|regime|policy|prep|ba|conv_warn|fit_s|fit_id|pred_sha
+  VersionShift/project/results/expA/prediction_disagreement.csv.gz: rows=19800 cols=dataset|rep|fold|algo|policy|prep|n_test|n_disagree
+  VersionShift/project/results/expA2/seed_reruns.csv.gz: rows=6160 cols=dataset|origin|fold|algo|regime|seed_rep|ba
+  VersionShift/project/results/expA_analysis/pairs_D_raw.csv.gz: rows=660 cols=dataset|pair|null_pair|s21|s19|w19|w21|x|x2|delta21_pp|delta19_pp|shift_pp|noise_sd_pp|vnr|six_R|six_Nold|six_Nnew|cont_cross|cont_null
+  VersionShift/project/results/expA_analysis/pairs_D_std.csv.gz: rows=660 cols=dataset|pair|null_pair|s21|s19|w19|w21|x|x2|delta21_pp|delta19_pp|shift_pp|noise_sd_pp|vnr|six_R|six_Nold|six_Nnew|cont_cross|cont_null
+  VersionShift/results/STAGE_B_RUNS/AA_0213/CROSS_RELEASE_FOLDS.csv.gz: rows=5760 cols=condition|release|dataset|algo|policy|k|n|status|portability|sklearn|numpy|rep|fold|ba|pred_sha
+  VersionShift/results/STAGE_B_RUNS/AA_0_21_3/CROSS_RELEASE_FOLDS.csv.gz: rows=5760 cols=condition|release|dataset|algo|policy|k|n|status|portability|sklearn|numpy|rep|fold|ba|pred_sha
+  VersionShift/results/STAGE_B_RUNS/AA_0_22_2_post1/CROSS_RELEASE_FOLDS.csv.gz: rows=5760 cols=condition|release|dataset|algo|policy|k|n|status|portability|sklearn|numpy|rep|fold|ba|pred_sha
+  VersionShift/results/STAGE_B_RUNS/AA_1_8_0/CROSS_RELEASE_FOLDS.csv.gz: rows=5760 cols=condition|release|dataset|algo|policy|k|n|status|portability|sklearn|numpy|rep|fold|ba|pred_sha
+  VersionShift/results/STAGE_B_RUNS/AA_1_9_1/CROSS_RELEASE_FOLDS.csv.gz: rows=5760 cols=condition|release|dataset|algo|policy|k|n|status|portability|sklearn|numpy|rep|fold|ba|pred_sha
+  VersionShift/results/STAGE_B_RUNS/EDGE_0213_0222/CROSS_RELEASE_FOLDS.csv.gz: rows=19328 cols=condition|release|dataset|algo|policy|k|n|status|portability|sklearn|numpy|rep|fold|ba|pred_sha|detail
+  VersionShift/results/STAGE_B_RUNS/EDGE_0213_0222_REVERSE/CROSS_RELEASE_FOLDS.csv.gz: rows=3904 cols=condition|release|dataset|algo|policy|k|n|status|portability|sklearn|numpy|rep|fold|ba|pred_sha|detail
+  VersionShift/results/STAGE_B_RUNS/EDGE_180_190/CROSS_RELEASE_FOLDS.csv.gz: rows=22576 cols=condition|release|dataset|algo|policy|k|n|status|portability|sklearn|numpy|rep|fold|ba|pred_sha|detail
+  VersionShift/results/STAGE_B_RUNS/EDGE_180_190_REVERSE/CROSS_RELEASE_FOLDS.csv.gz: rows=4368 cols=condition|release|dataset|algo|policy|k|n|status|portability|detail|sklearn|numpy|rep|fold|ba|pred_sha
+  VersionShift/results/STAGE_B_RUNS/STAGE_C47_NEG/CROSS_RELEASE_FOLDS.csv.gz: rows=66317 cols=condition|release|dataset|algo|policy|k|n|status|portability|sklearn|numpy|rep|fold|ba|pred_sha|detail
+  VersionShift/results/STAGE_B_RUNS/STAGE_C47_NEG_REVERSE/CROSS_RELEASE_FOLDS.csv.gz: rows=12831 cols=condition|release|dataset|algo|policy|k|n|status|portability|detail|sklearn|numpy|rep|fold|ba|pred_sha
+  VersionShift/results/STAGE_B_RUNS/STAGE_C47_POS/CROSS_RELEASE_FOLDS.csv.gz: rows=56776 cols=condition|release|dataset|algo|policy|k|n|status|portability|sklearn|numpy|rep|fold|ba|pred_sha|detail
+  VersionShift/results/STAGE_B_RUNS/STAGE_C47_POS_REVERSE/CROSS_RELEASE_FOLDS.csv.gz: rows=11468 cols=condition|release|dataset|algo|policy|k|n|status|portability|sklearn|numpy|rep|fold|ba|pred_sha|detail
+  VersionShift/results/STAGE_B_SCIENCE_V225/CELL_C_NEG.csv.gz: rows=4368 cols=condition|release|dataset|algo|policy|k|n|status|portability|sklearn|numpy|rep|fold|ba|pred_sha|detail
+  VersionShift/results/STAGE_B_SCIENCE_V225/CELL_C_POS.csv.gz: rows=3904 cols=condition|release|dataset|algo|policy|k|n|status|portability|sklearn|numpy|rep|fold|ba|pred_sha|detail
+  VersionShift/results/STAGE_C_CPU_COMPLETION/merged/CELL_C_NEG.csv.gz: rows=17199 cols=condition|release|dataset|algo|policy|k|n|status|portability|sklearn|numpy|rep|fold|ba|pred_sha|detail
+  VersionShift/results/STAGE_C_CPU_COMPLETION/merged/CELL_C_POS.csv.gz: rows=15372 cols=condition|release|dataset|algo|policy|k|n|status|portability|sklearn|numpy|rep|fold|ba|pred_sha|detail
+  VersionShift/results/STAGE_C_CPU_COMPLETION/merged/HOLDOUT47_NEG.csv.gz: rows=66317 cols=condition|release|dataset|algo|policy|k|n|status|portability|sklearn|numpy|rep|fold|ba|pred_sha|detail
+  VersionShift/results/STAGE_C_CPU_COMPLETION/merged/HOLDOUT47_POS.csv.gz: rows=56776 cols=condition|release|dataset|algo|policy|k|n|status|portability|sklearn|numpy|rep|fold|ba|pred_sha|detail
+  VersionShift/results/STAGE_C_CPU_COMPLETION/merged/NEG.csv.gz: rows=88893 cols=condition|release|dataset|algo|policy|k|n|status|portability|sklearn|numpy|rep|fold|ba|pred_sha|detail
+  VersionShift/results/STAGE_C_CPU_COMPLETION/merged/NEG_REVERSE.csv.gz: rows=17199 cols=condition|release|dataset|algo|policy|k|n|status|portability|detail|sklearn|numpy|rep|fold|ba|pred_sha
+  VersionShift/results/STAGE_C_CPU_COMPLETION/merged/POS.csv.gz: rows=76104 cols=condition|release|dataset|algo|policy|k|n|status|portability|sklearn|numpy|rep|fold|ba|pred_sha|detail
+  VersionShift/results/STAGE_C_CPU_COMPLETION/merged/POS_REVERSE.csv.gz: rows=15372 cols=condition|release|dataset|algo|policy|k|n|status|portability|sklearn|numpy|rep|fold|ba|pred_sha|detail
+
+RUN COLLECTION COUNTS (may contain duplicated AA attempts; DO NOT sum blindly):
+  AA_0213: planned=192 missing=[] statuses={'ok': 192} portable={'ok': 192}
+  AA_0_21_3: planned=192 missing=[] statuses={'ok': 192} portable={'ok': 192}
+  AA_0_22_2_post1: planned=192 missing=[] statuses={'ok': 192} portable={'ok': 192}
+  AA_1_8_0: planned=192 missing=[] statuses={'ok': 192} portable={'ok': 192}
+  AA_1_9_1: planned=192 missing=[] statuses={'ok': 192} portable={'ok': 192}
+  EDGE_0213_0222: planned=768 missing=[] statuses={'ok': 640, 'not_portable': 128} portable={'ok': 640, 'ineffective': 64, 'unsupported': 32, 'unpinned_new': 32}
+  EDGE_0213_0222_REVERSE: planned=192 missing=[] statuses={'ok': 128, 'not_portable': 64} portable={'ok': 128, 'removed': 64}
+  EDGE_180_190: planned=768 missing=[] statuses={'ok': 752, 'not_portable': 16} portable={'ok': 752, 'ineffective': 16}
+  EDGE_180_190_REVERSE: planned=192 missing=[] statuses={'ok': 144, 'not_portable': 48} portable={'ok': 144, 'ineffective': 48}
+  STAGE_C47_NEG: planned=2256 missing=[] statuses={'ok': 2209, 'not_portable': 47} portable={'ok': 2209, 'ineffective': 47}
+  STAGE_C47_NEG_REVERSE: planned=564 missing=[] statuses={'ok': 423, 'not_portable': 141} portable={'ok': 423, 'ineffective': 141}
+  STAGE_C47_POS: planned=2256 missing=[] statuses={'ok': 1880, 'not_portable': 376} portable={'ok': 1880, 'ineffective': 188, 'unsupported': 94, 'unpinned_new': 94}
+  STAGE_C47_POS_REVERSE: planned=564 missing=[] statuses={'ok': 376, 'not_portable': 188} portable={'ok': 376, 'removed': 188}
+
+REPORTS LOADED:
+  VersionShift/results/STAGE_C_CPU_COMPLETION/reports/FULL63_FRAME_CENSUS.json
+  VersionShift/results/STAGE_C_CPU_COMPLETION/reports/HOLDOUT47_FINITE_SUBFRAME_SENSITIVITY.json
+  VersionShift/results/STAGE_C_CPU_COMPLETION/reports/CPU_COMPLETION_ASSESSMENT.json
+  VersionShift/results/INDEPENDENT_VERIFICATION/VERIFY_SUMMARY.json
+  VersionShift/results/data/STAGE_C_COMPLETION_PROTOCOL_RECORD.json
+  VersionShift/results/data/AMENDMENT_V226_FREEZE.json
+
+SCIENTIFIC CERTIFICATION: NOT YET PERFORMED
+NEXT: Use G0C_profiles.json + G0C_report_fields.csv to write a schema-specific independent recomputation (G0-D).
+Original ZIP and original results were not modified.

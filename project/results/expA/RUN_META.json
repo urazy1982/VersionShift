@@ -1,0 +1,1017 @@
+{
+  "sklearn": "1.9.1",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "python": "3.13.18",
+  "reps": 6,
+  "folds": 5,
+  "datasets": 44,
+  "started": "2026-11-06T00:14:44",
+  "finished": "2026-11-06T00:36:42",
+  "datasets_detail": [
+    {
+      "name": "iris",
+      "origin": "real",
+      "n": 150,
+      "p": 4,
+      "k": 3,
+      "hetero": null,
+      "spec": {}
+    },
+    {
+      "name": "wine",
+      "origin": "real",
+      "n": 178,
+      "p": 13,
+      "k": 3,
+      "hetero": null,
+      "spec": {}
+    },
+    {
+      "name": "breast_cancer",
+      "origin": "real",
+      "n": 569,
+      "p": 30,
+      "k": 2,
+      "hetero": null,
+      "spec": {}
+    },
+    {
+      "name": "digits",
+      "origin": "real",
+      "n": 1797,
+      "p": 64,
+      "k": 10,
+      "hetero": null,
+      "spec": {}
+    },
+    {
+      "name": "syn00_linear",
+      "origin": "synthetic",
+      "n": 600,
+      "p": 6,
+      "k": 2,
+      "hetero": false,
+      "spec": {
+        "name": "syn00_linear",
+        "kind": "linear",
+        "seed": 991671038,
+        "n": 600,
+        "p": 6,
+        "k": 2,
+        "inf": 0.8,
+        "clusters": 1,
+        "sep": 1.5,
+        "flip": 0.03,
+        "noise": 0.3,
+        "weights": null,
+        "hetero": false
+      }
+    },
+    {
+      "name": "syn01_circles",
+      "origin": "synthetic",
+      "n": 300,
+      "p": 6,
+      "k": 2,
+      "hetero": true,
+      "spec": {
+        "name": "syn01_circles",
+        "kind": "circles",
+        "seed": 1613711973,
+        "n": 300,
+        "p": 6,
+        "k": 2,
+        "inf": 0.3,
+        "clusters": 1,
+        "sep": 1.0,
+        "flip": 0.08,
+        "noise": 0.3,
+        "weights": [
+          0.85,
+          0.15000000000000002
+        ],
+        "hetero": true
+      }
+    },
+    {
+      "name": "syn02_moons",
+      "origin": "synthetic",
+      "n": 1000,
+      "p": 10,
+      "k": 2,
+      "hetero": false,
+      "spec": {
+        "name": "syn02_moons",
+        "kind": "moons",
+        "seed": 414472768,
+        "n": 1000,
+        "p": 10,
+        "k": 2,
+        "inf": 0.3,
+        "clusters": 1,
+        "sep": 1.5,
+        "flip": 0.08,
+        "noise": 0.15,
+        "weights": [
+          0.85,
+          0.15000000000000002
+        ],
+        "hetero": false
+      }
+    },
+    {
+      "name": "syn03_linear",
+      "origin": "synthetic",
+      "n": 1500,
+      "p": 30,
+      "k": 2,
+      "hetero": true,
+      "spec": {
+        "name": "syn03_linear",
+        "kind": "linear",
+        "seed": 1420446285,
+        "n": 1500,
+        "p": 30,
+        "k": 2,
+        "inf": 0.8,
+        "clusters": 2,
+        "sep": 1.5,
+        "flip": 0.0,
+        "noise": 0.3,
+        "weights": null,
+        "hetero": true
+      }
+    },
+    {
+      "name": "syn04_linear",
+      "origin": "synthetic",
+      "n": 1000,
+      "p": 6,
+      "k": 4,
+      "hetero": false,
+      "spec": {
+        "name": "syn04_linear",
+        "kind": "linear",
+        "seed": 1941559251,
+        "n": 1000,
+        "p": 6,
+        "k": 4,
+        "inf": 0.5,
+        "clusters": 2,
+        "sep": 0.6,
+        "flip": 0.08,
+        "noise": 0.15,
+        "weights": null,
+        "hetero": false
+      }
+    },
+    {
+      "name": "syn05_linear",
+      "origin": "synthetic",
+      "n": 1500,
+      "p": 30,
+      "k": 2,
+      "hetero": true,
+      "spec": {
+        "name": "syn05_linear",
+        "kind": "linear",
+        "seed": 1014488743,
+        "n": 1500,
+        "p": 30,
+        "k": 2,
+        "inf": 0.3,
+        "clusters": 2,
+        "sep": 1.5,
+        "flip": 0.03,
+        "noise": 0.3,
+        "weights": [
+          0.7,
+          0.30000000000000004
+        ],
+        "hetero": true
+      }
+    },
+    {
+      "name": "syn06_linear",
+      "origin": "synthetic",
+      "n": 1000,
+      "p": 10,
+      "k": 3,
+      "hetero": false,
+      "spec": {
+        "name": "syn06_linear",
+        "kind": "linear",
+        "seed": 1241076030,
+        "n": 1000,
+        "p": 10,
+        "k": 3,
+        "inf": 0.8,
+        "clusters": 1,
+        "sep": 1.0,
+        "flip": 0.0,
+        "noise": 0.3,
+        "weights": null,
+        "hetero": false
+      }
+    },
+    {
+      "name": "syn07_linear",
+      "origin": "synthetic",
+      "n": 1500,
+      "p": 10,
+      "k": 4,
+      "hetero": true,
+      "spec": {
+        "name": "syn07_linear",
+        "kind": "linear",
+        "seed": 978844551,
+        "n": 1500,
+        "p": 10,
+        "k": 4,
+        "inf": 0.8,
+        "clusters": 2,
+        "sep": 1.0,
+        "flip": 0.08,
+        "noise": 0.15,
+        "weights": null,
+        "hetero": true
+      }
+    },
+    {
+      "name": "syn08_moons",
+      "origin": "synthetic",
+      "n": 1000,
+      "p": 10,
+      "k": 2,
+      "hetero": false,
+      "spec": {
+        "name": "syn08_moons",
+        "kind": "moons",
+        "seed": 1833799524,
+        "n": 1000,
+        "p": 10,
+        "k": 2,
+        "inf": 0.3,
+        "clusters": 2,
+        "sep": 1.5,
+        "flip": 0.03,
+        "noise": 0.15,
+        "weights": [
+          0.85,
+          0.15000000000000002
+        ],
+        "hetero": false
+      }
+    },
+    {
+      "name": "syn09_linear",
+      "origin": "synthetic",
+      "n": 600,
+      "p": 6,
+      "k": 2,
+      "hetero": true,
+      "spec": {
+        "name": "syn09_linear",
+        "kind": "linear",
+        "seed": 578353525,
+        "n": 600,
+        "p": 6,
+        "k": 2,
+        "inf": 0.3,
+        "clusters": 1,
+        "sep": 1.5,
+        "flip": 0.03,
+        "noise": 0.3,
+        "weights": [
+          0.85,
+          0.15000000000000002
+        ],
+        "hetero": true
+      }
+    },
+    {
+      "name": "syn10_linear",
+      "origin": "synthetic",
+      "n": 600,
+      "p": 30,
+      "k": 2,
+      "hetero": false,
+      "spec": {
+        "name": "syn10_linear",
+        "kind": "linear",
+        "seed": 1815912898,
+        "n": 600,
+        "p": 30,
+        "k": 2,
+        "inf": 0.3,
+        "clusters": 1,
+        "sep": 1.0,
+        "flip": 0.08,
+        "noise": 0.3,
+        "weights": [
+          0.85,
+          0.15000000000000002
+        ],
+        "hetero": false
+      }
+    },
+    {
+      "name": "syn11_linear",
+      "origin": "synthetic",
+      "n": 1000,
+      "p": 30,
+      "k": 2,
+      "hetero": true,
+      "spec": {
+        "name": "syn11_linear",
+        "kind": "linear",
+        "seed": 1920557374,
+        "n": 1000,
+        "p": 30,
+        "k": 2,
+        "inf": 0.3,
+        "clusters": 1,
+        "sep": 1.0,
+        "flip": 0.08,
+        "noise": 0.3,
+        "weights": [
+          0.7,
+          0.30000000000000004
+        ],
+        "hetero": true
+      }
+    },
+    {
+      "name": "syn12_linear",
+      "origin": "synthetic",
+      "n": 1000,
+      "p": 20,
+      "k": 2,
+      "hetero": false,
+      "spec": {
+        "name": "syn12_linear",
+        "kind": "linear",
+        "seed": 596432306,
+        "n": 1000,
+        "p": 20,
+        "k": 2,
+        "inf": 0.3,
+        "clusters": 2,
+        "sep": 1.0,
+        "flip": 0.08,
+        "noise": 0.3,
+        "weights": [
+          0.7,
+          0.30000000000000004
+        ],
+        "hetero": false
+      }
+    },
+    {
+      "name": "syn13_linear",
+      "origin": "synthetic",
+      "n": 1500,
+      "p": 30,
+      "k": 4,
+      "hetero": true,
+      "spec": {
+        "name": "syn13_linear",
+        "kind": "linear",
+        "seed": 1204724245,
+        "n": 1500,
+        "p": 30,
+        "k": 4,
+        "inf": 0.5,
+        "clusters": 2,
+        "sep": 0.6,
+        "flip": 0.03,
+        "noise": 0.3,
+        "weights": null,
+        "hetero": true
+      }
+    },
+    {
+      "name": "syn14_xor",
+      "origin": "synthetic",
+      "n": 1000,
+      "p": 30,
+      "k": 2,
+      "hetero": false,
+      "spec": {
+        "name": "syn14_xor",
+        "kind": "xor",
+        "seed": 428176779,
+        "n": 1000,
+        "p": 30,
+        "k": 2,
+        "inf": 0.8,
+        "clusters": 2,
+        "sep": 0.6,
+        "flip": 0.0,
+        "noise": 0.15,
+        "weights": null,
+        "hetero": false
+      }
+    },
+    {
+      "name": "syn15_linear",
+      "origin": "synthetic",
+      "n": 300,
+      "p": 30,
+      "k": 4,
+      "hetero": true,
+      "spec": {
+        "name": "syn15_linear",
+        "kind": "linear",
+        "seed": 1040476413,
+        "n": 300,
+        "p": 30,
+        "k": 4,
+        "inf": 0.8,
+        "clusters": 1,
+        "sep": 0.6,
+        "flip": 0.03,
+        "noise": 0.3,
+        "weights": null,
+        "hetero": true
+      }
+    },
+    {
+      "name": "syn16_moons",
+      "origin": "synthetic",
+      "n": 1500,
+      "p": 20,
+      "k": 2,
+      "hetero": false,
+      "spec": {
+        "name": "syn16_moons",
+        "kind": "moons",
+        "seed": 418850111,
+        "n": 1500,
+        "p": 20,
+        "k": 2,
+        "inf": 0.8,
+        "clusters": 2,
+        "sep": 1.0,
+        "flip": 0.08,
+        "noise": 0.15,
+        "weights": [
+          0.85,
+          0.15000000000000002
+        ],
+        "hetero": false
+      }
+    },
+    {
+      "name": "syn17_linear",
+      "origin": "synthetic",
+      "n": 1500,
+      "p": 6,
+      "k": 2,
+      "hetero": true,
+      "spec": {
+        "name": "syn17_linear",
+        "kind": "linear",
+        "seed": 54931804,
+        "n": 1500,
+        "p": 6,
+        "k": 2,
+        "inf": 0.3,
+        "clusters": 1,
+        "sep": 0.6,
+        "flip": 0.0,
+        "noise": 0.15,
+        "weights": null,
+        "hetero": true
+      }
+    },
+    {
+      "name": "syn18_circles",
+      "origin": "synthetic",
+      "n": 300,
+      "p": 30,
+      "k": 2,
+      "hetero": false,
+      "spec": {
+        "name": "syn18_circles",
+        "kind": "circles",
+        "seed": 392722155,
+        "n": 300,
+        "p": 30,
+        "k": 2,
+        "inf": 0.8,
+        "clusters": 1,
+        "sep": 1.0,
+        "flip": 0.03,
+        "noise": 0.3,
+        "weights": [
+          0.7,
+          0.30000000000000004
+        ],
+        "hetero": false
+      }
+    },
+    {
+      "name": "syn19_linear",
+      "origin": "synthetic",
+      "n": 300,
+      "p": 20,
+      "k": 2,
+      "hetero": true,
+      "spec": {
+        "name": "syn19_linear",
+        "kind": "linear",
+        "seed": 769014784,
+        "n": 300,
+        "p": 20,
+        "k": 2,
+        "inf": 0.8,
+        "clusters": 1,
+        "sep": 1.5,
+        "flip": 0.0,
+        "noise": 0.3,
+        "weights": [
+          0.7,
+          0.30000000000000004
+        ],
+        "hetero": true
+      }
+    },
+    {
+      "name": "syn20_xor",
+      "origin": "synthetic",
+      "n": 600,
+      "p": 30,
+      "k": 2,
+      "hetero": false,
+      "spec": {
+        "name": "syn20_xor",
+        "kind": "xor",
+        "seed": 1193073886,
+        "n": 600,
+        "p": 30,
+        "k": 2,
+        "inf": 0.5,
+        "clusters": 1,
+        "sep": 1.0,
+        "flip": 0.03,
+        "noise": 0.3,
+        "weights": [
+          0.85,
+          0.15000000000000002
+        ],
+        "hetero": false
+      }
+    },
+    {
+      "name": "syn21_linear",
+      "origin": "synthetic",
+      "n": 300,
+      "p": 10,
+      "k": 2,
+      "hetero": true,
+      "spec": {
+        "name": "syn21_linear",
+        "kind": "linear",
+        "seed": 1275185200,
+        "n": 300,
+        "p": 10,
+        "k": 2,
+        "inf": 0.8,
+        "clusters": 1,
+        "sep": 0.6,
+        "flip": 0.03,
+        "noise": 0.3,
+        "weights": null,
+        "hetero": true
+      }
+    },
+    {
+      "name": "syn22_linear",
+      "origin": "synthetic",
+      "n": 1500,
+      "p": 6,
+      "k": 2,
+      "hetero": false,
+      "spec": {
+        "name": "syn22_linear",
+        "kind": "linear",
+        "seed": 1979425755,
+        "n": 1500,
+        "p": 6,
+        "k": 2,
+        "inf": 0.3,
+        "clusters": 2,
+        "sep": 1.5,
+        "flip": 0.0,
+        "noise": 0.3,
+        "weights": null,
+        "hetero": false
+      }
+    },
+    {
+      "name": "syn23_moons",
+      "origin": "synthetic",
+      "n": 300,
+      "p": 10,
+      "k": 2,
+      "hetero": true,
+      "spec": {
+        "name": "syn23_moons",
+        "kind": "moons",
+        "seed": 206505668,
+        "n": 300,
+        "p": 10,
+        "k": 2,
+        "inf": 0.8,
+        "clusters": 1,
+        "sep": 1.5,
+        "flip": 0.0,
+        "noise": 0.15,
+        "weights": [
+          0.85,
+          0.15000000000000002
+        ],
+        "hetero": true
+      }
+    },
+    {
+      "name": "syn24_circles",
+      "origin": "synthetic",
+      "n": 300,
+      "p": 10,
+      "k": 2,
+      "hetero": false,
+      "spec": {
+        "name": "syn24_circles",
+        "kind": "circles",
+        "seed": 1450208197,
+        "n": 300,
+        "p": 10,
+        "k": 2,
+        "inf": 0.3,
+        "clusters": 1,
+        "sep": 0.6,
+        "flip": 0.0,
+        "noise": 0.3,
+        "weights": null,
+        "hetero": false
+      }
+    },
+    {
+      "name": "syn25_linear",
+      "origin": "synthetic",
+      "n": 600,
+      "p": 20,
+      "k": 2,
+      "hetero": true,
+      "spec": {
+        "name": "syn25_linear",
+        "kind": "linear",
+        "seed": 277381275,
+        "n": 600,
+        "p": 20,
+        "k": 2,
+        "inf": 0.8,
+        "clusters": 2,
+        "sep": 0.6,
+        "flip": 0.03,
+        "noise": 0.3,
+        "weights": null,
+        "hetero": true
+      }
+    },
+    {
+      "name": "syn26_xor",
+      "origin": "synthetic",
+      "n": 1500,
+      "p": 20,
+      "k": 2,
+      "hetero": false,
+      "spec": {
+        "name": "syn26_xor",
+        "kind": "xor",
+        "seed": 1580711953,
+        "n": 1500,
+        "p": 20,
+        "k": 2,
+        "inf": 0.3,
+        "clusters": 2,
+        "sep": 0.6,
+        "flip": 0.03,
+        "noise": 0.15,
+        "weights": null,
+        "hetero": false
+      }
+    },
+    {
+      "name": "syn27_linear",
+      "origin": "synthetic",
+      "n": 300,
+      "p": 30,
+      "k": 2,
+      "hetero": true,
+      "spec": {
+        "name": "syn27_linear",
+        "kind": "linear",
+        "seed": 1308966335,
+        "n": 300,
+        "p": 30,
+        "k": 2,
+        "inf": 0.5,
+        "clusters": 2,
+        "sep": 0.6,
+        "flip": 0.03,
+        "noise": 0.15,
+        "weights": null,
+        "hetero": true
+      }
+    },
+    {
+      "name": "syn28_linear",
+      "origin": "synthetic",
+      "n": 600,
+      "p": 6,
+      "k": 4,
+      "hetero": false,
+      "spec": {
+        "name": "syn28_linear",
+        "kind": "linear",
+        "seed": 1678897324,
+        "n": 600,
+        "p": 6,
+        "k": 4,
+        "inf": 0.5,
+        "clusters": 1,
+        "sep": 0.6,
+        "flip": 0.03,
+        "noise": 0.3,
+        "weights": null,
+        "hetero": false
+      }
+    },
+    {
+      "name": "syn29_linear",
+      "origin": "synthetic",
+      "n": 300,
+      "p": 20,
+      "k": 4,
+      "hetero": true,
+      "spec": {
+        "name": "syn29_linear",
+        "kind": "linear",
+        "seed": 273631257,
+        "n": 300,
+        "p": 20,
+        "k": 4,
+        "inf": 0.5,
+        "clusters": 2,
+        "sep": 1.0,
+        "flip": 0.03,
+        "noise": 0.15,
+        "weights": null,
+        "hetero": true
+      }
+    },
+    {
+      "name": "syn30_moons",
+      "origin": "synthetic",
+      "n": 1000,
+      "p": 30,
+      "k": 2,
+      "hetero": false,
+      "spec": {
+        "name": "syn30_moons",
+        "kind": "moons",
+        "seed": 1974820380,
+        "n": 1000,
+        "p": 30,
+        "k": 2,
+        "inf": 0.3,
+        "clusters": 2,
+        "sep": 1.5,
+        "flip": 0.08,
+        "noise": 0.15,
+        "weights": [
+          0.7,
+          0.30000000000000004
+        ],
+        "hetero": false
+      }
+    },
+    {
+      "name": "syn31_circles",
+      "origin": "synthetic",
+      "n": 600,
+      "p": 20,
+      "k": 2,
+      "hetero": true,
+      "spec": {
+        "name": "syn31_circles",
+        "kind": "circles",
+        "seed": 741417176,
+        "n": 600,
+        "p": 20,
+        "k": 2,
+        "inf": 0.8,
+        "clusters": 2,
+        "sep": 0.6,
+        "flip": 0.03,
+        "noise": 0.15,
+        "weights": null,
+        "hetero": true
+      }
+    },
+    {
+      "name": "syn32_linear",
+      "origin": "synthetic",
+      "n": 300,
+      "p": 6,
+      "k": 2,
+      "hetero": false,
+      "spec": {
+        "name": "syn32_linear",
+        "kind": "linear",
+        "seed": 1001014640,
+        "n": 300,
+        "p": 6,
+        "k": 2,
+        "inf": 0.3,
+        "clusters": 2,
+        "sep": 1.0,
+        "flip": 0.03,
+        "noise": 0.3,
+        "weights": [
+          0.7,
+          0.30000000000000004
+        ],
+        "hetero": false
+      }
+    },
+    {
+      "name": "syn33_linear",
+      "origin": "synthetic",
+      "n": 600,
+      "p": 10,
+      "k": 2,
+      "hetero": true,
+      "spec": {
+        "name": "syn33_linear",
+        "kind": "linear",
+        "seed": 426759853,
+        "n": 600,
+        "p": 10,
+        "k": 2,
+        "inf": 0.3,
+        "clusters": 2,
+        "sep": 1.0,
+        "flip": 0.0,
+        "noise": 0.15,
+        "weights": null,
+        "hetero": true
+      }
+    },
+    {
+      "name": "syn34_linear",
+      "origin": "synthetic",
+      "n": 1500,
+      "p": 10,
+      "k": 2,
+      "hetero": false,
+      "spec": {
+        "name": "syn34_linear",
+        "kind": "linear",
+        "seed": 647370014,
+        "n": 1500,
+        "p": 10,
+        "k": 2,
+        "inf": 0.5,
+        "clusters": 1,
+        "sep": 0.6,
+        "flip": 0.0,
+        "noise": 0.15,
+        "weights": null,
+        "hetero": false
+      }
+    },
+    {
+      "name": "syn35_xor",
+      "origin": "synthetic",
+      "n": 1000,
+      "p": 20,
+      "k": 2,
+      "hetero": true,
+      "spec": {
+        "name": "syn35_xor",
+        "kind": "xor",
+        "seed": 754309959,
+        "n": 1000,
+        "p": 20,
+        "k": 2,
+        "inf": 0.8,
+        "clusters": 1,
+        "sep": 0.6,
+        "flip": 0.08,
+        "noise": 0.3,
+        "weights": null,
+        "hetero": true
+      }
+    },
+    {
+      "name": "syn36_xor",
+      "origin": "synthetic",
+      "n": 600,
+      "p": 30,
+      "k": 2,
+      "hetero": false,
+      "spec": {
+        "name": "syn36_xor",
+        "kind": "xor",
+        "seed": 883547016,
+        "n": 600,
+        "p": 30,
+        "k": 2,
+        "inf": 0.8,
+        "clusters": 2,
+        "sep": 0.6,
+        "flip": 0.0,
+        "noise": 0.3,
+        "weights": null,
+        "hetero": false
+      }
+    },
+    {
+      "name": "syn37_xor",
+      "origin": "synthetic",
+      "n": 1000,
+      "p": 20,
+      "k": 2,
+      "hetero": true,
+      "spec": {
+        "name": "syn37_xor",
+        "kind": "xor",
+        "seed": 2137925620,
+        "n": 1000,
+        "p": 20,
+        "k": 2,
+        "inf": 0.5,
+        "clusters": 1,
+        "sep": 1.5,
+        "flip": 0.03,
+        "noise": 0.3,
+        "weights": null,
+        "hetero": true
+      }
+    },
+    {
+      "name": "syn38_linear",
+      "origin": "synthetic",
+      "n": 300,
+      "p": 6,
+      "k": 4,
+      "hetero": false,
+      "spec": {
+        "name": "syn38_linear",
+        "kind": "linear",
+        "seed": 1312213497,
+        "n": 300,
+        "p": 6,
+        "k": 4,
+        "inf": 0.3,
+        "clusters": 1,
+        "sep": 0.6,
+        "flip": 0.08,
+        "noise": 0.15,
+        "weights": null,
+        "hetero": false
+      }
+    },
+    {
+      "name": "syn39_moons",
+      "origin": "synthetic",
+      "n": 1500,
+      "p": 6,
+      "k": 2,
+      "hetero": true,
+      "spec": {
+        "name": "syn39_moons",
+        "kind": "moons",
+        "seed": 1327230516,
+        "n": 1500,
+        "p": 6,
+        "k": 2,
+        "inf": 0.5,
+        "clusters": 1,
+        "sep": 1.5,
+        "flip": 0.03,
+        "noise": 0.3,
+        "weights": [
+          0.7,
+          0.30000000000000004
+        ],
+        "hetero": true
+      }
+    }
+  ]
+}

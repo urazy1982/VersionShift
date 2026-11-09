@@ -1,0 +1,46 @@
+{
+  "0.21.3:0.22.2.post1": {
+    "D": {
+      "complete_case_datasets": 63,
+      "mean_M_pp": 5.006712451138972,
+      "affected_M_gt_0_5": 59
+    },
+    "E": {
+      "complete_case_datasets": 63,
+      "mean_M_pp": 0.5904352110791771,
+      "affected_M_gt_0_5": 11
+    },
+    "P": {
+      "complete_case_datasets": 0,
+      "mean_M_pp": null,
+      "affected_M_gt_0_5": null
+    },
+    "S": {
+      "complete_case_datasets": 0,
+      "mean_M_pp": null,
+      "affected_M_gt_0_5": null
+    }
+  },
+  "1.8.0:1.9.1": {
+    "D": {
+      "complete_case_datasets": 63,
+      "mean_M_pp": 0.05130978037259268,
+      "affected_M_gt_0_5": 0
+    },
+    "E": {
+      "complete_case_datasets": 63,
+      "mean_M_pp": 0.045912917312793754,
+      "affected_M_gt_0_5": 0
+    },
+    "P": {
+      "complete_case_datasets": 0,
+      "mean_M_pp": null,
+      "affected_M_gt_0_5": null
+    },
+    "S": {
+      "complete_case_datasets": 63,
+      "mean_M_pp": 0.05130978037259268,
+      "affected_M_gt_0_5": 0
+    }
+  }
+}

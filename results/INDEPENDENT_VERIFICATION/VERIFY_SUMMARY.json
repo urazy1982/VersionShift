@@ -1,0 +1,1091 @@
+{
+  "created": "2026-11-08T14:46:32+0300",
+  "tool": "vs_verify_independent.py",
+  "runs": {
+    "AA_0213": {
+      "kind": "AA",
+      "job_pairs": 96,
+      "pairs_with_difference": 0,
+      "missing_pairs": 0,
+      "status": "PASS"
+    },
+    "AA_0_21_3": {
+      "kind": "AA",
+      "job_pairs": 96,
+      "pairs_with_difference": 0,
+      "missing_pairs": 0,
+      "status": "PASS"
+    },
+    "AA_0_22_2_post1": {
+      "kind": "AA",
+      "job_pairs": 96,
+      "pairs_with_difference": 0,
+      "missing_pairs": 0,
+      "status": "PASS"
+    },
+    "AA_1_8_0": {
+      "kind": "AA",
+      "job_pairs": 96,
+      "pairs_with_difference": 0,
+      "missing_pairs": 0,
+      "status": "PASS"
+    },
+    "AA_1_9_1": {
+      "kind": "AA",
+      "job_pairs": 96,
+      "pairs_with_difference": 0,
+      "missing_pairs": 0,
+      "status": "PASS"
+    },
+    "EDGE_0213_0222": {
+      "kind": "cross_release",
+      "edges": [
+        {
+          "old": "0.21.3",
+          "new": "0.22.2.post1",
+          "K_complete": 16,
+          "incomplete": [],
+          "M_pp": 3.8116037394828792,
+          "M_sd": 3.4314966245640615,
+          "datasets_M_gt_0_25": 16,
+          "datasets_M_gt_0_5": 15,
+          "datasets_M_gt_1_0": 13,
+          "O1_best_algorithm_changes": 6,
+          "O1_share": 0.375,
+          "O1_examples": [
+            {
+              "dataset": "openml_125922",
+              "best_old": "HGB",
+              "best_new": "SVC"
+            },
+            {
+              "dataset": "openml_146824",
+              "best_old": "kNN",
+              "best_new": "SVC"
+            },
+            {
+              "dataset": "openml_14952",
+              "best_old": "HGB",
+              "best_new": "RF"
+            },
+            {
+              "dataset": "openml_16",
+              "best_old": "kNN",
+              "best_new": "SVC"
+            },
+            {
+              "dataset": "openml_28",
+              "best_old": "kNN",
+              "best_new": "SVC"
+            },
+            {
+              "dataset": "openml_9985",
+              "best_old": "HGB",
+              "best_new": "RF"
+            }
+          ],
+          "O2_pair_flips": 47,
+          "O2_pair_units": 240,
+          "O2_datasets_with_flip": 16,
+          "O3_material_flips_ge_1pp": 15,
+          "O3_datasets_with_material_flip": 8,
+          "O4_mean_rank_old": {
+            "LR": 4.25,
+            "SVC": 5.375,
+            "kNN": 3.6875,
+            "RF": 3.625,
+            "GB": 2.5,
+            "HGB": 1.5625
+          },
+          "O4_mean_rank_new": {
+            "LR": 4.875,
+            "SVC": 4.25,
+            "kNN": 3.8125,
+            "RF": 2.9375,
+            "GB": 3.125,
+            "HGB": 2.0
+          },
+          "O4_order_old": [
+            "HGB",
+            "GB",
+            "RF",
+            "kNN",
+            "LR",
+            "SVC"
+          ],
+          "O4_order_new": [
+            "HGB",
+            "RF",
+            "GB",
+            "kNN",
+            "SVC",
+            "LR"
+          ],
+          "O4_order_changed": true,
+          "mean_ba_change_by_algo_pp": {
+            "LR": -1.7457354277277577,
+            "SVC": 4.361821767987326,
+            "kNN": 0.0,
+            "RF": 1.8715960165323389,
+            "GB": 0.009370959290664338,
+            "HGB": -0.017228641019547908
+          },
+          "status": "MEASURED"
+        }
+      ]
+    },
+    "EDGE_0213_0222_REVERSE": {
+      "kind": "reverse_or_policy_only",
+      "note": "no policy D; not an edge comparison",
+      "policies": [
+        "P"
+      ]
+    },
+    "EDGE_180_190": {
+      "kind": "cross_release",
+      "edges": [
+        {
+          "old": "1.8.0",
+          "new": "1.9.1",
+          "K_complete": 16,
+          "incomplete": [],
+          "M_pp": 0.038374583863548244,
+          "M_sd": 0.03916393891082605,
+          "datasets_M_gt_0_25": 0,
+          "datasets_M_gt_0_5": 0,
+          "datasets_M_gt_1_0": 0,
+          "O1_best_algorithm_changes": 0,
+          "O1_share": 0.0,
+          "O1_examples": [],
+          "O2_pair_flips": 0,
+          "O2_pair_units": 240,
+          "O2_datasets_with_flip": 0,
+          "O3_material_flips_ge_1pp": 0,
+          "O3_datasets_with_material_flip": 0,
+          "O4_mean_rank_old": {
+            "LR": 4.8125,
+            "SVC": 4.25,
+            "kNN": 3.9375,
+            "RF": 2.875,
+            "GB": 3.125,
+            "HGB": 2.0
+          },
+          "O4_mean_rank_new": {
+            "LR": 4.8125,
+            "SVC": 4.25,
+            "kNN": 3.9375,
+            "RF": 2.875,
+            "GB": 3.125,
+            "HGB": 2.0
+          },
+          "O4_order_old": [
+            "HGB",
+            "RF",
+            "GB",
+            "kNN",
+            "SVC",
+            "LR"
+          ],
+          "O4_order_new": [
+            "HGB",
+            "RF",
+            "GB",
+            "kNN",
+            "SVC",
+            "LR"
+          ],
+          "O4_order_changed": false,
+          "mean_ba_change_by_algo_pp": {
+            "LR": 0.0,
+            "SVC": 0.0,
+            "kNN": 0.0,
+            "RF": 0.0,
+            "GB": 0.00649206734596941,
+            "HGB": 0.06254888629397692
+          },
+          "status": "MEASURED"
+        }
+      ]
+    },
+    "EDGE_180_190_REVERSE": {
+      "kind": "reverse_or_policy_only",
+      "note": "no policy D; not an edge comparison",
+      "policies": [
+        "P"
+      ]
+    },
+    "STAGE_C47_NEG": {
+      "kind": "cross_release",
+      "edges": [
+        {
+          "old": "1.8.0",
+          "new": "1.9.1",
+          "K_complete": 47,
+          "incomplete": [],
+          "M_pp": 0.0557132515246073,
+          "M_sd": 0.09082804526311697,
+          "datasets_M_gt_0_25": 3,
+          "datasets_M_gt_0_5": 0,
+          "datasets_M_gt_1_0": 0,
+          "O1_best_algorithm_changes": 0,
+          "O1_share": 0.0,
+          "O1_examples": [],
+          "O2_pair_flips": 6,
+          "O2_pair_units": 705,
+          "O2_datasets_with_flip": 5,
+          "O3_material_flips_ge_1pp": 0,
+          "O3_datasets_with_material_flip": 0,
+          "O4_mean_rank_old": {
+            "LR": 4.2872,
+            "SVC": 4.3191,
+            "kNN": 4.4043,
+            "RF": 3.0,
+            "GB": 3.0957,
+            "HGB": 1.8936
+          },
+          "O4_mean_rank_new": {
+            "LR": 4.2979,
+            "SVC": 4.2979,
+            "kNN": 4.4043,
+            "RF": 3.0,
+            "GB": 3.1277,
+            "HGB": 1.8723
+          },
+          "O4_order_old": [
+            "HGB",
+            "RF",
+            "GB",
+            "LR",
+            "SVC",
+            "kNN"
+          ],
+          "O4_order_new": [
+            "HGB",
+            "RF",
+            "GB",
+            "LR",
+            "SVC",
+            "kNN"
+          ],
+          "O4_order_changed": false,
+          "mean_ba_change_by_algo_pp": {
+            "LR": 0.0,
+            "SVC": 0.0,
+            "kNN": 0.0,
+            "RF": 0.0,
+            "GB": -0.0001558951525862963,
+            "HGB": 0.0040173794730723016
+          },
+          "status": "MEASURED"
+        }
+      ]
+    },
+    "STAGE_C47_NEG_REVERSE": {
+      "kind": "reverse_or_policy_only",
+      "note": "no policy D; not an edge comparison",
+      "policies": [
+        "P"
+      ]
+    },
+    "STAGE_C47_POS": {
+      "kind": "cross_release",
+      "edges": [
+        {
+          "old": "0.21.3",
+          "new": "0.22.2.post1",
+          "K_complete": 47,
+          "incomplete": [],
+          "M_pp": 5.41355797000062,
+          "M_sd": 6.791955083098311,
+          "datasets_M_gt_0_25": 46,
+          "datasets_M_gt_0_5": 44,
+          "datasets_M_gt_1_0": 37,
+          "O1_best_algorithm_changes": 19,
+          "O1_share": 0.40425531914893614,
+          "O1_examples": [
+            {
+              "dataset": "openml_10093",
+              "best_old": "SVC",
+              "best_new": "kNN"
+            },
+            {
+              "dataset": "openml_11",
+              "best_old": "HGB",
+              "best_new": "SVC"
+            },
+            {
+              "dataset": "openml_12",
+              "best_old": "LR",
+              "best_new": "HGB"
+            },
+            {
+              "dataset": "openml_14",
+              "best_old": "HGB",
+              "best_new": "SVC"
+            },
+            {
+              "dataset": "openml_146800",
+              "best_old": "HGB",
+              "best_new": "RF"
+            },
+            {
+              "dataset": "openml_167120",
+              "best_old": "SVC",
+              "best_new": "LR"
+            },
+            {
+              "dataset": "openml_18",
+              "best_old": "GB",
+              "best_new": "RF"
+            },
+            {
+              "dataset": "openml_22",
+              "best_old": "kNN",
+              "best_new": "SVC"
+            },
+            {
+              "dataset": "openml_29",
+              "best_old": "LR",
+              "best_new": "RF"
+            },
+            {
+              "dataset": "openml_3022",
+              "best_old": "HGB",
+              "best_new": "RF"
+            },
+            {
+              "dataset": "openml_31",
+              "best_old": "LR",
+              "best_new": "HGB"
+            },
+            {
+              "dataset": "openml_32",
+              "best_old": "kNN",
+              "best_new": "SVC"
+            },
+            {
+              "dataset": "openml_3560",
+              "best_old": "SVC",
+              "best_new": "LR"
+            },
+            {
+              "dataset": "openml_45",
+              "best_old": "GB",
+              "best_new": "SVC"
+            },
+            {
+              "dataset": "openml_53",
+              "best_old": "LR",
+              "best_new": "HGB"
+            },
+            {
+              "dataset": "openml_6",
+              "best_old": "SVC",
+              "best_new": "HGB"
+            },
+            {
+              "dataset": "openml_9952",
+              "best_old": "HGB",
+              "best_new": "RF"
+            },
+            {
+              "dataset": "openml_9957",
+              "best_old": "LR",
+              "best_new": "HGB"
+            },
+            {
+              "dataset": "openml_9964",
+              "best_old": "HGB",
+              "best_new": "SVC"
+            }
+          ],
+          "O2_pair_flips": 118,
+          "O2_pair_units": 705,
+          "O2_datasets_with_flip": 41,
+          "O3_material_flips_ge_1pp": 41,
+          "O3_datasets_with_material_flip": 24,
+          "O4_mean_rank_old": {
+            "LR": 3.766,
+            "SVC": 4.8298,
+            "kNN": 4.2872,
+            "RF": 3.7553,
+            "GB": 2.7234,
+            "HGB": 1.6383
+          },
+          "O4_mean_rank_new": {
+            "LR": 4.2766,
+            "SVC": 4.3404,
+            "kNN": 4.3404,
+            "RF": 3.0213,
+            "GB": 3.1064,
+            "HGB": 1.9149
+          },
+          "O4_order_old": [
+            "HGB",
+            "GB",
+            "RF",
+            "LR",
+            "kNN",
+            "SVC"
+          ],
+          "O4_order_new": [
+            "HGB",
+            "RF",
+            "GB",
+            "LR",
+            "SVC",
+            "kNN"
+          ],
+          "O4_order_changed": true,
+          "mean_ba_change_by_algo_pp": {
+            "LR": 0.0652304044627114,
+            "SVC": 9.342896965848166,
+            "kNN": 0.0,
+            "RF": 1.8855967464616032,
+            "GB": 0.00942177750995178,
+            "HGB": -0.01874276877611829
+          },
+          "status": "MEASURED"
+        }
+      ]
+    },
+    "STAGE_C47_POS_REVERSE": {
+      "kind": "reverse_or_policy_only",
+      "note": "no policy D; not an edge comparison",
+      "policies": [
+        "P"
+      ]
+    }
+  },
+  "frames": {
+    "FULL63_0.21.3:0.22.2.post1": {
+      "old": "0.21.3",
+      "new": "0.22.2.post1",
+      "K_complete": 63,
+      "incomplete": [],
+      "M_pp": 5.006712451138972,
+      "M_sd": 6.129344758840426,
+      "datasets_M_gt_0_25": 62,
+      "datasets_M_gt_0_5": 59,
+      "datasets_M_gt_1_0": 50,
+      "O1_best_algorithm_changes": 25,
+      "O1_share": 0.3968253968253968,
+      "O1_examples": [
+        {
+          "dataset": "openml_10093",
+          "best_old": "SVC",
+          "best_new": "kNN"
+        },
+        {
+          "dataset": "openml_11",
+          "best_old": "HGB",
+          "best_new": "SVC"
+        },
+        {
+          "dataset": "openml_12",
+          "best_old": "LR",
+          "best_new": "HGB"
+        },
+        {
+          "dataset": "openml_125922",
+          "best_old": "HGB",
+          "best_new": "SVC"
+        },
+        {
+          "dataset": "openml_14",
+          "best_old": "HGB",
+          "best_new": "SVC"
+        },
+        {
+          "dataset": "openml_146800",
+          "best_old": "HGB",
+          "best_new": "RF"
+        },
+        {
+          "dataset": "openml_146824",
+          "best_old": "kNN",
+          "best_new": "SVC"
+        },
+        {
+          "dataset": "openml_14952",
+          "best_old": "HGB",
+          "best_new": "RF"
+        },
+        {
+          "dataset": "openml_16",
+          "best_old": "kNN",
+          "best_new": "SVC"
+        },
+        {
+          "dataset": "openml_167120",
+          "best_old": "SVC",
+          "best_new": "LR"
+        },
+        {
+          "dataset": "openml_18",
+          "best_old": "GB",
+          "best_new": "RF"
+        },
+        {
+          "dataset": "openml_22",
+          "best_old": "kNN",
+          "best_new": "SVC"
+        },
+        {
+          "dataset": "openml_28",
+          "best_old": "kNN",
+          "best_new": "SVC"
+        },
+        {
+          "dataset": "openml_29",
+          "best_old": "LR",
+          "best_new": "RF"
+        },
+        {
+          "dataset": "openml_3022",
+          "best_old": "HGB",
+          "best_new": "RF"
+        },
+        {
+          "dataset": "openml_31",
+          "best_old": "LR",
+          "best_new": "HGB"
+        },
+        {
+          "dataset": "openml_32",
+          "best_old": "kNN",
+          "best_new": "SVC"
+        },
+        {
+          "dataset": "openml_3560",
+          "best_old": "SVC",
+          "best_new": "LR"
+        },
+        {
+          "dataset": "openml_45",
+          "best_old": "GB",
+          "best_new": "SVC"
+        },
+        {
+          "dataset": "openml_53",
+          "best_old": "LR",
+          "best_new": "HGB"
+        },
+        {
+          "dataset": "openml_6",
+          "best_old": "SVC",
+          "best_new": "HGB"
+        },
+        {
+          "dataset": "openml_9952",
+          "best_old": "HGB",
+          "best_new": "RF"
+        },
+        {
+          "dataset": "openml_9957",
+          "best_old": "LR",
+          "best_new": "HGB"
+        },
+        {
+          "dataset": "openml_9964",
+          "best_old": "HGB",
+          "best_new": "SVC"
+        },
+        {
+          "dataset": "openml_9985",
+          "best_old": "HGB",
+          "best_new": "RF"
+        }
+      ],
+      "O2_pair_flips": 165,
+      "O2_pair_units": 945,
+      "O2_datasets_with_flip": 57,
+      "O3_material_flips_ge_1pp": 56,
+      "O3_datasets_with_material_flip": 32,
+      "O4_mean_rank_old": {
+        "LR": 3.8889,
+        "SVC": 4.9683,
+        "kNN": 4.1349,
+        "RF": 3.7222,
+        "GB": 2.6667,
+        "HGB": 1.619
+      },
+      "O4_mean_rank_new": {
+        "LR": 4.4286,
+        "SVC": 4.3175,
+        "kNN": 4.2063,
+        "RF": 3.0,
+        "GB": 3.1111,
+        "HGB": 1.9365
+      },
+      "O4_order_old": [
+        "HGB",
+        "GB",
+        "RF",
+        "LR",
+        "kNN",
+        "SVC"
+      ],
+      "O4_order_new": [
+        "HGB",
+        "RF",
+        "GB",
+        "kNN",
+        "SVC",
+        "LR"
+      ],
+      "O4_order_changed": true,
+      "mean_ba_change_by_algo_pp": {
+        "LR": -0.39469742593486806,
+        "SVC": 8.077861994962873,
+        "kNN": 0.0,
+        "RF": 1.8820410055271868,
+        "GB": 0.009408871295529572,
+        "HGB": -0.018358228393497242
+      },
+      "status": "MEASURED",
+      "kit_M_pp": 5.006712451138972,
+      "cross_check": "MATCH"
+    },
+    "HOLDOUT47_0.21.3:0.22.2.post1": {
+      "old": "0.21.3",
+      "new": "0.22.2.post1",
+      "K_complete": 47,
+      "incomplete": [],
+      "M_pp": 5.41355797000062,
+      "M_sd": 6.791955083098311,
+      "datasets_M_gt_0_25": 46,
+      "datasets_M_gt_0_5": 44,
+      "datasets_M_gt_1_0": 37,
+      "O1_best_algorithm_changes": 19,
+      "O1_share": 0.40425531914893614,
+      "O1_examples": [
+        {
+          "dataset": "openml_10093",
+          "best_old": "SVC",
+          "best_new": "kNN"
+        },
+        {
+          "dataset": "openml_11",
+          "best_old": "HGB",
+          "best_new": "SVC"
+        },
+        {
+          "dataset": "openml_12",
+          "best_old": "LR",
+          "best_new": "HGB"
+        },
+        {
+          "dataset": "openml_14",
+          "best_old": "HGB",
+          "best_new": "SVC"
+        },
+        {
+          "dataset": "openml_146800",
+          "best_old": "HGB",
+          "best_new": "RF"
+        },
+        {
+          "dataset": "openml_167120",
+          "best_old": "SVC",
+          "best_new": "LR"
+        },
+        {
+          "dataset": "openml_18",
+          "best_old": "GB",
+          "best_new": "RF"
+        },
+        {
+          "dataset": "openml_22",
+          "best_old": "kNN",
+          "best_new": "SVC"
+        },
+        {
+          "dataset": "openml_29",
+          "best_old": "LR",
+          "best_new": "RF"
+        },
+        {
+          "dataset": "openml_3022",
+          "best_old": "HGB",
+          "best_new": "RF"
+        },
+        {
+          "dataset": "openml_31",
+          "best_old": "LR",
+          "best_new": "HGB"
+        },
+        {
+          "dataset": "openml_32",
+          "best_old": "kNN",
+          "best_new": "SVC"
+        },
+        {
+          "dataset": "openml_3560",
+          "best_old": "SVC",
+          "best_new": "LR"
+        },
+        {
+          "dataset": "openml_45",
+          "best_old": "GB",
+          "best_new": "SVC"
+        },
+        {
+          "dataset": "openml_53",
+          "best_old": "LR",
+          "best_new": "HGB"
+        },
+        {
+          "dataset": "openml_6",
+          "best_old": "SVC",
+          "best_new": "HGB"
+        },
+        {
+          "dataset": "openml_9952",
+          "best_old": "HGB",
+          "best_new": "RF"
+        },
+        {
+          "dataset": "openml_9957",
+          "best_old": "LR",
+          "best_new": "HGB"
+        },
+        {
+          "dataset": "openml_9964",
+          "best_old": "HGB",
+          "best_new": "SVC"
+        }
+      ],
+      "O2_pair_flips": 118,
+      "O2_pair_units": 705,
+      "O2_datasets_with_flip": 41,
+      "O3_material_flips_ge_1pp": 41,
+      "O3_datasets_with_material_flip": 24,
+      "O4_mean_rank_old": {
+        "LR": 3.766,
+        "SVC": 4.8298,
+        "kNN": 4.2872,
+        "RF": 3.7553,
+        "GB": 2.7234,
+        "HGB": 1.6383
+      },
+      "O4_mean_rank_new": {
+        "LR": 4.2766,
+        "SVC": 4.3404,
+        "kNN": 4.3404,
+        "RF": 3.0213,
+        "GB": 3.1064,
+        "HGB": 1.9149
+      },
+      "O4_order_old": [
+        "HGB",
+        "GB",
+        "RF",
+        "LR",
+        "kNN",
+        "SVC"
+      ],
+      "O4_order_new": [
+        "HGB",
+        "RF",
+        "GB",
+        "LR",
+        "SVC",
+        "kNN"
+      ],
+      "O4_order_changed": true,
+      "mean_ba_change_by_algo_pp": {
+        "LR": 0.0652304044627114,
+        "SVC": 9.342896965848166,
+        "kNN": 0.0,
+        "RF": 1.8855967464616032,
+        "GB": 0.00942177750995178,
+        "HGB": -0.01874276877611829
+      },
+      "status": "MEASURED",
+      "kit_M_pp": 5.413557970000621,
+      "cross_check": "MATCH"
+    },
+    "PILOT16_0.21.3:0.22.2.post1": {
+      "old": "0.21.3",
+      "new": "0.22.2.post1",
+      "K_complete": 16,
+      "incomplete": [],
+      "M_pp": 3.8116037394828792,
+      "M_sd": 3.4314966245640615,
+      "datasets_M_gt_0_25": 16,
+      "datasets_M_gt_0_5": 15,
+      "datasets_M_gt_1_0": 13,
+      "O1_best_algorithm_changes": 6,
+      "O1_share": 0.375,
+      "O1_examples": [
+        {
+          "dataset": "openml_125922",
+          "best_old": "HGB",
+          "best_new": "SVC"
+        },
+        {
+          "dataset": "openml_146824",
+          "best_old": "kNN",
+          "best_new": "SVC"
+        },
+        {
+          "dataset": "openml_14952",
+          "best_old": "HGB",
+          "best_new": "RF"
+        },
+        {
+          "dataset": "openml_16",
+          "best_old": "kNN",
+          "best_new": "SVC"
+        },
+        {
+          "dataset": "openml_28",
+          "best_old": "kNN",
+          "best_new": "SVC"
+        },
+        {
+          "dataset": "openml_9985",
+          "best_old": "HGB",
+          "best_new": "RF"
+        }
+      ],
+      "O2_pair_flips": 47,
+      "O2_pair_units": 240,
+      "O2_datasets_with_flip": 16,
+      "O3_material_flips_ge_1pp": 15,
+      "O3_datasets_with_material_flip": 8,
+      "O4_mean_rank_old": {
+        "LR": 4.25,
+        "SVC": 5.375,
+        "kNN": 3.6875,
+        "RF": 3.625,
+        "GB": 2.5,
+        "HGB": 1.5625
+      },
+      "O4_mean_rank_new": {
+        "LR": 4.875,
+        "SVC": 4.25,
+        "kNN": 3.8125,
+        "RF": 2.9375,
+        "GB": 3.125,
+        "HGB": 2.0
+      },
+      "O4_order_old": [
+        "HGB",
+        "GB",
+        "RF",
+        "kNN",
+        "LR",
+        "SVC"
+      ],
+      "O4_order_new": [
+        "HGB",
+        "RF",
+        "GB",
+        "kNN",
+        "SVC",
+        "LR"
+      ],
+      "O4_order_changed": true,
+      "mean_ba_change_by_algo_pp": {
+        "LR": -1.7457354277277577,
+        "SVC": 4.361821767987326,
+        "kNN": 0.0,
+        "RF": 1.8715960165323389,
+        "GB": 0.009370959290664338,
+        "HGB": -0.017228641019547908
+      },
+      "status": "MEASURED"
+    },
+    "FULL63_1.8.0:1.9.1": {
+      "old": "1.8.0",
+      "new": "1.9.1",
+      "K_complete": 63,
+      "incomplete": [],
+      "M_pp": 0.051309780372592304,
+      "M_sd": 0.08093041933085747,
+      "datasets_M_gt_0_25": 3,
+      "datasets_M_gt_0_5": 0,
+      "datasets_M_gt_1_0": 0,
+      "O1_best_algorithm_changes": 0,
+      "O1_share": 0.0,
+      "O1_examples": [],
+      "O2_pair_flips": 6,
+      "O2_pair_units": 945,
+      "O2_datasets_with_flip": 5,
+      "O3_material_flips_ge_1pp": 0,
+      "O3_datasets_with_material_flip": 0,
+      "O4_mean_rank_old": {
+        "LR": 4.4206,
+        "SVC": 4.3016,
+        "kNN": 4.2857,
+        "RF": 2.9683,
+        "GB": 3.1032,
+        "HGB": 1.9206
+      },
+      "O4_mean_rank_new": {
+        "LR": 4.4286,
+        "SVC": 4.2857,
+        "kNN": 4.2857,
+        "RF": 2.9683,
+        "GB": 3.127,
+        "HGB": 1.9048
+      },
+      "O4_order_old": [
+        "HGB",
+        "RF",
+        "GB",
+        "kNN",
+        "SVC",
+        "LR"
+      ],
+      "O4_order_new": [
+        "HGB",
+        "RF",
+        "GB",
+        "SVC",
+        "kNN",
+        "LR"
+      ],
+      "O4_order_changed": true,
+      "mean_ba_change_by_algo_pp": {
+        "LR": 0.0,
+        "SVC": 0.0,
+        "kNN": 0.0,
+        "RF": 0.0,
+        "GB": 0.0015324762756183275,
+        "HGB": 0.018882524062508396
+      },
+      "status": "MEASURED",
+      "kit_M_pp": 0.05130978037259268,
+      "cross_check": "MATCH"
+    },
+    "HOLDOUT47_1.8.0:1.9.1": {
+      "old": "1.8.0",
+      "new": "1.9.1",
+      "K_complete": 47,
+      "incomplete": [],
+      "M_pp": 0.0557132515246073,
+      "M_sd": 0.09082804526311697,
+      "datasets_M_gt_0_25": 3,
+      "datasets_M_gt_0_5": 0,
+      "datasets_M_gt_1_0": 0,
+      "O1_best_algorithm_changes": 0,
+      "O1_share": 0.0,
+      "O1_examples": [],
+      "O2_pair_flips": 6,
+      "O2_pair_units": 705,
+      "O2_datasets_with_flip": 5,
+      "O3_material_flips_ge_1pp": 0,
+      "O3_datasets_with_material_flip": 0,
+      "O4_mean_rank_old": {
+        "LR": 4.2872,
+        "SVC": 4.3191,
+        "kNN": 4.4043,
+        "RF": 3.0,
+        "GB": 3.0957,
+        "HGB": 1.8936
+      },
+      "O4_mean_rank_new": {
+        "LR": 4.2979,
+        "SVC": 4.2979,
+        "kNN": 4.4043,
+        "RF": 3.0,
+        "GB": 3.1277,
+        "HGB": 1.8723
+      },
+      "O4_order_old": [
+        "HGB",
+        "RF",
+        "GB",
+        "LR",
+        "SVC",
+        "kNN"
+      ],
+      "O4_order_new": [
+        "HGB",
+        "RF",
+        "GB",
+        "LR",
+        "SVC",
+        "kNN"
+      ],
+      "O4_order_changed": false,
+      "mean_ba_change_by_algo_pp": {
+        "LR": 0.0,
+        "SVC": 0.0,
+        "kNN": 0.0,
+        "RF": 0.0,
+        "GB": -0.0001558951525862963,
+        "HGB": 0.0040173794730723016
+      },
+      "status": "MEASURED",
+      "kit_M_pp": 0.05571325152460776,
+      "cross_check": "MATCH"
+    },
+    "PILOT16_1.8.0:1.9.1": {
+      "old": "1.8.0",
+      "new": "1.9.1",
+      "K_complete": 16,
+      "incomplete": [],
+      "M_pp": 0.038374583863548244,
+      "M_sd": 0.03916393891082605,
+      "datasets_M_gt_0_25": 0,
+      "datasets_M_gt_0_5": 0,
+      "datasets_M_gt_1_0": 0,
+      "O1_best_algorithm_changes": 0,
+      "O1_share": 0.0,
+      "O1_examples": [],
+      "O2_pair_flips": 0,
+      "O2_pair_units": 240,
+      "O2_datasets_with_flip": 0,
+      "O3_material_flips_ge_1pp": 0,
+      "O3_datasets_with_material_flip": 0,
+      "O4_mean_rank_old": {
+        "LR": 4.8125,
+        "SVC": 4.25,
+        "kNN": 3.9375,
+        "RF": 2.875,
+        "GB": 3.125,
+        "HGB": 2.0
+      },
+      "O4_mean_rank_new": {
+        "LR": 4.8125,
+        "SVC": 4.25,
+        "kNN": 3.9375,
+        "RF": 2.875,
+        "GB": 3.125,
+        "HGB": 2.0
+      },
+      "O4_order_old": [
+        "HGB",
+        "RF",
+        "GB",
+        "kNN",
+        "SVC",
+        "LR"
+      ],
+      "O4_order_new": [
+        "HGB",
+        "RF",
+        "GB",
+        "kNN",
+        "SVC",
+        "LR"
+      ],
+      "O4_order_changed": false,
+      "mean_ba_change_by_algo_pp": {
+        "LR": 0.0,
+        "SVC": 0.0,
+        "kNN": 0.0,
+        "RF": 0.0,
+        "GB": 0.00649206734596941,
+        "HGB": 0.06254888629397692
+      },
+      "status": "MEASURED"
+    }
+  },
+  "problems": [],
+  "status": "CONSISTENT"
+}

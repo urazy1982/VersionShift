@@ -1,0 +1,178 @@
+{
+  "status": "PASS",
+  "source_sha256": "5eb716b64c21ded6f979b0b1610bb68aee46ad2f24889a0d3b133bd430c6ff7d",
+  "scope": "frozen six-estimator 63-dataset original D-policy analysis",
+  "procedure": "dataset-level cluster bootstrap percentile intervals; strictly descriptive margin sensitivity",
+  "interpretation_warning": "Bootstrap treats observed 63 tasks as resampled units; inferential generalization beyond finite frame requires assumptions. Winner threshold requires both release-specific first-vs-second gaps to meet threshold.",
+  "edges": {
+    "POS": {
+      "K": 63,
+      "summary": {
+        "mean_M_pp": 5.006712451138972,
+        "median_M_pp": 2.617872949929393,
+        "max_M_pp": 28.924857549857553,
+        "min_M_pp": 0.14425115746614192,
+        "mean_after_dropping_largest_5pct_pp": 3.7102754521059707,
+        "dropped_count": 4,
+        "leave_one_out_mean_M_range_pp": [
+          4.620935917288672,
+          5.085139246198211
+        ],
+        "affected_gt_0_25": 62,
+        "affected_gt_0_5": 59,
+        "affected_gt_1_0": 50,
+        "winners_changed": 25,
+        "sign_changes": 165,
+        "strict_reversals": 164,
+        "material_reversals": 56
+      },
+      "bootstrap": {
+        "ci90_percentile_pp": [
+          3.808894886832518,
+          6.3265006024290855
+        ],
+        "ci95_percentile_pp": [
+          3.61159977785817,
+          6.616289606708739
+        ],
+        "bootstrap_replicates": 10000,
+        "bootstrap_seed": 20261108
+      },
+      "winner_sensitivity": [
+        {
+          "lead_margin_threshold_pp": 0,
+          "changed_winners_with_both_leads_ge_threshold": 25,
+          "eligible_tasks_with_both_leads_ge_threshold": 63,
+          "changed_datasets": [
+            "openml_10093",
+            "openml_11",
+            "openml_12",
+            "openml_125922",
+            "openml_14",
+            "openml_146800",
+            "openml_146824",
+            "openml_14952",
+            "openml_16",
+            "openml_167120",
+            "openml_18",
+            "openml_22",
+            "openml_28",
+            "openml_29",
+            "openml_3022",
+            "openml_31",
+            "openml_32",
+            "openml_3560",
+            "openml_45",
+            "openml_53",
+            "openml_6",
+            "openml_9952",
+            "openml_9957",
+            "openml_9964",
+            "openml_9985"
+          ]
+        },
+        {
+          "lead_margin_threshold_pp": 0.25,
+          "changed_winners_with_both_leads_ge_threshold": 12,
+          "eligible_tasks_with_both_leads_ge_threshold": 39,
+          "changed_datasets": [
+            "openml_12",
+            "openml_14",
+            "openml_146800",
+            "openml_146824",
+            "openml_16",
+            "openml_167120",
+            "openml_18",
+            "openml_28",
+            "openml_3022",
+            "openml_53",
+            "openml_9952",
+            "openml_9985"
+          ]
+        },
+        {
+          "lead_margin_threshold_pp": 0.5,
+          "changed_winners_with_both_leads_ge_threshold": 6,
+          "eligible_tasks_with_both_leads_ge_threshold": 30,
+          "changed_datasets": [
+            "openml_146800",
+            "openml_16",
+            "openml_167120",
+            "openml_3022",
+            "openml_53",
+            "openml_9952"
+          ]
+        },
+        {
+          "lead_margin_threshold_pp": 1.0,
+          "changed_winners_with_both_leads_ge_threshold": 2,
+          "eligible_tasks_with_both_leads_ge_threshold": 18,
+          "changed_datasets": [
+            "openml_3022",
+            "openml_9952"
+          ]
+        }
+      ]
+    },
+    "NEG": {
+      "K": 63,
+      "summary": {
+        "mean_M_pp": 0.051309780372592304,
+        "median_M_pp": 0.021761692580875548,
+        "max_M_pp": 0.39219863029386676,
+        "min_M_pp": 0.0,
+        "mean_after_dropping_largest_5pct_pp": 0.03404069576998969,
+        "dropped_count": 4,
+        "leave_one_out_mean_M_range_pp": [
+          0.04581157311579755,
+          0.05213735747537605
+        ],
+        "affected_gt_0_25": 3,
+        "affected_gt_0_5": 0,
+        "affected_gt_1_0": 0,
+        "winners_changed": 0,
+        "sign_changes": 6,
+        "strict_reversals": 5,
+        "material_reversals": 0
+      },
+      "bootstrap": {
+        "ci90_percentile_pp": [
+          0.03579043368793156,
+          0.06848596987496644
+        ],
+        "ci95_percentile_pp": [
+          0.03321007973533118,
+          0.0723597039983217
+        ],
+        "bootstrap_replicates": 10000,
+        "bootstrap_seed": 20261109
+      },
+      "winner_sensitivity": [
+        {
+          "lead_margin_threshold_pp": 0,
+          "changed_winners_with_both_leads_ge_threshold": 0,
+          "eligible_tasks_with_both_leads_ge_threshold": 63,
+          "changed_datasets": []
+        },
+        {
+          "lead_margin_threshold_pp": 0.25,
+          "changed_winners_with_both_leads_ge_threshold": 0,
+          "eligible_tasks_with_both_leads_ge_threshold": 44,
+          "changed_datasets": []
+        },
+        {
+          "lead_margin_threshold_pp": 0.5,
+          "changed_winners_with_both_leads_ge_threshold": 0,
+          "eligible_tasks_with_both_leads_ge_threshold": 34,
+          "changed_datasets": []
+        },
+        {
+          "lead_margin_threshold_pp": 1.0,
+          "changed_winners_with_both_leads_ge_threshold": 0,
+          "eligible_tasks_with_both_leads_ge_threshold": 19,
+          "changed_datasets": []
+        }
+      ]
+    }
+  }
+}

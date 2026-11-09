@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "source_archive_sha256": "5eb716b64c21ded6f979b0b1610bb68aee46ad2f24889a0d3b133bd430c6ff7d",
+  "matched_folds": 7560,
+  "score_mismatches": 0,
+  "prediction_hash_mismatches": 0,
+  "first_score_mismatches": [],
+  "first_hash_mismatches": [],
+  "scope": "63 datasets, four estimators, 30 frozen folds each",
+  "means_pp": {
+    "AB": 7.14505574337024,
+    "AC": 0.0,
+    "CB": 7.14505574337024
+  },
+  "winner_changes": {
+    "AB": 25,
+    "AC": 0,
+    "CB": 25
+  }
+}

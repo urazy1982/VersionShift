@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "jobs": 64,
+  "folds": 1920,
+  "datasets": 16,
+  "source_sha256": "60076384d6bd04288acf32943de1e55924e5d2546d82ebca1fec8ae16717647f",
+  "plan_sha256": "523c42a3dabee44e66d43d538b228939b01fd7fe1b68285f542f0980906492f4",
+  "note": "Within-new-runtime semantic restoration fits only; no baseline outcome comparison performed"
+}

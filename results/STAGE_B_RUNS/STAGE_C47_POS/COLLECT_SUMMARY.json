@@ -1,0 +1,14 @@
+{
+ "planned_jobs": 2256,
+ "missing_jobs": [],
+ "status_counts": {
+  "ok": 1880,
+  "not_portable": 376
+ },
+ "portability_counts": {
+  "ok": 1880,
+  "ineffective": 188,
+  "unsupported": 94,
+  "unpinned_new": 94
+ }
+}

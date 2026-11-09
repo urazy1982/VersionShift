@@ -1,0 +1,225 @@
+{
+  "study": "VersionShift",
+  "archive_scope": "Evidence summaries from user-reported completed experiments and local generated analysis kits",
+  "frozen_original_archive_sha256": "5eb716b64c21ded6f979b0b1610bb68aee46ad2f24889a0d3b133bd430c6ff7d",
+  "protocol": {
+    "eligible_tasks": 63,
+    "pilot": 16,
+    "holdout": 47,
+    "classifiers": [
+      "LR",
+      "SVC",
+      "kNN",
+      "RF",
+      "GB",
+      "HGB"
+    ],
+    "folds_per_task": 30,
+    "metric": "balanced accuracy",
+    "positive_edge": [
+      "0.21.3",
+      "0.22.2.post1"
+    ],
+    "negative_edge": [
+      "1.8.0",
+      "1.9.1"
+    ]
+  },
+  "G0_G3": {
+    "original_policy_D": {
+      "positive": {
+        "M_pp": 5.006712451138972,
+        "original_ci90_pp": [
+          3.72,
+          6.3
+        ],
+        "bootstrap_ci95_pp": [
+          3.61159977785817,
+          6.616289606708739
+        ],
+        "affected_gt_0_5": 59,
+        "winners_changed": 25,
+        "sign_changes": 165,
+        "strict_reversals": 164,
+        "material_reversals": 56,
+        "pilot_M_pp": 3.8116037394828797,
+        "holdout_M_pp": 5.41355797000062
+      },
+      "negative": {
+        "M_pp": 0.051309780372592304,
+        "winners_changed": 0,
+        "affected_gt_0_5": 0,
+        "sign_changes": 6,
+        "strict_reversals": 5
+      }
+    },
+    "G1_default_audit": {
+      "historical_0_21_3_vs_0_22_2_post1": {
+        "LR": "solver warn -> lbfgs; multi_class warn -> auto",
+        "SVC": "gamma auto_deprecated -> scale",
+        "RF": "n_estimators warn (effective 10) -> 100",
+        "kNN": "constructor signature invariant",
+        "GB": "presort auto -> deprecated; ccp_alpha added",
+        "HGB": "max_bins 256 -> 255; warm_start added"
+      },
+      "later_edge": "SVC probability and GB criterion placeholder changes; observed low impact"
+    },
+    "G2_restoration": {
+      "classifiers": [
+        "LR",
+        "SVC",
+        "RF",
+        "kNN"
+      ],
+      "matched_hashes": 7560,
+      "hash_mismatches": 0,
+      "M_AB_pp_four": 7.14505574337024,
+      "M_AC_pp_four": 0,
+      "winner_changes_AB": 25,
+      "winner_changes_AC": 0
+    },
+    "G2_GB_HGB": {
+      "GB_new_default_vs_presort_auto": {
+        "folds": 1890,
+        "changed_hashes": 0
+      },
+      "GB_old_vs_new": {
+        "folds": 1890,
+        "changed_hashes": 174,
+        "changed_fold_BA": 152,
+        "mean_abs_fold_BA_pp": 0.05143807982551321
+      },
+      "HGB_old_bins256_vs_old_bins255": {
+        "folds": 1890,
+        "changed_hashes": 1123,
+        "changed_fold_BA": 1067,
+        "mean_abs_fold_BA_pp": 0.591244420903102
+      },
+      "HGB_old_bins255_vs_new_bins255": {
+        "folds": 1890,
+        "changed_hashes": 0
+      }
+    },
+    "G3_AB_winner_margin": {
+      "positive": {
+        "0": {
+          "eligible": 63,
+          "changed": 25
+        },
+        "0.25": {
+          "eligible": 39,
+          "changed": 12
+        },
+        "0.5": {
+          "eligible": 30,
+          "changed": 6
+        },
+        "1": {
+          "eligible": 18,
+          "changed": 2
+        }
+      },
+      "negative": {
+        "0": {
+          "eligible": 63,
+          "changed": 0
+        },
+        "0.25": {
+          "eligible": 44,
+          "changed": 0
+        },
+        "0.5": {
+          "eligible": 34,
+          "changed": 0
+        },
+        "1": {
+          "eligible": 19,
+          "changed": 0
+        }
+      }
+    },
+    "G3_AB_outlier_sensitivity": {
+      "positive_mean_drop_top4_pp": 3.7102754521059707,
+      "positive_LOO_mean_range_pp": [
+        4.620935917288672,
+        5.085139246198211
+      ],
+      "negative_mean_drop_top4_pp": 0.03404069576998969
+    },
+    "G3D_preflight": {
+      "old_0_21_3": {
+        "status": "PASS",
+        "estimators": 6
+      },
+      "new_0_22_2_post1": {
+        "status": "PASS",
+        "estimators": 6
+      }
+    },
+    "G3E_HGB_E2": {
+      "pilot": {
+        "status": "PASS",
+        "datasets": 16,
+        "jobs": 32,
+        "folds": 960
+      },
+      "holdout": {
+        "status": "PASS",
+        "datasets": 47,
+        "jobs": 94,
+        "folds": 2820
+      },
+      "worker_sha256": "ee39adb1d9cda6030e62245dc6e10576e9b38056de94403c2355e3086431d90c",
+      "plan_sha256": "523c42a3dabee44e66d43d538b228939b01fd7fe1b68285f542f0980906492f4"
+    },
+    "G3F_E2": {
+      "pilot": {
+        "M_D_pp": 3.8116037394828797,
+        "M_E2_pp": 0.38177309077955535,
+        "affected_D": 15,
+        "affected_E2": 1,
+        "changed_winners_D": 6,
+        "changed_winners_E2": 0
+      },
+      "holdout": {
+        "M_D_pp": 5.41355797000062,
+        "M_E2_pp": 0.5296615511018194,
+        "affected_D": 44,
+        "affected_E2": 9,
+        "changed_winners_D": 19,
+        "changed_winners_E2": 0
+      },
+      "full": {
+        "M_D_pp": 5.006712451138972,
+        "M_E2_pp": 0.4921025770517206,
+        "affected_D": 59,
+        "affected_E2": 10,
+        "changed_winners_D": 25,
+        "changed_winners_E2": 0,
+        "relative_reduction_pct": 90.17114360262946,
+        "bootstrap_ci95_E2_pp": [
+          0.23150627474230104,
+          0.8077771758941258
+        ],
+        "bootstrap_ci95_abs_reduction_pp": [
+          3.156664307575782,
+          6.071574344477728
+        ],
+        "bootstrap_ci95_relative_reduction_pct": [
+          83.49480161815757,
+          95.32621166409467
+        ]
+      }
+    },
+    "G3G_raw_artifact_verifier_user_report": {
+      "status": "PASS",
+      "jobs_verified": 126,
+      "folds_replayed": 3780,
+      "datasets": 63,
+      "worker_sha256": "ee39adb1d9cda6030e62245dc6e10576e9b38056de94403c2355e3086431d90c",
+      "errors": [],
+      "caveat": "The verifier checked archived specifications, claimed parameters, predictions, and numeric scores, not independent model fitting. Raw E2 job artifacts not available in this archive."
+    }
+  },
+  "important_distinction": "Results in this JSON are derived from user-provided summaries and earlier verified reporting; raw job outputs are NOT included and therefore cannot be independently replayed from this ZIP alone."
+}

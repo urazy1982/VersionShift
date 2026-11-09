@@ -1,0 +1,332 @@
+{
+ "ba": [
+  0.8066378066378066,
+  0.787044776119403,
+  0.8163582089552239,
+  0.8066060606060605,
+  0.8177575757575757,
+  0.8556998556998556,
+  0.8168955223880596,
+  0.8352835820895522,
+  0.7228484848484849,
+  0.7954545454545454,
+  0.7839105339105339,
+  0.8392835820895522,
+  0.8054328358208955,
+  0.8293333333333333,
+  0.8213333333333332,
+  0.8369408369408369,
+  0.831820895522388,
+  0.7721194029850746,
+  0.8026060606060605,
+  0.8289090909090908,
+  0.775974025974026,
+  0.8019701492537313,
+  0.8352835820895522,
+  0.8480606060606061,
+  0.8181818181818181,
+  0.8214285714285714,
+  0.8014328358208955,
+  0.8134328358208955,
+  0.8141818181818181,
+  0.799030303030303
+ ],
+ "constructor": {
+  "C": 1.0,
+  "break_ties": false,
+  "cache_size": 200,
+  "class_weight": null,
+  "coef0": 0.0,
+  "decision_function_shape": "ovr",
+  "degree": 3,
+  "gamma": "auto",
+  "kernel": "rbf",
+  "max_iter": -1,
+  "probability": false,
+  "random_state": null,
+  "shrinking": true,
+  "tol": 0.001,
+  "verbose": false
+ },
+ "convergence_warnings": 0,
+ "fitted_effective": [
+  {
+   "_gamma": 0.037037037037037035,
+   "classes_": [
+    0,
+    1
+   ]
+  },
+  {
+   "_gamma": 0.037037037037037035,
+   "classes_": [
+    0,
+    1
+   ]
+  },
+  {
+   "_gamma": 0.037037037037037035,
+   "classes_": [
+    0,
+    1
+   ]
+  },
+  {
+   "_gamma": 0.037037037037037035,
+   "classes_": [
+    0,
+    1
+   ]
+  },
+  {
+   "_gamma": 0.037037037037037035,
+   "classes_": [
+    0,
+    1
+   ]
+  },
+  {
+   "_gamma": 0.037037037037037035,
+   "classes_": [
+    0,
+    1
+   ]
+  },
+  {
+   "_gamma": 0.037037037037037035,
+   "classes_": [
+    0,
+    1
+   ]
+  },
+  {
+   "_gamma": 0.037037037037037035,
+   "classes_": [
+    0,
+    1
+   ]
+  },
+  {
+   "_gamma": 0.037037037037037035,
+   "classes_": [
+    0,
+    1
+   ]
+  },
+  {
+   "_gamma": 0.037037037037037035,
+   "classes_": [
+    0,
+    1
+   ]
+  },
+  {
+   "_gamma": 0.037037037037037035,
+   "classes_": [
+    0,
+    1
+   ]
+  },
+  {
+   "_gamma": 0.037037037037037035,
+   "classes_": [
+    0,
+    1
+   ]
+  },
+  {
+   "_gamma": 0.037037037037037035,
+   "classes_": [
+    0,
+    1
+   ]
+  },
+  {
+   "_gamma": 0.037037037037037035,
+   "classes_": [
+    0,
+    1
+   ]
+  },
+  {
+   "_gamma": 0.037037037037037035,
+   "classes_": [
+    0,
+    1
+   ]
+  },
+  {
+   "_gamma": 0.037037037037037035,
+   "classes_": [
+    0,
+    1
+   ]
+  },
+  {
+   "_gamma": 0.037037037037037035,
+   "classes_": [
+    0,
+    1
+   ]
+  },
+  {
+   "_gamma": 0.037037037037037035,
+   "classes_": [
+    0,
+    1
+   ]
+  },
+  {
+   "_gamma": 0.037037037037037035,
+   "classes_": [
+    0,
+    1
+   ]
+  },
+  {
+   "_gamma": 0.037037037037037035,
+   "classes_": [
+    0,
+    1
+   ]
+  },
+  {
+   "_gamma": 0.037037037037037035,
+   "classes_": [
+    0,
+    1
+   ]
+  },
+  {
+   "_gamma": 0.037037037037037035,
+   "classes_": [
+    0,
+    1
+   ]
+  },
+  {
+   "_gamma": 0.037037037037037035,
+   "classes_": [
+    0,
+    1
+   ]
+  },
+  {
+   "_gamma": 0.037037037037037035,
+   "classes_": [
+    0,
+    1
+   ]
+  },
+  {
+   "_gamma": 0.037037037037037035,
+   "classes_": [
+    0,
+    1
+   ]
+  },
+  {
+   "_gamma": 0.037037037037037035,
+   "classes_": [
+    0,
+    1
+   ]
+  },
+  {
+   "_gamma": 0.037037037037037035,
+   "classes_": [
+    0,
+    1
+   ]
+  },
+  {
+   "_gamma": 0.037037037037037035,
+   "classes_": [
+    0,
+    1
+   ]
+  },
+  {
+   "_gamma": 0.037037037037037035,
+   "classes_": [
+    0,
+    1
+   ]
+  },
+  {
+   "_gamma": 0.037037037037037035,
+   "classes_": [
+    0,
+    1
+   ]
+  }
+ ],
+ "fold_keys": [
+  "r0_f0",
+  "r0_f1",
+  "r0_f2",
+  "r0_f3",
+  "r0_f4",
+  "r1_f0",
+  "r1_f1",
+  "r1_f2",
+  "r1_f3",
+  "r1_f4",
+  "r2_f0",
+  "r2_f1",
+  "r2_f2",
+  "r2_f3",
+  "r2_f4",
+  "r3_f0",
+  "r3_f1",
+  "r3_f2",
+  "r3_f3",
+  "r3_f4",
+  "r4_f0",
+  "r4_f1",
+  "r4_f2",
+  "r4_f3",
+  "r4_f4",
+  "r5_f0",
+  "r5_f1",
+  "r5_f2",
+  "r5_f3",
+  "r5_f4"
+ ],
+ "id": "G2RESTORE__openml_49__SVC__R",
+ "job_sha256": "404921c5c5a78ea85f992551a9bb729a9cecc6bbc504f44103d05472ca00ff6c",
+ "npz_sha256": "adf8f156aeb72f87fac9dbcb8eefb99902a4d3bd4837270fb7f60a6301217ad1",
+ "portability": "ok",
+ "portability_report": null,
+ "provenance": {
+  "executable": "/home/uraz/versionshift_envs/sk-0.22.2.post1/bin/python",
+  "machine": "x86_64",
+  "numpy": "1.18.4",
+  "numpy_config_sha256": "c1eac50e0f4378abaa67c8f02f20e4dd176520354c507772214c44e4ff6abca9",
+  "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.2.5",
+  "processor": "x86_64",
+  "python": "3.8.20",
+  "scipy": "1.4.1",
+  "sklearn": "0.22.2.post1",
+  "sklearn_file": "/home/uraz/versionshift_envs/sk-0.22.2.post1/lib/python3.8/site-packages/sklearn/__init__.py",
+  "threadpools": [
+   {
+    "architecture": null,
+    "filepath": "/home/uraz/versionshift_envs/sk-0.22.2.post1/lib/python3.8/site-packages/numpy.libs/libopenblasp-r0-34a18dc3.3.7.so",
+    "internal_api": "openblas",
+    "num_threads": 1,
+    "version": "0.3.7"
+   },
+   {
+    "architecture": null,
+    "filepath": "/home/uraz/versionshift_envs/sk-0.22.2.post1/lib/python3.8/site-packages/sklearn/.libs/libgomp-3300acd3.so.1.0.0",
+    "internal_api": "openmp",
+    "num_threads": 1,
+    "version": null
+   }
+  ]
+ },
+ "status": "ok",
+ "values_imputed": 0,
+ "worker_sha256": "60076384d6bd04288acf32943de1e55924e5d2546d82ebca1fec8ae16717647f"
+}

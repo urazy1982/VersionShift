@@ -1,0 +1,26 @@
+{
+  "amendment": "v2.2.6 A1 (non-portability of P/S on this edge is a reported finding)",
+  "edge": "0.21.3:0.22.2.post1",
+  "input": "/home/uraz/versionshift_data/STAGE_C_CPU_COMPLETION/merged/POS.csv.gz",
+  "input_sha256": "79470990d2d6efefc2bbd906073c3fd0b513cd66a60d566ab5b5aa7496b37172",
+  "policy": "S",
+  "policy_S_row_counts": {
+    "0.21.3|GB|ok": 1890,
+    "0.21.3|HGB|ok": 1890,
+    "0.21.3|LR|ok": 1890,
+    "0.21.3|RF|ok": 1890,
+    "0.21.3|SVC|ok": 1890,
+    "0.21.3|kNN|ok": 1890,
+    "0.22.2.post1|GB|ok": 1890,
+    "0.22.2.post1|HGB|ok": 1890,
+    "0.22.2.post1|LR|ok": 1890,
+    "0.22.2.post1|RF|ok": 1890,
+    "0.22.2.post1|SVC|not_portable": 63,
+    "0.22.2.post1|kNN|ok": 1890
+  },
+  "reason": "policy S (python:S6973) is non-portable for SVC on 0.22.2.post1 for every dataset (gamma), so no complete-case pair population exists; analysis_v221 coverage check raised ZeroDivisionError (0 planned default-policy jobs) on 2026-11-08 01:19",
+  "recorded_at": "2026-11-08T01:41:31+0300",
+  "role": "exploratory lens; no primary inference affected",
+  "status": "NOT_ESTIMABLE_BY_CONSTRUCTION",
+  "svc_S_ok_rows_on_new_release": 0
+}

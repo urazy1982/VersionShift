@@ -1,0 +1,385 @@
+{
+ "ba": [
+  0.7049883112453307,
+  0.7001151035932338,
+  0.7136139191939413,
+  0.6926044258753988,
+  0.7322614562976678,
+  0.7227918236953105,
+  0.7153788409568612,
+  0.6775431221432623,
+  0.6995794706495153,
+  0.6842495068170124,
+  0.718185320837597,
+  0.705705134621159,
+  0.731960431054616,
+  0.7222787609699294,
+  0.6917298598456636,
+  0.6836727474535708,
+  0.7325376171888033,
+  0.7336669669369099,
+  0.7063526396113206,
+  0.7031744447289429,
+  0.7154280815744739,
+  0.7187802355453242,
+  0.7061288492977013,
+  0.7112919629193352,
+  0.6995441346483138,
+  0.6811203560425176,
+  0.7407283221566076,
+  0.7198395222366797,
+  0.7082836592684147,
+  0.6947873520352212
+ ],
+ "constructor": {
+  "algorithm": "auto",
+  "leaf_size": 30,
+  "metric": "minkowski",
+  "metric_params": null,
+  "n_jobs": 1,
+  "n_neighbors": 5,
+  "p": 2,
+  "weights": "uniform"
+ },
+ "convergence_warnings": 0,
+ "fitted_effective": [
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "effective_metric_": "euclidean"
+  },
+  {
+   "_fit_method": "kd_tree",
+   "classes_": [
+    0,
+    1,
+    2
+   ],
+   "effective_metric_": "euclidean"
+  }
+ ],
+ "fold_keys": [
+  "r0_f0",
+  "r0_f1",
+  "r0_f2",
+  "r0_f3",
+  "r0_f4",
+  "r1_f0",
+  "r1_f1",
+  "r1_f2",
+  "r1_f3",
+  "r1_f4",
+  "r2_f0",
+  "r2_f1",
+  "r2_f2",
+  "r2_f3",
+  "r2_f4",
+  "r3_f0",
+  "r3_f1",
+  "r3_f2",
+  "r3_f3",
+  "r3_f4",
+  "r4_f0",
+  "r4_f1",
+  "r4_f2",
+  "r4_f3",
+  "r4_f4",
+  "r5_f0",
+  "r5_f1",
+  "r5_f2",
+  "r5_f3",
+  "r5_f4"
+ ],
+ "id": "G2RESTORE__openml_167119__kNN__R",
+ "job_sha256": "a3ea5af4c5b4d7d261370241040a6faa6fa6b0992206e8db981c3c57c5c7d031",
+ "npz_sha256": "e65a52641ead725b0ef53f7ad3b5457be79b3d6d778f87e8a36c30497fa9071c",
+ "portability": "ok",
+ "portability_report": null,
+ "provenance": {
+  "executable": "/home/uraz/versionshift_envs/sk-0.22.2.post1/bin/python",
+  "machine": "x86_64",
+  "numpy": "1.18.4",
+  "numpy_config_sha256": "c1eac50e0f4378abaa67c8f02f20e4dd176520354c507772214c44e4ff6abca9",
+  "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.2.5",
+  "processor": "x86_64",
+  "python": "3.8.20",
+  "scipy": "1.4.1",
+  "sklearn": "0.22.2.post1",
+  "sklearn_file": "/home/uraz/versionshift_envs/sk-0.22.2.post1/lib/python3.8/site-packages/sklearn/__init__.py",
+  "threadpools": [
+   {
+    "architecture": null,
+    "filepath": "/home/uraz/versionshift_envs/sk-0.22.2.post1/lib/python3.8/site-packages/numpy.libs/libopenblasp-r0-34a18dc3.3.7.so",
+    "internal_api": "openblas",
+    "num_threads": 1,
+    "version": "0.3.7"
+   },
+   {
+    "architecture": null,
+    "filepath": "/home/uraz/versionshift_envs/sk-0.22.2.post1/lib/python3.8/site-packages/sklearn/.libs/libgomp-3300acd3.so.1.0.0",
+    "internal_api": "openmp",
+    "num_threads": 1,
+    "version": null
+   }
+  ]
+ },
+ "status": "ok",
+ "values_imputed": 0,
+ "worker_sha256": "60076384d6bd04288acf32943de1e55924e5d2546d82ebca1fec8ae16717647f"
+}
