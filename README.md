@@ -107,6 +107,10 @@ The original-study part of this repository (everything except `postreview/`) was
 
 See `CITATION.cff`. Please cite the paper once it is published.
 
+## AI Assistance Disclosure
+
+OpenAI GPT and Anthropic Claude models assisted with code review, debugging, and validation. All research findings and conclusions remain the responsibility of the author.
+
 ## License
 
 Code: MIT (see `LICENSE`). Results and documentation: CC BY 4.0. The OpenML-CC18 datasets are not included; they remain under their original OpenML terms.
