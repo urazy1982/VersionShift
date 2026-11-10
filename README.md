@@ -2,7 +2,7 @@
 
 Code, frozen protocol and fold-level results for the paper
 
-> Uraz Yavanoğlu. *When a Library Upgrade Changes the Verdict: Default-Configuration Drift and the Stability of Machine-Learning Comparisons.* Submitted to *Information and Software Technology*, 2026.
+> Uraz Yavanoğlu. *When a Library Upgrade Changes the Verdict: Default-Configuration Drift and the Stability of Machine-Learning Comparisons.* Submitted to REDACTED, 2026.
 
 The study runs six scikit-learn classifiers (LR, SVC, kNN, RF, GB, HGB) on all 63 eligible OpenML-CC18 tasks. It uses frozen splits (6 × 5-fold CV) and two real upgrades of the library:
 
