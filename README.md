@@ -1,6 +1,7 @@
 # VersionShift — replication package
 
-Author: Uraz Yavanoğlu, Department of Computer Engineering, Gazi University, Ankara, Türkiye
+Author: Uraz Yavanoğlu
+Department of Computer Engineering, Gazi University, Ankara, Türkiye
 https://orcid.org/0000-0001-8358-8150
 
 Code, frozen protocol and fold-level results for the paper
