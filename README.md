@@ -1,5 +1,8 @@
 # VersionShift — replication package
 
+Author: Uraz Yavanoğlu, Department of Computer Engineering, Gazi University, Ankara, Türkiye
+https://orcid.org/0000-0001-8358-8150
+
 Code, frozen protocol and fold-level results for the paper
 
 The study runs six scikit-learn classifiers (LR, SVC, kNN, RF, GB, HGB) on all 63 eligible OpenML-CC18 tasks. It uses frozen splits (6 × 5-fold CV) and two real upgrades of the library:
