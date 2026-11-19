@@ -1,0 +1,3 @@
+edge_id,old,new,n_tasks,M_pp,margin_pp,p_one_sided,p_holm,lower_one_sided_pp,bootstrap95_low_pp,bootstrap95_high_pp,frame,preprocessing,policy,estimators,inference_scope
+E_LINEAR_DUAL,1.4.2,1.5.2,48,0.9953203700715383,0.5,0.00816922608448454,0.00816922608448454,0.6616381974400098,0.6368392469270052,1.3999814782280084,evaluation,P1,D0,8,finite_allocated_frame_conditional_iid_task_model
+E_ADA_SAMME,1.5.2,1.6.1,48,2.0528140887726045,0.5,0.00014659725521547383,0.00029319451043094766,1.3868477997272484,1.337320254387403,2.8717667736462085,evaluation,P1,D0,8,finite_allocated_frame_conditional_iid_task_model

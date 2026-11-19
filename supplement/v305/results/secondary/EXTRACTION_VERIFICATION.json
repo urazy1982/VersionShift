@@ -1,0 +1,259 @@
+{
+  "all_archive_member_hashes_preverified": 112841,
+  "all_other_score_provenance": "Previously independently raw-replayed fold score vectors in hash-verified final archive; additionally matched each result JSON and registered audit. New independent implementations checked all reported winner/margin/reversal/affected/shift outcomes.",
+  "archive_sha256": "f0e37943808537f757edde212ad53dafa833fe1d77393873aea1b7d59e3d9953",
+  "created_utc": "2026-11-18T22:20:18.862832+00:00",
+  "frozen_sha256": "7a62fb456f89dc58d2797e0e5ce83a456b178b4e740de93e6e9eacfeeca56f55",
+  "groups": [
+    {
+      "complete_tasks": 15,
+      "group": "E_LINEAR_DUAL_pilot_P1_D0-D1-D2",
+      "independent_winner_margin_reversal_affected_shift_checks": true,
+      "registered_D0_audit_reproduced": true,
+      "selected_tasks": 15
+    },
+    {
+      "complete_tasks": 15,
+      "group": "E_ADA_SAMME_pilot_P1_D0-D1-D2",
+      "independent_winner_margin_reversal_affected_shift_checks": true,
+      "registered_D0_audit_reproduced": true,
+      "selected_tasks": 15
+    },
+    {
+      "complete_tasks": 15,
+      "group": "E_LINEAR_DUAL_pilot_P2_D0-D1-D2",
+      "independent_winner_margin_reversal_affected_shift_checks": true,
+      "registered_D0_audit_reproduced": true,
+      "selected_tasks": 15
+    },
+    {
+      "complete_tasks": 15,
+      "group": "E_ADA_SAMME_pilot_P2_D0-D1-D2",
+      "independent_winner_margin_reversal_affected_shift_checks": true,
+      "registered_D0_audit_reproduced": true,
+      "selected_tasks": 15
+    },
+    {
+      "complete_tasks": 48,
+      "group": "E_LINEAR_DUAL_evaluation_P1_D0-D1-D2",
+      "independent_winner_margin_reversal_affected_shift_checks": true,
+      "registered_D0_audit_reproduced": true,
+      "selected_tasks": 48
+    },
+    {
+      "complete_tasks": 48,
+      "group": "E_ADA_SAMME_evaluation_P1_D0-D1-D2",
+      "independent_winner_margin_reversal_affected_shift_checks": true,
+      "registered_D0_audit_reproduced": true,
+      "selected_tasks": 48
+    },
+    {
+      "complete_tasks": 48,
+      "group": "E_LINEAR_DUAL_evaluation_P2_D0-D1-D2",
+      "independent_winner_margin_reversal_affected_shift_checks": true,
+      "registered_D0_audit_reproduced": true,
+      "selected_tasks": 48
+    },
+    {
+      "complete_tasks": 48,
+      "group": "E_ADA_SAMME_evaluation_P2_D0-D1-D2",
+      "independent_winner_margin_reversal_affected_shift_checks": true,
+      "registered_D0_audit_reproduced": true,
+      "selected_tasks": 48
+    },
+    {
+      "complete_tasks": 20,
+      "group": "E_LINEAR_DUAL_external_P1_D0-D1-D2",
+      "independent_winner_margin_reversal_affected_shift_checks": true,
+      "registered_D0_audit_reproduced": true,
+      "selected_tasks": 20
+    },
+    {
+      "complete_tasks": 20,
+      "group": "E_ADA_SAMME_external_P1_D0-D1-D2",
+      "independent_winner_margin_reversal_affected_shift_checks": true,
+      "registered_D0_audit_reproduced": true,
+      "selected_tasks": 20
+    },
+    {
+      "complete_tasks": 20,
+      "group": "E_LINEAR_DUAL_external_P2_D0-D1-D2",
+      "independent_winner_margin_reversal_affected_shift_checks": true,
+      "registered_D0_audit_reproduced": true,
+      "selected_tasks": 20
+    },
+    {
+      "complete_tasks": 20,
+      "group": "E_ADA_SAMME_external_P2_D0-D1-D2",
+      "independent_winner_margin_reversal_affected_shift_checks": true,
+      "registered_D0_audit_reproduced": true,
+      "selected_tasks": 20
+    },
+    {
+      "complete_tasks": 15,
+      "group": "E_ORIGINAL_pilot_P1_D0-D1",
+      "independent_winner_margin_reversal_affected_shift_checks": true,
+      "registered_D0_audit_reproduced": true,
+      "selected_tasks": 15
+    },
+    {
+      "complete_tasks": 48,
+      "group": "E_ORIGINAL_evaluation_P1_D0-D1",
+      "independent_winner_margin_reversal_affected_shift_checks": true,
+      "registered_D0_audit_reproduced": true,
+      "selected_tasks": 48
+    },
+    {
+      "complete_tasks": 15,
+      "group": "E_ORIGINAL_pilot_P2_D0-D1",
+      "independent_winner_margin_reversal_affected_shift_checks": true,
+      "registered_D0_audit_reproduced": true,
+      "selected_tasks": 15
+    },
+    {
+      "complete_tasks": 48,
+      "group": "E_ORIGINAL_evaluation_P2_D0-D1",
+      "independent_winner_margin_reversal_affected_shift_checks": true,
+      "registered_D0_audit_reproduced": true,
+      "selected_tasks": 48
+    },
+    {
+      "complete_tasks": 15,
+      "group": "E_ORIGINAL_FIXED_STACK_pilot_P1_D0-D1",
+      "independent_winner_margin_reversal_affected_shift_checks": true,
+      "registered_D0_audit_reproduced": true,
+      "selected_tasks": 15
+    },
+    {
+      "complete_tasks": 48,
+      "group": "E_ORIGINAL_FIXED_STACK_evaluation_P1_D0-D1",
+      "independent_winner_margin_reversal_affected_shift_checks": true,
+      "registered_D0_audit_reproduced": true,
+      "selected_tasks": 48
+    },
+    {
+      "complete_tasks": 15,
+      "group": "E_ORIGINAL_FIXED_STACK_pilot_P2_D0-D1",
+      "independent_winner_margin_reversal_affected_shift_checks": true,
+      "registered_D0_audit_reproduced": true,
+      "selected_tasks": 15
+    },
+    {
+      "complete_tasks": 48,
+      "group": "E_ORIGINAL_FIXED_STACK_evaluation_P2_D0-D1",
+      "independent_winner_margin_reversal_affected_shift_checks": true,
+      "registered_D0_audit_reproduced": true,
+      "selected_tasks": 48
+    },
+    {
+      "complete_tasks": 48,
+      "group": "E5_01_evaluation_P1_D0",
+      "independent_winner_margin_reversal_affected_shift_checks": true,
+      "registered_D0_audit_reproduced": true,
+      "selected_tasks": 48
+    },
+    {
+      "complete_tasks": 48,
+      "group": "E5_02_evaluation_P1_D0",
+      "independent_winner_margin_reversal_affected_shift_checks": true,
+      "registered_D0_audit_reproduced": true,
+      "selected_tasks": 48
+    },
+    {
+      "complete_tasks": 48,
+      "group": "E5_03_evaluation_P1_D0",
+      "independent_winner_margin_reversal_affected_shift_checks": true,
+      "registered_D0_audit_reproduced": true,
+      "selected_tasks": 48
+    },
+    {
+      "complete_tasks": 48,
+      "group": "E5_04_evaluation_P1_D0",
+      "independent_winner_margin_reversal_affected_shift_checks": true,
+      "registered_D0_audit_reproduced": true,
+      "selected_tasks": 48
+    },
+    {
+      "complete_tasks": 48,
+      "group": "E5_05_evaluation_P1_D0",
+      "independent_winner_margin_reversal_affected_shift_checks": true,
+      "registered_D0_audit_reproduced": true,
+      "selected_tasks": 48
+    },
+    {
+      "complete_tasks": 48,
+      "group": "E5_06_evaluation_P1_D0",
+      "independent_winner_margin_reversal_affected_shift_checks": true,
+      "registered_D0_audit_reproduced": true,
+      "selected_tasks": 48
+    },
+    {
+      "complete_tasks": 48,
+      "group": "E5_07_evaluation_P1_D0",
+      "independent_winner_margin_reversal_affected_shift_checks": true,
+      "registered_D0_audit_reproduced": true,
+      "selected_tasks": 48
+    },
+    {
+      "complete_tasks": 48,
+      "group": "E5_08_evaluation_P1_D0",
+      "independent_winner_margin_reversal_affected_shift_checks": true,
+      "registered_D0_audit_reproduced": true,
+      "selected_tasks": 48
+    },
+    {
+      "complete_tasks": 48,
+      "group": "E5_09_evaluation_P1_D0",
+      "independent_winner_margin_reversal_affected_shift_checks": true,
+      "registered_D0_audit_reproduced": true,
+      "selected_tasks": 48
+    },
+    {
+      "complete_tasks": 48,
+      "group": "E5_10_evaluation_P1_D0",
+      "independent_winner_margin_reversal_affected_shift_checks": true,
+      "registered_D0_audit_reproduced": true,
+      "selected_tasks": 48
+    },
+    {
+      "complete_tasks": 48,
+      "group": "E5_11_evaluation_P1_D0",
+      "independent_winner_margin_reversal_affected_shift_checks": true,
+      "registered_D0_audit_reproduced": true,
+      "selected_tasks": 48
+    },
+    {
+      "complete_tasks": 48,
+      "group": "E5_12_evaluation_P1_D0",
+      "independent_winner_margin_reversal_affected_shift_checks": true,
+      "registered_D0_audit_reproduced": true,
+      "selected_tasks": 48
+    },
+    {
+      "complete_tasks": 48,
+      "group": "E5_13_evaluation_P1_D0",
+      "independent_winner_margin_reversal_affected_shift_checks": true,
+      "registered_D0_audit_reproduced": true,
+      "selected_tasks": 48
+    }
+  ],
+  "manuscript_modified": false,
+  "model_fits": 0,
+  "new_predictions": 0,
+  "primary_prediction_archives_freshly_rescored": 1536,
+  "primary_raw_fold_scores_freshly_rescored": 46080,
+  "public_uploads": false,
+  "status": "PASS_ALL_AVAILABLE_NUMERIC_ITEMS",
+  "status_counts": {
+    "REMOVED_BEHAVIOR": 166,
+    "SUPPORTED": 23994,
+    "UNSUPPORTED": 5312
+  },
+  "threshold_rules": {
+    "affected_descriptor": "M_t > 0.5 pp",
+    "affected_equivalence": "any absolute signed pair delta > 0.5 pp",
+    "margin_winner_eligibility": "unique winners and BOTH endpoint leading gaps strictly > margin",
+    "material_reversal": "both endpoint gaps strictly > 0.5 pp in magnitude and sign reverses",
+    "winner_tie_tolerance_pp": 1e-12
+  }
+}

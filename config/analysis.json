@@ -1,0 +1,20 @@
+{
+  "status":"DRAFT_NOT_FROZEN",
+  "primary_task_count":48,
+  "pilot_task_count":15,
+  "external_target_task_count":20,
+  "repetitions":6,
+  "folds_per_repetition":5,
+  "primary_margin_pp":0.5,
+  "winner_gap_margins_pp":[0.0,0.25,0.5,1.0],
+  "bootstrap_samples":20000,
+  "bootstrap_seed":20261116,
+  "allocation_seed":20261116,
+  "primary_test":"one_sided_mean_M_gt_margin",
+  "primary_multiple_testing":"Holm_across_two_new_edges_only",
+  "first_run_workers":8,
+  "openmp_threads":1,
+  "preprocessing_ids":["P0_legacy","P1_train_only_unscaled","P2_train_only_numeric_scaled"],
+  "policies":["D0_shipped_defaults","D1_prior_E2_plus_new_frozen","D2_forward_port_if_supported","D3_AA_reference_only"],
+  "frozen_hash":null
+}

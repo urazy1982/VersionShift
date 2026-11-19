@@ -1,0 +1,44 @@
+{
+  "author_confirmed": false,
+  "outcome_informed_v26": true,
+  "parameters": {
+    "GB": {
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 200,
+      "subsample": 1.0
+    },
+    "HGB": {
+      "learning_rate": 0.1,
+      "max_bins": 255,
+      "max_iter": 200,
+      "n_iter_no_change": null
+    },
+    "LR": {
+      "C": 1.0,
+      "max_iter": 1000,
+      "solver": "lbfgs",
+      "tol": 0.0001
+    },
+    "RF": {
+      "bootstrap": true,
+      "max_features": "sqrt",
+      "min_samples_leaf": 1,
+      "n_estimators": 300
+    },
+    "SVC": {
+      "C": 1.0,
+      "gamma": "scale",
+      "kernel": "rbf"
+    },
+    "kNN": {
+      "algorithm": "brute",
+      "metric": "euclidean",
+      "n_neighbors": 5,
+      "weights": "uniform"
+    }
+  },
+  "provenance": "DERIVED_FROM_v26_G3E_WORKER_NOT_BYTE_IDENTICAL_TO_ORIGINAL_JSON",
+  "source_path": "V26_ROOT/postreview/code/G3E/worker.py",
+  "source_sha256": "ee39adb1d9cda6030e62245dc6e10576e9b38056de94403c2355e3086431d90c"
+}

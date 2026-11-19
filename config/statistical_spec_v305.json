@@ -1,0 +1,30 @@
+{
+  "status": "AUTHOR_ACCEPTED_FINAL_SIGNATURE_PENDING",
+  "author_review_status": "AUTHOR_ACCEPTED",
+  "primary_alpha": 0.05,
+  "pair_ci_confidence": 0.9,
+  "prevalence_confidence": 0.95,
+  "equivalence_max_affected_share": 0.1,
+  "affected_rule": "any_absolute_signed_pair_delta_gt_margin",
+  "legacy_M_threshold_share_reported_separately": true,
+  "prevalence_model": "one_sided_exact_binomial_CP_missing_tasks_counted_affected",
+  "prevalence_model_justified": false,
+  "zero_variance_policy": "UNDEFINED_T_INFERENCE_NO_EQUIVALENCE_HOLM_CONSERVATIVE_ONE",
+  "winner_tie_tolerance_pp": 1e-12,
+  "material_reversal_margin_pp": 0.5,
+  "secondary_multiplicity": "descriptive_no_confirmatory_secondary_claims",
+  "primary_family": [
+    "E_LINEAR_DUAL",
+    "E_ADA_SAMME"
+  ],
+  "primary_policy": "D0",
+  "primary_frame": "evaluation",
+  "primary_preprocessing": "P1",
+  "primary_panel_size": 8,
+  "evidence_scope": "FINITE_ALLOCATED_TASK_FRAME",
+  "population_inference_scope": "IID_TASK_MODEL_SENSITIVITY_ONLY",
+  "E3_confirmatory_status": "EXCLUDED_FUTURE_WORK_PROPOSAL_ONLY",
+  "technical_authorization": "S1-S8_ACCEPTED_WITHOUT_REVISIONS_IN_CONVERSATION",
+  "personal_attestation_required": false,
+  "personal_attestation_provenance": "Explicit sole-author approval, Uraz Yavanoglu, author-confirmed review date 2026-11-17; final hash-bound signature pending."
+}

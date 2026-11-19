@@ -1,0 +1,50 @@
+{
+  "policy_id": "E3_PROPOSAL_NOT_AUTHOR_APPROVED",
+  "parent_E2_sha256": "18f8c3c00e48c0aa06d3a4c1e299eea73dfbceef1ff5d46957cf1fdff45509f8",
+  "parameters": {
+    "GB": {
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 200,
+      "subsample": 1.0
+    },
+    "HGB": {
+      "learning_rate": 0.1,
+      "max_bins": 255,
+      "max_iter": 200,
+      "early_stopping": false
+    },
+    "LR": {
+      "C": 1.0,
+      "max_iter": 1000,
+      "solver": "lbfgs",
+      "tol": 0.0001
+    },
+    "RF": {
+      "bootstrap": true,
+      "max_features": "sqrt",
+      "min_samples_leaf": 1,
+      "n_estimators": 300
+    },
+    "SVC": {
+      "C": 1.0,
+      "gamma": "scale",
+      "kernel": "rbf"
+    },
+    "kNN": {
+      "algorithm": "brute",
+      "metric": "euclidean",
+      "n_neighbors": 5,
+      "weights": "uniform"
+    }
+  },
+  "only_change": "HGB omit n_iter_no_change=None and set early_stopping=False",
+  "purpose": "Candidate modern compatibility policy; disable early stopping explicitly",
+  "historical_equivalence_claim": false,
+  "fits": 0,
+  "author_confirmed": false,
+  "requires_protocol_amendment": true,
+  "new_estimator_extension": "Not included: six-estimator policy only. Existing separate LinearSVC/AdaBoost D1 proposal remains separate.",
+  "status": "PROSPECTIVE_COMPATIBILITY_PROPOSAL_NOT_INSTALLED",
+  "fit_count": 0
+}

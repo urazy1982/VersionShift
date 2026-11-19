@@ -1,0 +1,13 @@
+{
+  "status": "PROPOSED_ONLY_REQUIRES_PREFLIGHT_AND_AUTHOR_FREEZE",
+  "LinearSVC": {
+    "dual": false,
+    "note": "A common effective primal configuration when all folds support it; dual=False is not a reconstruction of the old shipped dual=True default"
+  },
+  "AdaBoost": {
+    "algorithm_1.4.2": "SAMME",
+    "algorithm_1.5.2": "SAMME",
+    "algorithm_1.6.1": "OMIT_PARAMETER_EFFECTIVE_SAMME",
+    "note": "Common new discrete SAMME; cannot reproduce removed SAMME.R on 1.6.1"
+  }
+}

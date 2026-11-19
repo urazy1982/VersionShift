@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite it as below."
+title: "VersionShift: Measuring the Impact of Dependency Upgrades on Machine-Learning Experiments (v3.0.5 with post-results supplement)"
+type: software
+authors:
+  - family-names: "Yavanoğlu"
+    given-names: "Uraz"
+    affiliation: "Department of Computer Engineering, Gazi University, Ankara, Türkiye"
+    orcid: "https://orcid.org/0000-0001-8358-8150"
+version: "v3.0.5-results"
+date-released: "2026-11-19"
+license: MIT
+repository-code: "https://github.com/urazy1982/VersionShift"
+keywords:
+  - dependency upgrades
+  - default arguments
+  - breaking changes
+  - scikit-learn
+  - reproducibility
+  - conclusion stability
+  - empirical software engineering

@@ -1,0 +1,88 @@
+{
+  "archived_era_cutoff": "2019-10-01",
+  "archived_lock_sha256": "0dd34a8bf8a3df3dacf8090a412f8f58781947d251997cf9260312a42e79c5f5",
+  "archived_provenance": {
+    "cc": "gcc -pthread -B USER_HOME/anaconda3/envs/versionshift_py37/compiler_compat -Wl,--sysroot=/",
+    "compiler": "GCC 9.4.0",
+    "machine": "x86_64",
+    "numpy": "1.17.2",
+    "python": "3.7.12 | packaged by conda-forge | (default, Oct 26 2021, 06:08:21) \n[GCC 9.4.0]",
+    "scipy": "1.3.1",
+    "sklearn": "0.21.3",
+    "threadpools": [
+      {
+        "filepath": "USER_HOME/versionshift_envs/sk-0.21.3/lib/python3.7/site-packages/sklearn/.libs/libgomp-3300acd3.so.1.0.0",
+        "internal_api": "openmp",
+        "num_threads": 20,
+        "prefix": "libgomp",
+        "user_api": "openmp",
+        "version": null
+      },
+      {
+        "filepath": "USER_HOME/versionshift_envs/sk-0.21.3/lib/python3.7/site-packages/numpy/.libs/libopenblasp-r0-2ecf47d5.3.7.dev.so",
+        "internal_api": "openblas",
+        "num_threads": 20,
+        "prefix": "libopenblas",
+        "user_api": "blas",
+        "version": "0.3.7.dev"
+      }
+    ]
+  },
+  "author_ratification_required": true,
+  "backend_versions_match_archived": true,
+  "binary_identity_to_original_provenance": "NOT_ESTABLISHED_ORIGINAL_BINARY_HASHES_NOT_IN_PROVENANCE",
+  "builder_sha256": "37145b75f606c6151a2792031b3aa2609ab5f057375148e5cceab317f5aa2b5b",
+  "compiler_matches_archived": true,
+  "environment_path": "USER_HOME/versionshift_envs/sk-0.21.3",
+  "installed_packages": {
+    "joblib": "0.13.2",
+    "numpy": "1.17.2",
+    "scikit-learn": "0.21.3",
+    "scipy": "1.3.1",
+    "threadpoolctl": "1.1.0"
+  },
+  "interpreter_request": "USER_HOME/versionshift_v3_oldedge_stack/python3712/bin/python",
+  "lock_origin": "ARCHIVED_HASH_LOCK_REPLAY",
+  "lock_sha256": "0dd34a8bf8a3df3dacf8090a412f8f58781947d251997cf9260312a42e79c5f5",
+  "offline_install_attempt": "FAILED_PRESERVED",
+  "predictions": 0,
+  "provenance": {
+    "estimator_fits": 0,
+    "estimator_predictions": 0,
+    "estimator_scores": 0,
+    "numerical_backends": [
+      {
+        "binary_sha256": "ba16bcbc14e84c404a3c38abdca4a48655b81cf13384d955056d840e2de75dbf",
+        "filepath": "USER_HOME/versionshift_envs/sk-0.21.3/lib/python3.7/site-packages/numpy/.libs/libopenblasp-r0-2ecf47d5.3.7.dev.so",
+        "internal_api": "openblas",
+        "num_threads": 1,
+        "prefix": "libopenblas",
+        "user_api": "blas",
+        "version": "0.3.7.dev"
+      },
+      {
+        "binary_sha256": "51e15820457261498893eca2d190da4c332aba4d728ab809c3040e4255afd4d5",
+        "filepath": "USER_HOME/versionshift_envs/sk-0.21.3/lib/python3.7/site-packages/sklearn/.libs/libgomp-3300acd3.so.1.0.0",
+        "internal_api": "openmp",
+        "num_threads": 1,
+        "prefix": "libgomp",
+        "user_api": "openmp",
+        "version": null
+      }
+    ],
+    "numpy": "1.17.2",
+    "python": "3.7.12 | packaged by conda-forge | (default, Oct 26 2021, 06:08:21) \n[GCC 9.4.0]",
+    "python_binary": "USER_HOME/versionshift_v3_oldedge_stack/python3712/bin/python3.7",
+    "python_binary_sha256": "7a04f149185e792716cbaaa0db6a96420375428a433a31c70a9d4c78d9569a9c",
+    "python_compiler": "GCC 9.4.0",
+    "python_version": "3.7.12",
+    "scipy": "1.3.1",
+    "sklearn": "0.21.3",
+    "study_data_read": false
+  },
+  "release": "0.21.3",
+  "required_python_minor": "3.7",
+  "scores": 0,
+  "status": "RESTORED_EXACT_ARCHIVED_PACKAGES_VALIDATED",
+  "study_fits": 0
+}

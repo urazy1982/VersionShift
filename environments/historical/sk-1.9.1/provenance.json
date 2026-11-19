@@ -1,0 +1,115 @@
+{
+  "archived_era_cutoff": "2026-11-01",
+  "archived_lock_sha256": "28e519e7c956f941d6b22c02dcf8f34fafed283a38320645fb0db105e060a7ea",
+  "archived_provenance": {
+    "cc": "cc -pthread",
+    "compiler": "Clang 23.1.3 ",
+    "machine": "x86_64",
+    "numpy": "2.5.4",
+    "python": "3.13.18 (main, Oct 26 2026, 14:08:20) [Clang 23.1.3 ]",
+    "scipy": "1.18.1",
+    "sklearn": "1.9.1",
+    "threadpools": [
+      {
+        "architecture": "Haswell",
+        "filepath": "USER_HOME/versionshift_envs/sk-1.9.1/lib/python3.13/site-packages/scipy.libs/libscipy_openblas-5f890258.so",
+        "internal_api": "openblas",
+        "num_threads": 20,
+        "prefix": "libscipy_openblas",
+        "threading_layer": "pthreads",
+        "user_api": "blas",
+        "version": "0.3.31.dev"
+      },
+      {
+        "architecture": "Haswell",
+        "filepath": "USER_HOME/versionshift_envs/sk-1.9.1/lib/python3.13/site-packages/numpy.libs/libscipy_openblas64_-f48b354e.so",
+        "internal_api": "openblas",
+        "num_threads": 20,
+        "prefix": "libscipy_openblas",
+        "threading_layer": "pthreads",
+        "user_api": "blas",
+        "version": "0.3.34.106.0"
+      },
+      {
+        "filepath": "USER_HOME/versionshift_envs/sk-1.9.1/lib/python3.13/site-packages/scikit_learn.libs/libgomp-e985bcbb.so.1.0.0",
+        "internal_api": "openmp",
+        "num_threads": 20,
+        "prefix": "libgomp",
+        "user_api": "openmp",
+        "version": null
+      }
+    ]
+  },
+  "author_ratification_required": true,
+  "backend_versions_match_archived": true,
+  "binary_identity_to_original_provenance": "NOT_ESTABLISHED_ORIGINAL_BINARY_HASHES_NOT_IN_PROVENANCE",
+  "builder_sha256": "37145b75f606c6151a2792031b3aa2609ab5f057375148e5cceab317f5aa2b5b",
+  "compiler_matches_archived": true,
+  "environment_path": "USER_HOME/versionshift_envs/sk-1.9.1",
+  "installed_packages": {
+    "cloudpickle": "3.1.2",
+    "joblib": "1.6.0",
+    "narwhals": "2.28.0",
+    "numpy": "2.5.4",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.18.1",
+    "threadpoolctl": "3.7.0"
+  },
+  "interpreter_request": "3.13.18",
+  "lock_origin": "ARCHIVED_HASH_LOCK_REPLAY",
+  "lock_sha256": "28e519e7c956f941d6b22c02dcf8f34fafed283a38320645fb0db105e060a7ea",
+  "offline_install_attempt": "FAILED_PRESERVED",
+  "predictions": 0,
+  "provenance": {
+    "estimator_fits": 0,
+    "estimator_predictions": 0,
+    "estimator_scores": 0,
+    "numerical_backends": [
+      {
+        "binary_sha256": "a43904e4fa297301d4640dc1bb3c8a3480b406f99e498eba9b1914b68aab604a",
+        "filepath": "USER_HOME/versionshift_envs/sk-1.9.1/lib/python3.13/site-packages/scikit_learn.libs/libgomp-e985bcbb.so.1.0.0",
+        "internal_api": "openmp",
+        "num_threads": 1,
+        "prefix": "libgomp",
+        "user_api": "openmp",
+        "version": null
+      },
+      {
+        "architecture": "Haswell",
+        "binary_sha256": "2a5b4c1a6311873c59132b2ceaaf3c26258a17350b7cd27ea8782a47e3322981",
+        "filepath": "USER_HOME/versionshift_envs/sk-1.9.1/lib/python3.13/site-packages/scipy.libs/libscipy_openblas-5f890258.so",
+        "internal_api": "openblas",
+        "num_threads": 1,
+        "prefix": "libscipy_openblas",
+        "threading_layer": "pthreads",
+        "user_api": "blas",
+        "version": "0.3.31.dev"
+      },
+      {
+        "architecture": "Haswell",
+        "binary_sha256": "432e1c1739731468ba305771af96773939e43016643e2d630f58cb45b6670e96",
+        "filepath": "USER_HOME/versionshift_envs/sk-1.9.1/lib/python3.13/site-packages/numpy.libs/libscipy_openblas64_-f48b354e.so",
+        "internal_api": "openblas",
+        "num_threads": 1,
+        "prefix": "libscipy_openblas",
+        "threading_layer": "pthreads",
+        "user_api": "blas",
+        "version": "0.3.34.106.0"
+      }
+    ],
+    "numpy": "2.5.4",
+    "python": "3.13.18 (main, Oct 26 2026, 14:08:20) [Clang 23.1.3 ]",
+    "python_binary": "USER_HOME/.local/share/uv/python/cpython-3.13.18-linux-x86_64-gnu/bin/python3.13",
+    "python_binary_sha256": "e314bd43fc9c17769c3bd276ca7aafa1462af1b2364a7c908a6cf82e60a92281",
+    "python_compiler": "Clang 23.1.3 ",
+    "python_version": "3.13.18",
+    "scipy": "1.18.1",
+    "sklearn": "1.9.1",
+    "study_data_read": false
+  },
+  "release": "1.9.1",
+  "required_python_minor": "3.13",
+  "scores": 0,
+  "status": "RESTORED_EXACT_ARCHIVED_PACKAGES_VALIDATED",
+  "study_fits": 0
+}

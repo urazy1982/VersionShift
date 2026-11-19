@@ -1,0 +1,11 @@
+__pycache__/
+.pytest_cache/
+.venv/
+*.pyc
+runs/data/**/*.npz
+runs/raw/
+runs/results/
+runs/plan/AUTHOR_APPROVAL.txt
+runs/plan/E2_AUTHOR_AUTHORIZATION.json
+runs/plan/EXTERNAL_TIMESTAMP_RECORD.json
+.env

@@ -1,0 +1,577 @@
+group,edge,frame,preprocessing,policy,algo,release,selected_tasks,supported,unsupported,removed_behavior,other_status,reason
+E_LINEAR_DUAL_pilot_P1_D0-D1-D2,E_LINEAR_DUAL,pilot,P1,D0,LR,1.4.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P1_D0-D1-D2,E_LINEAR_DUAL,pilot,P1,D0,LR,1.5.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P1_D0-D1-D2,E_LINEAR_DUAL,pilot,P1,D0,SVC,1.4.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P1_D0-D1-D2,E_LINEAR_DUAL,pilot,P1,D0,SVC,1.5.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P1_D0-D1-D2,E_LINEAR_DUAL,pilot,P1,D0,kNN,1.4.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P1_D0-D1-D2,E_LINEAR_DUAL,pilot,P1,D0,kNN,1.5.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P1_D0-D1-D2,E_LINEAR_DUAL,pilot,P1,D0,RF,1.4.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P1_D0-D1-D2,E_LINEAR_DUAL,pilot,P1,D0,RF,1.5.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P1_D0-D1-D2,E_LINEAR_DUAL,pilot,P1,D0,GB,1.4.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P1_D0-D1-D2,E_LINEAR_DUAL,pilot,P1,D0,GB,1.5.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P1_D0-D1-D2,E_LINEAR_DUAL,pilot,P1,D0,HGB,1.4.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P1_D0-D1-D2,E_LINEAR_DUAL,pilot,P1,D0,HGB,1.5.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P1_D0-D1-D2,E_LINEAR_DUAL,pilot,P1,D0,LinearSVC,1.4.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P1_D0-D1-D2,E_LINEAR_DUAL,pilot,P1,D0,LinearSVC,1.5.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P1_D0-D1-D2,E_LINEAR_DUAL,pilot,P1,D0,AdaBoost,1.4.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P1_D0-D1-D2,E_LINEAR_DUAL,pilot,P1,D0,AdaBoost,1.5.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P1_D0-D1-D2,E_LINEAR_DUAL,pilot,P1,D1,LR,1.4.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P1_D0-D1-D2,E_LINEAR_DUAL,pilot,P1,D1,LR,1.5.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P1_D0-D1-D2,E_LINEAR_DUAL,pilot,P1,D1,SVC,1.4.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P1_D0-D1-D2,E_LINEAR_DUAL,pilot,P1,D1,SVC,1.5.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P1_D0-D1-D2,E_LINEAR_DUAL,pilot,P1,D1,kNN,1.4.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P1_D0-D1-D2,E_LINEAR_DUAL,pilot,P1,D1,kNN,1.5.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P1_D0-D1-D2,E_LINEAR_DUAL,pilot,P1,D1,RF,1.4.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P1_D0-D1-D2,E_LINEAR_DUAL,pilot,P1,D1,RF,1.5.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P1_D0-D1-D2,E_LINEAR_DUAL,pilot,P1,D1,GB,1.4.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P1_D0-D1-D2,E_LINEAR_DUAL,pilot,P1,D1,GB,1.5.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P1_D0-D1-D2,E_LINEAR_DUAL,pilot,P1,D1,HGB,1.4.2,15,0,15,0,0,"InvalidParameterError(""The 'n_iter_no_change' parameter of HistGradientBoostingClassifier must be an int in the range [1, inf). Got None instead."")"
+E_LINEAR_DUAL_pilot_P1_D0-D1-D2,E_LINEAR_DUAL,pilot,P1,D1,HGB,1.5.2,15,0,15,0,0,"InvalidParameterError(""The 'n_iter_no_change' parameter of HistGradientBoostingClassifier must be an int in the range [1, inf). Got None instead."")"
+E_LINEAR_DUAL_pilot_P1_D0-D1-D2,E_LINEAR_DUAL,pilot,P1,D1,LinearSVC,1.4.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P1_D0-D1-D2,E_LINEAR_DUAL,pilot,P1,D1,LinearSVC,1.5.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P1_D0-D1-D2,E_LINEAR_DUAL,pilot,P1,D1,AdaBoost,1.4.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P1_D0-D1-D2,E_LINEAR_DUAL,pilot,P1,D1,AdaBoost,1.5.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P1_D0-D1-D2,E_LINEAR_DUAL,pilot,P1,D2,LR,1.4.2,15,0,15,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_pilot_P1_D0-D1-D2,E_LINEAR_DUAL,pilot,P1,D2,LR,1.5.2,15,0,15,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_pilot_P1_D0-D1-D2,E_LINEAR_DUAL,pilot,P1,D2,SVC,1.4.2,15,0,15,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_pilot_P1_D0-D1-D2,E_LINEAR_DUAL,pilot,P1,D2,SVC,1.5.2,15,0,15,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_pilot_P1_D0-D1-D2,E_LINEAR_DUAL,pilot,P1,D2,kNN,1.4.2,15,0,15,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_pilot_P1_D0-D1-D2,E_LINEAR_DUAL,pilot,P1,D2,kNN,1.5.2,15,0,15,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_pilot_P1_D0-D1-D2,E_LINEAR_DUAL,pilot,P1,D2,RF,1.4.2,15,0,15,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_pilot_P1_D0-D1-D2,E_LINEAR_DUAL,pilot,P1,D2,RF,1.5.2,15,0,15,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_pilot_P1_D0-D1-D2,E_LINEAR_DUAL,pilot,P1,D2,GB,1.4.2,15,0,15,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_pilot_P1_D0-D1-D2,E_LINEAR_DUAL,pilot,P1,D2,GB,1.5.2,15,0,15,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_pilot_P1_D0-D1-D2,E_LINEAR_DUAL,pilot,P1,D2,HGB,1.4.2,15,0,15,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_pilot_P1_D0-D1-D2,E_LINEAR_DUAL,pilot,P1,D2,HGB,1.5.2,15,0,15,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_pilot_P1_D0-D1-D2,E_LINEAR_DUAL,pilot,P1,D2,LinearSVC,1.4.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P1_D0-D1-D2,E_LINEAR_DUAL,pilot,P1,D2,LinearSVC,1.5.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P1_D0-D1-D2,E_LINEAR_DUAL,pilot,P1,D2,AdaBoost,1.4.2,15,0,15,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_pilot_P1_D0-D1-D2,E_LINEAR_DUAL,pilot,P1,D2,AdaBoost,1.5.2,15,0,15,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_pilot_P1_D0-D1-D2,E_ADA_SAMME,pilot,P1,D0,LR,1.5.2,15,15,0,0,0,
+E_ADA_SAMME_pilot_P1_D0-D1-D2,E_ADA_SAMME,pilot,P1,D0,LR,1.6.1,15,15,0,0,0,
+E_ADA_SAMME_pilot_P1_D0-D1-D2,E_ADA_SAMME,pilot,P1,D0,SVC,1.5.2,15,15,0,0,0,
+E_ADA_SAMME_pilot_P1_D0-D1-D2,E_ADA_SAMME,pilot,P1,D0,SVC,1.6.1,15,15,0,0,0,
+E_ADA_SAMME_pilot_P1_D0-D1-D2,E_ADA_SAMME,pilot,P1,D0,kNN,1.5.2,15,15,0,0,0,
+E_ADA_SAMME_pilot_P1_D0-D1-D2,E_ADA_SAMME,pilot,P1,D0,kNN,1.6.1,15,15,0,0,0,
+E_ADA_SAMME_pilot_P1_D0-D1-D2,E_ADA_SAMME,pilot,P1,D0,RF,1.5.2,15,15,0,0,0,
+E_ADA_SAMME_pilot_P1_D0-D1-D2,E_ADA_SAMME,pilot,P1,D0,RF,1.6.1,15,15,0,0,0,
+E_ADA_SAMME_pilot_P1_D0-D1-D2,E_ADA_SAMME,pilot,P1,D0,GB,1.5.2,15,15,0,0,0,
+E_ADA_SAMME_pilot_P1_D0-D1-D2,E_ADA_SAMME,pilot,P1,D0,GB,1.6.1,15,15,0,0,0,
+E_ADA_SAMME_pilot_P1_D0-D1-D2,E_ADA_SAMME,pilot,P1,D0,HGB,1.5.2,15,15,0,0,0,
+E_ADA_SAMME_pilot_P1_D0-D1-D2,E_ADA_SAMME,pilot,P1,D0,HGB,1.6.1,15,15,0,0,0,
+E_ADA_SAMME_pilot_P1_D0-D1-D2,E_ADA_SAMME,pilot,P1,D0,LinearSVC,1.5.2,15,15,0,0,0,
+E_ADA_SAMME_pilot_P1_D0-D1-D2,E_ADA_SAMME,pilot,P1,D0,LinearSVC,1.6.1,15,15,0,0,0,
+E_ADA_SAMME_pilot_P1_D0-D1-D2,E_ADA_SAMME,pilot,P1,D0,AdaBoost,1.5.2,15,15,0,0,0,
+E_ADA_SAMME_pilot_P1_D0-D1-D2,E_ADA_SAMME,pilot,P1,D0,AdaBoost,1.6.1,15,15,0,0,0,
+E_ADA_SAMME_pilot_P1_D0-D1-D2,E_ADA_SAMME,pilot,P1,D1,LR,1.5.2,15,15,0,0,0,
+E_ADA_SAMME_pilot_P1_D0-D1-D2,E_ADA_SAMME,pilot,P1,D1,LR,1.6.1,15,15,0,0,0,
+E_ADA_SAMME_pilot_P1_D0-D1-D2,E_ADA_SAMME,pilot,P1,D1,SVC,1.5.2,15,15,0,0,0,
+E_ADA_SAMME_pilot_P1_D0-D1-D2,E_ADA_SAMME,pilot,P1,D1,SVC,1.6.1,15,15,0,0,0,
+E_ADA_SAMME_pilot_P1_D0-D1-D2,E_ADA_SAMME,pilot,P1,D1,kNN,1.5.2,15,15,0,0,0,
+E_ADA_SAMME_pilot_P1_D0-D1-D2,E_ADA_SAMME,pilot,P1,D1,kNN,1.6.1,15,15,0,0,0,
+E_ADA_SAMME_pilot_P1_D0-D1-D2,E_ADA_SAMME,pilot,P1,D1,RF,1.5.2,15,15,0,0,0,
+E_ADA_SAMME_pilot_P1_D0-D1-D2,E_ADA_SAMME,pilot,P1,D1,RF,1.6.1,15,15,0,0,0,
+E_ADA_SAMME_pilot_P1_D0-D1-D2,E_ADA_SAMME,pilot,P1,D1,GB,1.5.2,15,15,0,0,0,
+E_ADA_SAMME_pilot_P1_D0-D1-D2,E_ADA_SAMME,pilot,P1,D1,GB,1.6.1,15,15,0,0,0,
+E_ADA_SAMME_pilot_P1_D0-D1-D2,E_ADA_SAMME,pilot,P1,D1,HGB,1.5.2,15,0,15,0,0,"InvalidParameterError(""The 'n_iter_no_change' parameter of HistGradientBoostingClassifier must be an int in the range [1, inf). Got None instead."")"
+E_ADA_SAMME_pilot_P1_D0-D1-D2,E_ADA_SAMME,pilot,P1,D1,HGB,1.6.1,15,0,15,0,0,"InvalidParameterError(""The 'n_iter_no_change' parameter of HistGradientBoostingClassifier must be an int in the range [1, inf). Got None instead."")"
+E_ADA_SAMME_pilot_P1_D0-D1-D2,E_ADA_SAMME,pilot,P1,D1,LinearSVC,1.5.2,15,15,0,0,0,
+E_ADA_SAMME_pilot_P1_D0-D1-D2,E_ADA_SAMME,pilot,P1,D1,LinearSVC,1.6.1,15,15,0,0,0,
+E_ADA_SAMME_pilot_P1_D0-D1-D2,E_ADA_SAMME,pilot,P1,D1,AdaBoost,1.5.2,15,15,0,0,0,
+E_ADA_SAMME_pilot_P1_D0-D1-D2,E_ADA_SAMME,pilot,P1,D1,AdaBoost,1.6.1,15,15,0,0,0,
+E_ADA_SAMME_pilot_P1_D0-D1-D2,E_ADA_SAMME,pilot,P1,D2,LR,1.5.2,15,0,15,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_pilot_P1_D0-D1-D2,E_ADA_SAMME,pilot,P1,D2,LR,1.6.1,15,0,15,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_pilot_P1_D0-D1-D2,E_ADA_SAMME,pilot,P1,D2,SVC,1.5.2,15,0,15,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_pilot_P1_D0-D1-D2,E_ADA_SAMME,pilot,P1,D2,SVC,1.6.1,15,0,15,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_pilot_P1_D0-D1-D2,E_ADA_SAMME,pilot,P1,D2,kNN,1.5.2,15,0,15,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_pilot_P1_D0-D1-D2,E_ADA_SAMME,pilot,P1,D2,kNN,1.6.1,15,0,15,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_pilot_P1_D0-D1-D2,E_ADA_SAMME,pilot,P1,D2,RF,1.5.2,15,0,15,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_pilot_P1_D0-D1-D2,E_ADA_SAMME,pilot,P1,D2,RF,1.6.1,15,0,15,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_pilot_P1_D0-D1-D2,E_ADA_SAMME,pilot,P1,D2,GB,1.5.2,15,0,15,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_pilot_P1_D0-D1-D2,E_ADA_SAMME,pilot,P1,D2,GB,1.6.1,15,0,15,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_pilot_P1_D0-D1-D2,E_ADA_SAMME,pilot,P1,D2,HGB,1.5.2,15,0,15,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_pilot_P1_D0-D1-D2,E_ADA_SAMME,pilot,P1,D2,HGB,1.6.1,15,0,15,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_pilot_P1_D0-D1-D2,E_ADA_SAMME,pilot,P1,D2,LinearSVC,1.5.2,15,0,15,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_pilot_P1_D0-D1-D2,E_ADA_SAMME,pilot,P1,D2,LinearSVC,1.6.1,15,0,15,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_pilot_P1_D0-D1-D2,E_ADA_SAMME,pilot,P1,D2,AdaBoost,1.5.2,15,15,0,0,0,
+E_ADA_SAMME_pilot_P1_D0-D1-D2,E_ADA_SAMME,pilot,P1,D2,AdaBoost,1.6.1,15,0,0,15,0,AdaBoost SAMME.R removed in scikit-learn 1.6
+E_LINEAR_DUAL_pilot_P2_D0-D1-D2,E_LINEAR_DUAL,pilot,P2,D0,LR,1.4.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P2_D0-D1-D2,E_LINEAR_DUAL,pilot,P2,D0,LR,1.5.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P2_D0-D1-D2,E_LINEAR_DUAL,pilot,P2,D0,SVC,1.4.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P2_D0-D1-D2,E_LINEAR_DUAL,pilot,P2,D0,SVC,1.5.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P2_D0-D1-D2,E_LINEAR_DUAL,pilot,P2,D0,kNN,1.4.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P2_D0-D1-D2,E_LINEAR_DUAL,pilot,P2,D0,kNN,1.5.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P2_D0-D1-D2,E_LINEAR_DUAL,pilot,P2,D0,RF,1.4.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P2_D0-D1-D2,E_LINEAR_DUAL,pilot,P2,D0,RF,1.5.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P2_D0-D1-D2,E_LINEAR_DUAL,pilot,P2,D0,GB,1.4.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P2_D0-D1-D2,E_LINEAR_DUAL,pilot,P2,D0,GB,1.5.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P2_D0-D1-D2,E_LINEAR_DUAL,pilot,P2,D0,HGB,1.4.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P2_D0-D1-D2,E_LINEAR_DUAL,pilot,P2,D0,HGB,1.5.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P2_D0-D1-D2,E_LINEAR_DUAL,pilot,P2,D0,LinearSVC,1.4.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P2_D0-D1-D2,E_LINEAR_DUAL,pilot,P2,D0,LinearSVC,1.5.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P2_D0-D1-D2,E_LINEAR_DUAL,pilot,P2,D0,AdaBoost,1.4.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P2_D0-D1-D2,E_LINEAR_DUAL,pilot,P2,D0,AdaBoost,1.5.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P2_D0-D1-D2,E_LINEAR_DUAL,pilot,P2,D1,LR,1.4.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P2_D0-D1-D2,E_LINEAR_DUAL,pilot,P2,D1,LR,1.5.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P2_D0-D1-D2,E_LINEAR_DUAL,pilot,P2,D1,SVC,1.4.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P2_D0-D1-D2,E_LINEAR_DUAL,pilot,P2,D1,SVC,1.5.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P2_D0-D1-D2,E_LINEAR_DUAL,pilot,P2,D1,kNN,1.4.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P2_D0-D1-D2,E_LINEAR_DUAL,pilot,P2,D1,kNN,1.5.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P2_D0-D1-D2,E_LINEAR_DUAL,pilot,P2,D1,RF,1.4.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P2_D0-D1-D2,E_LINEAR_DUAL,pilot,P2,D1,RF,1.5.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P2_D0-D1-D2,E_LINEAR_DUAL,pilot,P2,D1,GB,1.4.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P2_D0-D1-D2,E_LINEAR_DUAL,pilot,P2,D1,GB,1.5.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P2_D0-D1-D2,E_LINEAR_DUAL,pilot,P2,D1,HGB,1.4.2,15,0,15,0,0,"InvalidParameterError(""The 'n_iter_no_change' parameter of HistGradientBoostingClassifier must be an int in the range [1, inf). Got None instead."")"
+E_LINEAR_DUAL_pilot_P2_D0-D1-D2,E_LINEAR_DUAL,pilot,P2,D1,HGB,1.5.2,15,0,15,0,0,"InvalidParameterError(""The 'n_iter_no_change' parameter of HistGradientBoostingClassifier must be an int in the range [1, inf). Got None instead."")"
+E_LINEAR_DUAL_pilot_P2_D0-D1-D2,E_LINEAR_DUAL,pilot,P2,D1,LinearSVC,1.4.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P2_D0-D1-D2,E_LINEAR_DUAL,pilot,P2,D1,LinearSVC,1.5.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P2_D0-D1-D2,E_LINEAR_DUAL,pilot,P2,D1,AdaBoost,1.4.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P2_D0-D1-D2,E_LINEAR_DUAL,pilot,P2,D1,AdaBoost,1.5.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P2_D0-D1-D2,E_LINEAR_DUAL,pilot,P2,D2,LR,1.4.2,15,0,15,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_pilot_P2_D0-D1-D2,E_LINEAR_DUAL,pilot,P2,D2,LR,1.5.2,15,0,15,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_pilot_P2_D0-D1-D2,E_LINEAR_DUAL,pilot,P2,D2,SVC,1.4.2,15,0,15,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_pilot_P2_D0-D1-D2,E_LINEAR_DUAL,pilot,P2,D2,SVC,1.5.2,15,0,15,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_pilot_P2_D0-D1-D2,E_LINEAR_DUAL,pilot,P2,D2,kNN,1.4.2,15,0,15,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_pilot_P2_D0-D1-D2,E_LINEAR_DUAL,pilot,P2,D2,kNN,1.5.2,15,0,15,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_pilot_P2_D0-D1-D2,E_LINEAR_DUAL,pilot,P2,D2,RF,1.4.2,15,0,15,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_pilot_P2_D0-D1-D2,E_LINEAR_DUAL,pilot,P2,D2,RF,1.5.2,15,0,15,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_pilot_P2_D0-D1-D2,E_LINEAR_DUAL,pilot,P2,D2,GB,1.4.2,15,0,15,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_pilot_P2_D0-D1-D2,E_LINEAR_DUAL,pilot,P2,D2,GB,1.5.2,15,0,15,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_pilot_P2_D0-D1-D2,E_LINEAR_DUAL,pilot,P2,D2,HGB,1.4.2,15,0,15,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_pilot_P2_D0-D1-D2,E_LINEAR_DUAL,pilot,P2,D2,HGB,1.5.2,15,0,15,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_pilot_P2_D0-D1-D2,E_LINEAR_DUAL,pilot,P2,D2,LinearSVC,1.4.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P2_D0-D1-D2,E_LINEAR_DUAL,pilot,P2,D2,LinearSVC,1.5.2,15,15,0,0,0,
+E_LINEAR_DUAL_pilot_P2_D0-D1-D2,E_LINEAR_DUAL,pilot,P2,D2,AdaBoost,1.4.2,15,0,15,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_pilot_P2_D0-D1-D2,E_LINEAR_DUAL,pilot,P2,D2,AdaBoost,1.5.2,15,0,15,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_pilot_P2_D0-D1-D2,E_ADA_SAMME,pilot,P2,D0,LR,1.5.2,15,15,0,0,0,
+E_ADA_SAMME_pilot_P2_D0-D1-D2,E_ADA_SAMME,pilot,P2,D0,LR,1.6.1,15,15,0,0,0,
+E_ADA_SAMME_pilot_P2_D0-D1-D2,E_ADA_SAMME,pilot,P2,D0,SVC,1.5.2,15,15,0,0,0,
+E_ADA_SAMME_pilot_P2_D0-D1-D2,E_ADA_SAMME,pilot,P2,D0,SVC,1.6.1,15,15,0,0,0,
+E_ADA_SAMME_pilot_P2_D0-D1-D2,E_ADA_SAMME,pilot,P2,D0,kNN,1.5.2,15,15,0,0,0,
+E_ADA_SAMME_pilot_P2_D0-D1-D2,E_ADA_SAMME,pilot,P2,D0,kNN,1.6.1,15,15,0,0,0,
+E_ADA_SAMME_pilot_P2_D0-D1-D2,E_ADA_SAMME,pilot,P2,D0,RF,1.5.2,15,15,0,0,0,
+E_ADA_SAMME_pilot_P2_D0-D1-D2,E_ADA_SAMME,pilot,P2,D0,RF,1.6.1,15,15,0,0,0,
+E_ADA_SAMME_pilot_P2_D0-D1-D2,E_ADA_SAMME,pilot,P2,D0,GB,1.5.2,15,15,0,0,0,
+E_ADA_SAMME_pilot_P2_D0-D1-D2,E_ADA_SAMME,pilot,P2,D0,GB,1.6.1,15,15,0,0,0,
+E_ADA_SAMME_pilot_P2_D0-D1-D2,E_ADA_SAMME,pilot,P2,D0,HGB,1.5.2,15,15,0,0,0,
+E_ADA_SAMME_pilot_P2_D0-D1-D2,E_ADA_SAMME,pilot,P2,D0,HGB,1.6.1,15,15,0,0,0,
+E_ADA_SAMME_pilot_P2_D0-D1-D2,E_ADA_SAMME,pilot,P2,D0,LinearSVC,1.5.2,15,15,0,0,0,
+E_ADA_SAMME_pilot_P2_D0-D1-D2,E_ADA_SAMME,pilot,P2,D0,LinearSVC,1.6.1,15,15,0,0,0,
+E_ADA_SAMME_pilot_P2_D0-D1-D2,E_ADA_SAMME,pilot,P2,D0,AdaBoost,1.5.2,15,15,0,0,0,
+E_ADA_SAMME_pilot_P2_D0-D1-D2,E_ADA_SAMME,pilot,P2,D0,AdaBoost,1.6.1,15,15,0,0,0,
+E_ADA_SAMME_pilot_P2_D0-D1-D2,E_ADA_SAMME,pilot,P2,D1,LR,1.5.2,15,15,0,0,0,
+E_ADA_SAMME_pilot_P2_D0-D1-D2,E_ADA_SAMME,pilot,P2,D1,LR,1.6.1,15,15,0,0,0,
+E_ADA_SAMME_pilot_P2_D0-D1-D2,E_ADA_SAMME,pilot,P2,D1,SVC,1.5.2,15,15,0,0,0,
+E_ADA_SAMME_pilot_P2_D0-D1-D2,E_ADA_SAMME,pilot,P2,D1,SVC,1.6.1,15,15,0,0,0,
+E_ADA_SAMME_pilot_P2_D0-D1-D2,E_ADA_SAMME,pilot,P2,D1,kNN,1.5.2,15,15,0,0,0,
+E_ADA_SAMME_pilot_P2_D0-D1-D2,E_ADA_SAMME,pilot,P2,D1,kNN,1.6.1,15,15,0,0,0,
+E_ADA_SAMME_pilot_P2_D0-D1-D2,E_ADA_SAMME,pilot,P2,D1,RF,1.5.2,15,15,0,0,0,
+E_ADA_SAMME_pilot_P2_D0-D1-D2,E_ADA_SAMME,pilot,P2,D1,RF,1.6.1,15,15,0,0,0,
+E_ADA_SAMME_pilot_P2_D0-D1-D2,E_ADA_SAMME,pilot,P2,D1,GB,1.5.2,15,15,0,0,0,
+E_ADA_SAMME_pilot_P2_D0-D1-D2,E_ADA_SAMME,pilot,P2,D1,GB,1.6.1,15,15,0,0,0,
+E_ADA_SAMME_pilot_P2_D0-D1-D2,E_ADA_SAMME,pilot,P2,D1,HGB,1.5.2,15,0,15,0,0,"InvalidParameterError(""The 'n_iter_no_change' parameter of HistGradientBoostingClassifier must be an int in the range [1, inf). Got None instead."")"
+E_ADA_SAMME_pilot_P2_D0-D1-D2,E_ADA_SAMME,pilot,P2,D1,HGB,1.6.1,15,0,15,0,0,"InvalidParameterError(""The 'n_iter_no_change' parameter of HistGradientBoostingClassifier must be an int in the range [1, inf). Got None instead."")"
+E_ADA_SAMME_pilot_P2_D0-D1-D2,E_ADA_SAMME,pilot,P2,D1,LinearSVC,1.5.2,15,15,0,0,0,
+E_ADA_SAMME_pilot_P2_D0-D1-D2,E_ADA_SAMME,pilot,P2,D1,LinearSVC,1.6.1,15,15,0,0,0,
+E_ADA_SAMME_pilot_P2_D0-D1-D2,E_ADA_SAMME,pilot,P2,D1,AdaBoost,1.5.2,15,15,0,0,0,
+E_ADA_SAMME_pilot_P2_D0-D1-D2,E_ADA_SAMME,pilot,P2,D1,AdaBoost,1.6.1,15,15,0,0,0,
+E_ADA_SAMME_pilot_P2_D0-D1-D2,E_ADA_SAMME,pilot,P2,D2,LR,1.5.2,15,0,15,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_pilot_P2_D0-D1-D2,E_ADA_SAMME,pilot,P2,D2,LR,1.6.1,15,0,15,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_pilot_P2_D0-D1-D2,E_ADA_SAMME,pilot,P2,D2,SVC,1.5.2,15,0,15,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_pilot_P2_D0-D1-D2,E_ADA_SAMME,pilot,P2,D2,SVC,1.6.1,15,0,15,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_pilot_P2_D0-D1-D2,E_ADA_SAMME,pilot,P2,D2,kNN,1.5.2,15,0,15,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_pilot_P2_D0-D1-D2,E_ADA_SAMME,pilot,P2,D2,kNN,1.6.1,15,0,15,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_pilot_P2_D0-D1-D2,E_ADA_SAMME,pilot,P2,D2,RF,1.5.2,15,0,15,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_pilot_P2_D0-D1-D2,E_ADA_SAMME,pilot,P2,D2,RF,1.6.1,15,0,15,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_pilot_P2_D0-D1-D2,E_ADA_SAMME,pilot,P2,D2,GB,1.5.2,15,0,15,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_pilot_P2_D0-D1-D2,E_ADA_SAMME,pilot,P2,D2,GB,1.6.1,15,0,15,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_pilot_P2_D0-D1-D2,E_ADA_SAMME,pilot,P2,D2,HGB,1.5.2,15,0,15,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_pilot_P2_D0-D1-D2,E_ADA_SAMME,pilot,P2,D2,HGB,1.6.1,15,0,15,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_pilot_P2_D0-D1-D2,E_ADA_SAMME,pilot,P2,D2,LinearSVC,1.5.2,15,0,15,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_pilot_P2_D0-D1-D2,E_ADA_SAMME,pilot,P2,D2,LinearSVC,1.6.1,15,0,15,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_pilot_P2_D0-D1-D2,E_ADA_SAMME,pilot,P2,D2,AdaBoost,1.5.2,15,15,0,0,0,
+E_ADA_SAMME_pilot_P2_D0-D1-D2,E_ADA_SAMME,pilot,P2,D2,AdaBoost,1.6.1,15,0,0,15,0,AdaBoost SAMME.R removed in scikit-learn 1.6
+E_LINEAR_DUAL_evaluation_P1_D0-D1-D2,E_LINEAR_DUAL,evaluation,P1,D0,LR,1.4.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P1_D0-D1-D2,E_LINEAR_DUAL,evaluation,P1,D0,LR,1.5.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P1_D0-D1-D2,E_LINEAR_DUAL,evaluation,P1,D0,SVC,1.4.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P1_D0-D1-D2,E_LINEAR_DUAL,evaluation,P1,D0,SVC,1.5.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P1_D0-D1-D2,E_LINEAR_DUAL,evaluation,P1,D0,kNN,1.4.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P1_D0-D1-D2,E_LINEAR_DUAL,evaluation,P1,D0,kNN,1.5.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P1_D0-D1-D2,E_LINEAR_DUAL,evaluation,P1,D0,RF,1.4.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P1_D0-D1-D2,E_LINEAR_DUAL,evaluation,P1,D0,RF,1.5.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P1_D0-D1-D2,E_LINEAR_DUAL,evaluation,P1,D0,GB,1.4.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P1_D0-D1-D2,E_LINEAR_DUAL,evaluation,P1,D0,GB,1.5.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P1_D0-D1-D2,E_LINEAR_DUAL,evaluation,P1,D0,HGB,1.4.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P1_D0-D1-D2,E_LINEAR_DUAL,evaluation,P1,D0,HGB,1.5.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P1_D0-D1-D2,E_LINEAR_DUAL,evaluation,P1,D0,LinearSVC,1.4.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P1_D0-D1-D2,E_LINEAR_DUAL,evaluation,P1,D0,LinearSVC,1.5.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P1_D0-D1-D2,E_LINEAR_DUAL,evaluation,P1,D0,AdaBoost,1.4.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P1_D0-D1-D2,E_LINEAR_DUAL,evaluation,P1,D0,AdaBoost,1.5.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P1_D0-D1-D2,E_LINEAR_DUAL,evaluation,P1,D1,LR,1.4.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P1_D0-D1-D2,E_LINEAR_DUAL,evaluation,P1,D1,LR,1.5.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P1_D0-D1-D2,E_LINEAR_DUAL,evaluation,P1,D1,SVC,1.4.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P1_D0-D1-D2,E_LINEAR_DUAL,evaluation,P1,D1,SVC,1.5.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P1_D0-D1-D2,E_LINEAR_DUAL,evaluation,P1,D1,kNN,1.4.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P1_D0-D1-D2,E_LINEAR_DUAL,evaluation,P1,D1,kNN,1.5.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P1_D0-D1-D2,E_LINEAR_DUAL,evaluation,P1,D1,RF,1.4.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P1_D0-D1-D2,E_LINEAR_DUAL,evaluation,P1,D1,RF,1.5.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P1_D0-D1-D2,E_LINEAR_DUAL,evaluation,P1,D1,GB,1.4.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P1_D0-D1-D2,E_LINEAR_DUAL,evaluation,P1,D1,GB,1.5.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P1_D0-D1-D2,E_LINEAR_DUAL,evaluation,P1,D1,HGB,1.4.2,48,0,48,0,0,"InvalidParameterError(""The 'n_iter_no_change' parameter of HistGradientBoostingClassifier must be an int in the range [1, inf). Got None instead."")"
+E_LINEAR_DUAL_evaluation_P1_D0-D1-D2,E_LINEAR_DUAL,evaluation,P1,D1,HGB,1.5.2,48,0,48,0,0,"InvalidParameterError(""The 'n_iter_no_change' parameter of HistGradientBoostingClassifier must be an int in the range [1, inf). Got None instead."")"
+E_LINEAR_DUAL_evaluation_P1_D0-D1-D2,E_LINEAR_DUAL,evaluation,P1,D1,LinearSVC,1.4.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P1_D0-D1-D2,E_LINEAR_DUAL,evaluation,P1,D1,LinearSVC,1.5.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P1_D0-D1-D2,E_LINEAR_DUAL,evaluation,P1,D1,AdaBoost,1.4.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P1_D0-D1-D2,E_LINEAR_DUAL,evaluation,P1,D1,AdaBoost,1.5.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P1_D0-D1-D2,E_LINEAR_DUAL,evaluation,P1,D2,LR,1.4.2,48,0,48,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_evaluation_P1_D0-D1-D2,E_LINEAR_DUAL,evaluation,P1,D2,LR,1.5.2,48,0,48,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_evaluation_P1_D0-D1-D2,E_LINEAR_DUAL,evaluation,P1,D2,SVC,1.4.2,48,0,48,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_evaluation_P1_D0-D1-D2,E_LINEAR_DUAL,evaluation,P1,D2,SVC,1.5.2,48,0,48,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_evaluation_P1_D0-D1-D2,E_LINEAR_DUAL,evaluation,P1,D2,kNN,1.4.2,48,0,48,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_evaluation_P1_D0-D1-D2,E_LINEAR_DUAL,evaluation,P1,D2,kNN,1.5.2,48,0,48,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_evaluation_P1_D0-D1-D2,E_LINEAR_DUAL,evaluation,P1,D2,RF,1.4.2,48,0,48,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_evaluation_P1_D0-D1-D2,E_LINEAR_DUAL,evaluation,P1,D2,RF,1.5.2,48,0,48,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_evaluation_P1_D0-D1-D2,E_LINEAR_DUAL,evaluation,P1,D2,GB,1.4.2,48,0,48,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_evaluation_P1_D0-D1-D2,E_LINEAR_DUAL,evaluation,P1,D2,GB,1.5.2,48,0,48,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_evaluation_P1_D0-D1-D2,E_LINEAR_DUAL,evaluation,P1,D2,HGB,1.4.2,48,0,48,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_evaluation_P1_D0-D1-D2,E_LINEAR_DUAL,evaluation,P1,D2,HGB,1.5.2,48,0,48,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_evaluation_P1_D0-D1-D2,E_LINEAR_DUAL,evaluation,P1,D2,LinearSVC,1.4.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P1_D0-D1-D2,E_LINEAR_DUAL,evaluation,P1,D2,LinearSVC,1.5.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P1_D0-D1-D2,E_LINEAR_DUAL,evaluation,P1,D2,AdaBoost,1.4.2,48,0,48,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_evaluation_P1_D0-D1-D2,E_LINEAR_DUAL,evaluation,P1,D2,AdaBoost,1.5.2,48,0,48,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_evaluation_P1_D0-D1-D2,E_ADA_SAMME,evaluation,P1,D0,LR,1.5.2,48,48,0,0,0,
+E_ADA_SAMME_evaluation_P1_D0-D1-D2,E_ADA_SAMME,evaluation,P1,D0,LR,1.6.1,48,48,0,0,0,
+E_ADA_SAMME_evaluation_P1_D0-D1-D2,E_ADA_SAMME,evaluation,P1,D0,SVC,1.5.2,48,48,0,0,0,
+E_ADA_SAMME_evaluation_P1_D0-D1-D2,E_ADA_SAMME,evaluation,P1,D0,SVC,1.6.1,48,48,0,0,0,
+E_ADA_SAMME_evaluation_P1_D0-D1-D2,E_ADA_SAMME,evaluation,P1,D0,kNN,1.5.2,48,48,0,0,0,
+E_ADA_SAMME_evaluation_P1_D0-D1-D2,E_ADA_SAMME,evaluation,P1,D0,kNN,1.6.1,48,48,0,0,0,
+E_ADA_SAMME_evaluation_P1_D0-D1-D2,E_ADA_SAMME,evaluation,P1,D0,RF,1.5.2,48,48,0,0,0,
+E_ADA_SAMME_evaluation_P1_D0-D1-D2,E_ADA_SAMME,evaluation,P1,D0,RF,1.6.1,48,48,0,0,0,
+E_ADA_SAMME_evaluation_P1_D0-D1-D2,E_ADA_SAMME,evaluation,P1,D0,GB,1.5.2,48,48,0,0,0,
+E_ADA_SAMME_evaluation_P1_D0-D1-D2,E_ADA_SAMME,evaluation,P1,D0,GB,1.6.1,48,48,0,0,0,
+E_ADA_SAMME_evaluation_P1_D0-D1-D2,E_ADA_SAMME,evaluation,P1,D0,HGB,1.5.2,48,48,0,0,0,
+E_ADA_SAMME_evaluation_P1_D0-D1-D2,E_ADA_SAMME,evaluation,P1,D0,HGB,1.6.1,48,48,0,0,0,
+E_ADA_SAMME_evaluation_P1_D0-D1-D2,E_ADA_SAMME,evaluation,P1,D0,LinearSVC,1.5.2,48,48,0,0,0,
+E_ADA_SAMME_evaluation_P1_D0-D1-D2,E_ADA_SAMME,evaluation,P1,D0,LinearSVC,1.6.1,48,48,0,0,0,
+E_ADA_SAMME_evaluation_P1_D0-D1-D2,E_ADA_SAMME,evaluation,P1,D0,AdaBoost,1.5.2,48,48,0,0,0,
+E_ADA_SAMME_evaluation_P1_D0-D1-D2,E_ADA_SAMME,evaluation,P1,D0,AdaBoost,1.6.1,48,48,0,0,0,
+E_ADA_SAMME_evaluation_P1_D0-D1-D2,E_ADA_SAMME,evaluation,P1,D1,LR,1.5.2,48,48,0,0,0,
+E_ADA_SAMME_evaluation_P1_D0-D1-D2,E_ADA_SAMME,evaluation,P1,D1,LR,1.6.1,48,48,0,0,0,
+E_ADA_SAMME_evaluation_P1_D0-D1-D2,E_ADA_SAMME,evaluation,P1,D1,SVC,1.5.2,48,48,0,0,0,
+E_ADA_SAMME_evaluation_P1_D0-D1-D2,E_ADA_SAMME,evaluation,P1,D1,SVC,1.6.1,48,48,0,0,0,
+E_ADA_SAMME_evaluation_P1_D0-D1-D2,E_ADA_SAMME,evaluation,P1,D1,kNN,1.5.2,48,48,0,0,0,
+E_ADA_SAMME_evaluation_P1_D0-D1-D2,E_ADA_SAMME,evaluation,P1,D1,kNN,1.6.1,48,48,0,0,0,
+E_ADA_SAMME_evaluation_P1_D0-D1-D2,E_ADA_SAMME,evaluation,P1,D1,RF,1.5.2,48,48,0,0,0,
+E_ADA_SAMME_evaluation_P1_D0-D1-D2,E_ADA_SAMME,evaluation,P1,D1,RF,1.6.1,48,48,0,0,0,
+E_ADA_SAMME_evaluation_P1_D0-D1-D2,E_ADA_SAMME,evaluation,P1,D1,GB,1.5.2,48,48,0,0,0,
+E_ADA_SAMME_evaluation_P1_D0-D1-D2,E_ADA_SAMME,evaluation,P1,D1,GB,1.6.1,48,48,0,0,0,
+E_ADA_SAMME_evaluation_P1_D0-D1-D2,E_ADA_SAMME,evaluation,P1,D1,HGB,1.5.2,48,0,48,0,0,"InvalidParameterError(""The 'n_iter_no_change' parameter of HistGradientBoostingClassifier must be an int in the range [1, inf). Got None instead."")"
+E_ADA_SAMME_evaluation_P1_D0-D1-D2,E_ADA_SAMME,evaluation,P1,D1,HGB,1.6.1,48,0,48,0,0,"InvalidParameterError(""The 'n_iter_no_change' parameter of HistGradientBoostingClassifier must be an int in the range [1, inf). Got None instead."")"
+E_ADA_SAMME_evaluation_P1_D0-D1-D2,E_ADA_SAMME,evaluation,P1,D1,LinearSVC,1.5.2,48,48,0,0,0,
+E_ADA_SAMME_evaluation_P1_D0-D1-D2,E_ADA_SAMME,evaluation,P1,D1,LinearSVC,1.6.1,48,48,0,0,0,
+E_ADA_SAMME_evaluation_P1_D0-D1-D2,E_ADA_SAMME,evaluation,P1,D1,AdaBoost,1.5.2,48,48,0,0,0,
+E_ADA_SAMME_evaluation_P1_D0-D1-D2,E_ADA_SAMME,evaluation,P1,D1,AdaBoost,1.6.1,48,48,0,0,0,
+E_ADA_SAMME_evaluation_P1_D0-D1-D2,E_ADA_SAMME,evaluation,P1,D2,LR,1.5.2,48,0,48,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_evaluation_P1_D0-D1-D2,E_ADA_SAMME,evaluation,P1,D2,LR,1.6.1,48,0,48,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_evaluation_P1_D0-D1-D2,E_ADA_SAMME,evaluation,P1,D2,SVC,1.5.2,48,0,48,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_evaluation_P1_D0-D1-D2,E_ADA_SAMME,evaluation,P1,D2,SVC,1.6.1,48,0,48,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_evaluation_P1_D0-D1-D2,E_ADA_SAMME,evaluation,P1,D2,kNN,1.5.2,48,0,48,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_evaluation_P1_D0-D1-D2,E_ADA_SAMME,evaluation,P1,D2,kNN,1.6.1,48,0,48,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_evaluation_P1_D0-D1-D2,E_ADA_SAMME,evaluation,P1,D2,RF,1.5.2,48,0,48,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_evaluation_P1_D0-D1-D2,E_ADA_SAMME,evaluation,P1,D2,RF,1.6.1,48,0,48,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_evaluation_P1_D0-D1-D2,E_ADA_SAMME,evaluation,P1,D2,GB,1.5.2,48,0,48,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_evaluation_P1_D0-D1-D2,E_ADA_SAMME,evaluation,P1,D2,GB,1.6.1,48,0,48,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_evaluation_P1_D0-D1-D2,E_ADA_SAMME,evaluation,P1,D2,HGB,1.5.2,48,0,48,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_evaluation_P1_D0-D1-D2,E_ADA_SAMME,evaluation,P1,D2,HGB,1.6.1,48,0,48,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_evaluation_P1_D0-D1-D2,E_ADA_SAMME,evaluation,P1,D2,LinearSVC,1.5.2,48,0,48,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_evaluation_P1_D0-D1-D2,E_ADA_SAMME,evaluation,P1,D2,LinearSVC,1.6.1,48,0,48,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_evaluation_P1_D0-D1-D2,E_ADA_SAMME,evaluation,P1,D2,AdaBoost,1.5.2,48,48,0,0,0,
+E_ADA_SAMME_evaluation_P1_D0-D1-D2,E_ADA_SAMME,evaluation,P1,D2,AdaBoost,1.6.1,48,0,0,48,0,AdaBoost SAMME.R removed in scikit-learn 1.6
+E_LINEAR_DUAL_evaluation_P2_D0-D1-D2,E_LINEAR_DUAL,evaluation,P2,D0,LR,1.4.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P2_D0-D1-D2,E_LINEAR_DUAL,evaluation,P2,D0,LR,1.5.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P2_D0-D1-D2,E_LINEAR_DUAL,evaluation,P2,D0,SVC,1.4.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P2_D0-D1-D2,E_LINEAR_DUAL,evaluation,P2,D0,SVC,1.5.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P2_D0-D1-D2,E_LINEAR_DUAL,evaluation,P2,D0,kNN,1.4.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P2_D0-D1-D2,E_LINEAR_DUAL,evaluation,P2,D0,kNN,1.5.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P2_D0-D1-D2,E_LINEAR_DUAL,evaluation,P2,D0,RF,1.4.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P2_D0-D1-D2,E_LINEAR_DUAL,evaluation,P2,D0,RF,1.5.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P2_D0-D1-D2,E_LINEAR_DUAL,evaluation,P2,D0,GB,1.4.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P2_D0-D1-D2,E_LINEAR_DUAL,evaluation,P2,D0,GB,1.5.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P2_D0-D1-D2,E_LINEAR_DUAL,evaluation,P2,D0,HGB,1.4.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P2_D0-D1-D2,E_LINEAR_DUAL,evaluation,P2,D0,HGB,1.5.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P2_D0-D1-D2,E_LINEAR_DUAL,evaluation,P2,D0,LinearSVC,1.4.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P2_D0-D1-D2,E_LINEAR_DUAL,evaluation,P2,D0,LinearSVC,1.5.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P2_D0-D1-D2,E_LINEAR_DUAL,evaluation,P2,D0,AdaBoost,1.4.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P2_D0-D1-D2,E_LINEAR_DUAL,evaluation,P2,D0,AdaBoost,1.5.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P2_D0-D1-D2,E_LINEAR_DUAL,evaluation,P2,D1,LR,1.4.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P2_D0-D1-D2,E_LINEAR_DUAL,evaluation,P2,D1,LR,1.5.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P2_D0-D1-D2,E_LINEAR_DUAL,evaluation,P2,D1,SVC,1.4.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P2_D0-D1-D2,E_LINEAR_DUAL,evaluation,P2,D1,SVC,1.5.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P2_D0-D1-D2,E_LINEAR_DUAL,evaluation,P2,D1,kNN,1.4.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P2_D0-D1-D2,E_LINEAR_DUAL,evaluation,P2,D1,kNN,1.5.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P2_D0-D1-D2,E_LINEAR_DUAL,evaluation,P2,D1,RF,1.4.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P2_D0-D1-D2,E_LINEAR_DUAL,evaluation,P2,D1,RF,1.5.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P2_D0-D1-D2,E_LINEAR_DUAL,evaluation,P2,D1,GB,1.4.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P2_D0-D1-D2,E_LINEAR_DUAL,evaluation,P2,D1,GB,1.5.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P2_D0-D1-D2,E_LINEAR_DUAL,evaluation,P2,D1,HGB,1.4.2,48,0,48,0,0,"InvalidParameterError(""The 'n_iter_no_change' parameter of HistGradientBoostingClassifier must be an int in the range [1, inf). Got None instead."")"
+E_LINEAR_DUAL_evaluation_P2_D0-D1-D2,E_LINEAR_DUAL,evaluation,P2,D1,HGB,1.5.2,48,0,48,0,0,"InvalidParameterError(""The 'n_iter_no_change' parameter of HistGradientBoostingClassifier must be an int in the range [1, inf). Got None instead."")"
+E_LINEAR_DUAL_evaluation_P2_D0-D1-D2,E_LINEAR_DUAL,evaluation,P2,D1,LinearSVC,1.4.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P2_D0-D1-D2,E_LINEAR_DUAL,evaluation,P2,D1,LinearSVC,1.5.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P2_D0-D1-D2,E_LINEAR_DUAL,evaluation,P2,D1,AdaBoost,1.4.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P2_D0-D1-D2,E_LINEAR_DUAL,evaluation,P2,D1,AdaBoost,1.5.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P2_D0-D1-D2,E_LINEAR_DUAL,evaluation,P2,D2,LR,1.4.2,48,0,48,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_evaluation_P2_D0-D1-D2,E_LINEAR_DUAL,evaluation,P2,D2,LR,1.5.2,48,0,48,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_evaluation_P2_D0-D1-D2,E_LINEAR_DUAL,evaluation,P2,D2,SVC,1.4.2,48,0,48,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_evaluation_P2_D0-D1-D2,E_LINEAR_DUAL,evaluation,P2,D2,SVC,1.5.2,48,0,48,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_evaluation_P2_D0-D1-D2,E_LINEAR_DUAL,evaluation,P2,D2,kNN,1.4.2,48,0,48,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_evaluation_P2_D0-D1-D2,E_LINEAR_DUAL,evaluation,P2,D2,kNN,1.5.2,48,0,48,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_evaluation_P2_D0-D1-D2,E_LINEAR_DUAL,evaluation,P2,D2,RF,1.4.2,48,0,48,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_evaluation_P2_D0-D1-D2,E_LINEAR_DUAL,evaluation,P2,D2,RF,1.5.2,48,0,48,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_evaluation_P2_D0-D1-D2,E_LINEAR_DUAL,evaluation,P2,D2,GB,1.4.2,48,0,48,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_evaluation_P2_D0-D1-D2,E_LINEAR_DUAL,evaluation,P2,D2,GB,1.5.2,48,0,48,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_evaluation_P2_D0-D1-D2,E_LINEAR_DUAL,evaluation,P2,D2,HGB,1.4.2,48,0,48,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_evaluation_P2_D0-D1-D2,E_LINEAR_DUAL,evaluation,P2,D2,HGB,1.5.2,48,0,48,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_evaluation_P2_D0-D1-D2,E_LINEAR_DUAL,evaluation,P2,D2,LinearSVC,1.4.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P2_D0-D1-D2,E_LINEAR_DUAL,evaluation,P2,D2,LinearSVC,1.5.2,48,48,0,0,0,
+E_LINEAR_DUAL_evaluation_P2_D0-D1-D2,E_LINEAR_DUAL,evaluation,P2,D2,AdaBoost,1.4.2,48,0,48,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_evaluation_P2_D0-D1-D2,E_LINEAR_DUAL,evaluation,P2,D2,AdaBoost,1.5.2,48,0,48,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_evaluation_P2_D0-D1-D2,E_ADA_SAMME,evaluation,P2,D0,LR,1.5.2,48,48,0,0,0,
+E_ADA_SAMME_evaluation_P2_D0-D1-D2,E_ADA_SAMME,evaluation,P2,D0,LR,1.6.1,48,48,0,0,0,
+E_ADA_SAMME_evaluation_P2_D0-D1-D2,E_ADA_SAMME,evaluation,P2,D0,SVC,1.5.2,48,48,0,0,0,
+E_ADA_SAMME_evaluation_P2_D0-D1-D2,E_ADA_SAMME,evaluation,P2,D0,SVC,1.6.1,48,48,0,0,0,
+E_ADA_SAMME_evaluation_P2_D0-D1-D2,E_ADA_SAMME,evaluation,P2,D0,kNN,1.5.2,48,48,0,0,0,
+E_ADA_SAMME_evaluation_P2_D0-D1-D2,E_ADA_SAMME,evaluation,P2,D0,kNN,1.6.1,48,48,0,0,0,
+E_ADA_SAMME_evaluation_P2_D0-D1-D2,E_ADA_SAMME,evaluation,P2,D0,RF,1.5.2,48,48,0,0,0,
+E_ADA_SAMME_evaluation_P2_D0-D1-D2,E_ADA_SAMME,evaluation,P2,D0,RF,1.6.1,48,48,0,0,0,
+E_ADA_SAMME_evaluation_P2_D0-D1-D2,E_ADA_SAMME,evaluation,P2,D0,GB,1.5.2,48,48,0,0,0,
+E_ADA_SAMME_evaluation_P2_D0-D1-D2,E_ADA_SAMME,evaluation,P2,D0,GB,1.6.1,48,48,0,0,0,
+E_ADA_SAMME_evaluation_P2_D0-D1-D2,E_ADA_SAMME,evaluation,P2,D0,HGB,1.5.2,48,48,0,0,0,
+E_ADA_SAMME_evaluation_P2_D0-D1-D2,E_ADA_SAMME,evaluation,P2,D0,HGB,1.6.1,48,48,0,0,0,
+E_ADA_SAMME_evaluation_P2_D0-D1-D2,E_ADA_SAMME,evaluation,P2,D0,LinearSVC,1.5.2,48,48,0,0,0,
+E_ADA_SAMME_evaluation_P2_D0-D1-D2,E_ADA_SAMME,evaluation,P2,D0,LinearSVC,1.6.1,48,48,0,0,0,
+E_ADA_SAMME_evaluation_P2_D0-D1-D2,E_ADA_SAMME,evaluation,P2,D0,AdaBoost,1.5.2,48,48,0,0,0,
+E_ADA_SAMME_evaluation_P2_D0-D1-D2,E_ADA_SAMME,evaluation,P2,D0,AdaBoost,1.6.1,48,48,0,0,0,
+E_ADA_SAMME_evaluation_P2_D0-D1-D2,E_ADA_SAMME,evaluation,P2,D1,LR,1.5.2,48,48,0,0,0,
+E_ADA_SAMME_evaluation_P2_D0-D1-D2,E_ADA_SAMME,evaluation,P2,D1,LR,1.6.1,48,48,0,0,0,
+E_ADA_SAMME_evaluation_P2_D0-D1-D2,E_ADA_SAMME,evaluation,P2,D1,SVC,1.5.2,48,48,0,0,0,
+E_ADA_SAMME_evaluation_P2_D0-D1-D2,E_ADA_SAMME,evaluation,P2,D1,SVC,1.6.1,48,48,0,0,0,
+E_ADA_SAMME_evaluation_P2_D0-D1-D2,E_ADA_SAMME,evaluation,P2,D1,kNN,1.5.2,48,48,0,0,0,
+E_ADA_SAMME_evaluation_P2_D0-D1-D2,E_ADA_SAMME,evaluation,P2,D1,kNN,1.6.1,48,48,0,0,0,
+E_ADA_SAMME_evaluation_P2_D0-D1-D2,E_ADA_SAMME,evaluation,P2,D1,RF,1.5.2,48,48,0,0,0,
+E_ADA_SAMME_evaluation_P2_D0-D1-D2,E_ADA_SAMME,evaluation,P2,D1,RF,1.6.1,48,48,0,0,0,
+E_ADA_SAMME_evaluation_P2_D0-D1-D2,E_ADA_SAMME,evaluation,P2,D1,GB,1.5.2,48,48,0,0,0,
+E_ADA_SAMME_evaluation_P2_D0-D1-D2,E_ADA_SAMME,evaluation,P2,D1,GB,1.6.1,48,48,0,0,0,
+E_ADA_SAMME_evaluation_P2_D0-D1-D2,E_ADA_SAMME,evaluation,P2,D1,HGB,1.5.2,48,0,48,0,0,"InvalidParameterError(""The 'n_iter_no_change' parameter of HistGradientBoostingClassifier must be an int in the range [1, inf). Got None instead."")"
+E_ADA_SAMME_evaluation_P2_D0-D1-D2,E_ADA_SAMME,evaluation,P2,D1,HGB,1.6.1,48,0,48,0,0,"InvalidParameterError(""The 'n_iter_no_change' parameter of HistGradientBoostingClassifier must be an int in the range [1, inf). Got None instead."")"
+E_ADA_SAMME_evaluation_P2_D0-D1-D2,E_ADA_SAMME,evaluation,P2,D1,LinearSVC,1.5.2,48,48,0,0,0,
+E_ADA_SAMME_evaluation_P2_D0-D1-D2,E_ADA_SAMME,evaluation,P2,D1,LinearSVC,1.6.1,48,48,0,0,0,
+E_ADA_SAMME_evaluation_P2_D0-D1-D2,E_ADA_SAMME,evaluation,P2,D1,AdaBoost,1.5.2,48,48,0,0,0,
+E_ADA_SAMME_evaluation_P2_D0-D1-D2,E_ADA_SAMME,evaluation,P2,D1,AdaBoost,1.6.1,48,48,0,0,0,
+E_ADA_SAMME_evaluation_P2_D0-D1-D2,E_ADA_SAMME,evaluation,P2,D2,LR,1.5.2,48,0,48,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_evaluation_P2_D0-D1-D2,E_ADA_SAMME,evaluation,P2,D2,LR,1.6.1,48,0,48,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_evaluation_P2_D0-D1-D2,E_ADA_SAMME,evaluation,P2,D2,SVC,1.5.2,48,0,48,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_evaluation_P2_D0-D1-D2,E_ADA_SAMME,evaluation,P2,D2,SVC,1.6.1,48,0,48,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_evaluation_P2_D0-D1-D2,E_ADA_SAMME,evaluation,P2,D2,kNN,1.5.2,48,0,48,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_evaluation_P2_D0-D1-D2,E_ADA_SAMME,evaluation,P2,D2,kNN,1.6.1,48,0,48,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_evaluation_P2_D0-D1-D2,E_ADA_SAMME,evaluation,P2,D2,RF,1.5.2,48,0,48,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_evaluation_P2_D0-D1-D2,E_ADA_SAMME,evaluation,P2,D2,RF,1.6.1,48,0,48,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_evaluation_P2_D0-D1-D2,E_ADA_SAMME,evaluation,P2,D2,GB,1.5.2,48,0,48,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_evaluation_P2_D0-D1-D2,E_ADA_SAMME,evaluation,P2,D2,GB,1.6.1,48,0,48,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_evaluation_P2_D0-D1-D2,E_ADA_SAMME,evaluation,P2,D2,HGB,1.5.2,48,0,48,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_evaluation_P2_D0-D1-D2,E_ADA_SAMME,evaluation,P2,D2,HGB,1.6.1,48,0,48,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_evaluation_P2_D0-D1-D2,E_ADA_SAMME,evaluation,P2,D2,LinearSVC,1.5.2,48,0,48,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_evaluation_P2_D0-D1-D2,E_ADA_SAMME,evaluation,P2,D2,LinearSVC,1.6.1,48,0,48,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_evaluation_P2_D0-D1-D2,E_ADA_SAMME,evaluation,P2,D2,AdaBoost,1.5.2,48,48,0,0,0,
+E_ADA_SAMME_evaluation_P2_D0-D1-D2,E_ADA_SAMME,evaluation,P2,D2,AdaBoost,1.6.1,48,0,0,48,0,AdaBoost SAMME.R removed in scikit-learn 1.6
+E_LINEAR_DUAL_external_P1_D0-D1-D2,E_LINEAR_DUAL,external,P1,D0,LR,1.4.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P1_D0-D1-D2,E_LINEAR_DUAL,external,P1,D0,LR,1.5.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P1_D0-D1-D2,E_LINEAR_DUAL,external,P1,D0,SVC,1.4.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P1_D0-D1-D2,E_LINEAR_DUAL,external,P1,D0,SVC,1.5.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P1_D0-D1-D2,E_LINEAR_DUAL,external,P1,D0,kNN,1.4.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P1_D0-D1-D2,E_LINEAR_DUAL,external,P1,D0,kNN,1.5.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P1_D0-D1-D2,E_LINEAR_DUAL,external,P1,D0,RF,1.4.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P1_D0-D1-D2,E_LINEAR_DUAL,external,P1,D0,RF,1.5.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P1_D0-D1-D2,E_LINEAR_DUAL,external,P1,D0,GB,1.4.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P1_D0-D1-D2,E_LINEAR_DUAL,external,P1,D0,GB,1.5.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P1_D0-D1-D2,E_LINEAR_DUAL,external,P1,D0,HGB,1.4.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P1_D0-D1-D2,E_LINEAR_DUAL,external,P1,D0,HGB,1.5.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P1_D0-D1-D2,E_LINEAR_DUAL,external,P1,D0,LinearSVC,1.4.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P1_D0-D1-D2,E_LINEAR_DUAL,external,P1,D0,LinearSVC,1.5.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P1_D0-D1-D2,E_LINEAR_DUAL,external,P1,D0,AdaBoost,1.4.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P1_D0-D1-D2,E_LINEAR_DUAL,external,P1,D0,AdaBoost,1.5.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P1_D0-D1-D2,E_LINEAR_DUAL,external,P1,D1,LR,1.4.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P1_D0-D1-D2,E_LINEAR_DUAL,external,P1,D1,LR,1.5.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P1_D0-D1-D2,E_LINEAR_DUAL,external,P1,D1,SVC,1.4.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P1_D0-D1-D2,E_LINEAR_DUAL,external,P1,D1,SVC,1.5.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P1_D0-D1-D2,E_LINEAR_DUAL,external,P1,D1,kNN,1.4.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P1_D0-D1-D2,E_LINEAR_DUAL,external,P1,D1,kNN,1.5.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P1_D0-D1-D2,E_LINEAR_DUAL,external,P1,D1,RF,1.4.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P1_D0-D1-D2,E_LINEAR_DUAL,external,P1,D1,RF,1.5.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P1_D0-D1-D2,E_LINEAR_DUAL,external,P1,D1,GB,1.4.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P1_D0-D1-D2,E_LINEAR_DUAL,external,P1,D1,GB,1.5.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P1_D0-D1-D2,E_LINEAR_DUAL,external,P1,D1,HGB,1.4.2,20,0,20,0,0,"InvalidParameterError(""The 'n_iter_no_change' parameter of HistGradientBoostingClassifier must be an int in the range [1, inf). Got None instead."")"
+E_LINEAR_DUAL_external_P1_D0-D1-D2,E_LINEAR_DUAL,external,P1,D1,HGB,1.5.2,20,0,20,0,0,"InvalidParameterError(""The 'n_iter_no_change' parameter of HistGradientBoostingClassifier must be an int in the range [1, inf). Got None instead."")"
+E_LINEAR_DUAL_external_P1_D0-D1-D2,E_LINEAR_DUAL,external,P1,D1,LinearSVC,1.4.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P1_D0-D1-D2,E_LINEAR_DUAL,external,P1,D1,LinearSVC,1.5.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P1_D0-D1-D2,E_LINEAR_DUAL,external,P1,D1,AdaBoost,1.4.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P1_D0-D1-D2,E_LINEAR_DUAL,external,P1,D1,AdaBoost,1.5.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P1_D0-D1-D2,E_LINEAR_DUAL,external,P1,D2,LR,1.4.2,20,0,20,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_external_P1_D0-D1-D2,E_LINEAR_DUAL,external,P1,D2,LR,1.5.2,20,0,20,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_external_P1_D0-D1-D2,E_LINEAR_DUAL,external,P1,D2,SVC,1.4.2,20,0,20,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_external_P1_D0-D1-D2,E_LINEAR_DUAL,external,P1,D2,SVC,1.5.2,20,0,20,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_external_P1_D0-D1-D2,E_LINEAR_DUAL,external,P1,D2,kNN,1.4.2,20,0,20,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_external_P1_D0-D1-D2,E_LINEAR_DUAL,external,P1,D2,kNN,1.5.2,20,0,20,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_external_P1_D0-D1-D2,E_LINEAR_DUAL,external,P1,D2,RF,1.4.2,20,0,20,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_external_P1_D0-D1-D2,E_LINEAR_DUAL,external,P1,D2,RF,1.5.2,20,0,20,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_external_P1_D0-D1-D2,E_LINEAR_DUAL,external,P1,D2,GB,1.4.2,20,0,20,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_external_P1_D0-D1-D2,E_LINEAR_DUAL,external,P1,D2,GB,1.5.2,20,0,20,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_external_P1_D0-D1-D2,E_LINEAR_DUAL,external,P1,D2,HGB,1.4.2,20,0,20,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_external_P1_D0-D1-D2,E_LINEAR_DUAL,external,P1,D2,HGB,1.5.2,20,0,20,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_external_P1_D0-D1-D2,E_LINEAR_DUAL,external,P1,D2,LinearSVC,1.4.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P1_D0-D1-D2,E_LINEAR_DUAL,external,P1,D2,LinearSVC,1.5.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P1_D0-D1-D2,E_LINEAR_DUAL,external,P1,D2,AdaBoost,1.4.2,20,0,20,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_external_P1_D0-D1-D2,E_LINEAR_DUAL,external,P1,D2,AdaBoost,1.5.2,20,0,20,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_external_P1_D0-D1-D2,E_ADA_SAMME,external,P1,D0,LR,1.5.2,20,20,0,0,0,
+E_ADA_SAMME_external_P1_D0-D1-D2,E_ADA_SAMME,external,P1,D0,LR,1.6.1,20,20,0,0,0,
+E_ADA_SAMME_external_P1_D0-D1-D2,E_ADA_SAMME,external,P1,D0,SVC,1.5.2,20,20,0,0,0,
+E_ADA_SAMME_external_P1_D0-D1-D2,E_ADA_SAMME,external,P1,D0,SVC,1.6.1,20,20,0,0,0,
+E_ADA_SAMME_external_P1_D0-D1-D2,E_ADA_SAMME,external,P1,D0,kNN,1.5.2,20,20,0,0,0,
+E_ADA_SAMME_external_P1_D0-D1-D2,E_ADA_SAMME,external,P1,D0,kNN,1.6.1,20,20,0,0,0,
+E_ADA_SAMME_external_P1_D0-D1-D2,E_ADA_SAMME,external,P1,D0,RF,1.5.2,20,20,0,0,0,
+E_ADA_SAMME_external_P1_D0-D1-D2,E_ADA_SAMME,external,P1,D0,RF,1.6.1,20,20,0,0,0,
+E_ADA_SAMME_external_P1_D0-D1-D2,E_ADA_SAMME,external,P1,D0,GB,1.5.2,20,20,0,0,0,
+E_ADA_SAMME_external_P1_D0-D1-D2,E_ADA_SAMME,external,P1,D0,GB,1.6.1,20,20,0,0,0,
+E_ADA_SAMME_external_P1_D0-D1-D2,E_ADA_SAMME,external,P1,D0,HGB,1.5.2,20,20,0,0,0,
+E_ADA_SAMME_external_P1_D0-D1-D2,E_ADA_SAMME,external,P1,D0,HGB,1.6.1,20,20,0,0,0,
+E_ADA_SAMME_external_P1_D0-D1-D2,E_ADA_SAMME,external,P1,D0,LinearSVC,1.5.2,20,20,0,0,0,
+E_ADA_SAMME_external_P1_D0-D1-D2,E_ADA_SAMME,external,P1,D0,LinearSVC,1.6.1,20,20,0,0,0,
+E_ADA_SAMME_external_P1_D0-D1-D2,E_ADA_SAMME,external,P1,D0,AdaBoost,1.5.2,20,20,0,0,0,
+E_ADA_SAMME_external_P1_D0-D1-D2,E_ADA_SAMME,external,P1,D0,AdaBoost,1.6.1,20,20,0,0,0,
+E_ADA_SAMME_external_P1_D0-D1-D2,E_ADA_SAMME,external,P1,D1,LR,1.5.2,20,20,0,0,0,
+E_ADA_SAMME_external_P1_D0-D1-D2,E_ADA_SAMME,external,P1,D1,LR,1.6.1,20,20,0,0,0,
+E_ADA_SAMME_external_P1_D0-D1-D2,E_ADA_SAMME,external,P1,D1,SVC,1.5.2,20,20,0,0,0,
+E_ADA_SAMME_external_P1_D0-D1-D2,E_ADA_SAMME,external,P1,D1,SVC,1.6.1,20,20,0,0,0,
+E_ADA_SAMME_external_P1_D0-D1-D2,E_ADA_SAMME,external,P1,D1,kNN,1.5.2,20,20,0,0,0,
+E_ADA_SAMME_external_P1_D0-D1-D2,E_ADA_SAMME,external,P1,D1,kNN,1.6.1,20,20,0,0,0,
+E_ADA_SAMME_external_P1_D0-D1-D2,E_ADA_SAMME,external,P1,D1,RF,1.5.2,20,20,0,0,0,
+E_ADA_SAMME_external_P1_D0-D1-D2,E_ADA_SAMME,external,P1,D1,RF,1.6.1,20,20,0,0,0,
+E_ADA_SAMME_external_P1_D0-D1-D2,E_ADA_SAMME,external,P1,D1,GB,1.5.2,20,20,0,0,0,
+E_ADA_SAMME_external_P1_D0-D1-D2,E_ADA_SAMME,external,P1,D1,GB,1.6.1,20,20,0,0,0,
+E_ADA_SAMME_external_P1_D0-D1-D2,E_ADA_SAMME,external,P1,D1,HGB,1.5.2,20,0,20,0,0,"InvalidParameterError(""The 'n_iter_no_change' parameter of HistGradientBoostingClassifier must be an int in the range [1, inf). Got None instead."")"
+E_ADA_SAMME_external_P1_D0-D1-D2,E_ADA_SAMME,external,P1,D1,HGB,1.6.1,20,0,20,0,0,"InvalidParameterError(""The 'n_iter_no_change' parameter of HistGradientBoostingClassifier must be an int in the range [1, inf). Got None instead."")"
+E_ADA_SAMME_external_P1_D0-D1-D2,E_ADA_SAMME,external,P1,D1,LinearSVC,1.5.2,20,20,0,0,0,
+E_ADA_SAMME_external_P1_D0-D1-D2,E_ADA_SAMME,external,P1,D1,LinearSVC,1.6.1,20,20,0,0,0,
+E_ADA_SAMME_external_P1_D0-D1-D2,E_ADA_SAMME,external,P1,D1,AdaBoost,1.5.2,20,20,0,0,0,
+E_ADA_SAMME_external_P1_D0-D1-D2,E_ADA_SAMME,external,P1,D1,AdaBoost,1.6.1,20,20,0,0,0,
+E_ADA_SAMME_external_P1_D0-D1-D2,E_ADA_SAMME,external,P1,D2,LR,1.5.2,20,0,20,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_external_P1_D0-D1-D2,E_ADA_SAMME,external,P1,D2,LR,1.6.1,20,0,20,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_external_P1_D0-D1-D2,E_ADA_SAMME,external,P1,D2,SVC,1.5.2,20,0,20,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_external_P1_D0-D1-D2,E_ADA_SAMME,external,P1,D2,SVC,1.6.1,20,0,20,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_external_P1_D0-D1-D2,E_ADA_SAMME,external,P1,D2,kNN,1.5.2,20,0,20,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_external_P1_D0-D1-D2,E_ADA_SAMME,external,P1,D2,kNN,1.6.1,20,0,20,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_external_P1_D0-D1-D2,E_ADA_SAMME,external,P1,D2,RF,1.5.2,20,0,20,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_external_P1_D0-D1-D2,E_ADA_SAMME,external,P1,D2,RF,1.6.1,20,0,20,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_external_P1_D0-D1-D2,E_ADA_SAMME,external,P1,D2,GB,1.5.2,20,0,20,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_external_P1_D0-D1-D2,E_ADA_SAMME,external,P1,D2,GB,1.6.1,20,0,20,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_external_P1_D0-D1-D2,E_ADA_SAMME,external,P1,D2,HGB,1.5.2,20,0,20,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_external_P1_D0-D1-D2,E_ADA_SAMME,external,P1,D2,HGB,1.6.1,20,0,20,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_external_P1_D0-D1-D2,E_ADA_SAMME,external,P1,D2,LinearSVC,1.5.2,20,0,20,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_external_P1_D0-D1-D2,E_ADA_SAMME,external,P1,D2,LinearSVC,1.6.1,20,0,20,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_external_P1_D0-D1-D2,E_ADA_SAMME,external,P1,D2,AdaBoost,1.5.2,20,20,0,0,0,
+E_ADA_SAMME_external_P1_D0-D1-D2,E_ADA_SAMME,external,P1,D2,AdaBoost,1.6.1,20,0,0,20,0,AdaBoost SAMME.R removed in scikit-learn 1.6
+E_LINEAR_DUAL_external_P2_D0-D1-D2,E_LINEAR_DUAL,external,P2,D0,LR,1.4.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P2_D0-D1-D2,E_LINEAR_DUAL,external,P2,D0,LR,1.5.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P2_D0-D1-D2,E_LINEAR_DUAL,external,P2,D0,SVC,1.4.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P2_D0-D1-D2,E_LINEAR_DUAL,external,P2,D0,SVC,1.5.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P2_D0-D1-D2,E_LINEAR_DUAL,external,P2,D0,kNN,1.4.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P2_D0-D1-D2,E_LINEAR_DUAL,external,P2,D0,kNN,1.5.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P2_D0-D1-D2,E_LINEAR_DUAL,external,P2,D0,RF,1.4.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P2_D0-D1-D2,E_LINEAR_DUAL,external,P2,D0,RF,1.5.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P2_D0-D1-D2,E_LINEAR_DUAL,external,P2,D0,GB,1.4.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P2_D0-D1-D2,E_LINEAR_DUAL,external,P2,D0,GB,1.5.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P2_D0-D1-D2,E_LINEAR_DUAL,external,P2,D0,HGB,1.4.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P2_D0-D1-D2,E_LINEAR_DUAL,external,P2,D0,HGB,1.5.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P2_D0-D1-D2,E_LINEAR_DUAL,external,P2,D0,LinearSVC,1.4.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P2_D0-D1-D2,E_LINEAR_DUAL,external,P2,D0,LinearSVC,1.5.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P2_D0-D1-D2,E_LINEAR_DUAL,external,P2,D0,AdaBoost,1.4.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P2_D0-D1-D2,E_LINEAR_DUAL,external,P2,D0,AdaBoost,1.5.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P2_D0-D1-D2,E_LINEAR_DUAL,external,P2,D1,LR,1.4.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P2_D0-D1-D2,E_LINEAR_DUAL,external,P2,D1,LR,1.5.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P2_D0-D1-D2,E_LINEAR_DUAL,external,P2,D1,SVC,1.4.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P2_D0-D1-D2,E_LINEAR_DUAL,external,P2,D1,SVC,1.5.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P2_D0-D1-D2,E_LINEAR_DUAL,external,P2,D1,kNN,1.4.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P2_D0-D1-D2,E_LINEAR_DUAL,external,P2,D1,kNN,1.5.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P2_D0-D1-D2,E_LINEAR_DUAL,external,P2,D1,RF,1.4.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P2_D0-D1-D2,E_LINEAR_DUAL,external,P2,D1,RF,1.5.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P2_D0-D1-D2,E_LINEAR_DUAL,external,P2,D1,GB,1.4.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P2_D0-D1-D2,E_LINEAR_DUAL,external,P2,D1,GB,1.5.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P2_D0-D1-D2,E_LINEAR_DUAL,external,P2,D1,HGB,1.4.2,20,0,20,0,0,"InvalidParameterError(""The 'n_iter_no_change' parameter of HistGradientBoostingClassifier must be an int in the range [1, inf). Got None instead."")"
+E_LINEAR_DUAL_external_P2_D0-D1-D2,E_LINEAR_DUAL,external,P2,D1,HGB,1.5.2,20,0,20,0,0,"InvalidParameterError(""The 'n_iter_no_change' parameter of HistGradientBoostingClassifier must be an int in the range [1, inf). Got None instead."")"
+E_LINEAR_DUAL_external_P2_D0-D1-D2,E_LINEAR_DUAL,external,P2,D1,LinearSVC,1.4.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P2_D0-D1-D2,E_LINEAR_DUAL,external,P2,D1,LinearSVC,1.5.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P2_D0-D1-D2,E_LINEAR_DUAL,external,P2,D1,AdaBoost,1.4.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P2_D0-D1-D2,E_LINEAR_DUAL,external,P2,D1,AdaBoost,1.5.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P2_D0-D1-D2,E_LINEAR_DUAL,external,P2,D2,LR,1.4.2,20,0,20,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_external_P2_D0-D1-D2,E_LINEAR_DUAL,external,P2,D2,LR,1.5.2,20,0,20,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_external_P2_D0-D1-D2,E_LINEAR_DUAL,external,P2,D2,SVC,1.4.2,20,0,20,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_external_P2_D0-D1-D2,E_LINEAR_DUAL,external,P2,D2,SVC,1.5.2,20,0,20,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_external_P2_D0-D1-D2,E_LINEAR_DUAL,external,P2,D2,kNN,1.4.2,20,0,20,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_external_P2_D0-D1-D2,E_LINEAR_DUAL,external,P2,D2,kNN,1.5.2,20,0,20,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_external_P2_D0-D1-D2,E_LINEAR_DUAL,external,P2,D2,RF,1.4.2,20,0,20,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_external_P2_D0-D1-D2,E_LINEAR_DUAL,external,P2,D2,RF,1.5.2,20,0,20,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_external_P2_D0-D1-D2,E_LINEAR_DUAL,external,P2,D2,GB,1.4.2,20,0,20,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_external_P2_D0-D1-D2,E_LINEAR_DUAL,external,P2,D2,GB,1.5.2,20,0,20,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_external_P2_D0-D1-D2,E_LINEAR_DUAL,external,P2,D2,HGB,1.4.2,20,0,20,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_external_P2_D0-D1-D2,E_LINEAR_DUAL,external,P2,D2,HGB,1.5.2,20,0,20,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_external_P2_D0-D1-D2,E_LINEAR_DUAL,external,P2,D2,LinearSVC,1.4.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P2_D0-D1-D2,E_LINEAR_DUAL,external,P2,D2,LinearSVC,1.5.2,20,20,0,0,0,
+E_LINEAR_DUAL_external_P2_D0-D1-D2,E_LINEAR_DUAL,external,P2,D2,AdaBoost,1.4.2,20,0,20,0,0,pre-frozen D2 map missing estimator
+E_LINEAR_DUAL_external_P2_D0-D1-D2,E_LINEAR_DUAL,external,P2,D2,AdaBoost,1.5.2,20,0,20,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_external_P2_D0-D1-D2,E_ADA_SAMME,external,P2,D0,LR,1.5.2,20,20,0,0,0,
+E_ADA_SAMME_external_P2_D0-D1-D2,E_ADA_SAMME,external,P2,D0,LR,1.6.1,20,20,0,0,0,
+E_ADA_SAMME_external_P2_D0-D1-D2,E_ADA_SAMME,external,P2,D0,SVC,1.5.2,20,20,0,0,0,
+E_ADA_SAMME_external_P2_D0-D1-D2,E_ADA_SAMME,external,P2,D0,SVC,1.6.1,20,20,0,0,0,
+E_ADA_SAMME_external_P2_D0-D1-D2,E_ADA_SAMME,external,P2,D0,kNN,1.5.2,20,20,0,0,0,
+E_ADA_SAMME_external_P2_D0-D1-D2,E_ADA_SAMME,external,P2,D0,kNN,1.6.1,20,20,0,0,0,
+E_ADA_SAMME_external_P2_D0-D1-D2,E_ADA_SAMME,external,P2,D0,RF,1.5.2,20,20,0,0,0,
+E_ADA_SAMME_external_P2_D0-D1-D2,E_ADA_SAMME,external,P2,D0,RF,1.6.1,20,20,0,0,0,
+E_ADA_SAMME_external_P2_D0-D1-D2,E_ADA_SAMME,external,P2,D0,GB,1.5.2,20,20,0,0,0,
+E_ADA_SAMME_external_P2_D0-D1-D2,E_ADA_SAMME,external,P2,D0,GB,1.6.1,20,20,0,0,0,
+E_ADA_SAMME_external_P2_D0-D1-D2,E_ADA_SAMME,external,P2,D0,HGB,1.5.2,20,20,0,0,0,
+E_ADA_SAMME_external_P2_D0-D1-D2,E_ADA_SAMME,external,P2,D0,HGB,1.6.1,20,20,0,0,0,
+E_ADA_SAMME_external_P2_D0-D1-D2,E_ADA_SAMME,external,P2,D0,LinearSVC,1.5.2,20,20,0,0,0,
+E_ADA_SAMME_external_P2_D0-D1-D2,E_ADA_SAMME,external,P2,D0,LinearSVC,1.6.1,20,20,0,0,0,
+E_ADA_SAMME_external_P2_D0-D1-D2,E_ADA_SAMME,external,P2,D0,AdaBoost,1.5.2,20,20,0,0,0,
+E_ADA_SAMME_external_P2_D0-D1-D2,E_ADA_SAMME,external,P2,D0,AdaBoost,1.6.1,20,20,0,0,0,
+E_ADA_SAMME_external_P2_D0-D1-D2,E_ADA_SAMME,external,P2,D1,LR,1.5.2,20,20,0,0,0,
+E_ADA_SAMME_external_P2_D0-D1-D2,E_ADA_SAMME,external,P2,D1,LR,1.6.1,20,20,0,0,0,
+E_ADA_SAMME_external_P2_D0-D1-D2,E_ADA_SAMME,external,P2,D1,SVC,1.5.2,20,20,0,0,0,
+E_ADA_SAMME_external_P2_D0-D1-D2,E_ADA_SAMME,external,P2,D1,SVC,1.6.1,20,20,0,0,0,
+E_ADA_SAMME_external_P2_D0-D1-D2,E_ADA_SAMME,external,P2,D1,kNN,1.5.2,20,20,0,0,0,
+E_ADA_SAMME_external_P2_D0-D1-D2,E_ADA_SAMME,external,P2,D1,kNN,1.6.1,20,20,0,0,0,
+E_ADA_SAMME_external_P2_D0-D1-D2,E_ADA_SAMME,external,P2,D1,RF,1.5.2,20,20,0,0,0,
+E_ADA_SAMME_external_P2_D0-D1-D2,E_ADA_SAMME,external,P2,D1,RF,1.6.1,20,20,0,0,0,
+E_ADA_SAMME_external_P2_D0-D1-D2,E_ADA_SAMME,external,P2,D1,GB,1.5.2,20,20,0,0,0,
+E_ADA_SAMME_external_P2_D0-D1-D2,E_ADA_SAMME,external,P2,D1,GB,1.6.1,20,20,0,0,0,
+E_ADA_SAMME_external_P2_D0-D1-D2,E_ADA_SAMME,external,P2,D1,HGB,1.5.2,20,0,20,0,0,"InvalidParameterError(""The 'n_iter_no_change' parameter of HistGradientBoostingClassifier must be an int in the range [1, inf). Got None instead."")"
+E_ADA_SAMME_external_P2_D0-D1-D2,E_ADA_SAMME,external,P2,D1,HGB,1.6.1,20,0,20,0,0,"InvalidParameterError(""The 'n_iter_no_change' parameter of HistGradientBoostingClassifier must be an int in the range [1, inf). Got None instead."")"
+E_ADA_SAMME_external_P2_D0-D1-D2,E_ADA_SAMME,external,P2,D1,LinearSVC,1.5.2,20,20,0,0,0,
+E_ADA_SAMME_external_P2_D0-D1-D2,E_ADA_SAMME,external,P2,D1,LinearSVC,1.6.1,20,20,0,0,0,
+E_ADA_SAMME_external_P2_D0-D1-D2,E_ADA_SAMME,external,P2,D1,AdaBoost,1.5.2,20,20,0,0,0,
+E_ADA_SAMME_external_P2_D0-D1-D2,E_ADA_SAMME,external,P2,D1,AdaBoost,1.6.1,20,20,0,0,0,
+E_ADA_SAMME_external_P2_D0-D1-D2,E_ADA_SAMME,external,P2,D2,LR,1.5.2,20,0,20,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_external_P2_D0-D1-D2,E_ADA_SAMME,external,P2,D2,LR,1.6.1,20,0,20,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_external_P2_D0-D1-D2,E_ADA_SAMME,external,P2,D2,SVC,1.5.2,20,0,20,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_external_P2_D0-D1-D2,E_ADA_SAMME,external,P2,D2,SVC,1.6.1,20,0,20,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_external_P2_D0-D1-D2,E_ADA_SAMME,external,P2,D2,kNN,1.5.2,20,0,20,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_external_P2_D0-D1-D2,E_ADA_SAMME,external,P2,D2,kNN,1.6.1,20,0,20,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_external_P2_D0-D1-D2,E_ADA_SAMME,external,P2,D2,RF,1.5.2,20,0,20,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_external_P2_D0-D1-D2,E_ADA_SAMME,external,P2,D2,RF,1.6.1,20,0,20,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_external_P2_D0-D1-D2,E_ADA_SAMME,external,P2,D2,GB,1.5.2,20,0,20,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_external_P2_D0-D1-D2,E_ADA_SAMME,external,P2,D2,GB,1.6.1,20,0,20,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_external_P2_D0-D1-D2,E_ADA_SAMME,external,P2,D2,HGB,1.5.2,20,0,20,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_external_P2_D0-D1-D2,E_ADA_SAMME,external,P2,D2,HGB,1.6.1,20,0,20,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_external_P2_D0-D1-D2,E_ADA_SAMME,external,P2,D2,LinearSVC,1.5.2,20,0,20,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_external_P2_D0-D1-D2,E_ADA_SAMME,external,P2,D2,LinearSVC,1.6.1,20,0,20,0,0,pre-frozen D2 map missing estimator
+E_ADA_SAMME_external_P2_D0-D1-D2,E_ADA_SAMME,external,P2,D2,AdaBoost,1.5.2,20,20,0,0,0,
+E_ADA_SAMME_external_P2_D0-D1-D2,E_ADA_SAMME,external,P2,D2,AdaBoost,1.6.1,20,0,0,20,0,AdaBoost SAMME.R removed in scikit-learn 1.6

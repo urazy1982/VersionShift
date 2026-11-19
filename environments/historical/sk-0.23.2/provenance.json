@@ -1,0 +1,69 @@
+{
+  "archived_era_cutoff": "2020-10-15",
+  "author_ratification_required": true,
+  "builder_sha256": "37145b75f606c6151a2792031b3aa2609ab5f057375148e5cceab317f5aa2b5b",
+  "environment_path": "USER_HOME/versionshift_envs/sk-0.23.2",
+  "installed_packages": {
+    "joblib": "0.17.0",
+    "numpy": "1.19.2",
+    "scikit-learn": "0.23.2",
+    "scipy": "1.5.2",
+    "threadpoolctl": "2.1.0"
+  },
+  "interpreter_request": "3.8",
+  "lock_origin": "RECONSTRUCTED_FROM_ARCHIVED_EXACT_RELEASE_ERA_RULES_NOT_ORIGINAL_LOCK",
+  "lock_sha256": "06c9f8a9c0798d63bb94133e94e98eaf90a153aaf9c29144b2886cdad4691aba",
+  "offline_install_attempt": "FAILED_PRESERVED",
+  "offline_lock_attempt": "FAILED_PRESERVED",
+  "predictions": 0,
+  "provenance": {
+    "estimator_fits": 0,
+    "estimator_predictions": 0,
+    "estimator_scores": 0,
+    "numerical_backends": [
+      {
+        "binary_sha256": "eb1f1bfbb8452bd4f052c9fdcbc9597616c5298819816f6777940283edc38409",
+        "filepath": "USER_HOME/versionshift_envs/sk-0.23.2/lib/python3.8/site-packages/numpy.libs/libopenblasp-r0-ae94cfde.3.9.dev.so",
+        "internal_api": "openblas",
+        "num_threads": 1,
+        "prefix": "libopenblas",
+        "threading_layer": "pthreads",
+        "user_api": "blas",
+        "version": "0.3.9.dev"
+      },
+      {
+        "binary_sha256": "c24ea550c8ac33119c23aaf58d26a805535e9037e4a3faa9d923d93e84a795bc",
+        "filepath": "USER_HOME/versionshift_envs/sk-0.23.2/lib/python3.8/site-packages/scikit_learn.libs/libgomp-3300acd3.so.1.0.0",
+        "internal_api": "openmp",
+        "num_threads": 1,
+        "prefix": "libgomp",
+        "user_api": "openmp",
+        "version": null
+      },
+      {
+        "binary_sha256": "fbc5be8b884819825c31b0afc12e09b0cd133b8dfce31f4140821950a40f1de3",
+        "filepath": "USER_HOME/versionshift_envs/sk-0.23.2/lib/python3.8/site-packages/scipy.libs/libopenblasp-r0-085ca80a.3.9.so",
+        "internal_api": "openblas",
+        "num_threads": 1,
+        "prefix": "libopenblas",
+        "threading_layer": "pthreads",
+        "user_api": "blas",
+        "version": "0.3.9"
+      }
+    ],
+    "numpy": "1.19.2",
+    "python": "3.8.20 (default, Oct  2 2024, 16:34:12) \n[Clang 18.1.8 ]",
+    "python_binary": "USER_HOME/.local/share/uv/python/cpython-3.8.20-linux-x86_64-gnu/bin/python3.8",
+    "python_binary_sha256": "c70efda0ee43d9a0014ee570cad3abb4f46b0c11f6ea88f7c467a91faafd4f62",
+    "python_compiler": "Clang 18.1.8 ",
+    "python_version": "3.8.20",
+    "scipy": "1.5.2",
+    "sklearn": "0.23.2",
+    "study_data_read": false
+  },
+  "release": "0.23.2",
+  "required_python_minor": "3.8",
+  "scores": 0,
+  "status": "BUILT_EXACT_RELEASE_ERA_CONSTRAINTS_VALIDATED_RECONSTRUCTED_LOCK",
+  "study_fits": 0
+}

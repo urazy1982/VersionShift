@@ -1,0 +1,12 @@
+{
+  "design_version": "3.0.2-DRAFT",
+  "new_primary_edges": [
+    {"id":"E_LINEAR_DUAL","old":"1.4.2","new":"1.5.2","mechanism":"LinearSVC.dual default True to auto"},
+    {"id":"E_ADA_SAMME","old":"1.5.2","new":"1.6.1","mechanism":"AdaBoost SAMME.R default to SAMME; removed-behavior cell"}
+  ],
+  "legacy_edge": {"id":"E_ORIGINAL","old":"0.21.3","new":"0.22.2.post1"},
+  "releases": ["1.4.2", "1.5.2", "1.6.1"],
+  "panel": ["LR", "SVC", "kNN", "RF", "GB", "HGB", "LinearSVC", "AdaBoost"],
+  "primary_preprocessing": "P1",
+  "secondary_preprocessing": "P2"
+}

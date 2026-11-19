@@ -1,0 +1,4 @@
+{
+  "E_LINEAR_DUAL": {"LinearSVC": {"dual": true}},
+  "E_ADA_SAMME": {"AdaBoost": {"algorithm": "SAMME.R"}}
+}

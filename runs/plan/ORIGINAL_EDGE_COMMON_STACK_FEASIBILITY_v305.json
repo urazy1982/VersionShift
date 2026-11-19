@@ -1,0 +1,47 @@
+{
+  "status": "PASS",
+  "checks": {
+    "python_binary": true,
+    "numpy": true,
+    "scipy": true,
+    "threadpool_binaries": true,
+    "smoke": true
+  },
+  "old_threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "prefix": "libopenblas",
+      "version": "0.3.7.dev",
+      "num_threads": 1,
+      "binary_sha256": "ba16bcbc14e84c404a3c38abdca4a48655b81cf13384d955056d840e2de75dbf"
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "prefix": "libgomp",
+      "version": null,
+      "num_threads": 1,
+      "binary_sha256": "51e15820457261498893eca2d190da4c332aba4d728ab809c3040e4255afd4d5"
+    }
+  ],
+  "new_threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "prefix": "libopenblas",
+      "version": "0.3.7.dev",
+      "num_threads": 1,
+      "binary_sha256": "ba16bcbc14e84c404a3c38abdca4a48655b81cf13384d955056d840e2de75dbf"
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "prefix": "libgomp",
+      "version": null,
+      "num_threads": 1,
+      "binary_sha256": "51e15820457261498893eca2d190da4c332aba4d728ab809c3040e4255afd4d5"
+    }
+  ],
+  "qualification": "Synthetic feasibility, not an executed attribution contrast; no old scientific data/outcomes used."
+}

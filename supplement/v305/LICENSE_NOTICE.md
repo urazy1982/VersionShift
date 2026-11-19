@@ -1,0 +1,3 @@
+# License and attribution notice
+
+This companion is intended to be committed under the license applicable to the author's existing VersionShift repository. The registered source at commit `2330e78171fad7bda3d8bc69a3698204ad35a545` contains a repository `LICENSE` file; verify its text and permissions before publishing this supplement. Included tabular data are author-derived aggregated results, not redistributions of OpenML raw feature matrices. All third-party dependencies, OpenML datasets and packages retain their original terms; this companion does not relicense them. The author must perform a final file-by-file license and privacy check before public distribution.

@@ -1,0 +1,199 @@
+edge,frame,preprocessing,release,algo,policy,status,error,records
+E_ADA_SAMME,evaluation,P1,1.5.2,GB,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,48
+E_ADA_SAMME,evaluation,P1,1.5.2,HGB,D1,UNSUPPORTED,"InvalidParameterError(""The 'n_iter_no_change' parameter of HistGradientBoostingClassifier must be an int in the range [1, inf). Got None instead."")",48
+E_ADA_SAMME,evaluation,P1,1.5.2,HGB,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,48
+E_ADA_SAMME,evaluation,P1,1.5.2,LR,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,48
+E_ADA_SAMME,evaluation,P1,1.5.2,LinearSVC,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,48
+E_ADA_SAMME,evaluation,P1,1.5.2,RF,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,48
+E_ADA_SAMME,evaluation,P1,1.5.2,SVC,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,48
+E_ADA_SAMME,evaluation,P1,1.5.2,kNN,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,48
+E_ADA_SAMME,evaluation,P1,1.6.1,AdaBoost,D2,REMOVED_BEHAVIOR,AdaBoost SAMME.R removed in scikit-learn 1.6,48
+E_ADA_SAMME,evaluation,P1,1.6.1,GB,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,48
+E_ADA_SAMME,evaluation,P1,1.6.1,HGB,D1,UNSUPPORTED,"InvalidParameterError(""The 'n_iter_no_change' parameter of HistGradientBoostingClassifier must be an int in the range [1, inf). Got None instead."")",48
+E_ADA_SAMME,evaluation,P1,1.6.1,HGB,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,48
+E_ADA_SAMME,evaluation,P1,1.6.1,LR,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,48
+E_ADA_SAMME,evaluation,P1,1.6.1,LinearSVC,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,48
+E_ADA_SAMME,evaluation,P1,1.6.1,RF,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,48
+E_ADA_SAMME,evaluation,P1,1.6.1,SVC,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,48
+E_ADA_SAMME,evaluation,P1,1.6.1,kNN,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,48
+E_ADA_SAMME,evaluation,P2,1.5.2,GB,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,48
+E_ADA_SAMME,evaluation,P2,1.5.2,HGB,D1,UNSUPPORTED,"InvalidParameterError(""The 'n_iter_no_change' parameter of HistGradientBoostingClassifier must be an int in the range [1, inf). Got None instead."")",48
+E_ADA_SAMME,evaluation,P2,1.5.2,HGB,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,48
+E_ADA_SAMME,evaluation,P2,1.5.2,LR,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,48
+E_ADA_SAMME,evaluation,P2,1.5.2,LinearSVC,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,48
+E_ADA_SAMME,evaluation,P2,1.5.2,RF,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,48
+E_ADA_SAMME,evaluation,P2,1.5.2,SVC,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,48
+E_ADA_SAMME,evaluation,P2,1.5.2,kNN,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,48
+E_ADA_SAMME,evaluation,P2,1.6.1,AdaBoost,D2,REMOVED_BEHAVIOR,AdaBoost SAMME.R removed in scikit-learn 1.6,48
+E_ADA_SAMME,evaluation,P2,1.6.1,GB,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,48
+E_ADA_SAMME,evaluation,P2,1.6.1,HGB,D1,UNSUPPORTED,"InvalidParameterError(""The 'n_iter_no_change' parameter of HistGradientBoostingClassifier must be an int in the range [1, inf). Got None instead."")",48
+E_ADA_SAMME,evaluation,P2,1.6.1,HGB,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,48
+E_ADA_SAMME,evaluation,P2,1.6.1,LR,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,48
+E_ADA_SAMME,evaluation,P2,1.6.1,LinearSVC,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,48
+E_ADA_SAMME,evaluation,P2,1.6.1,RF,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,48
+E_ADA_SAMME,evaluation,P2,1.6.1,SVC,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,48
+E_ADA_SAMME,evaluation,P2,1.6.1,kNN,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,48
+E_ADA_SAMME,external,P1,1.5.2,GB,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,20
+E_ADA_SAMME,external,P1,1.5.2,HGB,D1,UNSUPPORTED,"InvalidParameterError(""The 'n_iter_no_change' parameter of HistGradientBoostingClassifier must be an int in the range [1, inf). Got None instead."")",20
+E_ADA_SAMME,external,P1,1.5.2,HGB,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,20
+E_ADA_SAMME,external,P1,1.5.2,LR,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,20
+E_ADA_SAMME,external,P1,1.5.2,LinearSVC,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,20
+E_ADA_SAMME,external,P1,1.5.2,RF,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,20
+E_ADA_SAMME,external,P1,1.5.2,SVC,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,20
+E_ADA_SAMME,external,P1,1.5.2,kNN,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,20
+E_ADA_SAMME,external,P1,1.6.1,AdaBoost,D2,REMOVED_BEHAVIOR,AdaBoost SAMME.R removed in scikit-learn 1.6,20
+E_ADA_SAMME,external,P1,1.6.1,GB,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,20
+E_ADA_SAMME,external,P1,1.6.1,HGB,D1,UNSUPPORTED,"InvalidParameterError(""The 'n_iter_no_change' parameter of HistGradientBoostingClassifier must be an int in the range [1, inf). Got None instead."")",20
+E_ADA_SAMME,external,P1,1.6.1,HGB,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,20
+E_ADA_SAMME,external,P1,1.6.1,LR,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,20
+E_ADA_SAMME,external,P1,1.6.1,LinearSVC,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,20
+E_ADA_SAMME,external,P1,1.6.1,RF,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,20
+E_ADA_SAMME,external,P1,1.6.1,SVC,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,20
+E_ADA_SAMME,external,P1,1.6.1,kNN,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,20
+E_ADA_SAMME,external,P2,1.5.2,GB,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,20
+E_ADA_SAMME,external,P2,1.5.2,HGB,D1,UNSUPPORTED,"InvalidParameterError(""The 'n_iter_no_change' parameter of HistGradientBoostingClassifier must be an int in the range [1, inf). Got None instead."")",20
+E_ADA_SAMME,external,P2,1.5.2,HGB,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,20
+E_ADA_SAMME,external,P2,1.5.2,LR,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,20
+E_ADA_SAMME,external,P2,1.5.2,LinearSVC,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,20
+E_ADA_SAMME,external,P2,1.5.2,RF,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,20
+E_ADA_SAMME,external,P2,1.5.2,SVC,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,20
+E_ADA_SAMME,external,P2,1.5.2,kNN,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,20
+E_ADA_SAMME,external,P2,1.6.1,AdaBoost,D2,REMOVED_BEHAVIOR,AdaBoost SAMME.R removed in scikit-learn 1.6,20
+E_ADA_SAMME,external,P2,1.6.1,GB,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,20
+E_ADA_SAMME,external,P2,1.6.1,HGB,D1,UNSUPPORTED,"InvalidParameterError(""The 'n_iter_no_change' parameter of HistGradientBoostingClassifier must be an int in the range [1, inf). Got None instead."")",20
+E_ADA_SAMME,external,P2,1.6.1,HGB,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,20
+E_ADA_SAMME,external,P2,1.6.1,LR,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,20
+E_ADA_SAMME,external,P2,1.6.1,LinearSVC,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,20
+E_ADA_SAMME,external,P2,1.6.1,RF,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,20
+E_ADA_SAMME,external,P2,1.6.1,SVC,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,20
+E_ADA_SAMME,external,P2,1.6.1,kNN,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,20
+E_ADA_SAMME,pilot,P1,1.5.2,GB,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,15
+E_ADA_SAMME,pilot,P1,1.5.2,HGB,D1,UNSUPPORTED,"InvalidParameterError(""The 'n_iter_no_change' parameter of HistGradientBoostingClassifier must be an int in the range [1, inf). Got None instead."")",15
+E_ADA_SAMME,pilot,P1,1.5.2,HGB,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,15
+E_ADA_SAMME,pilot,P1,1.5.2,LR,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,15
+E_ADA_SAMME,pilot,P1,1.5.2,LinearSVC,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,15
+E_ADA_SAMME,pilot,P1,1.5.2,RF,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,15
+E_ADA_SAMME,pilot,P1,1.5.2,SVC,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,15
+E_ADA_SAMME,pilot,P1,1.5.2,kNN,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,15
+E_ADA_SAMME,pilot,P1,1.6.1,AdaBoost,D2,REMOVED_BEHAVIOR,AdaBoost SAMME.R removed in scikit-learn 1.6,15
+E_ADA_SAMME,pilot,P1,1.6.1,GB,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,15
+E_ADA_SAMME,pilot,P1,1.6.1,HGB,D1,UNSUPPORTED,"InvalidParameterError(""The 'n_iter_no_change' parameter of HistGradientBoostingClassifier must be an int in the range [1, inf). Got None instead."")",15
+E_ADA_SAMME,pilot,P1,1.6.1,HGB,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,15
+E_ADA_SAMME,pilot,P1,1.6.1,LR,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,15
+E_ADA_SAMME,pilot,P1,1.6.1,LinearSVC,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,15
+E_ADA_SAMME,pilot,P1,1.6.1,RF,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,15
+E_ADA_SAMME,pilot,P1,1.6.1,SVC,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,15
+E_ADA_SAMME,pilot,P1,1.6.1,kNN,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,15
+E_ADA_SAMME,pilot,P2,1.5.2,GB,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,15
+E_ADA_SAMME,pilot,P2,1.5.2,HGB,D1,UNSUPPORTED,"InvalidParameterError(""The 'n_iter_no_change' parameter of HistGradientBoostingClassifier must be an int in the range [1, inf). Got None instead."")",15
+E_ADA_SAMME,pilot,P2,1.5.2,HGB,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,15
+E_ADA_SAMME,pilot,P2,1.5.2,LR,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,15
+E_ADA_SAMME,pilot,P2,1.5.2,LinearSVC,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,15
+E_ADA_SAMME,pilot,P2,1.5.2,RF,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,15
+E_ADA_SAMME,pilot,P2,1.5.2,SVC,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,15
+E_ADA_SAMME,pilot,P2,1.5.2,kNN,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,15
+E_ADA_SAMME,pilot,P2,1.6.1,AdaBoost,D2,REMOVED_BEHAVIOR,AdaBoost SAMME.R removed in scikit-learn 1.6,15
+E_ADA_SAMME,pilot,P2,1.6.1,GB,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,15
+E_ADA_SAMME,pilot,P2,1.6.1,HGB,D1,UNSUPPORTED,"InvalidParameterError(""The 'n_iter_no_change' parameter of HistGradientBoostingClassifier must be an int in the range [1, inf). Got None instead."")",15
+E_ADA_SAMME,pilot,P2,1.6.1,HGB,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,15
+E_ADA_SAMME,pilot,P2,1.6.1,LR,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,15
+E_ADA_SAMME,pilot,P2,1.6.1,LinearSVC,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,15
+E_ADA_SAMME,pilot,P2,1.6.1,RF,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,15
+E_ADA_SAMME,pilot,P2,1.6.1,SVC,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,15
+E_ADA_SAMME,pilot,P2,1.6.1,kNN,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,15
+E_LINEAR_DUAL,evaluation,P1,1.4.2,AdaBoost,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,48
+E_LINEAR_DUAL,evaluation,P1,1.4.2,GB,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,48
+E_LINEAR_DUAL,evaluation,P1,1.4.2,HGB,D1,UNSUPPORTED,"InvalidParameterError(""The 'n_iter_no_change' parameter of HistGradientBoostingClassifier must be an int in the range [1, inf). Got None instead."")",48
+E_LINEAR_DUAL,evaluation,P1,1.4.2,HGB,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,48
+E_LINEAR_DUAL,evaluation,P1,1.4.2,LR,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,48
+E_LINEAR_DUAL,evaluation,P1,1.4.2,RF,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,48
+E_LINEAR_DUAL,evaluation,P1,1.4.2,SVC,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,48
+E_LINEAR_DUAL,evaluation,P1,1.4.2,kNN,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,48
+E_LINEAR_DUAL,evaluation,P1,1.5.2,AdaBoost,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,48
+E_LINEAR_DUAL,evaluation,P1,1.5.2,GB,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,48
+E_LINEAR_DUAL,evaluation,P1,1.5.2,HGB,D1,UNSUPPORTED,"InvalidParameterError(""The 'n_iter_no_change' parameter of HistGradientBoostingClassifier must be an int in the range [1, inf). Got None instead."")",48
+E_LINEAR_DUAL,evaluation,P1,1.5.2,HGB,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,48
+E_LINEAR_DUAL,evaluation,P1,1.5.2,LR,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,48
+E_LINEAR_DUAL,evaluation,P1,1.5.2,RF,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,48
+E_LINEAR_DUAL,evaluation,P1,1.5.2,SVC,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,48
+E_LINEAR_DUAL,evaluation,P1,1.5.2,kNN,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,48
+E_LINEAR_DUAL,evaluation,P2,1.4.2,AdaBoost,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,48
+E_LINEAR_DUAL,evaluation,P2,1.4.2,GB,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,48
+E_LINEAR_DUAL,evaluation,P2,1.4.2,HGB,D1,UNSUPPORTED,"InvalidParameterError(""The 'n_iter_no_change' parameter of HistGradientBoostingClassifier must be an int in the range [1, inf). Got None instead."")",48
+E_LINEAR_DUAL,evaluation,P2,1.4.2,HGB,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,48
+E_LINEAR_DUAL,evaluation,P2,1.4.2,LR,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,48
+E_LINEAR_DUAL,evaluation,P2,1.4.2,RF,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,48
+E_LINEAR_DUAL,evaluation,P2,1.4.2,SVC,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,48
+E_LINEAR_DUAL,evaluation,P2,1.4.2,kNN,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,48
+E_LINEAR_DUAL,evaluation,P2,1.5.2,AdaBoost,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,48
+E_LINEAR_DUAL,evaluation,P2,1.5.2,GB,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,48
+E_LINEAR_DUAL,evaluation,P2,1.5.2,HGB,D1,UNSUPPORTED,"InvalidParameterError(""The 'n_iter_no_change' parameter of HistGradientBoostingClassifier must be an int in the range [1, inf). Got None instead."")",48
+E_LINEAR_DUAL,evaluation,P2,1.5.2,HGB,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,48
+E_LINEAR_DUAL,evaluation,P2,1.5.2,LR,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,48
+E_LINEAR_DUAL,evaluation,P2,1.5.2,RF,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,48
+E_LINEAR_DUAL,evaluation,P2,1.5.2,SVC,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,48
+E_LINEAR_DUAL,evaluation,P2,1.5.2,kNN,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,48
+E_LINEAR_DUAL,external,P1,1.4.2,AdaBoost,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,20
+E_LINEAR_DUAL,external,P1,1.4.2,GB,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,20
+E_LINEAR_DUAL,external,P1,1.4.2,HGB,D1,UNSUPPORTED,"InvalidParameterError(""The 'n_iter_no_change' parameter of HistGradientBoostingClassifier must be an int in the range [1, inf). Got None instead."")",20
+E_LINEAR_DUAL,external,P1,1.4.2,HGB,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,20
+E_LINEAR_DUAL,external,P1,1.4.2,LR,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,20
+E_LINEAR_DUAL,external,P1,1.4.2,RF,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,20
+E_LINEAR_DUAL,external,P1,1.4.2,SVC,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,20
+E_LINEAR_DUAL,external,P1,1.4.2,kNN,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,20
+E_LINEAR_DUAL,external,P1,1.5.2,AdaBoost,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,20
+E_LINEAR_DUAL,external,P1,1.5.2,GB,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,20
+E_LINEAR_DUAL,external,P1,1.5.2,HGB,D1,UNSUPPORTED,"InvalidParameterError(""The 'n_iter_no_change' parameter of HistGradientBoostingClassifier must be an int in the range [1, inf). Got None instead."")",20
+E_LINEAR_DUAL,external,P1,1.5.2,HGB,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,20
+E_LINEAR_DUAL,external,P1,1.5.2,LR,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,20
+E_LINEAR_DUAL,external,P1,1.5.2,RF,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,20
+E_LINEAR_DUAL,external,P1,1.5.2,SVC,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,20
+E_LINEAR_DUAL,external,P1,1.5.2,kNN,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,20
+E_LINEAR_DUAL,external,P2,1.4.2,AdaBoost,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,20
+E_LINEAR_DUAL,external,P2,1.4.2,GB,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,20
+E_LINEAR_DUAL,external,P2,1.4.2,HGB,D1,UNSUPPORTED,"InvalidParameterError(""The 'n_iter_no_change' parameter of HistGradientBoostingClassifier must be an int in the range [1, inf). Got None instead."")",20
+E_LINEAR_DUAL,external,P2,1.4.2,HGB,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,20
+E_LINEAR_DUAL,external,P2,1.4.2,LR,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,20
+E_LINEAR_DUAL,external,P2,1.4.2,RF,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,20
+E_LINEAR_DUAL,external,P2,1.4.2,SVC,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,20
+E_LINEAR_DUAL,external,P2,1.4.2,kNN,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,20
+E_LINEAR_DUAL,external,P2,1.5.2,AdaBoost,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,20
+E_LINEAR_DUAL,external,P2,1.5.2,GB,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,20
+E_LINEAR_DUAL,external,P2,1.5.2,HGB,D1,UNSUPPORTED,"InvalidParameterError(""The 'n_iter_no_change' parameter of HistGradientBoostingClassifier must be an int in the range [1, inf). Got None instead."")",20
+E_LINEAR_DUAL,external,P2,1.5.2,HGB,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,20
+E_LINEAR_DUAL,external,P2,1.5.2,LR,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,20
+E_LINEAR_DUAL,external,P2,1.5.2,RF,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,20
+E_LINEAR_DUAL,external,P2,1.5.2,SVC,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,20
+E_LINEAR_DUAL,external,P2,1.5.2,kNN,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,20
+E_LINEAR_DUAL,pilot,P1,1.4.2,AdaBoost,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,15
+E_LINEAR_DUAL,pilot,P1,1.4.2,GB,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,15
+E_LINEAR_DUAL,pilot,P1,1.4.2,HGB,D1,UNSUPPORTED,"InvalidParameterError(""The 'n_iter_no_change' parameter of HistGradientBoostingClassifier must be an int in the range [1, inf). Got None instead."")",15
+E_LINEAR_DUAL,pilot,P1,1.4.2,HGB,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,15
+E_LINEAR_DUAL,pilot,P1,1.4.2,LR,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,15
+E_LINEAR_DUAL,pilot,P1,1.4.2,RF,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,15
+E_LINEAR_DUAL,pilot,P1,1.4.2,SVC,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,15
+E_LINEAR_DUAL,pilot,P1,1.4.2,kNN,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,15
+E_LINEAR_DUAL,pilot,P1,1.5.2,AdaBoost,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,15
+E_LINEAR_DUAL,pilot,P1,1.5.2,GB,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,15
+E_LINEAR_DUAL,pilot,P1,1.5.2,HGB,D1,UNSUPPORTED,"InvalidParameterError(""The 'n_iter_no_change' parameter of HistGradientBoostingClassifier must be an int in the range [1, inf). Got None instead."")",15
+E_LINEAR_DUAL,pilot,P1,1.5.2,HGB,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,15
+E_LINEAR_DUAL,pilot,P1,1.5.2,LR,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,15
+E_LINEAR_DUAL,pilot,P1,1.5.2,RF,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,15
+E_LINEAR_DUAL,pilot,P1,1.5.2,SVC,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,15
+E_LINEAR_DUAL,pilot,P1,1.5.2,kNN,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,15
+E_LINEAR_DUAL,pilot,P2,1.4.2,AdaBoost,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,15
+E_LINEAR_DUAL,pilot,P2,1.4.2,GB,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,15
+E_LINEAR_DUAL,pilot,P2,1.4.2,HGB,D1,UNSUPPORTED,"InvalidParameterError(""The 'n_iter_no_change' parameter of HistGradientBoostingClassifier must be an int in the range [1, inf). Got None instead."")",15
+E_LINEAR_DUAL,pilot,P2,1.4.2,HGB,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,15
+E_LINEAR_DUAL,pilot,P2,1.4.2,LR,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,15
+E_LINEAR_DUAL,pilot,P2,1.4.2,RF,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,15
+E_LINEAR_DUAL,pilot,P2,1.4.2,SVC,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,15
+E_LINEAR_DUAL,pilot,P2,1.4.2,kNN,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,15
+E_LINEAR_DUAL,pilot,P2,1.5.2,AdaBoost,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,15
+E_LINEAR_DUAL,pilot,P2,1.5.2,GB,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,15
+E_LINEAR_DUAL,pilot,P2,1.5.2,HGB,D1,UNSUPPORTED,"InvalidParameterError(""The 'n_iter_no_change' parameter of HistGradientBoostingClassifier must be an int in the range [1, inf). Got None instead."")",15
+E_LINEAR_DUAL,pilot,P2,1.5.2,HGB,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,15
+E_LINEAR_DUAL,pilot,P2,1.5.2,LR,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,15
+E_LINEAR_DUAL,pilot,P2,1.5.2,RF,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,15
+E_LINEAR_DUAL,pilot,P2,1.5.2,SVC,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,15
+E_LINEAR_DUAL,pilot,P2,1.5.2,kNN,D2,UNSUPPORTED,pre-frozen D2 map missing estimator,15
